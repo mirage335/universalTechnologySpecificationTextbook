@@ -1,0 +1,65 @@
+"_ Cycle _
+Bouncing between Trap and Escape may be part of a loop motivating increased determination in future activities. Consequently, environment (eg. game) design may benefit from deliberately including both Trap and Escape conditions, made available to players in multiplayer as occasional opportunities, or consequent from certain kinds of activities (ie. PvP contract workers may be spontaneously recommended to other player corporations as recruitment opportunities).
+
+Initiative > (PvP, PvE, PdA) > Failure > Frustration > Fatigue
+Initiative > (PvP, PvE, PdA) > Success > Reward > Fatigue
+*Employment* > (PvP, PvE, PdA) > Reward > Demand > Success > Fatigue
+Fatigue > Rest (extent differs) > Initiative or *Employment*
+
+Escape > Initiative
+Trap > Employment
+
+Escape > Demise
+Trap > Demise
+
+	Escape
+*) Random teleport away from Employment.
+*) 'Affordable housing', fair housing, etc.
+*) Forgivable loans.
+*) Selectively spendable currency (ie. food stamps).
+*) Third party employee recruiting offers.
+*) Asset ownership (vehicle, home).
+*) Mental Health Counseling Program (with built-in limits to prevent dependence).
+*) Homeostasis (ie. food).
+*) Acute pain (sharpening reflexes).
+*) Rare items.
+*) Luxury to partake in daily activities (eg. food) of different types at different times whenever so inclined.
+*) Short high intensity missions (PvP with kills) and plenty of opportunity for free living between.
+*) Snacks, water, temperature controls, lighting, etc, on flight deck.
+	Trap
+*) Overbearing NPCs (ie. NPC shopowners employing players).
+*) Ponzi Schemes.
+*) Gambling.
+*) Guild contracts, follow-on contracts (long-term).
+*) Asset rental (vehicle, home).
+*) Long commutes.
+*) Homeostasis (ie. bottom of Maslow's hierarchy of needs - hunger).
+*) Chronic pain, added sleepiness/exhaustion (persuading the least-effort rather than least-risk or highest-gain path).
+*) Literal death traps requiring maximum effort and creativity to survive - rewarded with an escape including an exceptionally rare item.
+*) Exactly specified daily activities.
+*) Long working hours, or worse, extremely long missions with little free living between.
+*) High-temperature, high-humidity, dehydrating flight deck.
+*) Tech development.
+
+Escapes and Traps must be *rarely encountered*, but with *long-term consequences*, and calibrated. Metrics such as completion of less risky or otherwise difficult tasks may be used to discern disinterested boredom rather than motivated interaction. Motivation must be consistently encouraged, demotivated boredom disfavored.
+
+_ Conclusions _
+*) New individuals in a VR world may need to have frequent opportunities to experience and escape from dependence, with incentives to escape dependence, as a means of improving determination.
+ *) Allowing such individuals to languish, and then placing them back into a more rich existence, may be a useful premise.
+
+_Future Work_
+*) Defining an example environmental loop, not that such would necessarily be useful, for learning savoring.
+
+_Reference_
+https://en.wikipedia.org/wiki/Behavioral_sink
+	'Controversy exists over the implications of the experiment.'
+		So try to consider possible concepts instead of literal interpretations.
+
+https://en.wikipedia.org/wiki/Spoon_theory
+https://en.wikipedia.org/wiki/Ego_depletion
+
+https://en.wikipedia.org/wiki/Savoring
+	'deliberate effort to make a positive experience last'
+
+_Acknowledgement_
+*) 'Mental Health Counseling Program' - from Sword Art Online (SAO) by Reki Kawahara ."

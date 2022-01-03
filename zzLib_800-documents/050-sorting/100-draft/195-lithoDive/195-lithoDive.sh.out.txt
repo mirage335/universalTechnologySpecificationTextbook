@@ -1,0 +1,325 @@
+[0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+_ lithoDive _
+Desktop automatic multilayer photolithography prototyping for 3D printing (ie. resin/electroplating/casting, multiphoton, deposition/etching, etc), flexible PCB manufacture, and transistor circuitry (eg. CMOS) fabrication. Techniques for maximizing overlay precision, minimizing capital cost, and manufacturing machines to make machines as may be necessary or as may workaround availability. Compatible with 405nm-10nm, <50nm@193nm multiple patterning linewidths, <5nm@193nm overlay. Maskless, or in-place mask manufacturing and swapping. Slow fabrication and inefficient consumables use may be justified by &#39;lights out&#39;, compact, low-capital, self-contained, small volume manufacture. Emphasis on production of open-source wetware/neural/mechanical &#39;full dive&#39; interface - CAVE displays (ie. large LCD/OLED panels), flexible PCBs (including interconnect &#39;ribbon&#39; cables), GPU, MCU, mechDive tunneling, and mechDive exoskeleton, hardware.
+
+Convenient rapid prototyping of electronic circuitry, and small-volume manufacture of unavailable components, without user intervention, at the highest useful resolution possible (<2nm overlay), is now feasible. At the very least, such hardware should provide a more approachable, more educational, opportunity to experiment with modern photolithography optics, etching, and transistor circuitry manufacture.
+__ Introduction __
+Where the tradeoff of reducing from very large, very expensive, factory machines, to &#39;desktop&#39; prototyping, is expected to fall, is the &#39;field of view&#39;. Rather than tens of millimeters and hundreds of gigabits of patterning, an area of as little as a micrometer diameter and less than one kilobit is expected to scan slowly across a workpiece.
+
+Three issues are expected to predominate design of such a prototyping &#39;desktop&#39; fabricator, when used at (ie. <100nm) high resolution. At low resolution (ie. ~300nm), none of these issues are relevant, with resolution and conveneince still useful for tasks substantially beyond commercially available services (eg. sub-mm resin 3D printing).
+
+*) Overlay. Accuracy of alignment from previous imaging exposure to next, limits resolution, due to multiple patterning.
+*) Mirror and Spatial Light Modulator surface accuracy, roughness, and reflectivity, if EUV compatible, mitigated somewhat by small dimensions and adaptive optics.
+*) Dust. Mitigated somewhat by keeping all tools on one flat table which slabs can move across autonomously. At high resolutions, liquids and gasses used for polishing, coating, and etching, must be pure.
+
+
+Much of the design software and relevant hardware has been deliberately proven by the successful &#39;TazIntermediate&#39; project, and related projects before that.
+
+Modern science and manufacturing technology has emerged a widely available plethora of hardware and software sufficient for individuals and small businesses to theirselves prototype all manufacturable technology, including making the prototyping technology theirselves.
+
+*) Semiconductor lasers (ie. 405nm).
+*) Pulsed YAG lasers (ie. tattoo removal lasers from eBay) for heating plasmas to EUV stimulated emission (at least if synchronized and possibly modified for semiconductor laser pumping).
+*) Labs already having milliwatt desktop EUV light sources possibly already usable with suitable lithography tools.
+*) Microscope objectives.
+*) EUV flat/spherical mirrors (which may be sliced in half if necessary) (from Edmund Optics).
+*) EUV mirror grinding and sputter coating to picometer flatness by interferometric alignment at longer wavelengths.
+*) Assorted metal parts (eg. extrusions, brackets, plain bearings).
+*) Linear and flexure bearings.
+*) Expansion (ie. piezo) actuators and step-slip actuators.
+
+*) PatchRap all-purpose stranded Cat6A S/FTP (shielded/foil twisted pair) cabling standards.
+
+*) Software and VM integration (including filesystem and serial communications) by &#39;ubiquitous bash&#39; .
+*) Klipper firmware scheduling of mechanical and optical events corrected by low-latency computer feedback (eg. camera based computer vision of workpiece and overlay).
+*) Connection of Klipper hardware serial networks to VM software serial networks by &#39;ubiquitous bash&#39; .
+*) VR &#39;hardware-in-the-loop&#39; simulation through CARDinal IPC connected to Klipper hardware serial networks and VM emulated serial networks.
+*) VR &#39;software-in-the-loop&#39; simulation through CARDinal IPC connected to standalone executables with subroutines shared directly with Klipper firmware compiler.
+
+*) Solid-state disks of high capacity for operating systems with all software installed and integrated.
+
+*) Parametric Geometry (Sketch/Extrude/Assemble) by FreeCAD contained with &#39;assembly&#39; modules by &#39;ubiquitous bash&#39; .
+*) Programmatic Geometry by OpenSCAD/TinkerCAD .
+*) PCB layout geometry by gEDA with _gEDA_designer_geometry .
+*) VLSI layout geometry by GNU Electric .
+*) Bill-of-Materials (aka. &#39;BOM&#39;) hierarchical consolidation by BOM_designer .
+*) Documentation by scriptedIllustrator, Xournal, with Qalculate and GNU Octave backends.
+
+*) GravitySketch/MakeVR/etc for VR contemplation, rehearsal, demonstration of assembly, cabling, labor (if any), etc.
+
+*) Building and testing of operating systems and installed software by &#39;ubiquitous bash&#39; for RasPi, x64 BIOS/UEFI, LiveCD/LiveUSB, VM/VPS/Cloud, with hibernation snapshotting.
+*) Software largely compatible as Linux Guest VM under MSW Host both managed by &#39;ubiquitous bash&#39; (ie. &#39;ubiquitous bash&#39; directly MSW compatible). Only very rare cases (ie. GravitySketch) standalone and proven cost-effective to use through MSW natively.
+
+
+No manual conversions of information from fully parametric &#39;Geometry&#39; (with Bill-of-Materials) to &#39;Stamp&#39; (G-Code, photomasks, scale model geometry, etc, automatically exported).
+
+No intervention from raw materials to prototype multilayer circuitry.
+
+No need for particularly difficult to install, proprietary, or otherwise expensive software.
+
+Convenient uninterrupted design work by people, while the rapid prototyping &#39;just works&#39;, is entirely feasible and appropriate.
+
+
+
+Convenience, cost, availability, and versatility, have arguably been the limitations of existing desktop lithography, prototyping services, and existing products. Whenever possible, the narrow selection of microcontrollers, FPGAs, and similar components are used to approximate small portions of completed solutions worthy of a large manufacturing run at high capital expense and risk, which large companies may then be reasonably unwilling to carry out at all. Prototyping and small volume manufacture of some technology for niche users whose needs cannot be immediately met by existing resources, has remained elusive.
+
+Desktop lithography (eg. e-beam, AFM) may not be convenient, slow with manual intervention between layers. CMOS prototyping services can be expensive (>>$10k) and possibly complex to work with, worth wholly outsourcing. Technically feasible fabrication (eg. of unusual LCD/OLED display dimensions/resolutions, sub-mm resolution 3D printing) may not be available as prototyping services, all capacity exclusively dedicated to high-volume manufacturing. Existing products (eg. MCUs/FPGAs/GPUs) may have dimensions too large for many uses (ie. ~2mm MCUs), insufficient performance (ie. FPGAs), may be unavailable due to supply/demand issues (ie. GPUs), or may be unusable for some purpose due to underemphasis of some single-threading performance or bandwidth (ie. CPUs, GPUs).
+___ Presented ___
+
+As may be plausible.
+____ Sketch Illustrations ____
+
+*) Tool - &#39;flatTool&#39; - as a wall (ie. vertical Rigid Table) mounted to gantry. Heavy mass (>>100kg) acceleration allowed - taking advantage of inexpensive modern linear bearings, stepper/servo motors, metal frames, etc. Cube brackets as alignment stops allow tool to be dismounted from gantry within minutes for convenient assembly/maintenance. Multiple beampaths to same workpiece area (ie. combining - high-wear EUV low-NA mirror, low-wear DUV high-NA lens, electronBeam, scanningProbe, etc) may be possible .
+
+*) Positioning hardware. Wide area (>1m), high speed (>50mm/s), high acceleration (>>0.1G), high precision (<1nm), accessible around all sides for fast assembly and maintenance.
+ *) Gantry Six-Axis (Pitch/Roll/Yaw, X/Y/Z) on Rigid Table. Extreme precision (<<300nm) over a large area (>1m) by combining usual linear bearings with minimal gantry flexure, step-slip, and anchoring. Heavy tool (ie. >>100kg) compatible.
+ *) Slabs with Six-Axis actuators - both expansion and step-slip - to move workpieces with extreme (<<1nm) precision.
+
+*) Gantry may slide to ends of table, swapping multiple gantries to change tool, or may slide off end of table with or without tool on a quick change mount as well, for maintenance/assembly.
+
+*) Cartridge associated with slab hardware. Workpieces never leave their moving slabs. Automatic loaders for FOUP (Front Opening Unified Pod, 300mm wafers), FOSB (Front Opening Shipping Box), and SMIF (Standard Mechanical Interface, 200mm wafers) industry standard cartridges may transfer to/from such slab cartridges.
+
+*) Optical mounting and alignment hardware (low-cost).
+
+*) Mirror, lens, workpiece (eg. silicon wafer) grinding tool.
+
+*) Piezoelectric and thermal expansion actuators with battery protective and remote bias electronics for nanopositioning, step-slip, and adaptive optics.
+
+*) Optical beampath - &#39;multiExposureTool&#39;. Optical lens light source (spatial filtering, temporal decoherence, spatial decoherence), projection (shadow, beam shadow, beam steering), microscopy (beam splitting, beam profiling, low coherence tomography), etc. Modular arrangements optimized for compactness, low cost, and compatibility (possibility of using mirror microscope objectives for spatial filters and such up to 193nm).
+____ Calculators ____
+*) Fabrication time per area per layer - feed rate, field of view, power (watts, amperes, etc), dose (watt hours, joules, photons, coulombs, etc) per area.
+
+*) Fabrication time for GPU, &#39;neuralBits&#39;.
+__ Conclusions __
+Overlay alignment apparently must be through the same optics/mechanics as exposure. Solid materials always seem able to expand at least several nanometers per few tens of centimeters under the best possible (<<1degC) temperature stability. Segmented mirror beamsplitters injecting long wavelength light, low power alignment illumination, scatter/morie camera observation of exposure illumination, etc, may be appropriate. Long-wavelength interferometry is comparable to subwavelength through-beam optical overlay, and has already been extended to the extraordinary resolution required to detect gravity waves. ASML&#39;s logo is a morie pattern, seemingly not for nothing.
+
+Theoretically, pervasive displacement detection across all optical components, and better than EUV light interferometry, may allow accurate measurements of such small deformations (ie. <<2nm) between components for overlay between different instruments, sufficient to extend multiple patterning resolution. Actively feedback driven interferometers at longer wavelengths under high optical power and high resolution camera observation may be capable of <<1nm accuracy. Such would necessarily resemble gravity wave detectors in capability, distributing the high optical power across many pixels of a cryogenic sensor, correlating long exposures, statistically determining all full step boundaries, and ignoring any mechanical stepping information. Most obvious other particles for such measurements (eg. X-ray photons, electrons, neutrinos, heavy ions, etc) do not interact usefully for interferometry, scatter unhelpfully, cannot focus across long distances, are unproductively expensive, or otherwise cannot pervasively sample feasibly compact (ie. not astronomically large) beampaths.
+
+
+
+
+Adaptive optics are possible, as piezoelectric unimorph mirrors coated for EUV, with low-latency correction by computer readout of overlay alignment.
+
+Overlay alignment marks must be at regular intervals, more than one per field of view.
+
+
+Practice photolithography exposures should not attempt to maximize pitch (ie. resolution) until a continuous means of testing (eg. continuous tape as workpiece, all resist spraying/etching chemical steps completely automatic, projection into another imaging microscope, scatter/morie camera) is ready. 
+
+Microphones should be attached throughout sensitive optical projection, calibrated to approximately measure nanometers of displacement by inertia, with frequency range of concern between the lowest frequency at which components vibrate independently through the highest frequency at which dampening takes effect (a passband much less than 1Hz-20kHz is expected relevant).
+
+
+Nanoimprint lithography may multiply the productivity of a maskless tool. Interconnects may be patterned first by photolithography, then frequently occurring circuitry may be added between interconnects by nanoimprint lithography. Defective &#39;cores&#39; and such may be disconnected from interconnects ablatively.
+
+ 
+
+
+Resin/electroplating/casting at sub-mm resolution low-resolution photolithography is sufficient to substantially ease development of high-resolution photolithography and especially particleBeam/scanningProbe lithography. More than the small components (eg. electrostatic lenses, electromagnetic lenses) used directly, machinery to manufacture essential parts (eg. lens grinding tool, probe tip grinding tool, etc) could be revised quickly.
+
+
+Full microstepping resolution does actually happen with heavy loads and has been measured by optical microscope at 3um from 8000um/(360/1.8deg)/16microstep accelerating ~10lbs by NEMA17 stepper motor (ie. TazMega) . Backlash when changing direction is typically a more substantial limitation, and highly compressed spring-loaded anti-backlash bolts may not be entirely adequate.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ REFERENCE __
+
+https://www.youtube.com/watch?v=R4kh9T5L1XY
+	&#39;sales revenue to service revenue&#39;
+		Quite a lot of maintenance. Something to avoid for prototyping tools if possible.
+	&#39;software&#39; &#39;upgrades&#39;
+	&#39;45 million lines&#39;
+	MAJOR - &#39;resolution&#39; &#39;projection&#39; &#39;k1&#39; &#39;physical limit of 0.25&#39;
+	&#39;EUV&#39; &#39;NA&#39; &#39;0.55&#39; &#39;critical dimension&#39; &#39;8 nanometers&#39;
+
+https://wiki.hacdc.org/index.php/OpticalSubsystems
+	Standard axis heights!
+
+
+https://en.wikipedia.org/wiki/List_of_laser_types#/media/File:Commercial_laser_lines.svg
+ArF 193nm lasers seem reasonably easy to construct, flowing reasonably common elemental gas through electrical discharge. Nitrogen 337.1nm lasers are even more easily and commonly constructed as an Earth atmospheric electrical discharge.
+
+https://www.lasertack.com/en/200mw-375nm-laser-diode
+	Interesting drop-in replacement for 405nm laser diode.
+
+
+https://optlasers.com/mounts/
+https://www.lasertack.com/en/optomechanics
+https://www.lasertack.com/en/adjustable-mirror-holder
+https://www.lasertack.com/en/micro-knife-edging-/-beam-combiner-module
+	Many affordable optical mounts.
+
+https://dberard.com/home-built-stm/
+	Affordable &#39;DIY&#39; optical mounts.
+
+
+
+
+https://hackaday.com/2015/12/10/esoteric-actuators/
+	Piezo buzzers can be repurposed as 150V/0.1mm actuators.
+	MAJOR - Crystal oscillators may be a higher quality source.
+	Piezo achieves full six-axis at least with independent power supplies. Unfortunately may change over time under DC bias.
+
+https://hackaday.io/project/4986-scanning-tunneling-microscope
+	Cheap stepper motor driving a screw achieving theoretical ~6nm precision.
+
+https://magao-x.org/publications/media/spie2018/Kautz_Manuscript.pdf
+	1 microradian ?
+	20nm/degC
+
+https://www.youtube.com/watch?v=nMonZHMTra4
+	Elastomeric material and corner posts applying orthogonal rigidity. Really convenient setup.
+
+https://rechneronline.de/sehwinkel/angular-diameter.php
+	Desired accuracy or precision - 0.1um , 10000um (1cm) , 10^-5radians == 10microradians
+
+https://youtu.be/_w0Z2Y5vaAQ?t=662
+https://www.youtube.com/watch?v=MdRwiI6VLmk
+	Step size of 100nm X/Y and 30nm Z demonstrated with autofocus capable 405nm lithography projector.
+
+
+
+
+https://en.wikipedia.org/wiki/IMEC
+Sketches presented predate awareness of IMEC&#39;s involvement.
+&#39;Neuropixels Technology&#39;
+	&#39;The performance of the Neuropixels probes and their potential for transformational neuroscience experiments was described in a November 9, 2017 paper published in Nature.[24] In 2019, The New York Times reported that imec&#39;s Neuropixels technology is widely recognized as the most advanced method of gathering data from brain cells.[25]&#39;
+&#39;Brain-On-Chip Research&#39;
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Estimate - Photolithography Joules (Watt-Seconds) Constrained __
+[0;34m  'photolithography_joules_cm2=$(_clc " 1000 * (1 millijoule / 1 joule) " )' [0m
+[0;34m  'photolithography_watts=$(_clc " 0.01 * (1 milliwatt / 1 watt) " )' [0m
+[0;34m  'photolithography_seconds_cm2=$( _clc " $photolithography_joules_cm2 / $photolithography_watts" )' [0m
+[0;37;100mphotolithography_seconds_cm2= 100000[0m
+[0;37;100mseconds per cm^2.[0m
+__ Estimate - E-Beam Coulombs (Ampere-Seconds) Constrained __
+[0;34m  'ebeam_coulombs_cm2=$(_clc " 10^-3 " )' [0m
+[0;34m  'ebeam_amperes=$(_clc " 10^-9 " )' [0m
+[0;34m  'ebeam_seconds_cm2=$( _clc " $ebeam_coulombs_cm2 / $ebeam_amperes" )' [0m
+[0;37;100mebeam_seconds_cm2= 1000000[0m
+[0;37;100mseconds per cm^2.[0m
+__ Estimate - Scanning FOV Mechanically (mm/s) Constrained __
+[0;34m  'fov_diameter_mm=$(_clc "10 * ((1 micrometer) / (1 millimeter))" )' [0m
+[0;34m  'fov_speed_mmPerSecond=300' [0m
+[0;37;100mfov_area_cm2= 0.000001[0m
+
+[0;34m  'fov_seconds_cm2=$( _clc " 1 / ( $fov_area_cm2 * $fov_speed_cmPerSecond ) " )' [0m
+[0;37;100mfov_seconds_cm2= 33333.333[0m
+[0;37;100mseconds per cm^2.[0m
+
+[0;34m  'fov_seconds_cm3=$( _clc " ( $fov_seconds_cm2 * (1 / ( $fov_diameter_mm * ((1 centimeter) / (1 millimeter)) ) ) " )' [0m
+[0;37;100mfov_seconds_cm3= 333333.33[0m
+[0;37;100mseconds per cm^3.[0m
+[0;37;100mKeep in mind this is still at ~300nm expected resolution (10micrometer is the FOV not resolution) - trading resolution for FOV (and much faster scanning) is entirely possible.[0m
+
+
+High-wattage (ie. >1W @ >405nm) laser (eg. for sub-mm resin 3D printing, thermal/ablative lithography, and flexible PCB photolithography) is expected to exceed stable travel acceleration for low mass optical projection tools.
+__ Estimate - Scanning Probe Mechanically (mm/s) Constrained __
+[0;34m  'probe_diameter_mm=$(_clc "300 * ((1 nanometer) / (1 millimeter))" )' [0m
+[0;34m  'probe_speed_mmPerSecond=1' [0m
+[0;34m  'probe_parallelism=1' [0m
+[0;37;100mprobe_area_cm2= 9E-10[0m
+[0;34m  'probe_seconds_cm2=$( _clc " 1 / ( $probe_area_cm2 * $probe_speed_cmPerSecond ) " )' [0m
+[0;37;100mprobe_seconds_cm2= 11111111111[0m
+[0;37;100mseconds per cm^2.[0m
+
+
+Biology and supposedly &#39;nanotechnology&#39; &#39;self-replication&#39; is essentially massively parallel scanning probe lithography with severe inefficiency from exceptionally frequent overlay markings (including neural axon growth markings). Fused Filament Fabrication is also a scanning probe technology, mostly appropriate for objects with mostly homogeneous bulk materials.
+
+Manufacturing throughput in number of patterns (ie. transistors) per second is not obviously promising for scanning probe (or &#39;self-replication&#39;) and must be the basis for diverting substantial investment away from a proven track record.
+__ Estimate - Wafers Per Hour (marketing specification) Constrained __
+___ Parallel E-Beam (prototyping) ___
+[0;34m  'marketing_prototyping_wafersPerHour=1' [0m
+[0;34m  'marketing_prototyping_seconds_cm2=$( _clc " ( 1 / $marketing_prototyping_wafersPerSecond ) / $wafer_300mm_cm2 " )' [0m
+[0;37;100mmarketing_prototyping_seconds_cm2= 6[0m
+[0;37;100mseconds per cm^2.[0m
+___ Photolithography EUVL (factory) ___
+[0;34m  'marketing_factory_wafersPerHour=170' [0m
+[0;34m  'marketing_factory_seconds_cm2=$( _clc " ( 1 / $marketing_factory_wafersPerSecond ) / $wafer_300mm_cm2 " )' [0m
+[0;37;100mmarketing_factory_seconds_cm2= 0.035294118[0m
+[0;37;100mseconds per cm^2.[0m
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Estimate - Fabrication Area __
+___ neuralBits ___
+[0;34m  'length_cm=10' [0m
+[0;34m  'width_cm=10' [0m
+[0;34m  'depth_mm=2.5' [0m
+[0;34m  'totalTrestle=50' [0m
+[0;34m  'totalBundle=2500' [0m
+[0;34m  'totalThread=94674' [0m
+[0;34m  'totalTrestle_cm2=$(_clc " $totalTrestle * $length_cm * ( 225 * (1 micrometer / 1 centimeter) ) ")' [0m
+[0;37;100mtotalTrestle_cm2= 11.25[0m
+[0;34m  'totalBundle_cm2=$(_clc " $totalBundle * ( $width_cm / $totalTrestle ) * ( 75 * (1 micrometer / 1 centimeter) )")' [0m
+[0;37;100mtotalBundle_cm2= 3.75[0m
+[0;34m  'totalThread_cm2=$(_clc " $totalThread * ( $depth_mm * (1 millimeter / 1 centimeter) ) * ( 35 * (1 micrometer / 1 centimeter) )")' [0m
+[0;37;100mtotalThread_cm2= 82.83975[0m
+[0;34m  'neuralBits_cm2=$(_clc "ceil( $totalTrestle_cm2 + $totalBundle_cm2 + $totalThread_cm2 )" )' [0m
+[0;37;100mneuralBits_cm2= 98[0m
+
+
+Area greater than length multiplied by width of &#39;neuralBits&#39; is entirely feasible - strongly recommend stacking threads as is plausible for substrate fabricated by some layer bonding, wire bonding, surface mount soldering, deposition, or resin 3D printing. Reducing thread/ES counts and such is not recommended, ~3M ES for neocortex strongly preferred, especially for sensory input.
+
+Imaged area may be smaller than &#39;neuralBits&#39; total area - expect some of flexible substrate will not be patterened with circuitry. Transmission lines, electrodes, etc, may be much thinner than trestles/bundles/threads - only analog amplifier transistors are expected to necessarily occupy a large area.
+___ GPU ___
+[0;34m  'gpu_dollars=2000' [0m
+
+
+[0;34m  'gpu_core_transistors=5392531' [0m
+[0;34m  'gpu_core=5248' [0m
+[0;34m  'gpu_transistors=$(_clc "$gpu_core_transistors * $gpu_core" )' [0m
+[0;37;100mgpu_transistors= 28300002688[0m
+
+
+[0;34m  'gpu_freq=$(_clc "2 * 10^9" )' [0m
+[0;34m  'gpu_mult=$(_clc "10" )' [0m
+[0;34m  'gpu_mips=$(_clc "$gpu_core * $gpu_freq" )' [0m
+[0;37;100mgpu_mips= 1.0496E13[0m
+
+
+[0;37;100mgpu_diameter_mm= 7.5701721[0m
+
+
+[0;34m  'gpu_layers=35' [0m
+[0;34m  'gpu_cm2=$(_clc "$gpu_transistors * (45 * (1 nanometer / 1 centimeter))^2 * $gpu_layers" )' [0m
+[0;37;100mgpu_cm2= 20.057627[0m
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Estimate - Cost, Production (factory - imager maximum throughput only) __
+___ neuralBits ___
+[0;34m  'world_neuralBits_seconds=$(_clc "$neuralBits_cm2 * $world_seconds_cm2" )' [0m
+[0;37;100mworld_neuralBits_seconds= 0.034588236[0m
+[0;34m  'world_neuralBits_perQuarter=$(_clc "( 3600 / $world_neuralBits_seconds ) * 24 * 90" )' [0m
+[0;37;100mworld_neuralBits_perQuarter= 224816322[0m
+[0;34m  'world_neuralBits_dollars=$(_clc "$gpu_dollars *  ( $neuralBits_cm2 / $gpu_cm2 ) " )' [0m
+[0;37;100mworld_neuralBits_dollars= 9771.8439[0m
+___ GPU ___
+[0;34m  'world_gpu_seconds=$(_clc "$gpu_cm2 * $world_seconds_cm2" )' [0m
+[0;37;100mworld_gpu_seconds= 0.0070791625[0m
+[0;34m  'world_gpu_perQuarter=$(_clc "( 3600 / $world_gpu_seconds ) * 24 * 90" )' [0m
+[0;37;100mworld_gpu_perQuarter= 1098435020[0m
+__ Estimate - Cost, Production (prototyping) __
+___ neuralBits ___
+[0;34m  'photolithography_neuralBits_seconds=$(_clc "$neuralBits_cm2 * $photolithography_seconds_cm2" )' [0m
+[0;37;100mphotolithography_neuralBits_seconds= 9800000[0m
+[0;34m  'photolithography_neuralBits_perQuarter=$(_clc "( 3600 / $photolithography_neuralBits_seconds ) * 24 * 90" )' [0m
+[0;37;100mphotolithography_neuralBits_perQuarter= 0.79346939[0m
+ 
+[0;34m  'fov_neuralBits_seconds=$(_clc "$neuralBits_cm2 * $fov_seconds_cm2" )' [0m
+[0;37;100mfov_neuralBits_seconds= 3266666.6[0m
+[0;34m  'fov_neuralBits_perQuarter=$(_clc "( 3600 / $fov_neuralBits_seconds ) * 24 * 90" )' [0m
+[0;37;100mfov_neuralBits_perQuarter= 2.3804082[0m
+___ GPU ___
+[0;34m  'photolithography_gpu_seconds=$(_clc "$gpu_cm2 * $photolithography_seconds_cm2" )' [0m
+[0;37;100mphotolithography_gpu_seconds= 2005762.7[0m
+[0;34m  'photolithography_gpu_perQuarter=$(_clc "( 3600 / $photolithography_gpu_seconds ) * 24 * 90" )' [0m
+[0;37;100mphotolithography_gpu_perQuarter= 3.8768295[0m
+ 
+[0;34m  'fov_gpu_seconds=$(_clc "$gpu_cm2 * $fov_seconds_cm2" )' [0m
+[0;37;100mfov_gpu_seconds= 668587.56[0m
+[0;34m  'fov_gpu_perQuarter=$(_clc "( 3600 / $fov_gpu_seconds ) * 24 * 90" )' [0m
+[0;37;100mfov_gpu_perQuarter= 11.630489[0m
+
+
+

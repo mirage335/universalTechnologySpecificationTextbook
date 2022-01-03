@@ -1,0 +1,58 @@
+
+https://upload.wikimedia.org/wikipedia/commons/9/99/EM_Spectrum3-new.jpg
+	EM_Spectrum3-new.jpg
+
+
+...
+Original third-party files in this directory were obtained from the above sources.
+
+...
+File and directory names labeled with 'orig' in their names, listed above, or under the 'orig' subdirectory, retain their original licenses, as stated below, unless public domain or fair use.
+
+...
+File and directory names labeled with 'mod' in their names, listed above, or under the 'mod' subdirectory, are modified versions of the original files, and also retain the original license, as stated below, unless public domain or fair use.
+
+...
+In the absense of any license explictly stated here or any prior license, files under this directory are then intended to be copyrighted by mirage335 under AGPLv3 license.
+
+
+-
+Copyright (C) 2021- mirage335
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+
+All files in this folder and subfolders, unless explicitly stated otherwise in this file or copyrighted by other authors, are copyrighted by mirage335 as described above.
+-
+
+
+
+
+_Public Domain_
+https://commons.wikimedia.org/wiki/File:EM_Spectrum3-new.jpg
+
+'This file is in the public domain in the United States because it was solely created by NASA. NASA copyright policy states that "NASA material is not protected by copyright unless noted". (See Template:PD-USGov, NASA copyright policy page or JPL Image Use Policy.) 	
+	Warnings:
+* Use of NASA logos, insignia and emblems is restricted per U.S. law 14 CFR 1221.
+
+    The NASA website hosts a large number of images from the Soviet/Russian space agency, and other non-American space agencies. These are not necessarily in the public domain.
+    Materials based on Hubble Space Telescope data may be copyrighted if they are not explicitly produced by the STScI.[1] See also {{PD-Hubble}} and {{Cc-Hubble}}.
+    The SOHO (ESA & NASA) joint project implies that all materials created by its probe are copyrighted and require permission for commercial non-educational use. [2]
+    Images featured on the Astronomy Picture of the Day (APOD) web site may be copyrighted. [3]
+    The National Space Science Data Center (NSSDC) site has been known to host copyrighted content. Its photo gallery FAQ states that all of the images in the photo gallery are in the public domain "Unless otherwise noted."'
+
+'Date 	Uploaded 7-23-07 by user:penubag
+Source 	http://mynasadata.larc.nasa.gov/images/EM_Spectrum3-new.jpg NASA
+Author 	NASA'
+

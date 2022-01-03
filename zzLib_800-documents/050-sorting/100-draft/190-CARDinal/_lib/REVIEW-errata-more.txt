@@ -1,0 +1,369 @@
+"
+
+Cardinal
+*) Delegation and interoperability through real-time netcode.
+ *) Cross-play between open-source compatible coarse terrain/avatar/tool/vehicle (ie. glTF models, basic fog) mixed with 'proprietary' game engine assets (ie. Unreal/Unity/CryEngine/Lumberyard grass, fluid physics, etc).
+ *) Custom player avatars/tools/vehicles.
+  *) FA18C as client-side module with only flight model limits enforced by anti-cheat.
+   *) Canopy 'towel rack' replaceable by 'transparent force field' for VR users.
+ *) Categorical balance (alternate less-than-category flight models allowed but limited to maximum turn/acceleration rates).
+  *) Combine a player's choice of 'avatar', 'body size', 'swords', 'bullets', and 'guidance' all still 'testing' the players to determine the relatively strong, with manuverability and such statistically to ensure relative fairness in a single WORLD.
+   *) Balance between 'swords'/'bullets' with slightly 'bullet magentic' swords achievable but not mandatory. WORLDs may choose to allow such player flexibility ... or not.
+    *) Playing it out, at long range good snipers have to rely on their cognition to anticipate moving targets with first shot, at mid range ambots would be a negligible advantage at full auto, at short range, fixed bayonets or swords may be near equally favored. Statistical balance of mid-range between swords and full auto ranged weapons may necessitate some 'parrying bullets'.
+  *) 'Bombs before bombers, bombers before fighters' 'fluidic space' mechanic equivalent to Descent Freespace with fully customizeable ship appearance and flight model subtleties below maximum maneuverability limits.
+  *) Mathematically perfect anti-cheat if small projectiles are allowed to 'auto-aim' up to short distance (ie. few inches) away from player 'avatar' and subsequently limited to 'pure-ballistic-trajectory' (slow moving camera drones excepted).
+   *) Medium-to-long distance still evadable.
+   *) Mathemtaically perfect anti-cheat is from the notion that aimbots merely adjusting the timing of a trigger pull by a small amount may be difficult to detect, while simply allowing a very small amount of auto-aim, but not sufficient to substantially reduce the need for accurate aiming, would eliminate the rare situation in which such aimbots could confer any slight advantage that could otherwise accumulate to a player having a higher score than another
+ *) Distinction between limited motion (ie. anti-cheat) 'bones'/'tools'/'vehicle' polygon mesh objects and 'decorative' 'player items' allowing highly physicalized effects.
+ *) Commanded 'avatar'/'tool'/'vehicle' 'motor inputs' motion as only input.
+  *) Unlimited player flexibility in 'HOTAS', 'full dive', or similar interfaces.
+  *) Tactile output based on 'decorative' 'player items' (not shared) collisions for 'full dive' VR interfaces.
+  *) Ship computer and flight instruments as 'decorative' 'player items' allowing full-fidelity 'historical' or 'experimental' simulation, even from full Virtual Machines or other 'desktop screen scraping'.
+ *) Degradation to approximately 'two byte' per object rate of acceleration changes and essential object updates only - when necessary or appropriate.
+*) WORLD server interoperability, delegation and fallback.
+ *) Limited inter-WORLD 'foreign' currency exchange rate.
+ *) Clear delination of 'public' spaces allowing 'crowdsourced' full backup including cached public player items.
+ *) Robust recent transaction lists for double-spending prevention with no long-term history (though complete records may be available), allowing complete WORLD server reset to previous information when necessary (unlike the expectations around permanent blockchains with much smaller amounts of information and processing).
+*) Preferences in 'lifestyle' or 'profession' accommodated by some cross-over of currency or stats progression on one WORLD server translating to bonus 'earnings' rates on other WORLD servers, allowing players to focus mostly on a specific role without being limited to that exclusively.
+
+
+Cardinal's fundamental real-time premise is that any player activity based on *rendered* information rather than game object centroids must necessarily demand the visual, probabilistic, and maneuvering problem solving which may be more enjoyable to conscious beings employing *cognition* than mere 'pocket calculator' arithemetic suitable to *automation*. Consequently, any player enhancement - including automatic 'aiming' or use of artificial neural networks - is NOT considered cheating. In fact, Cardinal may specifically allow 'player items' to maneuver on their own up to some distance from the player (or indefinitely for mere imaging and decoration). Of course, decorative items relative to a player (eg. interactive avionics screens) may be 'blind', using only the player's own centroid position self-reported to programs connected to a local IPC bus (eg. VM).
+
+
+Cardinal attempts to keep public records to ensure longer-term robustness. In effect, redundant backups of an entire WORLD to recover from any abnormality are 'crowdsourced'. Anyone who wants a copy - perhaps to run a parallel WORLD or to drop on the likes of Amazon's Glacier Deep Archive service - may be able to obtain this in compact version-control friendly form. WORLD servers are encouraged to make public terrain data, cached public 'player items', player transaction balances, etc.
+
+
+Cardinal rules between worlds emphasize a combination of general competence and personal preference. Transactions between servers are available on a cautiously limited basis to allow some trade between such players as shop keepers in one WORLD, and pilots of another WORLD. Stats progression on one WORLD server may carry over as a bonus to progression rate on all other WORLD servers with no 'double spending' limit. Total lifespan of a player's character over decades may be figured into stats progression with a steep decline after some decades or a full reset after defeat on any ACCREDITED WORLD server. Thus, if actually desirable, such concepts may offer a step towards preserving the meaning of long-term 'mortality' in the context of the 'amortality' consequences many players may already be briefly accustomed to.
+
+
+
+Cardinal's most important purpose may be to provide limited long-term stability towards ensuring unlimited dimensions of interpersonal activities between players. Players are distinguished from bots by the proof-of-cognition nature of WORLD challenges (PvP, PvE). Anyone spending a sufficient fraction of an amount of time successfully earning the 'per-person-hour' statistically balanced currency over a single time interval (ie. 2days/1month) is on a binary basis assumed to be a single person (less diplomatically, not a bot). Should Cardinal's default proof-of-cognition currency or accumulation limits be suddenly overrun in some way, alienated players are expected to move to forked replacements of affected WORLD servers.
+
+
+
+-
+
+
+Please consider not underestimating the value of a proper Cardinal system in reducing the significant development hassles of proper netcode, entity management, and InterProcess-Communication bus architecture. Starting a project from Slackware may seem like a quick approach to the inexperienced, but understanding the basics of Gentoo ebuilds pays off extremely well even for short-term experimental projects. Moreover, achieving *adequate* VR immersion has many subtleties that would not have been obvious a few years prior - such as the exact extent of the lack of need for accurate skeletal muscle modeling. Cardinal reflects considerable experience in modern software architecture and VR principles.
+
+
+-
+
+
+A 'lightweight' Cardinal implementation may apply custom flight model limits (ie. categorical balance limits), client framebuffer items, and tactile (or force feedback) collision detection items, to proprietary game assets, leveraging proprietary netcode if desirable. Particularly, this may be useful for early implementations of 'full dive' features with proprietary resources.
+
+
+-
+
+*) Haxe and related.
+ *) Now Protocol Buffers .
+  *) Just get to an internal '_bin' function accessible from netcode through some interpreter or forward declarations or magic number catch across every input function, or something.
+   *) Something like a 'case' statement or repetated 'if' statements might catch a 'magic command' into appropriate functions... that is nicely portable at least.
+
+
+
+-
+
+*) Subscription only features (ie. \$\$\$/month). Subscribing players may be given faster stats progression, and unsubscribed players may be shown line graphs and lists of things they would have been able to do with a subscription.
+ *) MAJOR - Outright giving advantages (ie. premium tools) or cosmetics is NOT consistent with CARDinal, and must NOT be done.
+ *) When WORLD server and such are adequately funded to cover all expenses and liabilities, subscription only features may be enabled for some random players.
+ *) Previous subscribers should be given a one month 'grace period'.
+
+
+-
+
+*) Attraction, Selection, Attrition applies to player groups and professions hosted within WORLD servers, not to WORLDs themselves. WORLDs should attract the most diverse playerbase possible.
+
+
+-
+
+*) Prior art (literally). Player clients should report their own and others 'playerItem' to WORLD server public record. Server is a third-party record of player avatar/vehicle/object/etc uploads/dates/hash, especially avatars, when introduced in public places (on instance servers these are never sent upstream and only to clients). This establishes who uploaded first, mitigating questions of authorship, attribution, infringement, etc.
+
+
+-
+
+
+
+*) MAJOR - 'Rough' terrain includes 'fog' to substitute for lack of flora/fauna detail. Unreal Engine and such may use vast libraries of 'visual effect' plants/animals (eg. forests, flocks) to more realistically obscure monsters.
+ *) Because this is either PvE or at most 'lost tool in the grass', CARDinal only detects cheating by identifying normal distributions of productivity data, so a normal distribution associated with reported cheating may simply be 'nerfed'.
+  *) Hourly income limits and wealth tax apply as always anyway, so there is little benefit to such cheating.
+
+
+-
+
+
+*) MAJOR - Terrain collisions are detected by large numbers of objects being sampled for any collision at all. Player avatar collisions are done between entire avatars, tools, vehicles, etc, with detailed processing being done only between players in physical contact or causing effect (eg. damage). Such detailed physics may be done as a byproduct of the CARDinal physics processing (used at lower fidelity on only filtered necessary information for third-party anti-cheat), or part of game engine, etc.
+ *) CARDinal netcode must be able to pass shared-memory framebuffer locations of course, for the appropriate texture surfaces...
+
+
+-
+
+*) Wealth transfer. CARDinal specifically protects 'professions' and NEVER facilitates major transfers of wealth.
+ *) MAJOR - Partly why CARDinal differs from blockchain. Having everyone sign the whole ledger allows a transaction to include an arbitrary amount of tokens.
+  *) MAJOR - Capital ships (ie. carriers) may need to be jointly owned by multiple players. Corporations may achieve higher spending limits, only by aggregrating *active* players limits. Thus, transfer of capital ship assets has a real transaction 'cost' to the entire playerbase involved.
+   *) MAJOR - ALL transferrable assets ALWAYS have a price, to enforce limits. Non-liquid assets (ie. 'swords') might have higher values, but only to a point, to limit trading of players own accounts.
+
+-
+
+
+*) MAJOR - Assets are controlled simply - complex scripting beyond physics/flight model not required. Avionics are NOT game assets, these are handled as a combination of user framebuffers, user input buttons/etc, and motor outputs to 'guide' an asset's behavior. Motor outputs MUST be in netcode format. Thus, these are ALWAYS handled by InterProcess-Communication, which allows them to scale to multi-terabyte VMs, GPGPU, etc.
+
+
+-
+
+*) Stats ALLOW double-spending (progress on one server is limited progress on all). Currency must be checked to PREVENT double-spending. Non-liquid assets MAY be transferrable. Consummables ARE transferrable.
+
+
+-
+
+*) MAJOR - Text Editor - CARDinal netcode protocol is to include - as an EXAMPLE - a standalone text editor program using an interactive 'playerItem' through IPC. Perhaps the individual characters will be regarded as separate object to update in the 'database' . Perhaps the 'database' will be read out periodically in full after too many 'updates' to ensure synchronization. Such may be a great way to test CARDinal protocol usability and consistency.
+
+-
+
+
+*) 'Right to be forgotten'. As WORLD servers are expected to only have matters of public record, may not be relevant. Anti-cheat statistics are not expected to require individualized information. History of moderation actions on a user (eg. excused from anti-cheat account trading prevention due to injury changing habits), login credentials, etc, might be relevant.
+
+
+
+-
+
+
+
+*) CARDinal real-time latency must always be kept >150ms, to ensure cognition inherent PID tuning is already well adapted to the approximately 200ms worst-case fiber optic latency present on such a planet as Earth .
+ *) CARDinal coordinate update netcode (relative updates only not absolute confirmations) must be completely separable - marked by unique header/size/end codes - to allow priority routing over scarce bandwidth.
+ *) External flight model programs may be simplified by having their own PID tuning not subject to jitter from network latency.
+
+
+
+-
+
+
+*) Game masters may be appointed to create Quests/Tasks, and given some unique authority to replace terrain files (with more detailed or quest specific terrain) for parts of planetary surfaces.
+ *) As always, all terrain files for all engines, including rough terrain for visibility anti-cheat, must match.
+
+*) 'All bonus to one' mechanic avoids inflating the proof-of-cognition balance, provides a unique incentive for quests, and adds another dimension to the player trading economy (ie. hiring players into a team).
+
+*) MAJOR - Quests are NOT expected to have a 50% first time probability of 100% survival success for five-member parties of the top percentile of high-stats PvP players. Quests are expected to provide an opportunity for challenge BEYOND the 'PvE monster hunting' and such all players may participate in. Difficulty should be high.
+
+
+*) MAJOR MAJOR - Highly reputable game masters may be occasionally given the chance to create a 'ridiculously high stakes game' - to burn down much of the world if they so choose.
+  *) CITATION - Admittedly, this may have been inspired by the SAO 'Caliber' arc.
+
+
+
+-
+
+
+
+*) MAJOR - In addition to player equipment/avatars/vehicles/etc, players may put own items atop foundations marked 'public', or atop their own foundations, or within their own vehicle (or of course on their own avatars). In this way, public bulletin boards may be created, and players may permanently store objects physically.
+ *) FUNDAMENTAL - However, players are always to have own copies of their objects, accessible from item storage, including those left in public places, in case of deletion or loss of WORLD server.
+  *) There is to be no 'immersion timer' for pulling objects from remote places, and objects can of course be duplicated instantly as well. Decorative items may be 'teleported' instantly by something like 'jump drive' to a location near the player's avatar.
+   *) 'Decorative' items (including real-time computer monitor/VM displays) only, not 'tools' or 'consumables' which have economic value. Actually having to fly a vehicle to the desired location, or at least having some economic cost for teleportation service may be appropriate.
+    *) Immersion timer still NOT appropriate.
+
+
+
+*) MAJOR - Corporations may win ownership of significant portions of land, including 'towns' where player 'foundations' (ie. houses, apartments, etc) and where quests, have already been established. Such corporations may have unlimited authority to further limit trade, income, quests, foundations, etc, as well as to appoint some of their own 'game masters', with expanded powers to reshape terrain within voxel established limits.
+ *) MAJOR - In this way, WORLD leadership is intended to be highly meritocratic - leadership follows defensive capability.
+ *) Limits - corporations can only limit or remove quests, not create quests/tasks. Likewise, corporations cannot change such economic constraints as sources of raw materials, locations of planets, and are not expected to meaningfully alter galactic trade routes.
+
+
+
+
+-
+
+
+*) MAJOR - CARDinal - Eye tracking zoom. Activated by gesture, part of automatic enhanced vision system directing active sensor emissions, false color/wireframe, and zoom to where a player's focus dwells. Some low-pass filtering required.
+ *) Slightly helpful for 2D desktop/VM use.
+
+
+
+
+-
+
+
+*) MAJOR - Road wear by incremental voxel impact. Procedural terrain design technique.
+ *) Or statistical measurements of travel applied as simple 2D texture imprint.
+ *) Or by random mostly one directional walk, or by random sketching, as 2D image imprint.
+  *) Idea is just to get something that is NOT merely a tileable image, for whatever that may be worth.
+
+
+-
+
+
+*) Voice recognition statistical confidence combined in a phrase may be higher than statistical confidence that each word was recognized correctly. Absence of FLOSS voice command recognition software may be an issue more readily solved by command phrase recognition as such.
+
+
+-
+
+
+*) Netcode messaging hidden object filter - other players only send hidden objects to some other 'neighboring' players for anti-cheat purposes, not to all players (to mitigate 'X-ray vision cheating').
+
+
+-
+
+*) MAJOR - Netcode is human interactable.
+ *) DUBIOUS - From BASIC to bytecode, objects may be created with physics and behavior scripts, roughly equivalent to FReespace EDitor (FRED). Primitive NPCs may rely on these behavior scripts (which must accept concensesus of multiplayer clients).
+
+
+
+-
+
+*) CITATION - Contemplation of 'bytecode', coordinate spaces, bandwidth, etc, for CARDinal predates any awareness of 'Udon/VRChat' .
+
+-
+
+*) Tournaments should be frozen at least for a reasonable time if any of the contestants have reasonable excuse.
+
+
+-
+
+*) MAJOR - Gambling between substantial numbers of players may be economically destabilizing and may be limited.
+
+
+-
+
+*) Primordial terrain objects (ie. maps voxels) may have very high durability.
+
+-
+
+
+*) Module logic trace. VR environments can be very helpful to developers attempting to trace or diagram program logic flow, or connect programs together.
+
+
+
+*) CARDinal display should offer a simple 2D interface to Swordland (ie. similar to classic 2D scrolling area RPG games for purpose of 'meeting' people through text chat).
+
+
+
+
+
+--------------------------------------------------
+possible game mechanics
+
+
+*) Battle opportunities will be limited somewhat (skirmishes most of the time, important fleet battles only a few times per week or so), to encourage enjoying life in VR beyond scoreboard kill counts. CARDinal should balance some short term stability between large player corporation conflicts through such mechanisms as periodic supply/demand constraints to cause some ebb and flow in logistics.
+
+
+*) Winners of some events will be able to occupy habitats with favorable resources, possibly driving some real-estate value.
+
+
+*) Discouraging appropriation of 'IRL' names, similar to EvE Online policy, is recommended. Public denylists usable by any server should be created collaboratively. Syllable filtering may also preclude meaningful words as names, but that may be undesired by players.
+
+
+*) Voice Comms traffic must be highly compressed.
+
+*) first step in development is cmd/vm access, with *realtime* script/code edit/reload of non-graphical systems (eg, reloading input/physics systems in place)
+
+*) shopkeeper, merchant, and similar roles must still incentivize advancement... but these may allow a place for more casual players not interested in any form of combat
+
+
+*) knife spinning on base of thumb... some things not possible should be scripted as 'fidget toys'... others like pen finger twirling should be exactly realistic (with force-feedback gloves)
+
+
+
+*) Encourage players to train for precision, followed by speed. Precise aiming and speed run, timing completion of a practice course at 100% accuracy. Highly ranking players may be granted a special resource as acknowledgement of their efforts.
+
+
+
+
+*) Bottom Feeders - Space combat at the top is warfare, piracy at the middle, and ... what are the bottom feeders? Fleet engagements will ultimately be about 'staking out watering holes in the desert', sweeping space for straggler shipments and controlling territory. Mining ships may be vulnerable if not in well protected friendly player corporation territory.
+ *) There is a chance more complex operations beyond territory control may emerge... what matters is that the economics are multi-level food chains similar to real space.
+
+*) Wretched Hive - Planetary surfaces are basically guaranteed to end up as such (swordland included), excepting any 'safe zones', with hostilities as expected.
+
+
+*) Maybe require some physical stepping to move at full speed... this could be a great way to encourage adoption of force feedback hardware or other alternatives to stick/pad/button movement controls.
+ *) Automatic leg extension while running fast...
+
+
+*) In all cases, a reasonably equipped group of 4-9 interceptor types - not more tha 250hr capital 2.5/mo maintenance - should be able to score a kill on a single target with no chance of escape. This applies to all forms of PvP combat, including ground and space. The only exception will be hero ships, which will be one in at least one thousand.
+
+
+*) all exchanges may be limited to in person only, even currency trades... corruption may be more visible this way
+
+
+*) Loss of player corporation leaders, diplomats, and their logistics personnell may have such severe consequences that breakdown of alliance and infighting are probable outcomes.
+ *) Like taking 30percet of the other corp's cryptocurrency and other liquid assets... including accounts receivables on the books.
+
+
+*) parties are distinct from longer term corporate alliances - even corporate leades may take a leave to temporarily join a party
+
+
+
+*) MAJOR - Five Races Trope - Unrealistically impractical specialization into characteristics that may have no particular reason for being, and definitely not appropriate for any WORLD emphasizing player customizeable avatars.
+
+
+
+*) 13MPH marathon, 15MPH mile, 30MPH sprint, 50inch jump
+
+*) Energy consumption is drastically raised at higher speeds. This gives VR diving players an opportunity/excuse to rest from fast motion, as keyboard/mouse players do not experience physical fatigue. Without FFB, the energy consumption rate would be shown as a bar.
+ *) Walking speed or less average energy consumption is automatically regenerated. Beyond that, hunting and gathering in-game is *required*, with the bio-energy bonus being strictly nontradeable. At most 3hr of such hunting/gathering can be done per day, to a maximum of 30hr sprint reserve, usable at only 2hr per day. In practice, this will limit players to mostly walking speed, with burst beyond that being as conservative as possible. No exceptions.
+ *) Keep in mind that 40mph running speed for 2hr corresponds to an 80mile distance per day... perhaps already too much... since this is somewhat a 'comfort feature', marathon distance might be better...
+ *) Aside from rest, this also ensures players put maximum effort into competive situations, not running around towns ridiculously.
+ *) Work time is limited per day to discourage too much PvE. Allowing a full recharge in 2hr is fine.
+
+
+*) It is expected most players will reside mostly in the 'swordland' WORLD - providing them desirable habitat *is* its purpose.
+
+
+*) Self-destruct to RTB definitely must not be possible. Either because there is no reason to do so or because of a severe penalty. This is an absurd mechanic of Elite Dangerous deep space 'exploration' which must be avoided.
+
+*) Aerospace Fighters - Unobtanium (if not handwavium) Low-Waste-Heat Antimatter fuel. Atmosphere and thick nebula maneuvering enhanced. Maybe 500G acceleration. Payloads on rocket motors, emphasizing armor penetration. Pilots are amortal, and ship ordinance may be put in impact mode (though with the strong disadvantages of reduced penetration from only a single impact on a single point).
+ *) Empty space battles must be rare. Finding cargo depots and the like in vast empty space may be very unlikely, and resources may be far more abundant around planets, dense nebulas, gas giants, or at least asteroids...
+ *) Fighters may have to use area-effect ordinance to overwhelm point defenses, to the point any actual high density projectile on an efficient trajectory will not be detectable prior to impact. The physics of taking down carriers and cargo ships are likely very complex.
+ *) Stars are not movable - such mechanics would imply such technology that ships would not be relevant in conflict.
+ *) Kinetic weapons are dominant. All ships have expensive composite armor, which demands penetration.
+ *) Big ships actually are still single pilot, albeit usually expensive player corporation assets, rearm/rearmor is by other ships. Big ships do not need the same kind of internal maintenance as fighters, so planetary landings are not necessary.
+ *) Fighter refueling is a big deal - scouting large areas of space will usually be by flying the aerospacecraft, not dispatching swarms.
+ *) Ultimately, space fighters could arguably exist because the aerofighter industry was simply scaled up in a hurry, spurred by FTL and better-than-antimatter fuel, with no opportunity to reorganize.
+ *) Backstory is no backstory as usual. The humans chose to create a competitive virtual world and live in that on purpose.
+  *) Along that logic, availability of handwavium shields implies cheap fusion energy tech, meaning everyone wants their own ship, and the ships are usually small, not big targets unless hauling cargo and such.
+
+
+
+*) Desktop Switching - File manager is root window for everything. Groups of windows are based on that.
+
+
+*) Only lawful kills in open-world, tournament, other stats-penalizing conditions, may be counted.
+
+
+
+
+*) Supersonic leap - number of steps or mid-air hops determines distance in a purely ballistic trajectory.
+
+*) Sword lighting - holding a sword at fixed position gestures that a predefined replayable paw placement pattern will be used if the next paw movement is in an appropriate direction (off-direction to cancel). As an 'Original Sword Skill' program, usually client side, optional, player customizeable.
+
+
+
+*) Just because aerospace WORLD does not reset stats (which are really swordland WORLD relevant) does NOT imply ships are expendable... all ship equipment is lost on destruction.
+
+
+
+*) Swords are gyroscopically snapped to incoming bullets.
+
+*) Teleports (swordland) are time locked to only work at quarter-hourly intervals.
+
+
+*) Fairy wings shrink, not disappear. Same for pointing ears (active sensors) and similar.
+
+
+*) Footprint tracker... consider such resources (and other imaging enhancements) as sent by other clients in same instance, with usual anti-cheat detection by observing player clients, logs, etc.
+ *) Ocular movements may activate related skills (EoG, eye tracking).
+
+
+*) Space marines in the space based WORLD... along with galactic scale planetary landings... but all of the planets there being harsh terrain.
+ *) Also mecha ... all the vehicles.
+
+
+
+*) Carrier or other capital class ships should contain accessible sensor data logs from all landing craft as intelligence both used and captured by space marines.
+ *) Necessarily, ambassador craft will be specialized to not have such logs, for meetings under truce without such risk.
+
+
+
+*) Standalone VR with high-bandwidth but low-compute could receive 'decorative' objects obscuring lower quality graphics, rendered by more powerful computers on the same instancing server (when server bandwidth is sufficiently available).
+
+*) Directional airflow effects (temperature, pressure, spreading out) should be discernable. Decorative collision detection objects must be sensitive to airflow direction.
+ *) Particularly important for atmospheric wind.
+"

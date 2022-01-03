@@ -1,0 +1,313 @@
+"
+----------
+flatTool, Positioning, Cartridge Associated with Slab
+
+*) MAJOR - EUV requires extremely low surface roughness (<0.5nm locally, perhaps ~5nm across 1um^2) to achieve reflectivity - a Spatial Light Modulator (SLM) will NOT be scattering in this case. Moreover, the low intensity of the EUV source will likely be within the focus of the workpiece as a consequence, requiring some beamstop or similar anti-vignetting technique. Ultimately, both the Spatial Light Modulator (SLM) and EUV light source are likely necessarily in focus at the workpiece.
+ *) FUNDAMENTAL - EUV *cannot* be imaged to a single point on the workpiece, due to low intensity.
+ *) High-intensity sources (ie. lasers) will most likely resolve to a single point both at the Spatial Light Modulator and at the workpiece unless condensing optics are deliberately moved out of focus or the laser is passed through a diffuser.
+  *) Rotary diffuser approach reduces the intensity of the laser and may directly emulate the EUV light source behavior.
+  *) Simply moving the laser source slightly outside the focal point of the condenser optics may be adequate.
+   *) This may not create an adequately diverse 'wavefront' of rays from different directions across the entire non-scattering Spatial Light Modulator.
+
+
+
+*) As many as 5 separate air cushion tubing inputs to slab may be required (center+corners). Not only does this allow independent control of Z-axis and tilt, this ensures a single channel cannot, by vibration, take up all the airflow, and then latchup with that leak, which would cause severe vibration or misalignment.
+ *) FUNDAMENTAL - MAJOR - This suggests an air cushion may actually be used to achieve nanometer tilt control, similar to, but more dynamic and probably more precise, than the mechanical bearings of a kinematic mount. Only piezo actuators could plausibly be more precise.
+
+
+
+
+
+*) MAJOR MAJOR MAJOR - FOUP (Front Opening Unified Pod, 300mm wafers) and SMIF (Standard Mechanical Interface, 200mm wafers) industry standard cartridges are apparently available at reasonable cost. At somewhat less reasonable cost, automatic openers and automatic loaders too. Opens the possibility of more reasonable integration between such an entry-level EUVL stepper tool and a larger fab, perhaps exchanging just a single wafer would allow splicing smaller prototyping operations into larger fabs.
+ *) FOSB (Front Opening Shipping Box) are apparently rather cheap ($50). If mechanically compatible, these would be useful.
+  *) Definitely automatically transferable between these two boxes.
+
+
+
+*) MAJOR MAJOR - Narrowing spatial filter 'pupil' required, *especially* if 'incandescent' (or vaguely incandescent stimulated emission) source (ie. EUV plasma) may be used.
+
+
+
+*) MAJOR - Name 'flatTool' and 'tool' terminology predates any awareness of 'alpha demo tool' or similar names by ASML, origin of this naming scheme being the premise that a 'tool' is an extension of the body.
+
+
+
+*) MAJOR - Slight possibility magnification control may be required, necessitating vertical movement of the Spatial Light Modulator (SLM) and/or movement of a divergent/convergent pair of mirrors somewhere, possibly a separate pair for X magnification and Y magnification. Thermal expansion affecting overlay dimensions is the problem here.
+ *) In this case, with a very small area being exposted and stitched by frequent alignment marks, using maskless overlay and exposure, such problems may be irrelevant. At worst, oversampling the pixels might allow software correction.
+
+
+
+
+*) An 'optical leverage' tool similar to an AFM read laser - which still requires high NA focus - may use side-bounce independent of the projection lens and with a non-exposing wavelength - to adjust Z-axis translation (depth of focus) alignment in a manner similar to the X/Y translation interferometers.
+ *) Unlike simply aiming interferometers at the workpiece surface, this may measure Z-axis translation directly at projection focal lens/mirror , while well beyond the ~90deg focus of a high-NA projection focal lens/mirror .
+ *) Though in practice 'polka dot' beamsplitters allow introduction of off-wavelength directly into the beampath, and mirrors are used, any chromatic abberation may be ignored by this method.
+
+
+
+
+
+----------
+Mirror, Lens, Workpiece (eg. silicon wafer) Grinding
+
+*) Separate rigidTable Y-axis gantry rails may be used for some tools as appropriate (ie. separate gantry at separate area of a large table).
+
+*) Roughly shaped blanks with standardized mounting fixtures may be placed in dedicated spot polish/inspection machines for specific purposes (ie. EUVL mirror grinders).
+
+
+
+*) MAJOR MAJOR MAJOR - Wafer polishing metrology is important for *recycling*. After completely scrubbing off a bad pattern, reuse of a wafer may be extremely important where low-resolution wavelength and low purity consumables (ie. cheap) are used for 'practice', experimental designs, or calibration.
+
+*) Single point (ie. optical fiber) interferometric mirror measurement techniques are detailed further in academic literature - this somewhat computational technique not only being simpler in implementation but also much more accurate. Very tall measurement devices may be needed to allow concave mirror to be brought to a focus. Divergent mirrors may require concave mirrors for reference, though the divergent nature of incandescent light assumed by 'flatTool' might not require any divergent mirrors.
+
+
+
+
+
+----------
+Piezoelectric and Thermal Expansion Nanopositioning Actuators, Optical Mounting and Alignment
+
+*) Thermal manipulation of optical alignment, exploiting thermal expansion, by electrical resistance heating, may inefficiently achieve same result as piezoelectric actuator. However, this is unlikely to stabilize quickly, perhaps even if thermally insulative materials are used.
+
+
+*) MAJOR MAJOR - Narrowing spatial filter 'pupil' required, *especially* if incandescent source (ie. EUV plasma) may be used.
+ *) May require 4x piezoelectric actuators, possibly a single plate mounted to standoffs and split by photolithography etching to allow the edges to be brought closer together though normally near-sealed. Should be fairly simple - metal plate, soldered standoffs, glued to piezoelectric actuators, and then split into quadrants by etching.
+
+
+*) OPTLasers, Lasertack, eBay, etc
+
+
+
+
+
+----------
+Optical Beampath
+
+*) Diffuser in place of scattering Spatial Light Modulator (or unmodulated considering the existing scattering function) may be used as a laser speckle imaging system with the Maskless Optical Projection Lithography (MOPL) module. Then again, structured light from the Spatial Light Modulator may be algorithmically simpler to implement, at least early in development.
+
+*) Zone Plate Array Lithography (reportedly used at least experimentally for 193nm projection) may only be efficient with high-harmonic-generation continuous (or at least nearly continuous) <193nm light or possibly laser source.
+
+
+*) MAJOR - Raster scan in same direction must *always* be used (to avoid severe mechanical backlash). May reduce throughput if FOV is exceptionally narrow (ie. laser focused to diffraction limited spot).
+
+
+*) Simple lenses may be used in place of mirror objectives for relatively inexpensive and/or compact 405nm tools. Attenuator may be necessary if overlay must be done above a significant lasing threshold.
+
+
+
+*) MAJOR - Maskless Optical Projection Lithography (MOPL) may require diffuser, not merely out-of-focus laser, if Spatial Light Modulator (SLM) is non-scattering.
+
+
+
+
+
+----------
+wallMask (errata only)
+
+*) MAJOR MAJOR MAJOR - Magnetic light valve may be more precisely selected by laser heating in the same manner as magneto optical. Mechanical restraint of magnetic light valves may be established by a nonmagnetic mesh. Distilled water spray may be frozen as the thermally sensitive laser meltable adhesive.
+
+*) MAJOR MAJOR MAJOR - Magneto Optical itself is something of a phase modulating photomask, and EUV phase modulating photomasks should be usable. If right-angle polarization modulation can be achieved by Magneto Optical writing, amplitude modulation outright may be achieved when using a polarized EUV light source. If any EUV transparent material can exhibit a strong magneto optical polarization changing effect, and/or if strong EUV polarization filtering/interaction is possible.
+
+
+*) MAJOR MAJOR MAJOR - Detachable/movable edge/center reticles may be used for certain otherwise maskless alignments, so long as the total overlay error remains below 1nm (ie. by smaller stitching regions).
+
+*) Magnetically actuated light valves may be changed by magnetic probe (ie. an AFM tip or HDD pickup). Of course, this may introduce patterning speed limitations comparable to AFM.
+
+*) MAJOR MAJOR MAJOR - Piezo dithering may solve problems with purely reflective (rather than partly scattering) SLM alignment as may be necessary with EUVL .
+
+
+*) MAJOR MAJOR MAJOR - Classic 'Etch-A-Sketch' and 'Magic Slate' techniques may be usable with freezeable solvent (ie. water) and magneto-optical techniques. Etch-A-Sketch in particular technique may be feasible with as an *absorptive* layer to be placed atop a proper dichroic filter reflector for EUVL.
+ *) Considering metals may absorb EUV, sputter coating may be used to mask off the dichroic filter, reticle may be brought near melting temperature, laser may selectively melt independently thermally insulated grid squares (these made by photolithography), and mechanical wiping may 'clean' the thawed areas. Repeating this process should be workable so long as alloys are not formed (ie. underlying metal does not dissolve appreciably) or erosion/contamination otherwise does not occur.
+
+
+*) MAJOR MAJOR MAJOR - Perhaps the most aggressive 'maskless' lithography technique is to build a miniature 405nm photolithography multiple patterning reticle fabricator based on a microscope objective, directly at the EUVL SLM location, with the X/Y/Z movable slabs and cartridges being able to reuse, polish off, and fully recycle, thousands of reticle squares in total.
+ *) Such slabs might need to work *against* gravity (not merely without gravity), or have unsupported centers.
+ *) Reticle fabricator might have to work against gravity for all steps, from the direction of the EUV light source.
+ *) MAJOR - Of course, all these tricks are questionable given the high probability of being able to simply modify (remove protective window, add EUV reflective coating, etc), create, and dither (to workaround possible reflection angle accuracy requirements), a proper DLP/MEMS chip.
+
+
+
+
+
+--------------------------------------------------
+
+*) MAJOR - Klipper firmware support for 24bit ADC/DAC !
+
+*) Piezo/projection optics in theory might be able to offer enough structured light to image alginment marks holographically. However, this is theoretical at best, and still leaves a requirement for 3-4 alignment marks in the FOV of the current exposure.
+*) https://hackaday.io/project/11621-holoscope-superresolution-holographic-microscope
+
+*) MAJOR MAJOR - Flexure mounts probably do not have adequate performance, much less stability. Incentive to permanently bias piezo mounts.
+ *) Stated 100microradians of variation precision limit. Presumably lower much lower stability.
+ *) https://youtu.be/nMonZHMTra4?t=596
+
+*) MAJOR MAJOR - Overlay is the most significant problem. FUNDAMENTAL - Overlay is apparently done by imaging light in photolithography, not by accuracy of any other systems.
+ *) https://youtu.be/JHTh_S29yWo?t=1004
+  *) Accuracy and Precision are both mentioned correctly.
+  *) SEM can examine device features to recalibrate overlay based on detected exposure errors (ie. tweaking the machine based on its output over time). Damage to device during this is possible, however, the concern seems plausibly for devices already fabricated, leaving open the possibility SEM is never used in real-time for actual overlay, only ever for calibration.
+   *) Made explicit by 'Post-Etch' in red cell.
+    *) https://youtu.be/JHTh_S29yWo?t=1134
+  *) Scatterometry is apparently based on mask itself (no need for dedicated patterns as with imaging), however, statterometry seems more vulnerable to 'process variations'.
+   *) Nonetheless, scatterometry under maskless lithography may be plausible.
+ *) Search for term 'overlay' on the 'Multiple Patterning' wikipedia article confirms all expectations. So-called 'self-assembly' is used to eliminate overlay as a problem.
+
+
+*) EUV source, 50kHz - https://www.youtube.com/watch?v=NHSR6AHNiDs
+
+*) EUV Lithography - If done by high vacuum, turbomolecular pumps may necessarily be located near EUVL source. - https://www.youtube.com/watch?v=skUCP2f4HIM
+
+
+
+
+*) FUNDAMENTAL - Mirrors reflect only EUV. - https://www.youtube.com/watch?v=6LfFjmWCWPw
+ *) Linewidth of 5nm is implied, linewidths of ~15nm known IIRC, acceptable dust particle on mask explicitly stated at ~30nm. Implies demagnification from mask to wafer of <6x, or maybe more plausibly ~2x.
+
+
+
+*) FUNDAMENTAL - MAJOR MAJOR - Confirms use of behind-mask camera-read alignment marks by morie/scatterometry technique. - http://cnt.canon.com/technology/alignment-overlay/
+
+
+*) FUNDAMENTAL - Illustrates how point illumination of a scattering surface results in polarization (ie. glare) and other changes being projected which may reflect subwavelength features.
+ *) Explicitly mentions simulations and measurement comparison to achieve 'the grating shape is retrieved' .
+ *) https://www.youtube.com/watch?v=bu8v-SfLH20
+ *) https://www.youtube.com/watch?v=e_c2NpZR7jA
+  *) Further exemplifies need for more measurement control software, an interactive equivalent of what has been used to manually align 3D printer extruders by microscope. - https://youtu.be/e_c2NpZR7jA?t=1724
+
+
+*) FUNDAMENTAL - MAJOR MAJOR - Subwavelength features apparently have amplitude, polarization, and spectral shifts, which are scattered off the surface. Apparently may be correlated to the exact mechanical position, allowing some readout of slightly subwavelength features, with a single-point capability similar to the long lines correlated by lengthy morie patterns.
+
+
+*) FUNDAMENTAL - MAJOR MAJOR - Multilayer 3D monolithic ICs may be produced at more reasonable combined yields if layer interconnects are destructable, or failed layers are otherwise semi-removable (ie. to remove 'short-circuits').
+
+
+
+
+*) FUNDAMENTAL - MAJOR MAJOR - Resin printer must be able to operate in completely resin flooded location (ie. submerged window).
+ *) Build platform 'tilting' is necessary to detach the printed part from the transparent window. Implies vastly stronger chemical adhesion to build platform than to window.
+  *) Window thermal cycling may improve this, at some loss of optical alignment.
+  *) Thin knife may also enable better part removal from transparent window during layer transition.
+ *) https://en.wikipedia.org/wiki/Stereolithography
+  *) ' Then the vat is 'rocked', '
+  *) ' approach is typical of desktop SLA printers, while the right-side-up approach is more common in industrial systems '
+
+
+
+
+*) ASML reticle stage apparently accelerates on the order of or faster than 10G (~100m/s^2) .
+ *) 'The reticle stage' 'accelerates faster than a fighter jet.' 'with nanometer accuracy' - https://www.youtube.com/watch?v=B9uDMNmajgw
+
+
+
+*) Five axis... piezo... wafer
+ *) https://www.youtube.com/watch?v=uZmS36pvQFU
+  *) 'Speed up to 2m/s' 'acceleration to 2G'
+  *) 'coarse wafer leveling and alignment' '+/- 6 mrad' 'resolution' '0,02 urad'
+  *) '+/- 500 um' 'resolution 1 nm'
+  *) '+/- 20um' 'resolution' '0,5 nm'
+  *) '2.5kg'
+  *) 'resonant' '300 Hz'
+  *) 'XY Air Bearing' '5 Axis Piezo Stage'
+
+
+
+
+
+
+
+
+*) ASML PAS 5500 seems to exist at Standford, and seems to have achieved '300nm isolated lines' . This may be much less than what is physically possible, although 'alignment accuracy' of '60nm' is more encouraging.
+ *) https://snfexfab.stanford.edu/docs/operating-instructions/asml
+ *) https://snfexfab.stanford.edu/snf/operating-instructions/asml
+
+
+*) PAS 5500
+*) Interferometric X/Y position tracker is reportedly 80nm/'pulse' . From the video, it can be seen multiple lasers on each side can differentially observe the mirror changing angle with movements on the opposite axis, as well as distance on the measured axis. This may be controlled further by moving only one axis at a time, also reducing backlash.
+ *) http://diyhpl.us/~nmz787/mems/unorganized/ALIGN-ASML.pdf
+*) Red laser illuminates alignment mark, only one at a time.
+*) 'Field by Field Alignment - This method uses marks that are part of the CAD data for each mask layer; they are typically not exposed individually. These marks may be placed in the scribe lanes. Field by field alighment takes longer than global alignment because each die is aligned, but provides more accurate overlay between layers.'
+ *) https://www.yumpu.com/en/document/read/31780620/asml-pas-5500-job-creation-revc-smfl
+
+
+*) PAS 5500 - Cornell University Video
+ *) https://vod.video.cornell.edu/media/ASML+PAS+5500+300C+DUV+Wafer+Stepper+Training+Video/1_2hljhwjl/180053182
+ *) 'Energy mJ/cm2'.
+ *) 'Aligning the reticle through the lens against the stage'. Seems to illustrate the need to image a wafer without markings at all on first pass, which would challenge a machine without automatic depth of focus through the lens.
+  *) Plausibly, a calibration pattern could be projected through the lens to determine depth of focus relative to some scanning probe or such. Plausibly would be less desirable than relying on contrast focusing schemes much like a typical 'blu ray deck' tool.
+ *) Seems like calibration could consume many expensive wafers, and these can be imaged very quickly. Appropriate for very high volume factory production. Prototyping should perform overlay before every image, minimizing any use of motion tracking relative to a previous location, however brief.
+ *) Machine can vary focus and energy per die, repeating the same reticle with different parameters for each die - implying every mask design is so tested - such would be truly excruciating in prototyping.
+
+
+*) EUVL mask manufacturing is apparently accounted for by few companies with a total revenue ~$6billion . Reportedly 'maskless lithography'.
+ *) https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography#cite_note-21
+ *) https://heidelberg-instruments.com/
+  *) 'first hybrid system to write anything from 15nm to 100um'
+  *) 'hybrid direct laser sublimation and grayscale patterning capability'
+   *) 'first commercial thermal scanning probe lithography tool'
+   *) 'markerless overlay'
+   *) 'comparison of the written and target patterns during writing'
+   *) 'sub-2 nm vertical precision for 2.5D (grayscale) shapes of any complexity'
+   *) Minimum lines and spaces [half pitch, nm] - 25nm (thermal probe writing) - 1000nm (direct laser sublimation)
+
+
+
+
+
+_Reference_
+
+https://www.youtube.com/watch?v=CFsn1CUyXWs
+
+https://www.youtube.com/watch?v=V__HbVlnICc
+	EUV Starlith 3000
+	'30 conference presentations' 'academic theses' 'industry papers'
+	'studies of the alpha demo tool'
+	'ASML NXE:3400B' 'field size' '33 millimeters by 26 millimeters'
+	'some types of reticle defects are' *'invisible'* 'to an electron microscope' 'Zeiss took that machine and added to it an atomic force microscope'
+		Combination of E-Beam and Scanning Probe microscope in one tool already apparently in production use.
+	'MeRiT LE column'
+		Nice illustration. Complete machine seems rather large, presumably all etch/deposition happening internally.
+	Interesting defect examples.
+	'lens flare'
+		Apparently scattering by so much as 250pm mirror surface roughness (comparable to the 13nm light wavelength) at mirrors after to Spatial Light Modulator, would cause 25% lens flare, presumably an unacceptable contrast ratio.
+	'Direct Current Magnetron'
+	'reflect just around 70%'
+
+https://www.euvlitho.com/2019/P24.pdf
+	'Ion Beam Figuring'
+	'50pm'
+	'overlay' '<2 nm'
+
+https://en.wikipedia.org/wiki/Figuring
+	'large mirrors, ion figuring' 'neutral atoms'
+
+
+
+
+https://snfexfab.stanford.edu/guide/equipment/asml-pas-550060-i-line-stepper-asml
+
+
+https://www.youtube.com/watch?v=aR-4AH6n_w8
+https://www.youtube.com/watch?v=yNbKkpcmjxk
+https://www.youtube.com/watch?v=GBdMRUG69uc
+
+https://www.youtube.com/watch?v=YU6TK2uoYX4
+	'first EUV scanner' 'EUV Alpha Demo Tool.' 'At that time it took 23 hours to expose a single wafer.' 'IMEC'
+	'whole system into vacuum' 'we could toss our material catalog for Deep UV'
+
+https://www.youtube.com/watch?v=jH6Urfqt_d4
+	Shows 'twinscan' slabs moved diagonally. May or may not reflect different linear encoder.
+
+https://youtu.be/jH6Urfqt_d4?t=148
+	Frame briefly apparently showing twinscan wafer movement with actual hardware instead of CAD model illustration.
+
+
+
+
+
+https://en.wikipedia.org/wiki/Wafer_(electronics)
+	'Silicon wafers' 'initial impurity doping' 'either bulk n-type or p-type'
+
+https://caly-technologies.com/die-yield-calculator/
+
+
+
+
+
+"

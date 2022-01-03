@@ -1,0 +1,24 @@
+__ Tension - Estimate - Eddy Current Brake - Peak kgF __
+$drum_RPM == Presume <30k to minimize requirements for drum strength and balance tolerance.
+
+$drum_diameter == Presume <6in for convenient compactness, light weight, and low cost.
+
+[0;34m  'drum_RPM=30000' [0m
+[0;34m  'drum_diameter_cm=15' [0m
+[0;37;100mdrum_speed_metersPerSecond=235.5[0m
+ 
+[0;34m  'calibrationMagnet_mult=0.5' [0m
+[0;34m  'calibrationMagnet_metersPerSecond=5' [0m
+[0;34m  'calibrationMagnet_kgF=0.005' [0m
+ 
+[0;34m  'magnet_mult=$(_clc "1 * $drum_distancePerRotation_cm * 0.6")' [0m
+ 
+[0;34m  '_clc' '"($magnet_mult / $calibrationMagnet_mult) * ($calibrationMagnet_kgF / $calibrationMagnet_metersPerSecond) * $drum_speed_metersPerSecond"' [0m
+[0;37;100m# 13.31046[0m
+[0;37;100mmagnet_kgF (magnet kilograms force) .[0m
+
+Modeling, calibration, and optimization, of such an inexpensive device with such an intrinsic working principle, strongly favors experimentation instead of more extensive simulation and calculation. Estimates from experiments with permanent magnets opposing their own weight atop metal plates may be pessimistic.
+
+
+
+

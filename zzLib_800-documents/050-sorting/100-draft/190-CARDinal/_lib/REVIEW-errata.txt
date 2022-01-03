@@ -1,0 +1,139 @@
+"
+
+_ Terms _
+
+'WORLD'
+ Perceived WORLD. As in 'virtual' WORLD, that other reality 'real' WORLD, etc. Not necessarily just one planet, may include multiple planets, stars, etc.
+
+'instance'
+ Shared channel for players in nearby space to share 3D positions/objects/etc (sometimes aka. 'shard'). Players in strategically important regions of space must be assigned and must not be able to intentionally avoid, shared same instance.
+
+
+'jump drive'
+ A teleport interactive device to move between WORLD servers. Usually an IP address.
+
+'accredited server'
+ A WORLD server known to FOUNDING WORLD servers from which more rapid trade may be accepted.
+
+'reputable player'
+ Having been around a while, proof-of-cognition, not automation (less diplomatically put, not an automated 'bot').
+
+'high-stats player'
+ Slight increases to maneuverability limits given to players who have been successful over a long time, and presumably prefer to work with other capable players.
+
+'aerospacecraft'
+
+
+
+_ Rough _
+
+*) Penalties to player stats or other penalties (on relevant WORLD server - stats may not decrease at other servers), for death/demise, should be relatively severe, possibly person weeks of setback from useful participation with other high-stats players. Such ongoing risk should motivate players to protect team members as well as theirselves more diligently, and help improve player motivation. Stats penalties may be more relevant to 'swordland' WORLD (due to informal ambush). Monetary penalties may be more relevant to 'galactic' WORLD (due to large fleets with high losses and appropriately hazardous long distance logistics).
+
+
+
+*) Better tools to create more diverse player-driven WORLDs discourage the simpler pre-packaged shallow gameplay that leads to addiction and festers bigotry against any players with a playstyle (eg. PvP) perceived to disrupt that addiction.
+
+*) CARDinal's emphasis on importing object behaviors from external programs in real-time, is expected to promote development of more modular software any single developer can use to add some bits of diversity of all plausible shapes and sizes among many balanced classes of avatars/vehicles/tools/etc.
+
+
+*) CARDinal player clients must sort graphical objects (ie. 3D models) by file size and rendering time, substituting with degraded models when framerates drop. Players are expected to have strong incentives to encourage other players to create avatars and vehicles reasonably low-poly for compatibility with common hardware and software.
+
+
+*) Programs for 'command prompt' terminal emulators, text editors, filemanagers, VM/VPS connections, screenscraping, and text chat, are needed with CARDinal 'playerItem', instead of X11/MSW as the framebuffer output. KWrite, KDE Dolphin file manager, Xournal, VirtualBox/Qemu, VirtualDesktop/OVRDrop, Moonlight, developers, may already have relevant software, expertise, or user interface paradigms. Compatibility with '_userVBox' is especially important for connecting VM to IPC through known serial/COM/UART ports.
+
+
+*) MCU/Arduino framebuffer and Klipper firmware, and similar, simulation, as an example, would allow some useful hardware and software design development more conveniently and without having to purchase such hardware, for some developers.
+
+
+*) Player names should not be visible by default. Some combat, duel proposal, etc, must occur first. This prevents personal harassment.
+ *) High-stats players might optionally share extra info *only* with other high stats players.
+   *) This maintains the risk that any player could be high-stats, and a major risk to attack unprovoked.
+
+
+*) Jump drives can move player avatars and aerospacecraft to reach other end-user WORLDs - these can accept IP addresses. FOUNDING WORLD servers may accept some very limited rate stats progression and very limited transactions from end-user WORLDs.
+
+*) Navier-Stokes differential equations and such represent simple relationships. Reasonable approximate solutions should be much easier to explore with the voxelGrid software allowing VR users to quickly and intuitively test algorithms.
+
+
+*) Better gameplay, not longer gameplay is rewarded. Rebalancing of PvE monster stats and such to allow a reasonable rate of player victories per hour, is an adaptive test by CARDinal. Playing at a higher disadvantage results in much faster stats progression than a similar number of victories with less determination. Supportiveness between cooperating players should similarly be rewarded with more success against higher difficulty, and much faster stats progression.
+
+
+
+
+----------------------------------------
+REVIEW - May be duplicative from (another) part of (another) document.
+
+*) MAJOR - Non-directional muscle tensioning (eg. facial expressions, 'make a muscle' arm muscle tightening) is specific to only a few muscles - between ~30 and ~50 total muscle position 'bones' at most - and requires no mechanical skeletomuscular simulation.
+
+*) Players might be able to order from restaurants in VR, and have delivery services bring the physical food directly to them, without leaving VR (using a CAVE possibly combined with other concurrently available VR headset/interface).
+
+*) Safe zones may be necessary in towns solely due to possibility of low-stats players not always having overwhelming numbers to confront a small number of hostile high-stats players. Only applies to more 'organic' WORLDs (ie. 'Swordland' planet). Open space (ie. piloted vehicle combat in galactic space) is NEVER a 'safe zone', with any protection of low-stats players by escort services (usually from player corporations in corporation held territory).
+
+*) MAJOR - Amortal lifespan. Even with continious training, player stats may peak at ~10years of life, drop gradually to 50% of max at ~20years, and remain stable from there until ~30years, dropping sharply to a reset. This forces high-stats players to periodically restart their careers and possibly consider some change of profession.
+
+----------------------------------------
+Elaboration regarding otherwise already noted concepts.
+
+*) MAJOR- Players performing economically significant activities (eg. logistics transport, mining, facility destruction, etc) must not be able to intentionally avoid instancing with hostile players in nearby space. At the very least, CARDinal must assign players in strategically important parts of space to same instance servers, and occasionally reject positive results as an intermittent tax if separate instance servers were somehow used for such space.
+
+*) MAJOR MAJOR - FOUNDING WORLDs must NOT use Ordinal ranking, due to risk of destabilization, risk of taking players to 'lowest-common-denominator', and risk to the credibility of VRMMOs. Most WORLDs should not use Ordinal ranking for their economics either, due to risk of destabilizing large parts of the VRMMO playerbase.
+
+*) Cardinal numbered player stats stabilize proof-of-cognition economics/ecosystems, limiting amplification without limiting individual behavior, testing numerical superiority of competent players allied by common interests. Ordinal ranked player stats *destabilize* by amplifying fluctuations in very small (parts per thousand) differences (slightly stronger players always winning 1v1 contests) between very few (possibly not entirely competent) players. Realistically, in an open world, 2v1 is and should be unlikely to prevail, where 1v1 scenarios only occur naturally as a rare but important final contest after players have been outmaneuvered away from larger groups of players.
+ *) MAJOR - Sports constrain playing fields to less than open-world. While this can be useful for training sharper reflexes and the ability to complete the closest approach in a contest, sports are not a substitute for 'real-life' problem solving dynamics inherent to an open world. Competence in both long-range and short-range is an important life experience.
+ *) MAJOR - Ordinal ranking is notorious for motivating 'athletes' to a fault. Complaints over what qualifies as reasonably safe/effective 'performance enhancement' endanger the credibility of both technology and sports. VRMMOs depend on significantly expensive and diverse technology (eg. VR headsets with substantially different resolution or field of view), and arguments of 'performance enhancement' risk encouraging consensus among players to a 'lowest-common-denominator'.
+
+
+
+*) CARDinal WORLD servers are *expected* to make regular publicly accessible backups of recent history (eg. corporate ownership of stars, substantial asset approximate locations). CARDinal, unlike blockchain, assumes failures *will* occur, including 'purchased' undue influence (ie. hiring players through 'upwork'). Because WORLD servers only act on matters of public record (eg. player 'foundations' equivalent to land deeds), the public is free to fork a WORLD at any time, based solely on this (possiblys somewhat limited but adequate) information. Bad incidents are simply rolled back a bit, or result in parallel WORLDs continuing much like Schrodinger's cat.
+
+*) Deep archive and caching service. Players normally keep all their own objects (eg. vehicle 3D models) locally, sharing with other players as necessary. If other players or WORLD server do keep a cache of such objects for some reason (eg. persistent objects atop 'foundations', these could be uploaded to such a service as Amazon Glacier to retain for at least a decade. Such archiving would reduce risk of players unintentionally losing valuables due to local computer failures. Such archiving could also be applied to the small files pertaining to WORLD server public records, reducing risk of losing the proof-of-cognition invested in the WORLD itself.
+
+
+*) Avatar 'quantum tunneling' out of a moving vehicle (ie. player avatars repeatedly appearing to be a few frames behind their vehicles) theoretically should be solved by 'time dilation' applied to vehicle, however, adequate framerates may be impractical. Referencing player avatar position to vehicle position is a well justified workaround.
+
+
+
+
+
+
+*) Processed human interface (ie. mechDive, nerveDive, HOTAS, position trackers, software emulation of position trackers based on legacy VR controllers, eye tracking relative/absolute movements, etc) goes through CARDinal just like any other netcode messages. Only optical rendering output (ie. VR headset), camera (ie. VR/AR passthrough, telepresence), hand tracking, go directly to game engine, and only for 'specialized' use (ie. DisplayPort only accessible through legacy GUI software interfaces).
+
+
+
+
+*) WORLD server standalone executables, modified CARDinal code, etc, are expected to remain inconsequential enough, or must be published, to allow public forks of a WORLD server at any time. A physical WORLD server's value (and proof-of-cognition economic reserves) is from its reputation, not irreplaceability. Any actually irreplaceable WORLD server should be avoided as undependable.
+ *) MAJOR - Commercial operators are *STRONGLY* encouraged to charge at least a small (eg. \$10/mo) subscription fee for sustainability. Players should be extremely wary of servers NOT charging such a fee.
+  *) MAJOR - Making \$10/mo in stock market capital gains is pretty trivial (ie. S&P 500), so it is entirely possible to 'set oneself for life' at a reasonable capital expense.
+
+
+*) MAJOR - Wealth is taxed, as gameplay may need a greater degree of consistency. Any player account with much unspent finance or a high net worth is taxed at an exponential rate, which precludes any player holding more than a few months worth of liquid assets.
+ *) MAJOR - Stats remain as earned, untaxed. Sharing of accounts is expected as occasionally unavoidable but extremely obvious, non-routine, and only used by the most blatant of tryhards, quickly caught and limited, reset, etc, to the extent appropriate.
+  *) Some players may change their habits more frequently or may have an excuse (ie. recent injury) for a sudden change in their statistical positions/rotations patterns. Careful statistics will be required to properly identify remaining habits, and some WORLD server moderators may be needed to address such cases.
+  *) Players changing their habits substantially enough are in effect becoming new characters, so absolutely guaranteeing unlimited access to old character stats when player habits change may be unnecessary.
+
+*) Cryptocurrency is NOT part of CARDinal, nor used by CARDinal in any way. The conversion system functions more equivalent to a 'cheque' banking system. Should a more decentralized system be required, barter is that.
+ *) Barter between players in WORLD is regarded as a transaction. A few items per day. Ridiculously high value items (more than a person-month worth) are not part of FOUNDING WORLD, and the economy of any WORLD with such items is still limited to normal trade limits with CARDinal compliant WORLDs.
+
+
+
+
+
+
+*) Vehicles/Tools/etc themselves may have complex adaptive algorithms, following the tendencies and verbiage around the player. A significant benefit of everything as a separate executable program.
+
+
+
+*) VPS providers can be used for avionics and personal computing. Cloud services are supported by 'ubiquitous bash'.
+
+
+
+
+
+
+_Reference_
+
+
+
+
+
+"

@@ -1,0 +1,172 @@
+"
+
+_ Terms _
+
+
+
+_ Rough _
+
+
+
+
+--------------------------------------------------
+REVIEW - May be duplicative from (another) part of (another) document.
+
+
+
+
+
+--------------------------------------------------
+Elaboration regarding otherwise already noted concepts.
+
+
+*) FUNDAMENTAL - MAJOR MAJOR - Clearly shows optical overlay is used with a 193nm light source. Albeit the machine may be rather old (1993), the 193nm light source continued to represent state-of-the-art until EUV. Consequently, it is not plausible that the interferometers also shown were used have ever been expected to remain accurate beyond a single wafer exposure.
+ *) MAJOR - ASML's logo is obviously the optical overlay technique.
+ *) MAJOR - Interferometric 'positioning resolution down to 5nm' .
+  *) Although two marks are shown, theoretically at least four should be required to calibrate mass and thermal expansion changes over time expected of the interferometrically monitored walls of the slab. Some interpolation and assumptions may be implied.
+   *) Animation shows only one of the alignment marks is measured twice, implying one mark is indeed sufficient for magnification and second mark is for thermal expansion calibration.
+ *) High angle image sensors are indeed used to make detailed confirmations of 'focus, alignment, leveling' .
+ *) Interferometer seems to claim '3-axis', presumably X translation, Y translation, and Z rotation (twist).
+ *) Leveling is implied to take place by a system similar to an AFM laser side-bounce technique, implying that while X/Y overlay must be done to alignment marks, Z-axis tolerances are tighter than can be maintained across the travel distance. Whether this compensation remains adequate at EUV or even multiple patterning seems dubious.
+  *) Perhaps more likely the additional leveling is done merely to reduce out-of-focus exposure time.
+ *) Air turbulence control is implied to be laminar airflow across wafer. Obviously, this does not apply at vacuum, and at ambient, necessitates only a constant stream of airflow through the tool.
+ *) https://www.youtube.com/watch?v=a5CxGbs4ROw
+
+
+*) MAJOR - Slab and tool cabling may require encapsulation (ie. tubing) or coating to prevent dust particles, due to frequent fast motions.
+
+
+
+
+--------------------------------------------------
+References (Inaccessible)
+
+'Deposition of Mo/Si multilayers onto MEMS micromirrors and its utilization for extreme ultraviolet maskless lithography'
+
+'Precision X-Y positioning systems using linear induction motors'
+
+'EUV Lithography Insertion in High-Volume Manufacturing'
+
+'Precision X-Y positioning systems using linear induction motors'
+
+'Performance validation of Mapper's FLX-1200 (Conference Presentation)
+	'65,000 parallel electron beams'
+	'1 wph throughput at 300 mm wafers'
+	'28nm node patterns'
+	'electron optics' 'no central crossovers'
+	'60nm dense lines and spaces'
+
+
+
+'Overlay improvement in nanoimprint lithography for 1×-nm patterning'
+	'morie fringe detection' 'accuracy below 1nm' 'overlay accuracy below 5nm'
+
+'Moire interferometric alignment and overlay techniques'
+	'0.47 micrometers pitch gratings' '1-nm alignment resolution'
+	'latent image structures immediately after exposure'
+
+'Scatterometry-based overlay metrology'
+	'overlay' 'fitting the optical properties' 'with spectra calculated using a model' 'coupled wave analysis'
+		Seems like an iterative computer optical holography model solver, reducing detected wavefront to iteratively interpolated 'Airy disk' point sources.
+
+'Projection Systems for Extreme Ultraviolet Lithography'
+
+'100-picometer interferometry for EUVL'
+	'in all likelihood' 'six-mirror'
+	'aspheric mirror' 'absolute figure accuracy' '100pm rms'
+	'phase shifting diffraction interferometry (PSDI)'
+	'250pm'
+	'lensless imaging' 'computational diffractive back-propagation'
+
+'Phase shifting diffraction interferometry for measuring extreme ultraviolet optics'
+	'0.25nm rms' 'intrinsically achieve'
+	'two independent spherical wavefronts are generated' ... 'measurement wavefront' ... 'reference wavefront' .,.. 'relative amplitude and phase can be controlled' ... 'phase shifting capability'
+	'diffraction from a single mode optical fiber'
+	'measure individual mirrors or entire imaging systems' ... 'of an EUV projection system'
+
+'Determination of wavefront structure for a Hartmann wavefront sensor using a phase-retrieval method '
+	'error' ... 'one order of magnitude smaller'
+
+'DIMENSIONAL METROLOGY OF A PLASMONIC NANO-LITHOGRAPHY MACHINE'
+	'maskless lithography'
+	'half pitch width' '22 nm' '35 mm' '2000 revolutions per minute'
+	'evaluate the machine's positioning performance'
+
+'Maskless EUV lithography, an alternative to e-beam'
+	'outline a maskless EUV scanner design'
+	'numerical aperture' '0.55'
+	'microlens array' '∼2 million individual beams' 'separate, diffraction-limited focal points'
+	'raster-scanned' 'individually modulated by MEMS microshutters integrated within the microlens array'
+	'compared' 'mask-projection EUV lithography' ... '1000 x' 'lower throughput' 'power' '1000 x' 'lower' 'advantage of maskless operation'
+	'comparison' 'e-beam mask writers' 'higher resolution' 'at least double the throughput' '10 x' 'higher dose'
+
+
+
+--------------------------------------------------
+References (Unknown)
+
+*) 'spatial-phase-locked electron-beam lithography (SPLEBL)'
+
+*) Lithography throughput ... Blu-ray pickup ... (1000^2) ∕ (100 × 1000 × 0.15) ... 66seconds/cm^2 (ridiculously optimistic... 1000x slower more reported for resin printer study) .
+ *) Which is only ~10x faster than ebeam ...
+
+
+_Reference_
+https://en.wikipedia.org/wiki/Point_diffraction_interferometer#Two-beam_phase-shifting_PDI
+
+https://en.wikipedia.org/wiki/Shack%E2%80%93Hartmann_wavefront_sensor
+
+https://link.springer.com/content/pdf/10.1007/s00340-016-6595-5.pdf
+ 'A desktop extreme ultraviolet microscope based on a compact
+laser‑plasma light source'
+	Beam block suggested for EUV source. Mirror spectrum also suggested.
+
+https://en.wikipedia.org/wiki/Extreme_ultraviolet_lithography#Single_patterning_extension:_anamorphic_high-NA
+	Depth of field, numeric aperture for ASML similar systems - ~1nm at 0.33NA EUVL, ~0.40nm at 0.55NA EUVL, ~1nm at 1.35NA 193nm (DUV).
+
+
+https://ams.com/miniature-camera-modules
+	1mm^2 camera
+		Conveinent for sampling optical beam paths or scattering at many confined places.
+
+
+https://youtu.be/-BeTq99LqUo?t=798
+	Transparent cubes, due to corner retroreflection, geometrically form optical resonant cavities (ie. laser cavity).
+
+
+https://youtu.be/-BeTq99LqUo?t=895
+	Commodity inexpensive pulsed laser. May have sufficient power or at least most components for usual high-temperature EUV light source.
+	YAG Laser (1064nm) may be Q-Switched by absorptive device rather than reflective, allowing the crystal to become completely 'excited' before optical amplification causes discharge.
+
+
+https://eksmaoptics.com/nonlinear-and-laser-crystals/passive-q-switches/
+	CR:YAG Crystals , CO:SPINEL Crystals
+
+https://4lasers.com/components/crystals/passive-q-switch-crystals
+	Cr:YAG crystals , V:YAG crystals , Co:Spinel crystals
+
+https://en.wikipedia.org/wiki/Nd:YAG_laser
+	'also used as pump sources for vibronically broadened solid-state lasers such as Cr4+:YAG or via the second harmonic for pumping Ti:sapphire lasers'
+
+
+
+
+
+https://www.sciencedirect.com/science/article/pii/S1369702105006991
+ 'Maskless lithography'
+	'This is a much more daunting task and in fact it cannot be solved in closed form; empirical information must supplement the computation.'
+
+
+https://en.wikipedia.org/wiki/Electron-beam_lithography
+	'For example, assuming an exposure area of 1 cm2, a dose of 10−3 coulombs/cm2, and a beam current of 10−9 amperes, the resulting minimum write time would be 10^6 seconds (about 12 days).'
+		AFM lithography, among other sources, would presumably be much slower than that.
+
+
+
+
+
+https://github.com/ricktu288/ray-optics
+https://ricktu288.github.io/ray-optics/
+https://ricktu288.github.io/ray-optics/simulator/
+
+"

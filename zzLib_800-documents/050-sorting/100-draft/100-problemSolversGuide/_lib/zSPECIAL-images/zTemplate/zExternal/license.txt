@@ -1,0 +1,131 @@
+
+DANGER: ONLY a license compatible with usage within AGPLv3 licensed projects (eg. CC BY-SA 4.0, public domain, etc) are acceptable. Both GNU FDL and CC BY-SA 3.0 must be avoided (ie. wikipedia articles). Whether AGPLv3 is actually used or not, the ability to license code as such may be important later.
+https://www.gnu.org/licenses/license-list.en.html
+https://fossa.com/blog/open-source-software-licenses-101-agpl-license/
+https://opensource.google/docs/using/agpl-policy/
+https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+	'You do not need to ensure or guarantee that the imported text is available under the GNU Free Documentation License, unless you are its sole author.'
+
+
+...
+Original third-party files in this directory were obtained from the above sources.
+
+...
+File and directory names labeled with 'orig' in their names, listed above, or under the 'orig' subdirectory, retain their original licenses, as stated below, unless public domain or fair use.
+
+...
+File and directory names labeled with 'mod' in their names, listed above, or under the 'mod' subdirectory, are modified versions of the original files, and also retain the original license, as stated below, unless public domain or fair use.
+
+...
+In the absense of any license explictly stated here or any prior license, files under this directory are then intended to be copyrighted by mirage335 under AGPLv3 license.
+
+
+-
+Copyright (C) 2021- mirage335
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+
+All files in this folder and subfolders, unless explicitly stated otherwise in this file or copyrighted by other authors, are copyrighted by mirage335 as described above.
+-
+
+
+
+
+_GPLv3 License_
+Relevant files as declared above, obtained under a 'GPLv3 license'. They, and all modifications to them, retain that license, which is provided with them, unless a different license is noted in their file.
+
+_GPLv2 License_
+Relevant files as declared above, obtained under a 'GPLv2 license'. They, and all modifications to them, retain that license, which is provided with them, unless a different license is noted in their file.
+
+_GPL License_
+Relevant files as declared above, obtained under a 'GPL license', presumably GPLv2 or GPLv3 and above. They, and all modifications to them, retain that license, which is provided with them, unless a different license is noted in their file.
+
+
+
+_Creative Commons Attribution-ShareAlike 3.0 Unported License - Wikipedia_
+Relevant files as declared above, obtained under 'Creative Commons Attribution-ShareAlike 3.0 Unported' license. This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+https://www.wikipedia.org/
+http://creativecommons.org/licenses/by-sa/3.0/
+
+Author if supplied
+https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+	'provide credit to the authors either by including a) a hyperlink (where possible) or URL to the page or pages you are re-using, b) a hyperlink (where possible) or URL to an alternative, stable online copy which is freely accessible, which conforms with the license, and which provides credit to the authors in a manner equivalent to the credit given on this website, or c) a list of all authors.'
+
+Copyright notices if supplied
+https://en.wikipedia.org/wiki/Wikipedia:Copyrights
+	'Each copy or modified version that you distribute must include a licensing notice stating that the work is released under CC BY-SA and either a) a hyperlink or URL to the text of the license or b) a copy of the license. For this purpose, a suitable URL is: https://creativecommons.org/licenses/by-sa/3.0/'
+		https://creativecommons.org/licenses/by-sa/3.0/
+
+Title if supplied
+
+
+Notably, GPLv3 may NOT be compatible with this license.
+
+
+
+
+_Creative Commons Attribution-ShareAlike 3.0 Unported License_
+Relevant files as declared above, obtained under 'Creative Commons Attribution-ShareAlike 3.0 Unported' license. This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+<orig source link>
+http://creativecommons.org/licenses/by-sa/3.0/
+
+Author if supplied
+
+
+Copyright notices if supplied
+
+
+Title if supplied
+
+
+Notably, GPLv3 may NOT be compatible with this license.
+
+
+
+_Creative Commons Attribution-ShareAlike 4.0 International License_
+Relevant files as declared above, obtained under 'Creative Commons Attribution-ShareAlike 4.0 International' license. This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+<orig source link>
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Author if supplied
+
+
+Copyright notices if supplied
+
+
+Title if supplied
+
+
+
+
+_Creative Commons Attribution-NonCommercial 4.0 International License_
+Relevant files as declared above, obtained under 'Creative Commons Attribution-NonCommercial 4.0 International' license. This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+<orig source link>
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Author if supplied
+
+
+Copyright notices if supplied
+
+
+Title if supplied
+
+
+

@@ -1,0 +1,670 @@
+[0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+_ neuralBits _
+Software frames and packets to hardware transistor logic to wetware neuron action potentials. Down to flexible PCB layout, SerDes chips, multiplexed addressable ADC/DAC, amplifiers. No Turing completeness.
+
+Commercially economical (cost effective for all living sentient beings) &#39;whole-brain&#39 brain computer interfaces are now feasible. Immediate applications include low-cost &#39;Virtual Reality&#39; (ie. human) habitat, &#39;Virtual Reality&#39; assisted software/hardware design, &#39;Virtual Reality&#39; (re)training, &#39;brain upload&#39;, &#39;hive mind&#39;. Accurate neural command entry, memory transfer, virtual perception input, motor output recognition, and sufficient muscle activation suppression are possible.
+
+For plausible software design, Virtual Reality applications can use the simple calibrations of well established &#39;neural decoders&#39; while &#39;brain upload&#39; and &#39;hive mind&#39; connectome and synaptic weights RPT correlation algorithms are available from &#39;cognitionSplicer&#39;.
+__ Introduction __
+Published hardware designs (eg. &#39;NeuraLink&#39; already have most features. Improving number and density of Electrode Sites is straightforward cost (ie. manufacturability) and wiring (ie. surgical) optimization. Improving long-term stability after implantation, if not already adequate, has been shown entirely possibile by reducing apparent mechanical stiffness (eg. with excellent results known for mesh electrodes).
+
+Keep in mind long-term stability is not essential - &#39;brain upload&#39; once is enough to &#39;save a life&#39; and transfer to more compatible wetware.
+
+State of the art microelectrode arrays have been reviewed, and their principles combined to enumerate some parameters and techniques towards scaling up towards 3 million analog electrodes. Footprints occupied by various components - particularly amplifiers and addressing - are factored into simple equations which are hoped to illustrate some feasibility limits. 
+
+Some sources, quotes, and review of &#39;state of the art&#39; microelectrode arrays (especially &#39;mesh&#39; electrodes) may be included as &#39;errata&#39;.
+
+Urgent consolidation of the most useful design concepts for quick reference during intensive hardware/software/wetware design may postpone a more concise summary of existing science and technology (ie. sources mentioned in &#39;errata&#39;. Perusal of &#39;errata&#39; (with expert assistance if needed) is more strongly recommended than usual if attempting to design prototypes, acknowledge important research, or inform possible stakeholders. Press in particular are reasonably required to exercise extreme due diligence far beyond the apparent norms of their profession, to the point of becoming honest experts, or heavily funding research, theirselves.
+___ Presented ___
+
+*) Component connections - hardware --> backhual packetizer --> codec (optional) --> addressing counters --> ADC/DAC/amplifier --> multiplexing matrix (optional) --> wetware .
+*) Transmission line quantity, bandwidth, parametric geometry, calculator table.
+*) Visual spatial resolution (particularly extreme and expected unnecessary).
+*) Codec, Analog ADC/DAC/Amplifier .
+*) Tentative flexible PCB layout.
+
+As may be plausible.
+
+Any terminology introduced is NOT a proposal for external use, and may perhaps provide for internal disambiguation beyond the needs of any professional speciality. External requests to explicitly state a withdraw of any implied proposal for third party naming conventions will be given priority over any internal needs. I have no intention to get in the way of established professional academic researchers by suggesting any change in their terminology.
+__ Conclusions __
+Commodity components many years old (ie. SerDes chips, USB3 FPGA), corrosion testing, laser cutting, surface coating, <2mil PCB fabrication, atomic-force probe or electron-beam fabrication of minimal surface area CMOS/polyamide packetizing, codec, ADC/DAC, and amplifier circuitry - are sufficient and well within the combined prototyping resources of &#39;makerspace&#39;, &#39;hackerspace&#39;, and &#39;biohacking&#39; communities today. A combined community open-source effort could overcome this hurdle independently.
+
+Extracting whole-brain neural tissue samples is not complicated and has long already been widely available at low-cost (eg. from &#39;Brain Bits LLC&#39;).
+
+Most imperative is to get software/hardware developers read-write access to all essential parts of their own neural tissue. Expect that developers and their sponsors will be and absolutely must be first and unfettered.
+
+Low spatial resolution of neural interface limiting the resolution of objects for &#39;brain uploading&#39; purposes may be compensated by VR retraining. Developers may urgently need unfettered read-write access and exocortex software/wetware/hardware specifically to rapidly identify and correct any severe qualitative deficiencies which substantially lengthen or prevent VR retraining.
+
+
+Scaling to 3million analog electrodes (across the entire neocortex) is feasible and a desirable performance benchmark.
+
+Scaling to several million electrodes write-only across the entire visual system - including inputs along the length of the entire optic nerve and surface of the entire visual cortex - is feasible but possibly challenging enough to justify some short-term continued use of a conventional LCD/OLED/LED &#39;display&#39; panels. Assuming better than 10x compression of electrodes connected to precepts, to perceived equivalent &#39;pixel&#39; resolution may be a risky assumption.
+
+Resolution beyond expected 0.1mm/1% may be beyond point of diminishing returns.
+
+Recording sites for &#39;brain uploading&#39; ordered by expected priority at 0.1mm/1% (neural processing cell/axon) or >100% (nerve/vertebrae transmission) - inferior temporal gyrus, corpus callosum, entire temporal lobe, somatosensory cortex, prefrontal cortex, hippocampus, entire neocortex, entire amygdala, vertebrae, glossopharyngeal nerve, vestibulocochlear nerve (inertial cues), olfactory nerve, terminal nerve (uncertain), trigeminal nerve (possibly magnetic cues), remaining cranial/peripheral nerves, all nerve endings (eg. by &#39;neural dust&#39; in sensory tissue implanted under guidance towards locations causing CNS evoked potentials), all remaining neural tissue.
+
+So called &#39;grandmother cell&#39; research strongly implicates the inferior temporal gyrus of the temporal lobe of the cerebral neocortex. This is particularly strong evidence considering the visual nature of the stimuli considered.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ REFERENCE __
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6914248/
+https://www.biorxiv.org/content/10.1101/703801v1.full.pdf
+ An Integrated Brain-Machine Interface Platform With Thousands of Channels
+	&#39;Neuralink&#39; &#39;System B&#39;
+	&#39;192 capacitors&#39; ... &#39;3072&#39;
+	&#39;Maximum differential input range, mVPP&#39; ... &#39;7.2mV&#39;
+	Graph apparently shows ~60uV high-frequency spikes, <180uV low-frequency local field potentials. A 6uV noise floor seems reasonable, though a 1uV ADC resolution at local field potential frequency (ie. <50Hz) may be useful.
+	&#39;Number of Channels&#39; ... &#39;3,072&#39; ... &#39;750mW&#39; ... &#39;(23×18.5×2)mm3&#39;
+		sqrt(23000×18500)/sqrt(3072) == 372um * 2000um
+	&#39;Polymer threads on parylene-c substrate.&#39;
+
+https://github.com/mirage335/Mirage335BiosignalAmp/blob/master/AmpSpreadsheet.ods
+
+https://www.4pcb.com/trace-width-calculator.html
+	&#39;1um&#39 ... &#39;Length 1cm&#39 ... &#39;Resistance 1.32e+5 ohms&#39;
+
+https://www.frontiersin.org/articles/10.3389/fnins.2019.00208/full
+https://www.frontiersin.org/articles/10.3389/fnins.2019.00208/full#supplementary-material
+ &#39;Single-Cell Electrical Stimulation Using CMOS-Based High-Density Microelectrode Arrays&#39;
+	&#39;we were able to stimulate the axon initial segments (AIS) with charges of less than 2 pC&#39; ... &#39;Stimulation signals as low as 70 mV or 100 nA, with pulse durations as short as 18 μs, yielded measurable action potential initiation and propagation.&#39;
+	&#39;stimulation frequency was 1 Hz for both modalities&#39;
+	&#39;electrode voltage and keeping it significantly below 0.8-1 V to obviate water electrolysis and cell and electrode damage&#39;
+	&#39;capacitiance values of ~1.4 nF for Pt-black and ~0.07 nF for bright Pt electrodes&#39;
+	&#39;charge needed to evoke APs in current is, indeed, by two orders of magnitude lower than in voltage mode&#39;
+	&#39;ammounted to 0.02pC/um^2 with out HD-MEA, while, for example, retinal implants currently work with 3.5pC/um^2&#39; ... &#39;A small size of electrodes and their dense packing may prove beneficial to stimulate neurons and could improve stimulation accuracy of prosthetic implants while enabling lower power consumption.&#39;
+	&#39;26,400 bidirectional electrodes at a pitch 0f 17.5um and an electrode area of 5 x 9 um^2&#39;
+
+https://www.ti.com/lit/ds/symlink/iso124.pdf
+	&#39;1-pF isolating capacitors&#39; ... &#39;input is duty-cycle modulated and transmitted digitally&#39; ... &#39;ISO124 contains 250 transistors&#39;
+	&#39;Noise 4uV*sqrt(Hz)&#39; ... &#39;Output voltage +/-10V&#39;
+
+https://hackaday.io/project/177881-the-transistorpixel
+	&#39;TransistorPixel&#39
+		Nice demonstration of an addressable pixel using only a small number of discrete transistors.
+
+
+https://iopscience.iop.org/article/10.1088/1741-2552/aa8b4f/pdf
+ A review on mechanical considerations for chronically-implanted neural probes
+	&#39;low Young&#39;s modulus polymers&#39; &#39;hard substrates&#39; &#39;variety of means&#39; &#39;reduction&#39; &#39;probe width and thickness&#39; &#39;soft hydrogel coatings&#39; &#39;release in device tethering&#39;
+	&#39;temporary stiffness&#39; &#39;buckling&#39; &#39;detailed description&#39;
+	&#39;bioresorbable&#39;
+	&#39;next generation&#39;
+
+
+
+
+
+
+
+https://www.beis.de/Elektronik/DeltaSigma/DeltaSigma.html
+https://en.wikipedia.org/wiki/Voltage-controlled_oscillator
+
+https://www.youtube.com/watch?v=TXtQZQNE_iE
+
+
+https://hackaday.io/project/28833-microhacks/log/157535-just-how-fast-are-74auc-gates
+
+
+https://en.wikipedia.org/wiki/Phase-locked_loop#Implementing_a_digital_phase-locked_loop_in_software
+
+https://en.wikipedia.org/wiki/Phase_detector
+
+https://en.wikipedia.org/wiki/Frequency-division_multiple_access
+
+
+https://avs.scitation.org/doi/10.1116/1.1492700
+https://web.archive.org/web/20171113212455/https://avs.scitation.org/doi/10.1116/1.1492700
+
+
+https://www.hackster.io/news/hello-world-on-the-ultra96-using-vitis-89a06b18fa3a
+https://zipcpu.com/blog/2017/10/07/study-interfaces.html
+https://hackaday.io/project/8449-hackaday-ttlers/log/147939-ecl-or-ctl-whats-the-fastest-topology-for-discrete-gates-updated
+
+
+https://hackaday.io/project/8449-hackaday-ttlers/log/147939-ecl-or-ctl-whats-the-fastest-topology-for-discrete-gates-updated
+
+
+https://en.wikipedia.org/wiki/Multi-gigabit_transceiver
+https://en.wikipedia.org/wiki/SerDes
+
+
+https://www.mouser.com/Semiconductors/Interface-ICs/Serializers-Deserializers-Serdes/_/N-6678u?Rl=6678uZer5jZ1yx761sZ1yxgjx0SGT&Ns=Pricing|0
+	DS99R105, DS99R106
+
+
+https://raspberrypi.stackexchange.com/questions/87846/how-fast-can-gpio-pins-toggle
+
+
+https://www.daycounter.com/Calculators/Thermal-Noise-Calculator.phtml
+
+
+https://www.ti.com/lit/an/scaa126/scaa126.pdf
+https://web.archive.org/web/20210319195436/https://www.ti.com/lit/an/scaa126/scaa126.pdf
+https://www.ti.com/lit/an/scaa126a/scaa126a.pdf
+
+
+https://en.wikipedia.org/wiki/LVCMOS
+
+
+https://smile.amazon.com/RotoMetals-Low-Melting-Point-Alloy-Ingot/dp/B001QUVQE2/
+https://smile.amazon.com/dp/B001QUXA8M/
+
+https://ece.engin.umich.edu/stories/the-michigan-probe-changing-the-course-of-brain-research
+
+
+https://hackaday.com/tag/usb-3-0/
+	&#39;FX3 is a neat little chip that has a 100-MHz General Programmable Interface (GPIF) bus that basically lets it act like an easy to use FPGA&#39; ... &#39;200 megabytes per second&#39; (1.6Gb/s)
+
+https://en.wikipedia.org/wiki/Optic_radiation
+https://www.researchgate.net/figure/The-optic-radiations-ex-vivo-samples-Left-inferior-view-Basal-structures-cortex_fig3_233888164
+
+
+https://en.wikipedia.org/wiki/IMEC
+Sketches presented predate awareness of IMEC&#39;s involvement.
+&#39;Neuropixels Technology&#39;
+	&#39;The performance of the Neuropixels probes and their potential for transformational neuroscience experiments was described in a November 9, 2017 paper published in Nature.[24] In 2019, The New York Times reported that imec&#39;s Neuropixels technology is widely recognized as the most advanced method of gathering data from brain cells.[25]&#39;
+	&#39;Brain-On-Chip Research&#39;
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Conduits (Transmission Lines, Bandwidth, Neocortex Neural Interface Component Connections, Pinout/Bus/Power/Clock) __
+
+Geometric dimensions and placement of components determines manufacturability, collateral damage, bandwidth, and addressing.
+
+ '_picture' 'zEXCERPTED-diagram-picture.png' '380px'
+___ Backhaul, Trestle, Bundle, Thread, ES ___
+Backhaul --> Trestle --> Bundle --> Thread --> ES
+
+Threads carry at least ES (Electrode Sites - microelectrodes or equivalent optical emitters/sensors, etc).
+
+More hardware (eg. Codec, ADC, Amplifier, ActiveMatrix) may be placed as close as possible to ES, to the point of these components being on threads, or at junction between threads/bundles. Otherwise, many layers of 1um traces may connect more bulky components directly to ES. Impedance of 1um traces may be ~100kOhm (similar to ES), which may increase power consumption (especially for stimulation), degrade signal/noise, or inconveniently enlarge PCB layout designs.
+
+___ Estimate - Geometry (Trestles,Bundles,Threads,totalES), Transmission Lines, Bandwidth ___
+Bandwidth, codec, and analog circuitry requirements may be much lower for neural interfaces intended only to record activity for connectome and synaptic weights correlation - scanning relatively small &#39;observed areas&#39; of neocortex by multiplexing ES with ActiveMatrix.)
+
+Trestle, bundle, thread, and ES, quantities may be slightly smaller (eg. &#39;45&#39; instead of &#39;50&#39;) due to manufacturing margin requirements at edges.
+
+Mismatch between postulated values here or elsewhere may occur due to new publications or experiments suggesting slightly different neuron electrical characteristics, sightly different plausible electronic component capability, slightly different plausible tissue collateral damage acceptability, etc.
+
+ '_cells_begin' '100%'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+Chosen
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+Geometry
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;34m  'length_cm=10' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;34m  'width_cm=10' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;34m  'depth_mm=2.5' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;34m  'depth_es=25' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;34m  'needle_um=100' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;34m  'thread_um=25' [0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin'
+ 
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;34m  'trestleGap_cm=$(_clc "0.2")' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;34m  'bundleGap_cm=$(_clc "0.2")' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;34m  'threadGap_um=325' [0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+Bandwidth
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;34m  'eventRatePerES=50' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;34m  'rawSampRate=7000' [0m
+ '_cells_speck_begin' '' '2'
+[0;34m  'compressSampRate=50' [0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+TransmissionLines
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '3'
+[0;34m  'transmissionLineMaxFreq=25000000' [0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+Analog
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;34m  'ADCbitDepth=4' [0m
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;34m  'DACbitDepth=5' [0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_end'
+
+
+ '_cells_begin' '100%'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+Inferred
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+Geometry
+ '_cells_speck_end'
+ '_cells_speck_begin' '225px'
+[0;37;100mtotalTrestle= 50[0m
+ '_cells_speck_end'
+ '_cells_speck_begin' '225px'
+[0;37;100mtotalBundle= 2500[0m
+ '_cells_speck_end'
+ '_cells_speck_begin' '225px'
+[0;37;100mtotalThread= 94674[0m
+ '_cells_speck_end'
+ '_cells_speck_begin' '225px'
+[0;37;100mtotalES= 2366850[0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+ 
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mneedleHours= 106[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mtotalExpansion= 100 %[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mtotalCollateral= 100 %[0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+ 
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mdensityES_cm= 153.8457[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mdensityES_mm= 15.38457[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mdensityES_um= 0.01538457[0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+BW (raw)
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrBackhaul= 66.2718 Gb/s[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrTrestle= 1325.436 Mb/s[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrBundle= 26508.72 Kb/s[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrThread= 700 Kb/s[0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+BW (compress)
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mcBackhaul= 1.5384525 Gb/s[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mcTrestle= 30.76905 Mb/s[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mcBundle= 615.381 Kb/s[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mcThread= 16.25 Kb/s[0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+T&nbsp;Lines&nbsp;(raw)
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrlBackhaul= 2650.872[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrlTrestle= 53.01744[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrlBundle= 1.0603488[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mrlThread= 0.028[0m
+ '_cells_speck_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+T&nbsp;Lines&nbsp;(compress)
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mclBackhaul= 61.5381[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mclTrestle= 1.230762[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mclBundle= 0.02461524[0m
+ '_cells_speck_end'
+ '_cells_speck_begin'
+[0;37;100mclThread= 0.00065[0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin' '1%'
+
+Analog
+ '_cells_speck_end'
+ '_cells_speck_begin' '' '2'
+[0;37;100mrampFrequencyADC= 224000[0m
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_end'
+[0;37;100mrBandwidthPerES= 28000 , cBandwidthPerES= 650[0m
+[0;37;100mtimeBitDepth= 8 , locationBitDepth= 5[0m
+[0;37;100msecondsPerThread= 2 , needlesParallel= 1[0m
+
+
+Both receive and transmit (ie. stimulation) bandwidth will be half-duplex near equal (worst case). Usually a neural interface will either mostly receive (ie. receive activity for correlation of connectome and synaptic weights), or mostly transmit (ie. transmit sensory precepts and receive minimal voluntary/motor output).
+
+SerDes reduces transmission lines to <40 for external connection. Increasing transmission line frequency to remove the need for SerDes may severely increase power consumption, among other problems, especially for interfaces with many &#39;totalES&#39;.
+___ Frame, Packet, Counter, Bitmask, ActiveMatrix ___
+
+Frame is a combination of packets, possibly with a &#39;magic number&#39; as a &#39;MAC address&#39; and a specified number of bits. Frames are transferred at very high bandwidth and may follow a defacto standard (eg. Ethernet, CSI/DSI, existing LVDS) or no standard (eg. USB3 FPGA GPIO) .
+
+Packets are addressed to specific components (eg. Codec, ADC, DAC, ActiveMatrix) or groups of components (all components if a complete list of neural received/transmit spikes/pulses). Address space either 24bit or 48bit.
+
+Counter takes a specified &#39;??&#39; number of bits, then forwards subsequent &#39;infinityBits&#39;, similar to many &#39;addressable LED pixels&#39;.
+
+Bitmask control of many separate ActiveMaxtrix addressed through a Counter is an example that a slowly clocked bus may at negligible component count, bandwidth, and power consumption, reprogram any Codec, DAC, ADC, ActiveMatrix (multiplexing), etc. As usual, no Turing completeness.
+
+Hard > Frame > Packet+infinityBits > Backhaul > [ Codec > ??bits+infinityBits > Counter > DAC-LF > ^Bitmask > Counter > ActiveMatrix > MeshElectrode ] > Thread > [ Trace > MeshElectrode ] + [ Codec > ??bits+infinityBits > Counter > DAC-LF > ^Bitmask > Counter > ActiveMatrix > MeshElectrode ] > Wet-Needle
+
+Hard < Frame < Packet+infinityBits < Backhaul < [ Codec < ??bits+infinityBits < Counter < ADC-LF < ^Bitmask < Counter < ActiveMatrix < MeshElectrode ] < Thread < [ Trace < MeshElectrode ] + [ Codec < ??bits+infinityBits < Counter < ADC-LF < ^Bitmask < Counter < ActiveMatrix < MeshElectrode ] < Wet-Needle
+
+Example only, illustrating many plausible concepts. Other arrangements may be preferable.
+
+___ Pinout ___
+Designs for wiring (eg. PCB layout, mezzanine connector adapters, PatchRap specifications and breadboard layout, etc) should provide as much connectivity (ie. power, reference, clock, bus) to as much circuitry as reasonably possible.
+
++0.6V , +0.7V , +0.8V , +0.9V , +1.0V , +1.5V , +2.5V , +3.3V , +5V / +24V
+-0.6V , -0.7V , -0.8V , -0.9V , -1.0V , -1.5V , -2.5V , -3.3V , -5V / -24V
+pGND
+
+Vcc/pGND
+Vcc/pGND (DAC-LF only)
+Avcc/sGND (ADC-LF only)
+
+
+PWMdirect- , PWMalternate+
+midpoint
+
+Amplifier Reference Ground (drives output close enough to midpoint for further offset adjustment by dual-gate FET input)
+
+40 Data LVDS Transmission Lines (SerDes)
+
+1 Clock Low Power
+1 Data Low Power (low speed frames for embedded microcontroller access to neurons)
+
+Clock Codec
+
+Clock ADC-LF (ie. 7kHz)
+Clock DAC-LF (ie. 7kHz)
+
+Clock Config-ActiveMatrix
+Clock Config-Codec
+
+Clock 1GHz
+Clock 500MHz
+Clock 250MHz
+Clock 200MHz
+Clock 150MHz
+Clock 100MHz
+Clock 50MHz
+Clock 25MHz
+Clock 1MHz
+Clock 1kHz
+
+Clock 48MHz
+Clock 16MHz
+Clock 8MHz
+Clock 32.768kHz
+
+
+Mezzanine connectors and foldable &#39;zig-zag&#39; flexible mesh PCB areas are expected where optimum mechanical compatibility may be important.
+
+Additional data transmission lines may be added internally (eg. Backhaul --> Codec --> DAC/ADC). A few dedicated low-frequency clock lines (eg. Clock Config-Codec) may also communicate data. Usually dedicated clock lines (or disable) should only be provided if some sort of power reduction (eg. rare reconfiguration, low-power embedded microcontroller access to neurons) may be necessary.
+
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Visual Transmitter (Neural, Display Panel, Combined) __
+
+Visual and auditory inputs have exceptionally high spatial resolution requirements - especially for developers reading much text, pilots using traditional flight decks, anyone examining large areas of terrain, etc. Combination of both neural interface and external LCD/OLED/LED panels may be necessary to adequately mitigate fatigue.
+ 
+[0;34m  'foveatedDimension_8kPanel=0.15' [0m
+[0;34m  ' desiredPixels=$(_clc "( ((7680*4320*2) * ( $foveatedDimension_8kPanel )^2 ) + ((3840*2160*2) * ( $foveatedDimension_4kPanel )^2 ) + ((1920*1080*2) * ( $foveatedDimension_1080pPanel )^2 ) ")' [0m
+[0;37;100mdesiredPixels= 8294400[0m
+___ Retina, Optic Nerve, Optic Tracts, Neocortex (Combined Neural Interface) ___
+Human fatigue plausibly degrades retina conversion of, and ocular focusing of, light photons. Pure neural interface for visual sensory input could at least improve on, if not bypass, such significant aberrations. Spatial resolution must be much greater than best-case human vision to avoid worsening neocortex fatigue.
+
+Combined optic nerve and &#39;visual cortex&#39; cerebral neocortex seem optimistically barely adequate. Retina electrical (non-photon) stimulation seems negligible. Dubiously, dense ES arrays deeply within other optic tracts of long axons may suffice.
+
+Expect total bandwidth ~100Mbit, more definitely <1Gbit .
+
+Calibration of stimulation only ES exact precept type and relative location is by neural decoder or ordered RPT correlation from a much lower resolution more &#39;general purpose&#39; ES array (ie. &#34;totalES&#34;) in neocortex. Usually, a much lower spatial resolution neural interface is expected to suffice for reading or writing connectome and synaptic weights (somewhat indirectly), while stimulating specific precepts is expected to always require a spatial resolution (directly) higher than entire sensory input.
+
+Electrodes for stimulationES are reasonably assumed to use ~20um pitch and area of ~5um * ~10um .
+
+Retina stimulationES are optimistically assumed to use a flat surface of electrodes at 20um pitch as a 1cm^2 flat chip similar to in-vitro MEA, with no perceptual compression benefit, providing 250000px.
+
+Optic nerve stimulationES optimistically assumed constrained by occupied space rather than collateral tissue damage (with axons being pushed aside instead of destroyed by needle). A 50um surface spacing between threads is optimistically assumed to allow 5um diameter electrodes to expand nerve diameter ~1%, optimistically assumed close to acceptable.
+
+Optic tracts (mostly aka. &#39;optic radiations&#39;) are other axons assumed anatomically similar to optic nerve.
+
+
+ WARNING: More &#39;perceptualCompression&#39; reliance may incur computationally prohibitive iterative calibration.
+[0;34m  'perceptualCompression=10' [0m
+[0;34m  'stimulationES_diameter=0.005' [0m
+ 
+[0;34m  'retina_pixels=250000' [0m
+ 
+[0;34m  'opticNerve_threadSpacing=0.050' [0m
+[0;34m  'opticNerve_thickness=1' [0m
+[0;34m  'opticNerve_length=25' [0m
+[0;34m  'opticNerve_electrodesPerThread=50' [0m
+[0;34m  ' opticNerve_expansion=$(_clc "($stimulationES_diameter ^2) / ($opticNerve_threadSpacing^2)")' [0m
+[0;37;100mopticNerve_expansion= 0.01[0m
+[0;34m  ' opticNerve_stimulationES=$(_clc "( ( $opticNerve_thickness / $opticNerve_threadSpacing )^2 ) * $opticNerve_length * $opticNerve_electrodesPerThread")' [0m
+[0;34m  ' opticNerve_pixels=$(_clc "$opticNerve_stimulationES * $perceptualCompression")' [0m
+[0;37;100mopticNerve_pixels= 5000000[0m
+ 
+[0;34m  'opticTracts_threadSpacing=0.050' [0m
+[0;34m  'opticTracts_thickness=3' [0m
+[0;34m  'opticTracts_length=25' [0m
+[0;34m  'opticTracts_electrodesPerThread=50' [0m
+[0;34m  ' opticTracts_expansion=$(_clc "($stimulationES_diameter ^2) / ($opticTracts_threadSpacing^2)")' [0m
+[0;37;100mopticTracts_expansion= 0.01[0m
+[0;34m  ' opticTracts_stimulationES=$(_clc "( ( $opticTracts_thickness / $opticTracts_threadSpacing )^2 ) * $opticTracts_length * $opticTracts_electrodesPerThread")' [0m
+[0;34m  ' opticTracts_pixels=$(_clc "$opticTracts_stimulationES * $perceptualCompression")' [0m
+[0;37;100mopticTracts_pixels= 45000000[0m
+ 
+[0;34m  'totalES=3000000' [0m
+[0;34m  'relevantNeuronsPerDesiredNeuron=0.05' [0m
+[0;34m  ' neocortex_pixels=$(_clc "$totalES * $relevantNeuronsPerDesiredNeuron * $perceptualCompression")' [0m
+[0;37;100mneocortex_pixels= 1500000[0m
+ 
+[0;37;100mdesiredPixels= 8294400[0m
+[0;34m  ' observedPixels=$(_clc "$retina_pixels + $opticTracts_pixels + $neocortex_pixels")' [0m
+[0;37;100mobservedPixels= 46750000[0m
+___ Display Panel (Repurposing neuralBits as Improved Graphical Display Addressing) ___
+Visual stimulation by external LCD/OLED/LED display panels, supplementing or improving neural interface spatial resolution, may use the same addressing/multiplexing/compression components usable for direct neural interfaces. Particularly useful for upgrading existing headsets with higher resolution panels, intra-ocular retina implant, or bypassing the limitations of DisplayPort/SteamVR hardware/software (ie. by compression/USB3).
+
+Auditory stimulation is already trivial - at least if proper care is taken to flatten apparent frequency response.
+
+
+Hard > Frame > Packet+infinityBits > Backhaul > Codec > ActiveMatrix > LCD/OLED/LED > Lens > Wet-Retina
+
+
+Unusually, codec may use IIR filters and differences from neighboring pixels.
+
+[0;34m  'codecCompression=10' [0m
+[0;34m  ' bandwidth=$(_clc "( $desiredPixels * 24 * 180 ) / $codecCompression ")' [0m
+[0;37;100mbandwidth= 3583180800[0m
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Analog Receiver/Transmitter __
+Receive only neural event spike time, location, duration (dubious), sorting (prototype only). Analog receiver (amplifier, ADC, Low-Pass-Feedback) solely exists to acquire neural events. ADC resolution may be rather poor (4uV-128uV) due to insignificance of lower-noise low-frequency.
+
+Transmitter only emits pulse stimulation time, location, amplitude (optional), duration (dubious). Amplitude may either minimize risk of degrading receivable neurons near ES, or maximize longer distance neurons reached. Crudely, transmitter may diagnose or balance ES defects (eg. electrochemical potential, impedance erosion, mechanical separation, etc), however, this must not consume significant bandwidth or circuitry (may be prototype only).
+
+Analog waveform transmission/reception is not practically useful.
+___ Amplifier ___
+
+Amplifier must be one per ES (excepting very small stimulation only ES used for Virtual Reality), and is expected to occupy the largest &#39;footprint&#39; per ES. Single-transistor amplifier or inequally sized differential long-tailed pair due to space constraints. Differential analysis (eg. spike waveforms from the same neuron across different axes between pairs of ES) is by analysis (ie. codec/software) not &#39;instrumentation amplifier&#39; hardware.
+___ ES (Electrode Sites) ___
+____ LS ____
+
+LS (<7kHz) should obviously use Ramp ADC or Flash ADC due to minimal circuitry, power consumption. Ramp ADC in particular has analogous precedent for comparable circuitry with very generous equivalent bit depth. Feedback AC Coupling (~0.7Hz low-pass) using a 5-bit R2R DAC (discard the irrelevant digital readout) may eliminate electrochemical potential, expanding maximum voltage by >4bits (128uV/2*64 == 4096uV) at no bandwidth and negligible circuitry.
+____ HS ____
+
+HS (>100kHz <10MHz) (prototype only) should obviously multiplex ~128 transmission lines. Both high bit depth (ie. 16bit, 24bit) and high sample rate (eg. 10MHz, 192Ks/s) may be required to sufficiently discern phase and duration.
+____ Stimulation only ES ____
+
+Stimulation only ES may be smaller, denser, and more numerous, having neither the surface area nor large amplifier needed for low-noise reception. Calibration of their exact position may be by nerual decoding of ES at topographic maps of entirely different anatomical locations (ie. calibration of peripheral neurons by ES in neocortex).
+___ Receiver - ADC Dynamic Range ___
+Amplifier gain and ADC resolution must combine to meet expected signal amplitudes.
+
+4bit ADC (4uV-128uV) (aka. +/-2uV to +/-64uV)
+Flash ADC - 32 Comparator
+Ramp ADC - rawSampleRate*32 Ramp Frequency
+
+Feedback AC Coupling 5-bit R2R DAC information is a useless artifact, ignored.
+
+Prototype dynamic range may be larger, at 2uV-480uV (8bit ADC) or 2uV-2mV (10bit ADC if unexpectedly high electrochemical potential or sensitivity).
+___ Transmitter - DAC Dynamic Range ___
+Triangular voltage waveform only, to minimize total charge, collateral damage, and especially associated power dissipation. Must keep peak voltage <<0.8V with average current approximately +/-<420nA . Duration may be <<200us per phase, <<400us total.
+
+Two separate 4bit R2R DAC briefly output preprogrammed waveform with dynamic range +/-25mV to +/-400mV .
+___ Rationale ___
+Receiver Amplifier/ADC must have a zero midpoint (to discern spikes visible between specific pairs of ES).
+
+*) Minimum discernible input voltage step - <4uV. Relatively poor sensitivity is entirely acceptable, although narrow band noise floor may be much lower at ~1uV.
+ *) Local field potentials at ~1uV@<30Hz@100kOhm (similar EEG noise floor) are vastly inferior to, and can be inferred or stimulated from, a more direct neural interface.
+ *) Distant neural spikes are at higher frequency and corresponding ~6uV@<10kHz@100kOhm (Neuralink specification, thermal noise estimation).
+ *) Placing ADC resolution well below the noise floor (ie. small fraction of ~6uV) is not worth much additional power consumption or circuitry which may reduce spatial resolution (ie. &#34;totalES&#34; ).
+
+
+
+Transmitter DAC voltages must always emit +/- from a zero midpoint used by all ES. Stimulation patterns between arbitrary pairs of ES must be possible.
+
+*) Minimum stimulation step -  +/-25mV. Study (https://www.frontiersin.org/articles/10.3389/fnins.2019.00208/full) suggests useful waveforms begin with minimum voltage either ~5mV (100nA@50kOhm square wave current) or ~70mV (square wave voltage) at minimum useful duration of ~50kHz/18us (square wave current) or ~20kHz/50us (square wave voltage).
+ *) Stimulation voltage waveform must be a one-time programmable or reprogrammable (prototype only) pattern. Voltage-to-current unity-gain buffer amplifier may not be useful, due to non-availability of physically large capacitors (>>50pF), resistive power consumption, no expectation of substantial or correctable ES impedance erosion, etc. Current control without strict inductive spike voltage limit may cause water electrolysis (and associate damage).
+  *) Square wave current output implies triangle wave voltage output, which may minimize charge flow through nearby tissue, while maximizing charge change at distant neurons (maximizing safety).
+  *) Square wave voltage implies strongly high-pass filtered current waveform, which may only maximize use of limited voltage supply.
+
+*) Maximum stimulation voltage - +/-0.42V. Voltages closer to +/-0.8V may cause too much collateral damage. For an unreasonably pessimistic 1Mohm ES, a useful maximum of +/-420nA implies a useful maximum of +/-420mV . A 4bit DAC with a minimum of 25mV would have a maximum of 400mV. Two separate 4bit R2R DAC expand this to a dynamic range of +/-25mV to +/-400mV without risk of resistor precision limitations inducing harmful persistent DC bias currents while disabled.
+
+
+
+*) Amplifier bias current should ideally be less than (100×10^−9)/50000 == 2*10^-12  (ie. 2pA) . While reasonable, much greater bias current may be acceptable, since this is extremely conservative, some damage to nearby neurons may be acceptable, and electrochemical degradation may be more relevant.
+
+
+
+*) Accuracy, precision (ie. voltage calibration drift), and linearity are not important. Neither analog measurement nor extensive filtering of the useful information (ie. neural spike events) is expected.
+
+
+
+
+
+
+
+*) Ramp ADC. ISO124 amplifier (datasheet) is analogous enough as an example of Ramp ADC - at least a 10kHz usable bandwidth, extremely high signal/noise ratio (ie. bit depth), duty cycle modulation, claimed transistor count 250.
+*) Flash ADC. Fast, minimal components (32 comparators at adequate 4bit resolution, 256 comparators at 8bit resolution).
+
+*) Voltage-Frequency-Converter ADC. May have all disadvantages of Ramp ADC, with additional internal circuitry and low quality oscillator jitter. Usability may depend on feasible modulation rate (ie. sampling rate) and modulation depth (ie. bit depth) relative to noise (ie. jitter).
+
+*) Capacitor (dis)charge ADC is severely constrained by either small capacitance (<<100pF), or by physically large capacitors and possibly high power consumption. Multiplexing, as Neuralink apparently does at a 16x ratio, increases already high frequency response requirements, and may not scale beyond a few thousand electrodes.
+
+*) R2R DAC. More compact than an OpAmp filter with (physically large) capacitor. When the digital readout is unwanted (as with Feedback AC Coupling), the relevant memory bits may be ignored instead of sent to a bus.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Codec __
+
+Codec reduces bandwidth from analog &#39;audio&#39; waveforms to mere lists of nerual spike events and pulse stimulations . Latency of 100ms acceptable. Logic circuitry must minimize footprint and power consumption - expect at least one codec per bundle.
+___ Transmitter ___
+
+List of pulse stimulation time, location, amplitude (optional), duration (dubious). Amplitude may be omitted if default, or incremental from a previous value with a &#39;magic number&#39; reset to zero.
+___ Receiver ___
+Spike mess. Accumulates buffer of events, appends a unique identifier. Unique identifier length is ceil(solve(2^&#34;messBitDepth&#34; == &#34;totalES&#34; / &#34;numberOfES&#34;, &#34;messBitDepth&#34;)) .
+
+Single events (spike time, location, duration, sorting) detected by band-pass, hysteresis, three &#39;tap&#39; FIR cross-correlation, etc. Stores one value with fields indicating number of samples before a spike occurred and which electrode site.
+ Time field bit depth is ceil(solve(2^&#34;timeBitDepth&#34; == &#34;rawSampleRate&#34; / &#34;compressedSampleRate&#34;, &#34;timeBitDepth&#34;)) .
+ Location field bit depth is ceil(solve(2^&#34;locationBitDepth&#34; == &#34;numberOfES&#34;, &#34;locationBitDepth&#34;)) .
+ Duration field bit depth (aka. &#34;durationBitDepth&#34;) optionally is (&#34;durationBitDepth&#34; == &#34;timeBitDepth&#34; ) .
+ Sorting field bit depth (aka. &#34;sortingBitDepth&#34;) is arbitrary, prototype only, possibly an amplitude 4bit (4uV-128uV) peak value.
+
+Multiple codecs may send a spike mess to a shared bus by waiting for the preceding codec to finish transmitting.
+
+
+
+Prototypes may optionally interleave additional compressed (or raw) data.
+
+*) Two band amplitude of frequency (IIR filter bank). May reduce bandwidth from 7kHz to 300Hz@<100%bitDepth (high-pass amplitude) plus 30Hz@100%bitDepth (low-pass amplitude) .
+
+*) Spike count. Accumulates number of spikes in an output cycle. May reduce bandwidth from 7kHz to 300Hz@4bit or 300Hz@2bit (depending on maximum count per output cycle) .
+
+
+
+If differential analysis (eg. spike waveforms from the same neuron across different axes between pairs of ES) is practically useful (ie. due to insufficient spatial resolution due to insufficient &#34;totalES&#34; ), some experimentation (ie. with prototype) analyzing and comparing analog waveforms may be necessary to improve compressed data interpretation.
+
+
+

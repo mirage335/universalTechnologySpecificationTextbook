@@ -1,0 +1,167 @@
+"
+
+_Chiller_
+
+R410A...
+
+
+-Miniturization-
+
+-Refrigerant-
+R410A or lower temperature.
+
+Hot side should be liquid filled, cold side gas filled. Liquid returning to the compressor causes permanent failure of the entire system, and preventing this relies on gravity. Indeed, it seems 'Sunpower' stirling cryocoolers are used abord the ISS (zero-gravity).
+
+
+-Compressor-
+
+A highly geared, or otherwise extremely high torque, motor, is used with some kind of pump. Must maintain high temperature pressure and low temperature pressure as indicated by PSIG chart with expansion valve set.
+
+-Expansion Valve-
+
+A water chiller may not need a controlled 'thermal expansion valve', except perhaps as a crude 'floodback' prevention. A simple needle valve could be set to provide the desired pressure drop to achieve an acceptable minimum temperature (starting with no-load and simulated load conditions), with the water heat exchanger on the 'evaporator' vaporizing all liquid until this value is reached. When this minimum temperature is not available, loads are required to run from ambient temperature radiators, if allowed at all.
+
+If 'superheat' in this scenario means anything at all in the context of 'Low-temperature refrigeration' down to '-40degF', it should be set to '4deg to 6degF' (a relatively small value) .
+
+Superheat may also be regarded as the measurable difference between high/load side temperatures.
+
+
+
+
+_Expander_
+
+An isentropic expansion system is technically feasible, using a radial pump, possibly with a radial engine following it, or with an actual turbine expander . This may be useful with helium as a working fluid.
+
+
+_Adiabatic_
+
+Feeding back non-liquified expanded gas to cool compressed gas, 'regenerative cooling', is simple and reasonably efficient. Moreover, this 'regenerative cooling' loop itself should provide an efficient source of minimum available temperature at the point of expansion, though apparently this cannot be used in the same manner with helium as with a stirling engine, due to the reliance on friction.
+
+
+Seems ~\$1500 , needing to provide 3 'SCFM' at 3500 PSI using oil free pistons (requiring replacement of teflon rings).
+
+... '10 micron vacuum filter and water trap'...
+
+Use of (or compatibility to provide) standard 'oil free' scuba tank compressors may be a major advantage. HydroStatic Transmission pumps may also be usable.
+
+
+-Miniturization-
+
+Motor and pump head are both welded to, or mounted to plates welded to, metal pipe.
+
+A 'T' junction allows translation from rotary to linear motion, which then powers a piston pump.
+
+With appropriate valves, this can be staged multiple times as necessary, using the same motor with multiple pistons to achieve high compression.
+
+Radial pump architecture is most likely, using shaft displacement.
+
+-Radial Pump-
+An extremely robust single stage inside impinged radial piston pump may be built exclusively from flat plates, requiring no valves, using a principle geometrically similar to an axial pump.
+
+All shaft pressure is lateral, constrained by circular ball bearings.
+
+Piston arrangement may need to place the highest-pressure pistons close to opposite of each other, to minimize shaft pressure.
+
+Pistons may be simple modules built from metal pipes, and welded to aluminum plates, with plastic brackets used for rough alignment (as adequate) during assembly.
+
+Eccentric shaft is expected small, and may be 3D printed metal, or plastic with a protective metal pipe.
+
+A small turbine may provide preload pressure to the system, as an alternative to springs. Only the compression stroke should be under high pressure - eliminating the need for any kind of hook.
+
+Piston material is still uncertain. Teflon may or may not be usable.
+
+
+
+
+_Stirling_
+
+Reportedly, some RF filters with intergrated crycoolers are available on eBay. In fact, these have not been found available. Cryocoolers may be available.
+
+Continious supply of pure helium gas may possibly be necessary for some commercial stirling cryocooler devices (ie. due to leakage).
+
+
+-Topology-
+
+A high-pressure tube with two pistons is suggested, each piston being connected to an extremely high torque motor, rotary encoder, and possibly including a flywheel. In this way, only piston seals, regenerator material, heatsink, compression/expansion space/ratio, pressure, and working fluid, need be adjusted as appropriate.
+
+Calculations suggest that higher minimum pressure and higher pressure ratios maximize performance.
+
+
+-Calculations-
+
+-20degC/255degK hot - (R410A)
+77degK cold - (LN2)
+50 compression ratio
+2077 Specific gas constant of working fluid (J/kg-K) - (helium)
+1200 pressure at state 1 - (10atm)
+45cc volume at state 1 - (reasonable)
+350 amount of heat applied to engine W - (reasonable)
+
+2000 atm maximum pressure
+
+
+
+
+
+_Iterative_
+
+*) Modified R410A Chiller
+
+*) Cryogenically Cooled Computer
+
+*) Dewar - 30L (1-6 flight hours at >10L and 1-2hr/L)
+
+*) Low Power Durability Test (low power system kept at LN2 temperature to test for tin pest)
+
+*) Basic Air Liquifier - Compressor, Precooler, Regenerative Cooler
+ *) Low Temperature (Methanol) Tank Cooled by Regenerative Cooler - -90degC
+
+
+*) Compact Air Liquifier - Chiller, Compressor and/or Stirling Engine
+
+
+
+
+
+_Iterative_
+
+*) Microcontroller Temperature Control
+ *) Must maintain internal record of hours at low chassis temperatures if tin embrittlement or tin pest is a risk, allowing automatic chassis temperature rise to balance risk.
+
+*) Valve Control
+
+*) Plumbing
+
+*) Plate Design
+
+*) Plate Welding
+
+*) Heatsink Threading/Welding
+
+*) Cryocooling and Material Embrittlement
+ *) Testing of components for use of solder nonconductive at low temperature.
+
+*) Pumping under stopped conditions.
+
+*) Compressed gas coolant purge.
+
+
+
+*) LN2 compatible components - motherboard, CPU, GPU.
+
+*) Independent RAM/Chipset/Chassis temperature control.
+
+*) External slim radiator module.
+
+
+
+_Low Temperature Electronics Solder_
+
+
+*) Long term, beyond 18months at deeply cryogenic (<20degC) temperatures, leaded solder would be preferable for motherboards...
+ *) Antimony solder may be acceptable.
+ *) Bismuth solder is 'not known' in terms of tin pest susceptibility .
+ *) Tailor-made 'specifically designed equipment' very narrowly made for 'research and development' supplied to a small number of B2B clients is apparently exempted from RoHS. The purpose here - deeply cryogenically cooled computers - is only currently applicable to 'research and development' of software not adequately or not immediately optimized for multithreading.
+  *) Excluding the EU from the procurement of such computer systems, if permissible, is economically justifiable for a small business, and illustrates the substantially research oriented purpose of such computers, as researchers and research in the EU would be substantially hindered more than any other professional field.
+
+"

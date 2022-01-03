@@ -1,0 +1,68 @@
+
+https://upload.wikimedia.org/wikipedia/commons/2/2e/Simple_Periodic_Table_Chart-en.svg
+	Simple_Periodic_Table_Chart-en.svg
+
+
+...
+Original third-party files in this directory were obtained from the above sources.
+
+...
+File and directory names labeled with 'orig' in their names, listed above, or under the 'orig' subdirectory, retain their original licenses, as stated below, unless public domain or fair use.
+
+...
+File and directory names labeled with 'mod' in their names, listed above, or under the 'mod' subdirectory, are modified versions of the original files, and also retain the original license, as stated below, unless public domain or fair use.
+
+...
+In the absense of any license explictly stated here or any prior license, files under this directory are then intended to be copyrighted by mirage335 under AGPLv3 license.
+
+
+-
+Copyright (C) 2021- mirage335
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+
+All files in this folder and subfolders, unless explicitly stated otherwise in this file or copyrighted by other authors, are copyrighted by mirage335 as described above.
+-
+
+
+
+
+_Public Domain_
+https://commons.wikimedia.org/wiki/File:Simple_Periodic_Table_Chart-en.svg
+https://commons.wikimedia.org/wiki/User:Offnfopt
+
+
+
+
+'This work has been released into the public domain by its author, Offnfopt. This applies worldwide.
+
+In some countries this may not be legally possible; if so:
+Offnfopt grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.'
+
+
+
+
+'This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.'
+
+
+
+
+'Date 	9 September 2017
+Source 	Own work
+Author 	Offnfopt'
+
+
+

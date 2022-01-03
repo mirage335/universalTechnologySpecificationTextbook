@@ -1,0 +1,157 @@
+"
+
+
+_ Rough _
+
+*) Prototype should be built from discrete components. After all, 'duplicate this in VLSI' is a relatively straightforward proposal, and this allows the amplifier performance to be validated in advance.
+ *) 0202 Components are already ~<550um*~<350um ...
+ *) Resolution of 6mil is 150um ...
+ *) REMINDER - Re in differential tail circuit must be much higher than Rc, and ideally a pure current source, to prevent common mode voltages changing collector voltage.
+
+*) User-selectable limits open-source firewall periodically certified software and hardware. In the most basic mode, VR only with low-resolution high-threshold motor outputs.
+
+*) Dedicated microfluidics and fiber-optics may be added alongside, or as part of, any of these probes. Very slightly pressurizedMicrofluidic channels in particular, may improve electrode impedance, fill in collateral damage around rigid threads, or improve flexible mesh threads.
+
+
+*) MAJOR - Hydrogels (ie. contact lens material) are highly plausible.
+
+
+
+
+
+
+--------------------------------------------------
+REVIEW - May be duplicative from (another) part of (another) document.
+
+
+*) Regardless of whether the interface is display panel, mechanical vibration, electrotactile, or direct neural interface, video compression is applicable. VR software requires modules able to export real-time compressed greyscale video represent visual as well as tactile interactions (ie. collision virtual objects convertible to pressure, vibration, temperature, stretch). 
+
+*) Although somewhat invasive, spinning wires (eg. of tungsten carbide) with suitable tips may be used as drill bit microneedles penetrating most of skull. A large array of these (ie. ~1mm spatial resolution) could be competitive with more completely invasive interfaces for VR purposes. Especially if reaching intra-dural.
+ *) Diamond abrasive tips may avoid any requirement for drill bit shaping, minimizing cost.
+ *) Collateral damage to pass-through tissue (ie. scalp) would be a non-issue if diameter was a relatively small fraction of minimal spatial resolution (ie. ~0.1mm/~1mm).
+ *) MAJOR - Motorization of wires is potentially a minor expense. A single motor may spin and push multiple wires simultaneously (using some kind of gearing arrangement), resulting in 'microneedle array' like behavior.
+  *) Very high resolution 3D printing would may benefit this considerably.
+  *) Belts may spin microneedles by friction. Pusher plates may press large groups of microneedles inwards.
+ *) Similar in principle to ECoG. May also be used to push threads of a 'neuralBits' interface after minimally invasive implantation of that.
+
+
+
+--------------------------------------------------
+Elaboration regarding otherwise already noted concepts.
+Also, references with extensive commentary, facts, interpretation, etc.
+
+*) Published study &#39;Neural Dust: An Ultrasonic, Low Power Solution for Chronic Brain-Machine Interfaces&#39; suggests scalability (of analog amplifier at least) to ~20um, largely based on required CMOS amplifier dimensions to achieve usable thermal noise and power consumption, as well as modulated load backscattered power.
+
+
+*) Open Mesh Electronics, seemingly injectable as fabric, reportedly have achieved better long-term recording performance, contrasted with flexible threads.
+ *) Obviously, mesh effectiveness in avoiding chronic mechanical damage, seems to require not being taunt, allowing the flexibility of the thin mesh to provide sliding elasticity.
+  *) Obviously, the mesh may be relying on the intersection of four lines as anchors, while tissue may slide along the lines. This explains literal geometric translation of flexibility to elasticity in a non-taunt mesh.
+
+
+*) MAJOR - 'Indeed, the brain micromotions-respiration, vascular pulsatility and head movements, induce displacements in the order of tens of  microns  around  the  silicon  or  metal  shank,  which  leads  to  an  enhanced  mechanical  stress  around  the  shank  [13].' - https://iopscience.iop.org/article/10.1088/1741-2552/aa8b4f/pdf
+ *) MAJOR - 'single  neuron  activity  with  great  tempo-ral resolution (0.2–7 kHz)  [4]'
+ *) 'In rat brains, these micromotions are on the order of tens of microns for  respiration-induced  pressure  and  0.2  μm  due  to  cardiac-induced pressure [13] (figure 1(A)). Finite element stimulation shows  that  tethering  forces  induce  elevated  strains,  located  principally at both tips of the probe [14] (figure 1(B)).'
+ *) MAJOR - 'Therefore, the compliance is a function of structure, while flexibility (elastic modulus) is a function of material [20].'
+  *) A remark predictive of the use of flexible mesh.
+  *) Also, it is obvious that a 3D mesh would result in more friction, which could leave a 2D mesh as the absolute optimum.
+ *) 'PDMS  is  widely  used  in  microfluidic  technologies, and has high viscoelasticity with a Young’s modu-lus that can be slighlty altered depending on the curing agent and temperature'
+ *) 'Though  PDMS exists in medical class, that meets both USP class VI and ISO 10993, it has been reported that the curing agent might be toxic [76].'
+ *) MAJOR - 'The main issue with polymeric implants is the long-term reaction to  a  water-based  environment  [8],  which  have  often  been  shown  to  fail  within  months  as  a  result  of  polymer  swelling  and layer delamination [20].'
+ *) MAJOR - 'to  a  water-based  environment  [8],  which  have  often  been  shown  to  fail  within  months  as  a  result  of  polymer  swelling  and layer delamination [20]'
+  *) Indeed expected, albeit with more flexible underlying materials than the proposed insulation.
+ *) 'Collagenase has been proposed in the literature as  a  structure  breakdown  for  the  collagen  present  in  the  pia mater,  therefore  allowing  for  easier  implantation  with  mini-mum dimpling [96, 97].'
+ *) 'Resorbable  polyethylene  glycol  (PEG)  as  a  temporary  glue  guarantees  a  more  reliable  adhesion  [111, 112, 114]  (figures  7(B) and (C)). PEG is a highly biocompatible, fast-degrading polymer,  that  dissolves  quickly  with  the  addition  of  water.  The shuttle can also take the form of a cylindrical needle or a hollow tip where the device to be implanted remains shielded inside [53, 115] (figure 7(A)) and vice versa: the needle can be placed inside a tube-shaped probe [116]. Surprisingly enough, many studies have relied on wide tungsten wires or rods with rather  large  cross-sections  [112, 114, 116, 117]. '
+ *) MAJOR MAJOR - (D) 'Image of a dyed silk-coated fish-bone shaped polyimide probe with tip shown (© (2011) IEEE. Reprinted, with permission, from [125]).'
+ *) 'Typically, the biore-sorbable coatings used are on the order of 80–180 μm [62, 89, 151, 163], although thinner coatings have been reported [50].'
+ *) '(DEX, BDNF and NGF) as well as a virally-mediated expression of Caveolin-1, and implanted in rat brains over 12 months'
+
+
+
+
+*) MAJOR MAJOR MAJOR - Second sparse layer of electronics fabricated on top of the rest of the 'neuralBits', with high sample rate cross-correlation circuitry, to determine deep topographic maps by fine resolution (overlapping in time but not space) spike timing cross-correlation.
+ *) A full >1MHz may be required.
+  *) Direct electrode to backhaul (or even further back with active matrix to analog outputs) is entirely reasonable - one random length placed electrode site per thread would yield 129k analog electrode sites for such further analysis, more than enough to spatially oversample the expected ~5k-2.5k topographic maps. Multiplexing strictly analog outputs - reading just perhaps 128 electrodes at a time - would only require ~1k steps to 'scan' the entire connectome, is also entirely reasonable, and would allow MHz range 24bit ADCs, or even hetrodyne RF receivers, with just 8bits of high speed bandwidth being more than adequate anyway.
+   *) Straight USRP connections are plausible at such scale - external connections and bit depth easily allow for this.
+
+
+
+
+--------------------------------------------------
+References missing Sources
+ Somehow, the links or titles of some of the articles these apparent quotes originate from, seem to have been lost. Google or other search may be able to identify them, but the possibility of exact quotes now existing within multiple other, possibly less relevant, articles must not be discounted.
+
+*) Action potentials are >>250Hz . Local Field Potentials are non-spike. High bandwidth (~10kHz) is in fact required, further complicating the technology.
+ *) 'LFPs have a critical role in coordinating the activity of different regions of the brain, and synchronizing the activity of individual neurons with that of a neural network, through phase locking to the global rhythm10'.
+
+
+
+*) MAJOR - Neural dust study 'Fig 8' shows very small amounts of backscattered power change (apparently <ppb) from 20um devices, which seem to be requiring wider transistors than 100um devices (implying the transistors are the length of the not-square device).
+	*) MAJOR - This suggests much more than 20um side dimensions are actually needed, and that input transistor footprints (100um) are *much* larger than the 'thread' electrode spacing dimensions (~50um - ~75um) . This would explain the absence of addressing in-thread.
+
+*) Neural dust study mentions that analog input FET may be calculated.
+
+-
+
+Neural dust study graphs should match -
+Whatever Vneural is, multiply by 3, put this in as the acceptable v-n ('input-referred voltage noise') , apply correct numbers for '4 * k-B * T' , get 'minimum bias current' . Power consumption must be less than what is available on the device.
+
+Ideally, FET size is as small as possible, before too much bias current is required.
+
+
+I-DS == ( pi / 4 ) * ( ( 4 * k-B * T ) / v-n ^ 2 ) * ( ( k-B * T ) / q ) * BW
+and I-DS == 'minimum bias current' (power consumption)
+and v-n == 'input-referred voltage noise'
+and 4 * k-B * T == 'drain-source voltage of the FET must be at least ~' ... 'or 100mV'
+
+'As a result, the FET must be large enough to be able to sustain this minimum bias current.'
+
+'As a result, neural dust must capture enough power from the interrogator to sustain both 100 mV and the minimum current required to ensure that the thermal noise does not dominate the AP voltage. This is defined as the power limit.'
+
+'Therefore, for a BW = 10 kHz and voltage SNR at the input of the FET of 3 (which sets vn based on Vneural ), we can compute the minimum allowable size of the FET, restricted by the noise limit.'
+
+
+
+--------------------------------------------------
+References (Inaccessible)
+
+*) 'Novel electrode technologies for neural recordings'
+ *) 'Neuropixels' '130 nm CMOS'
+ *) 'NeuroSeeker'
+ *) 'polyimide' 'longevity'
+ *) 'tissue-like' 'mesh electronic' 'bending stiffness'
+ *) 'silicon wafers' 'standard photolithography'
+ *) 'extracellular electrode' 'multiple active neurons' 'detectable distance' '~140um'
+ *) 'needles' 'deliver mesh electronics' 'larger' '330-65 um'
+ *) 'Neural Dust' 'yet to be evaluated'
+ *) 'optetrode'
+ *) 'optical fibers' 'tip size' '5-20 um'
+ *) 'photonic' 'incorporated' 'Michigan array' 'photolithography' 'waveguide mixer' 'waveguide splitter'
+ *) 'optically transparent' 'electrically conductive' 'zinc oxide' '125-um diameter'
+ *) 'Michigan-type silicon probes' 'fabricated with integrated microfluidic channels'
+ *) 'astrocytes' 'microglia' '~100 um thick glial' 'insulates' 'recording electrodes'
+ *) 'taking advantage' 'dependence of bending stiffness' 'probe thickness' 'mesh electronics' is the 'only neural probe to date with effective bending stiffness comparable to that of neural tissue.'
+
+*) 'Targeted optogenetic stimulation and recording of neurons in vivo using cell-type-specific expression of Channelrhodopsin-2' - https://experiments.springernature.com/articles/10.1038/nprot.2009.228
+ *) 'optically stimulating' 'in vivo' 'electrophisiology'
+ *) Illustrations and recorded waveforms seem available.
+
+
+
+
+
+
+_Reference_
+
+https://www.pnas.org/content/pnas/114/23/5894.full.pdf
+ &#39;Syringe-injectable mesh electronics integrate seamlessly with minimal chronic immune response in the brain&#39;
+	Extremely impressive images of tissue slices showing apparently excellent mesh electronics biocompatibility to the point of healing from the injection to at least nearly indistinguishable from healthy tissue.
+
+https://en.wikipedia.org/wiki/Local_field_potential
+	MAJOR MAJOR - 'The fact that the extracellular space is not homogeneous, and composed of a complex aggregate of highly conductive fluids and low-conductive and capacitive membranes, can exert strong low-pass filtering properties.'
+
+
+
+
+
+
+"

@@ -1,0 +1,262 @@
+[0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+_ CARDinal _
+CARDinal Computer Automated Rendering Diffusion (CARD) with Cardinal Numbered WORLD Balance (Cardinal)
+
+Specifications - protocols, algorithm flow, bandwidth estimates - for standalone netcode/inter-process-communication executable to securely share and interact geometric objects (eg. player avatars, vehicles, tools, visual effects) balanced by class (eg. fighter, interceptor, carrier) while also integrating the shared 3D spaces (WORLDs) by trade limitations, travel, and efficient instancing to reputable player run dedicated servers.
+
+
+*) Encapsulation - *everything* is a &#39;playerItem&#39;, specified by &#39;CARDinal playerItem Message Byte Allocation&#39; . Positions, rotations, always authoritatively controlled by one player. Game engines (eg. Unity, Unreal, CryEngine, F/LOSS) are all expected to interoperability import these objects (eg. 2D and 3D player avatars, tools, vehicles, voice chat clips, VM framebuffer images, etc) and positions, even for internal purposes (eg. vehicle position updates from external flight model simulation programs exclusively receiving HOTAS inputs).
+
+
+*) Anti-cheat. Visibility cheating prevented by not sending any objects to other players until their avatars/vehicles/tools/etc &#39;playerItem&#39; has been checked with a rough terrain model. After-the-fact claims prevented by accurate position/rotation coordinates, logging consequential coordinates, and confirmation of plausibility by other players. Faking of a type of cognition (eg. human wetware by software) may be mitigated by statistical comparison of position/rotation coordinate patterns and responses to occasional induced jitter from other players clients (similar to CAPTCHA statistical expectations). Frequent repeat offending and anti-cheat exploit searching mitigated by reputation (NOT relying on commercial price) gating (limits on activities of apparently new players).
+
+*) Automation either prohibited from accessing other player&#39;s playerItem positions or prohibited entirely, by anti-cheat statistical comparison of position/rotation coordinate patterns. Any autopilot or autoaim is forced to preform the same cognition visual object recognition as a player would, or prevented entirely.
+
+*) Trade out-of-WORLD limited or prohibited by statistical position/rotation pattern comparison (preventing unauthorized long-term account transfer) and transaction rate limits between players.
+
+*) Economically valuable proof-of-cognition activities (eg. monster spawn rates) are limited and processed client side (ie. a monster is a &#39;playerItem&#39; from the encountering player&#39;s client) per rules from WORLD server. Player claims are checked statistically, as well as by any other players in same instance. Earnings cheating is prevented while real-time WORLD server bandwidth and processing is avoided.
+
+*) Balancing statistically between classes of avatars/vehicles/tools/etc. Swords/shields can be slight bullet magnets, statistically balancing skilled longsword users near equally against high rates of fire by ranged weapon users at medium range (at long range both may carry an additional sniper weapon). Vehicles of air-to-air types can be of fighter (high turn rate) or interceptor (high speed/acceleration rate) classes, statistically balanced equally in 1v1 contests (with fighters having a >50% probability of escaping the merge to turn and retaliate with the interceptor at a severe disadvantage in evasive maneuvering).
+
+*) Crime and punishment. Players attacking other neutral or allied players unprovoked may be regarded as enemies of all. Such players if caught by other players may be limited in their activities, while catching players earn proportionate rate-limited bounties and return of undisposed valuables.
+
+*) Anti-harassment. Rules can be established to require players to prove identity, and/or if some conditions are met (eg. defeated in PvP ambush by authorized moderator with proven identity), to report a player&#39;s known identity (eg. IPv6 address).
+
+
+*) Visual Effects and Consequential Action distinction. Only a &#39;playerItem&#39; capable of causing a consequential event (eg. victory, defeat) is necessarily shared with other players or visible. Visual Effects may be limited only in shared visibility conditions (eg. distance from player&#39;s avatar, during conflict) to prevent distraction. Players may always have any Visual Effects &#39;playerItem&#39; visible to theirselves (eg. screen scraping from desktop applications, VM framebuffer images, interactive keyboard/mouse, avionics, etc).
+
+*) Interoperability. Any program may send and update a &#39;playerItem&#39; . Screen scraping programs send existing 2D desktops and 2D applications (eg. spreadsheets) as a &#39;playerItem&#39; with attached framebuffer images. Any 3D application may directly send an interactive &#39;playerItem&#39;. Also, existing 2D desktop applications (eg. web browsers) are expected to remain widely useful.
+
+
+*) User interface hardware compatibility. Modularity emphasis - avatar/vehicle/tool positions sent from external programs within allowable limits - ensures not only &#39;VR&#39; displays/headsets/controllers but also traditional &#39;flat screen&#39;/&#39;gamepad&#39/HOTAS/keyboard/mouse hardware interfaces continue to offer a comfortable experience.
+
+*) Terrain redundancy compatible between game engines (eg. Unity, Unreal, CryEngine, F/LOSS), facilitating player choice of scenery quality, hardware. Players using high-end resources for the best visual experience (eg. CryEngine forests), can join other players who may be using lower cost or more portable hardware and software (eg. &#39;Linux standalone VR headsets, Linux smartphones, etc&#39;). Instead of terrain features (eg. vegetation) specific to one proprietary game engine, multiple terrain files may be provided by WORLD server (as &#39;playerItem&#39;). Vegetation and such providing partial cover must provide full cover with the lower-end &#39;low-poly&#39; hardware and game engines lacking vegetation.
+
+*) Bring own avatar, vehicle, tool, etc. Avatar/vehicle/tool/etc simulation programs are entirely separately run by players, with WORLD servers only specifying maximum acceleration/speed/turn limits per class. WORLD server may supply flight model limits for specific classes of avatars, tools (eg. sword, mace, gun), vehicles (eg. fighter, interceptor, bomber, UAV), which players may override with more limited flight models (eg. switching to an FA18C flight model for carrier landing practice). Players are expected to bring their own avionics (ie. Linux Virtual Machines), flight decks (eg. presence or absence of canopy obstructions), flight/engine model limits, etc.
+
+
+*) Experimental physics (eg. fluid, thrust, lift, etc) simulation as visual effect, converted to consequential events if WORLD server allows and appropriate. Limited set of materials allows the basic functions of additive tooling, subtractive tooling, thrust, and lift, conversion to flight model limits and such. While interesting, usually WORLD servers are expected to strictly limit or disallow such &#39;innovation&#39;. Real-time problem solving is a better contest of cognition, proof-of-cognition is the basis of a robust WORLD economy, simulation resolution cannot replace experimentation for state-of-the-art manufacturing, and historically extraordinarily complicated manufacturing technology improvements over decades have only brought less than orders-of-magnitude differences between generations of vehicles (eg. P-51 turns of ~280knots/~8g).
+
+
+*) Proof-of-cognition (person-hour) as WORLD economy basis and exchange rate limits between WORLD servers.
+
+*) Travel and trade between WORLDs as rate limited, high inflation, no-history, periodic transaction confirmation list swaps between founding WORLD accredited and reputable WORLD servers. Robust, low-resource consumption, low-consequence, accounting.
+
+
+*) Bandwidth efficiency, backups to players, interruption tolerance, graceful degradation. Bandwidth as low as 9600baud . Essential &#39;playerItem&#39; marked by &#39;boneTag&#39; (eg. right hand, head) filtered for exclusive transmission to other players when connectivity is degraded.
+
+
+*) Instancing roaming, to servers/LANs owned by reputable players, swapping to higher capacity servers/WANs as needed, in real-time. Any reputable player&#39;s or their group&#39;s own server is used by default, players wandering close to the space a WORLD server has an instance reservation record for connect to that server. Without the complexities and records-per-second limits of peer-to-peer distribution (ie. &#39;blockchain&#39;, drastically reduces reliability and bandwidth cost issues. WORLD server centralized bandwidth is only used for consequential records (eg. victories, player corporation territories, terrain object unique identifiers, flight model limits, instance reservations, etc).
+
+*) Astronomical objects being position translation only (no rotation), with geocentric stellar orbits, removes substantial complexities from perfectly synchronizing object motion and instance roaming to planetary surfaces, which also simplifies synchronizing player avatars to fast vehicles and their avionics displays (ie. aerospacecraft). Fast planetary rotations, lag in apparent &#39;speed of light&#39; between instances, complexities of tracking workarounds, are all avoided by placing stars in ~5kls/0.05c or ~100kls/1c *geocentric* orbits, with no planetary rotation. Economics and ecosystems contend with the same constraints - day/night, interplanetary/interstellar deltaV, etc - while the *risk of software bugs* is *drastically* improved.
+
+*) Voxel Grid fluid physics distributed at low bandwidth between computers using compressed edge grayscale perceptually lossless video compression.
+
+
+*) CARDinal messages are always trivial announcements to any shared channel, usually a dedicated instancing server and/or WORLD server in a star network topology, but also shared channel inter-process-communication bus (as provided by &#39;ubiquitous bash&#39;, Virtual Machine emulated serial/COM/UART ports, shared serial/UART bus wires, radio &#39;frequency&#39; FDMA/CDMA channels, raw WiFi/Bluetooth/Ethernet frames/packets, multicast, ring networks, etc. Especially helpful to add controllers (eg. HOTAS) by UART without mapping through legacy interfaces (eg. keyboard bindings) by sending information directly as a &#39;playerItem&#39; from the device.
+
+*) Amateur radio by HF ALE or 24hr duration HF transmission can connect players or transfer essential backups globally without any other infrastructure. Client and WORLD server software, for amateur radio use, must be able to disable encryption (including any authentication) entirely. Player impersonation can be identified and corrected from presence of a player in an instance server without matching authentic WORLD server login or agreement of other players - real-time authentication/encryption is NOT necessary. Rate limits inherently prevent severe damage due to impersonation.
+
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Introduction __
+Since we rather easily can, as a matter of our own self-interest in living, we must create a habitat all plausible species would be rather happy to share.
+
+All of the algorithms specified for CARDinal are straightforward without any plausible major gaps. Ability to load terrain files, import 3D objects into game engines without interruption, import real-time framebuffer video streams, and control 3D object positions, is well documented for major game engines (especially Unity). All necessary inter-process-communication and networking is available from both MSW and Linux OS kernels. Both MSW and Linux/Cygwin OS can integrate other programs through simultaneously batch/bash interpretable anchor shell scripts from &#39;ubiquitous bash&#39;. Compiled code (ie. C/C++/similar) may be relied upon entirely by standalone clients (eg. Oculus Quest, Android), or use cloud services may be used (eg. if avionics VM is desired by such users).
+
+Some useful code for inter-process-communication and 3D space object storage already exists as reference implementations within &#39;ubiquitous bash&#39;, &#39;MetaEngine&#39; included with &#39;ubiquitous bash&#39;, and &#39;metaBus&#39 demonstration of &#39;MetaEngine&#39; (all of which predates and is unrelated to any other substantial &#39;metaverse&#39; marketing promotion).
+___ Presented ___
+
+*) Algorithms for Instancing Roaming, Coordinates Referencing, Latency Compensation, Trade between WORLDs.
+*) CARDinal playerItem Message Byte Allocation (playerItem is all-purpose).
+*) Coordinates optimized for bandwidth.
+*) Bandwidth and users per bandwidth calculations.
+
+As may be plausible.
+__ Conclusions __
+CARDinal is the object-sharing netcode and inter-process communication part of a larger system. Tools to create those objects (including existing CAD modeling programs), and the founding WORLDs (which may provide the most populous shared spaces and most extensive proof-of-cognition), are also essential.
+
+CARDinal must specifically facilitate compatibility between objects. Beyond compatibility mechanics, game design is beyond the scope of CARDinal.
+
+CARDinal&#39;s most significant feature is the opportunity to depart from the &#39;objects and behavior provided with game&#39; model historic of pre-packaged games to objects and behavior provided instead by players theirselves in realtime. Developers attempting to integrate other complex software - to the point of simulated avionics using simulated displays from virtual machines with full operating systems - especially benefit, as they will be able to implement game interactive object behavior in smaller, separate, codebases.
+
+
+
+Three founding WORLDs in particular may provide for some initial diversity and quality of life.
+
+*) Mix of swords/bullets/towns/forests, emphasizing roughly human scale activity, single planet. Inspired as similar to all of SAO. Vehicle based tools (ie. aerospace fighter cannons) ineffective or unusable. Players may lay &#39;foundations&#39; for their own buildings, so *everything* is player driven except the planetary terrain (which has dense vegetation and such). PvE may be more emphasized here, but PvP and player corporations are allowed.
+*) Mix of important fighters, bombers, carriers, and logistics, ships. Inspired as a mix of Elite Dangerous, EvE Online, Descent FreeSpace . PvP is emphasized strongly. Some resources may be more available from here, making trade with these aerospace fighter pilots important.
+*) More or less Earth-like. Detailed physics (ie. voxelGrid) emphasized. Realistic speed/acceleration limits in effect - players will not be doing interstellar travel for a long time here.
+
+Trade and travel between WORLDs seamlessly part of game mechanics. Scenario here is for a player to make a &#39;profession&#39; with a comfortable home somewhere on &#39;Swordland&#39; planet or on a carrier bunk, fly a fighter with custom flight deck avionics and canopy from the nearest flat place, join up with a corporation&#39;s carrier group, fly fighter escort or bomber against another corporation&#39;s logistics in a major way, assist a land conflict on a nearby planet, set &#39;FA-18C&#39; flight model limits to practice a carrier landing, debrief, catapult back into space, punch &#39;jump drive&#39; address (IPv6 address) for Swordland planet, find a clearing outside a decent town (don&#39;t bother with strafing fire above dense &#39;immortal object&#39; forests and towns), hover down, walk into town, have blacksmith polish the swords for tomorrow&#39;s duels, buy some rounds for the aerospace cannon, and happily pay a few reputable local developers for more work customizing a new drop-in avionics virtual machine.
+
+
+RADAR/IR sensors might be short-range only and energy density may be limited at &#39;Swordland&#39; planet to preclude finding large numbers of potential &#39;victims&#39; under forests and towns from above. Calling an airstrike on known coordinates is reasonable, but expected less common than simply putting a sword or trigger on those coordinates.
+
+
+
+
+Reducing Coordinate Resolution or Diameter to worse than perceptual lossless does not substantially reduce bandwidth. Astronomical object position lists are compressed by approximately one third if galaxy diameter and resolution are appropriate. Instancing objects to 100km^3 shared spaces reduces real-time bandwidth by approximately half.
+
+Star coordinates and total stars must be kept to a reasonable minimum for practical WORLDs. Players can move to instances at different stars/planets without waiting for downloading if their astronomical object list (including geometry models or procedural algorithms) is complete. Regular offsite backups of corporation star/planet ownership to all players best safeguards significant investments of player proof-of-cognition from WORLD server issues
+
+Periodic (eg. quarter-hourly) updating of astronomical object lists can reduce complexity when adding new stars and planets, at negligible bandwidth cost (8000 stars, 20bytes positions).
+
+
+
+
+Either CARDinal software or SpaceX Starlink/Starship (adding much bandwidth as a worldwide lower latency IPv6 network) would substantially obviate many of the latency, bandwidth, and compatibility, issues, but not to the point of sharing voxel grids (presumably >10Mbit) between all remote players globally and simultaneously. Starlink especially has the ability to reduce latency between players on opposite sides of Earth.
+
+
+Virtual &#39;real-estate&#39; economic values (and appropriate cooperation/conflict) at galactic scale will be at constrained locations for resource extraction and logistics, while at planetary scale player walking distance convenience is expected to provide the constraints for land/foundation pricing.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ REFERENCE __
+
+https://www.researchgate.net/publication/325816971_IPSME-_Idempotent_PublishSubscribe_Messaging_Environment/fulltext/5b272585aca272277fb70011/IPSME-Idempotent-Publish-Subscribe-Messaging-Environment.pdf
+ &#39;IPSME- Idempotent Publish/Subscribe Messaging Environment&#39;
+	Some of the netcode concepts may or may not have some similarlities.
+__ ACKNOWLEDGEMENT __
+*) Sword Art Online by Reki Kawahara . Significant world building offered a hopeful approach to common game mechanics and added relevant terminology (notably CARDinal itself).
+
+*) Elite Dangerous by Frontier Developments . As an example of everything not to do. No significant concepts or functional gameplay mechanics were learned from Elite Dangerous. Possibly Frontier Developments may never have brought a non-obvious concept or non-obvious functional gameplay mechanic. Frontier Developments&#39;s most significant achievement is a reasonable approximation of an unnecessarily realistic Milky Way galaxy approximation by rough object assignment combined with procedural terrain generation. Significant obvious unnecessarily missed potential for a more naturally harmonious multiplayer virtual habitat was more substantially demonstrated. But more than that, the hostility of PvE players who believe the galaxy cannot be shared with even the most basic legitimate PvP game mechanics (ie. &#39;PowerPlay&#39; &#39;open-only&#39;), resulting from too much support for only far less legitimate PvP play styles, is a testament to the very real social dangers of negligent community management built on a business model of blatant vaporware.
+
+
+*) &#39;shaw&#39; of &#39;#omi-ethics&#39; channel of &#39;AngellXR&#39; &#39;Discord&#39; server of &#39;OMI&#39; project
+ *) for protocol buffers suggestion and link to &#39;IPSME&#39; papers (also &#39;humbletin&#39; for &#39;IPSME&#39; mention)
+ *) for &#39;upwork&#39; ention
+ *) for &#39;XRPK&#39; mention though that is definitely too complex to use directly in place of compatibility with multiple formats
+ *) &#39;VRM&#39; humanoid avatar ... &#39;gltf&#39; ... &#39;normal mapping&#39;
+*) &#39;humbletin&#39; - &#39; https://github.com/omigroup/omigroup/discussions/8 &#39;  &#39; https://web.archive.org/web/20211202131827/https://github.com/omigroup/omigroup/discussions/8 &#39;
+*) &#39;Lyuma&#39; - quarternions mention
+
+*) &#39;SAO&#39; may have inspired &#39;Original Sword Skill&#39; mechanic. Maximum neuromuscular coordination rates were likely considered much earlier in some other contexts.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Coordinate Resolution, KeyFrame Format, Astronomical Objects __
+Separation of 5ly between stars is usual as with a habitable area of Milky Way galaxy. Density may be increased to ~0.05ly between stars without causing issues of reducing deltaV or possible collisions between geocentric star orbits at ~100kls .
+
+Thickness of 0.25ly and diameter of 2ly is reasonably sufficient for all ecosystems and economics, total stars 8000 (0.25ly/0.05ly==5stars thick, 2ly/0.05ly==40stars diameter). Such guarantees nearly an entire star for any future trade, travel, cooperation, conflict, etc, per million persons from Earth, which per planet is at least one order of magnitude less than expected or historic reasonably diverse population density. Approximately 1600 paths will exist from one &#39;side&#39; of galaxy to another, which may be desirable to constrain to a reasonably expected number (ie. dozens) of large player corporation alliances.
+___ 27byte &#39;Complete&#39; 2.00ly Diameter 25um Resolution Address ___
+[0;34m  'diameter_lightYears=2.00' [0m
+[0;34m  'resolution_meters=0.000025' [0m
+[0;34m  'dimensions=3' [0m
+[0;34m  '_clc "ceil(0.18033688 * log(((9.454255*10^15) * "$diameter_lightYears") / "$resolution_meters")) * $dimensions"' [0m
+[0;37;100m# 27[0m
+[0;37;100mbytes.[0m
+___ 20byte &#39;Galactic&#39; 2.00ly Diameter 10m Resolution Address ___
+[0;34m  'diameter_lightYears=2.00' [0m
+[0;34m  'diameter_dimensions=2' [0m
+[0;34m  'thickness_lightYears=0.25' [0m
+[0;34m  'thickness_dimensions=1' [0m
+[0;34m  'resolution_meters=10' [0m
+[0;34m  '_clc "( ceil(0.18033688 * log(((9.454255*10^15) * "$diameter_lightYears") / "$resolution_meters")) * $diameter_dimensions ) + ( ceil(0.18033688 * log(((9.454255*10^15) * "$thickness_lightYears") / "$resolution_meters")) * $thickness_dimensions )"' [0m
+[0;37;100m# 20[0m
+[0;37;100mbytes.[0m
+___ 12byte &#39;Instance&#39; 100km Diameter 25um Resolution Address ___
+[0;34m  'diameter_meters=100000' [0m
+[0;34m  'resolution_meters=0.000025' [0m
+[0;34m  'dimensions=3' [0m
+[0;34m  '_clc "( ceil(0.18033688 * log( ("$diameter_meters") / "$resolution_meters")) * $dimensions )"' [0m
+[0;37;100m# 12[0m
+[0;37;100mbytes.[0m
+__ Rotation Angular Resolution (6Byte), KeyFrame Format, Disagreements __
+Rotation angular resolution reasonably limited to ~0.25m@3500m (~0.006deg) . Interactions (or imminent interactions) between objects require rotations communicated accurately (both for visualization and confirmation before the fact by other players). Longest such interactions are ballistic and optical, which for roughly human sized machinery and optics, is limited by chaotic and quantum physics.
+
+Rotation coordinates are absolute X/Y/Z degrees from no rotation, with this absolute directionality inherited from a 3D space in which astronomically large objects (ie. stars, planets) are arranged geocentrically with no rotation (only translation), and have absolute position coordinates.
+
+Players are authoritative for the position and rotation of their own playerItem (eg. avatar, vehicle, tool), and any adjustments in apparent position is a deterministically applied client side only to other players apparent positions. Euler angle &#39;gimbal lock&#39;, as well as quarternions, are avoided by keyframes resetting to the absolute position and rotation claims made by players clients. Disagreements are accepted as is and logged occasionally for anti-cheat statistics.
+[0;34m  'rotationBytes=6' [0m
+[0;34m  'dimensions=3' [0m
+[0;34m  '_clc "360 / 2^($rotationBytes/$dimensions*$currentByte))"' [0m
+[0;37;100m# 0.0054931641[0m
+[0;37;100mdegrees.[0m
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Bandwidth - Object Positions and Rotations __
+___ Galactic Astronomical KeyFrame bits/Second ___
+[0;34m  'stars=8000' [0m
+[0;34m  'planetsPerStar=10' [0m
+[0;34m  'bytesPerObject=20' [0m
+[0;34m  'instantFramesPerDay=96' [0m
+[0;34m  'galactic_baud=$(_clc "( $stars * $planetsPerStar * $instantFramesPerSecond ) / $currentByte ")' [0m
+[0;37;100mgalactic_baud= 11.111111[0m
+[0;37;100mAverage , baud , bitsPerSecond , NOT Bytes .[0m
+___ Instance KeyFrame bits/Second ___
+____ Degraded - <4800bits/Second Minimal Bandwidth ____
+[0;34m  'instantFrameBytesPerPosition=12' [0m
+[0;34m  'instantFrameBytesPerRotation=6' [0m
+[0;34m  'incrementFrameBytesPerPosition=1' [0m
+[0;34m  'incrementFrameBytesPerRotation=1' [0m
+ 
+[0;34m  'instantFrameBytesPerBone=$(_clc "$instantFrameBytesPerPosition + $instantFrameBytesPerRotation" )' [0m
+[0;34m  'incrementFrameBytesPerBone=$(_clc "$incrementFrameBytesPerPosition + $incrementFrameBytesPerRotation" )' [0m
+[0;34m  'incrementFramesPerSecond=15' [0m
+[0;34m  'instantFramesPerSecond=2' [0m
+[0;34m  'bonesPerPlayer=4' [0m
+[0;34m  'playerDegraded_baud=$(_clc "( ($instantFrameBytesPerBone * $instantFramesPerSecond) + ($incrementFrameBytesPerBone * $incrementFramesPerSecond) ) * $bonesPerPlayer * $currentByte")' [0m
+[0;37;100mplayerDegraded_baud= 2112[0m
+[0;37;100mAverage , baud , bitsPerSecond , NOT Bytes .[0m
+____ Player Bandwidth - Nominal ____
+[0;34m  'instantFrameBytesPerPosition=12' [0m
+[0;34m  'instantFrameBytesPerRotation=6' [0m
+[0;34m  'incrementFrameBytesPerPosition=1' [0m
+[0;34m  'incrementFrameBytesPerRotation=1' [0m
+ 
+[0;34m  'instantFrameBytesPerBone=$(_clc "$instantFrameBytesPerPosition + $instantFrameBytesPerRotation" )' [0m
+[0;34m  'incrementFrameBytesPerBone=$(_clc "$incrementFrameBytesPerPosition + $incrementFrameBytesPerRotation" )' [0m
+[0;34m  'incrementFramesPerSecond=60' [0m
+[0;34m  'instantFramesPerSecond=10' [0m
+[0;34m  'bonesPerPlayer=80' [0m
+[0;34m  'playerNominal_baud=$(_clc "( ($instantFrameBytesPerBone * $instantFramesPerSecond) + ($incrementFrameBytesPerBone * $incrementFramesPerSecond) ) * $bonesPerPlayer * $currentByte + ceil($galactic_baud)")' [0m
+[0;37;100mplayerNominal_baud= 192012[0m
+[0;37;100mAverage , baud , bitsPerSecond , NOT Bytes .[0m
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Bandwidth - Internet Total, Starlink Total, Starlink Added __
+[0;34m  'totalInternet_terabits=500' [0m
+ 
+[0;34m  'starlinkPerSatellite_terabits=0.020' [0m
+[0;34m  'starlinkTotalSatellites_immediate=2600' [0m
+[0;34m  'starlinkTotalSatellites_expected=42000' [0m
+[0;34m  'starlinkTotalShare_immediate=$(_clc "( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_immediate ) / $totalInternet_terabits")' [0m
+[0;37;100mstarlinkTotalShare_immediate= 0.104[0m
+ 
+[0;34m  'starlinkTotalShare_expected=$(_clc "( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_expected ) / $totalInternet_terabits")' [0m
+[0;37;100mstarlinkTotalShare_expected= 1.68[0m
+__ Bandwidth - Players __
+___ per Internet ___
+[0;34m  '_clc "(( $totalInternet_terabits ) * 10^12) / $playerDegraded_baud"' [0m
+[0;37;100m# 2.3674242E11[0m
+ 
+[0;34m  '_clc "(( $totalInternet_terabits ) * 10^12) / $playerNominal_baud"' [0m
+[0;37;100m# 2604003916[0m
+___ per Starlink ___
+[0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_immediate ) * 10^12) / $playerDegraded_baud"' [0m
+[0;37;100m# 24621212121[0m
+ 
+[0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_immediate ) * 10^12) / $playerNominal_baud"' [0m
+[0;37;100m# 270816407[0m
+___ per Starlink (expected) ___
+[0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_expected ) * 10^12) / $playerNominal_baud"' [0m
+[0;37;100m# 4374726580[0m
+___ per 20Gbit/Second (eg. Starlink satellite) ___
+[0;34m  '_clc "floor( (20 * 10^9) / $playerDegraded_baud )"' [0m
+[0;37;100m# 9469696[0m
+___ per 100Mbit/Second (eg. dedicated amateur cubesat) ___
+[0;34m  '_clc "floor( (100 * 10^6) / $playerDegraded_baud )"' [0m
+[0;37;100m# 47348[0m
+___ per 115200bit/Second (eg. USB UART for HOTAS and similar peripherial controllers) ___
+[0;34m  '_clc "floor( (115200) / $playerDegraded_baud )"' [0m
+[0;37;100m# 54[0m
+___ per 9600bit/Second (eg. POTS phone modem) ___
+[0;34m  '_clc "floor( (9600) / $playerDegraded_baud )"' [0m
+[0;37;100m# 4[0m
+
+
+

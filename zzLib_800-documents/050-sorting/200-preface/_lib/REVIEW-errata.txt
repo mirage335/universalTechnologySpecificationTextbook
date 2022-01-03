@@ -1,0 +1,31 @@
+"-----
+Roadmap Errata
+
+GNU Electric -> Transistor, ADC, Multiplexing, Bus Modems, etc -> Specialized Geometry Stamps
+Specialized Geometry Stamps -> lithoDive -> Analog Electronics Testing -> Corrections -> GNU Electric
+
+
+Specialized Geometry Stamps -> CARDinal -> Scripting of copying component geometry to Trestles, Bundles, Threads -> Object Postions -> Complete Photomask Layers to Scan
+Complete Photomask Layers to Scan -> lithoDive manufacturing -> Corrections -> CARDinal
+Complete Photomask Layers to Scan -> lithoDive manufacturing -> complete neuralBits
+
+
+FPGA to FPGA testing of neuralBits protocol with VR neural decoder to CARDinal IPC
+	At least one FPGA is connected to a standalone program or computer emulating a 'dummy' of ES connected to an oversimplified model of expected analog read/write 
+
+
+CARDinal Scripting -> Artificial Neural Network -> cognitionSplicer experimental software
+cognitionSplicer experimental software -> FPGA to FPGA emulated neuralBits recording and readout of connectome and synaptic weights
+
+
+
+complete neuralBits & cognitionSplicer experimental software & neuralBits protocol with VR neural decoder to CARDinal IPC -> Personal Experimentation
+-----
+
+
+*) Recording sites for 'brain uploading' ordered by expected priority at 0.1mm/1% (neural processing cell/axon) or >100%
+(nerve/vertebrae transmission) - inferior temporal gyrus, corpus callosum, entire temporal lobe, somatosensory cortex, prefrontal
+cortex, hippocampus, entire neocortex, entire amygdala, vertebrae, glossopharyngeal nerve, vestibulocochlear nerve (inertial
+cues), olfactory nerve, terminal nerve (uncertain), trigeminal nerve (possibly magnetic cues), remaining cranial/peripheral
+nerves, all nerve endings (eg. by 'neural dust' in sensory tissue implanted under guidance towards locations causing CNS evoked
+potentials), all remaining neural tissue."

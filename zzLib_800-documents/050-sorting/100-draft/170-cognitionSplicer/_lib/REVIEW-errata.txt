@@ -1,0 +1,363 @@
+"
+
+
+_ Terms _
+neuromorphic
+iterative
+microelectrode
+biohybrid
+
+electrophisiology
+synaptic weight
+
+
+
+_ Rough _
+
+*) Electrode Sites (ES) should have long-distance/latency RPT events clustering around particular numbers of milliseconds, indicating the topographic map connected to them. These clusters must be distinguished from mere &#39;ambient&#39; connections from all directions.
+
+
+*) Overlay techniques.
+ *) Gradual activation. As an example, visual information is likely to present a delay, at least in activating topographic maps that perform deeper processing, or are less relevant. EEG responses across the larger part of the brain after occipital	lobe activation being typical of this timing difference at a low temporal resolution.
+ *) Deep structure temporal inference. Really a last resort. RPT events are expected to reveal deeper topographic maps, and these are expected to have structural similarity across mammals, or at least such similarity is likely to be forced. Once good estimates for temporal map overlay have been established by other techniques, improper dissimilarities in these deeper structures may be apparent. Certainly, even the crude data of the human connectome project shows clear visual patterns among track routing - a topographic map showing strong RPT deep connections in an unexpected neuroanatomical direction should be obvious. As an example, for a topographic map aligned by other overlay techniques to have most of its RPT events in the cerebellum would be very much out of place.
+  *) Topographic maps identified by RPT events will themselves need to be tagged by &#39;centroid&#39; distances to other topographic maps. If deeper topographic maps are much closer to different neuroanatomy than is the case on the other side of overlay, then there is a problem.
+   *) FUNDAMENTAL - A confidence interval can be established for centroid distance relative alignment. Given a scaling factor, there should be a &#39;normal&#39; range for &#39;jitter&#39; in these distances after a best fit sorting of deep topographic maps.
+    *) SKETCH - Two topographic maps, with deep topographic maps between them. Expected temporal latencies between them shown, with one having a geometrically far smaller brain, and the other having some &#39;extra&#39; topographic maps. After best match between distance lists, multiply each list by one scaling factor each an iterative equation solver minimizing the total difference between both lists of distances. What difference remains on each line will follow a normal distribution.
+     *) There will be a normal amount of mismatched line-by-line distance between deep topographic map centroids. This is a case of comparing two populations for normality.
+      *) This may be a case for something like a Z-Test, testing the &#39;populations&#39; of deep topographic map centroid distances underlying the more accessible superficial topographic maps being overlaid.
+
+-
+REVIEW - May be duplicative from (another) part of (another) document.
+
+*) X-Ray pinging. A CT scanner may be used to measure implant placement, at least roughly enough to overlay a cluster of microelectrodes to known anatomical markers, improving neuroanatomical overlay. A coded sequence may be emitted by the CT scanner, or contrast imaging markers may be used, to identify electrode position.
+
+
+-
+REVIEW - Already noted? May need to call for a little more attention?
+
+
+*) FUNDAMENTAL - Electrode Sites must be addressable by X/Y/Z coordinates. RPT events are expected to be mostly correlated to vertical or horizontal TX events, with &#39;diagonal&#39; events regarded as &#39;ambient&#39;. Thus, there should be statistical confidence in most RPT events being correlated mostly horizontal, or mostly vertical.
+
+*) MAJOR - RPT events not confidently correlated to either horizontal or vertical TX events are discarded as &#39;ambient&#39;.
+
+ *) Sensorimotor. Calibrate by mechDive. Presentation of visual information sweeping across receptive fields in a particular direction is likely to align to the same direction.
+
+
+-
+Elaboration regarding otherwise already noted concepts.
+
+*) Topographic map alignment by alignment of small clusters of neurons cannot be assumed. Rather, RPT patterns must assign neurons to topographic maps, then polarity of the maps must be aligned by correlation to roughly similar sensorimotor I/O (ie. both brains seeing similar not/active patterns across receptive fields on same side of the body - ie. visual left/right receptive field alignment), and centering/fine alignment must be done from there by either taking advantage of or adding a layer to the hebbian learning principles of synaptic pruning.
+ *) In practice, much of this alignment may be refined manually. The number of crucially important topographic maps may be small, and the potential differences could be quite extreme in some cases (eg. as it may be plausible for visual fields to be flipped in some brains and while this may be adaptable it may be suboptimal).
+ *) Timing may be relative, causing neurons to fire apart, breaking what should be useful connections.
+  *) Such timing problems will be mostly macroneuroanatomical, to be corrected by layers equivalent to &#39;corrective lenses&#39;.
+   *) Spread compensation layer. Astigmatic increment of latency from center to edge, matching circle-to-oval and diameter differences between topographic maps. Small number of constants defining this single nonlinear latency gradient equation will be adjusted to maximize resultant RTP events, discontinuing or making large random changes if RTP event synaptic weight of any particular region drops below some acceptable limit (eg. 10%).
+   *) Jitter compensation layer (or may deliberately add jitter if this ensures perhaps at least 1/3 ES TX events are able to generate RPT events on the other side as desired). Perhaps 75us (or otherwise insufficient to change to topographic map of different depth than suggested by RPT events).
+   *) Resolution compensation layer. Perhaps 200us, assign one electrode site input to multiple outputs.
+ *) MAJOR MAJOR - In practice, aggregates of multiple topographic maps may be read out by electrode sites (or equivalent). Due to the tendency of topographic maps to include direct links between each other, overlap is most likely tolerable in practice.
+
+
+
+
+*) MAJOR MAJOR MAJOR - Merely optimizing overlay (repeatedly rearranging neurons with matching neighbor firing patterns) between neural networks may force appropriate connections, being a very simple algorithm to apply to such tissues as the corpus callosum. May already be documented.
+
+
+*) Useless neurons in ANNs can simply be discarded, whereas this is NOT so much the case for biological neural networks. Consequently, interfacing ANNs to biological networks is at least more efficient if the ANN is optimized to maximize interaction with the biological network (ie. it is &#39;trained&#39; simply to &#39;increase activity&#39; of the biological network). A bandwidth or latency limit may be imposed to force the ANN to achieve this improvement in activity or reduced entropy with minimal influence (thus maximizing &#39;concise&#39; data provided).
+ *) Of course, bio/ANNs hybrids are mostly interesting only for academic purposes, this being an incredibly inefficient and not remarkable use of automation.
+ *) Could be problematic - ANNs require somewhat more sophisticated learning rules to achieve the long-term stability required for achieving usefully non-chaotic results. Specifically, something like &#39;Oja&#39;s rule&#39; might be needed - trending the neurons towards keyframes - at least in the medium term to limit degradation rates - and without much more sophisticated algorithms the impact of &#39;sensory deprivation&#39; on the ANN could be extremely severe.
+
+
+
+*) An ANN can be forced to mimic a biological neural network simply by adjusting each artificial neuron and synapse weights (assuming every artificial neuron starts connected to every other neuron) iteratively up and down towards each artificial neuron firing at the same times as the recorded biological data.
+ *) Going a little further, the initial &#39;synapses&#39; could be assigned only between neurons with known correlations in the recorded data.
+
+*) Another way to describe ANN/bio hybrid neural networks is that a learning rule is imposed - either to mimic the original network behavior or (if connected in real-time with stimulation) to cause as much additional activity/complexity with as little input as possible.
+ *) Such a learning rule is necessarily achieving a *very short term* behavioral mimic objective (absence of more complex learning rules of biological neural networks causing long term instability).
+
+
+*) IIRC, an old study monitoring rat hippocampus during navigation challenges found firing patterns correlating to the relative locations of the limited navigation markers. In such a case, the environment itself provided the stimulation, which is obviously difficult to control or manipulate at sufficient bandwidth (even with VR) to achieve a meaningful readout of synapses (considering some patterns correlate to memories which the VR renderer would not have data for, in addition to other problems of simply inadequate bandwidth and spatial resolution directing stimulation to top cognition neurons).
+
+
+
+
+
+
+
+
+
+
+
+_Reference_
+
+
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4206447/
+	&#39;we review a small number of studies directly comparing large-scale electrophysiological correlation with fMRI functional connectivity-defined networks, and outline some of the theoretical and practical issues with measuring and defining functional connectivity in electrophysiology&#39;
+	&#39;Given its prominence and its practical applications for the functional connectivity mapping of brain networks, it is of increasing importance that we understand its neural origins as well as its contribution to normal brain function.&#39;
+		Attempting to provide a better underpinning for fMRI.
+
+https://www.nature.com/articles/s41598-018-36895-y
+	Localizes spikes between electrodes.
+
+
+https://www.frontiersin.org/articles/10.3389/fnins.2014.00423/full
+	&#39;Single silicon neurons have been interfaced successfully with invertebrate and vertebrate neural networks.&#39;
+
+https://link.springer.com/chapter/10.1007/978-3-319-54840-1_14
+	&#39;compression factors from 10–10^5&#39;
+		Consistent with expectations thus far.
+
+
+
+https://en.wikipedia.org/wiki/Synaptic_weight
+	&#39;The synaptic weight is changed by using a learning rule, the most basic of which is Hebb&#39;s rule, which is usually stated in biological terms as&#39; ... &#39;Neurons that fire together, wire together.&#39;
+
+
+
+https://numenta.com/blog/2019/01/16/the-thousand-brains-theory-of-intelligence/
+	&#39;consensus vote is what we perceive&#39;
+		Basically this happens with perceptions in ANNs using complicated image processing as precepts rather than mere pixel data directly into the network. Whether such a mode of processing continues (much less predominates) in the neocortex, which may be more concerned with complex assembly models, which require somewhat more formal logic (albeit without the random access typical of automation), may be unknown.
+
+
+
+
+
+
+
+
+
+
+
+https://www.nature.com/articles/ncomms13805
+	&#39;Temporal pairwise spike correlations fully capture single-neuron information&#39;
+	&#39;We show that temporal pairwise spike correlations fully determine the information conveyed by a single spiking neuron with finite temporal memory and stationary spike statistics.&#39;
+	&#39;This distribution, P(r|s), represents the residual, noise-induced variability for a given stimulus s&#39;
+	&#39;phase&#39;
+
+
+https://videocardz.com/newz/amd-radeon-rx-6800-launch-press-deck-transcript
+	Int4/Int32	1024 OPS/CYCLE/CU
+	Int8/Int32	512
+	Int16/Int32	256
+	Int32		128
+	FP16		256
+	FP16/FP32	256
+	FP32		128
+
+
+https://www.reddit.com/r/MachineLearning/comments/jv7nxb/n_amd_introduces_matrix_cores_as_equivalent_to/
+	Apparently ridiculously expensive.
+
+
+
+https://www.sciencedirect.com/science/article/pii/S0361923015000684
+	&#39;shapes&#39;
+	&#39;human or rat hippocampus, where nearby neurons fire to unrelated concepts in the first case (Rey et al., 2014) and to distant place fields in the latter (Redish et al., 2001)&#39;
+		Now beyond a shadow of a doubt, while whole electrode site activity may reflect data sent long distance, single-neuron precision is required to directly analyze the most detailed neural processing.
+
+
+
+https://upload.wikimedia.org/wikipedia/commons/1/1e/Estimations_of_Human_Brain_Emulation_Required_Performance.svg
+	Electrophisiology is estimated to be about 5 orders of magnitude more computationally expensive than &#39;neural simulation&#39;. This continues to confirm the expected gap between neurons as single devices, and neurons as at least membranes of perhaps 10^3 relevant FEM cells .
+
+
+
+https://en.wikipedia.org/wiki/Brain%E2%80%93brain_interface
+
+
+
+https://en.wikipedia.org/wiki/Learning_rule
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656500/
+	&#34Spatial and Temporal Scales of Neuronal Correlation in Primary Visual Cortex&#34
+	&#39;Finally, we used a recently developed analysis for isolating synchronous spiking from slower covariations in firing rate.&#39;
+	&#39;Pearson correlation coefficient&#39;
+	&#39;Fisher transformation&#39;
+
+
+https://academic.oup.com/cercor/article/25/9/3182/2926133
+	&#34Local and Global Correlations between Neurons in the Middle Temporal Area of Primate Visual Cortex&#34
+	&#39;where N1 and N2 are the spike counts of each neuron, and E and σ are, respectively, the mean and SD of the spike counts&#39;
+		So, basically the already conceptualized analysis, but with a covariance analysis. Where is their confidence test?
+			&#39;measured the confidence intervals using the function nlparci and ensured that these intervals did not overlap with zero&#39;
+	&#39;Pearson correlation coefficient&#39;
+	&#39;To do this, we first z-scored the spike counts so that response to each direction had mean of zero and unit variance. &#39;
+		MAJOR MAJOR MAJOR - Direction response. Similar to Neuralink research. And finding synaptic correlations between neurons.
+
+
+https://www.nature.com/articles/srep34886
+	&#39;Correlated activity of cortical neurons survives extensive removal of feedforward sensory input&#39;
+
+
+https://www.jneurosci.org/content/jneuro/33/45/17921.full.pdf
+	&#34When and Why Noise Correlations Are Important in NeuralDecoding&#34
+	&#39;To decode all the information, it suffices to know the probabilistic mapping between the stimulus and the population activity (Oram et al., 1998;Knill and Pouget, 2004).&#39;
+	&#39;both in the individual activity of neurons and in the correlations between their activities. U&#39;
+		MAJOR - Leading to a concerning notion. A neuron may send off different spike trains in response to different stimulus being presented just once. Such would require &#39;memory&#39; internal to the neuron itself, not reflected in RPT events.
+	May emphasize *decoding* of neural information, which is an endeavor of dubious practical utility.
+	&#39;their information content. The losses can be linked to specific NIL stimulus and response features by interpreting R as a reduced representation of the population response (Eyherabide an Samengo, 2010). In such a paradigm, population responses are represented as a vector of response features, each conveying in-formation about specific stimulus features. Only some of those response features (and their information content) are preserved after the NI assumption (first stage). The analysis of the preserved and lost features allows one to determine the effect of the NI assumption on the neural code.&#39;
+		Article is apparently merely restating the obvious with a very ambiguous use of the term &#39;noise&#39; to refer to amplitude noise as well as statistical noise in different contexts. If a neural decoder outputs less information than all statistically significant observations of the data set, then less confidence may be available than would have been by comparing the &#39;noise&#39; responses (ie. combined action potential electrical activity - &#39;electrical noise&#39;) of the entire &#39;populations&#39; of neurons with stimuli present, versus the &#39;population&#39; of perhaps the same neurons with stimuli absent.
+
+
+https://en.wikipedia.org/wiki/Bayes%27_theorem
+
+
+https://www.nature.com/articles/s41467-017-02009-x
+	&#39;65,536 simultaneously recording and stimulating electrodes in which the per-electrode electronics consume an area of 25.5 μm by 25.5 μm&#39;
+	&#39;compressive sensing&#39;
+
+
+http://inside.mines.edu/~mwakin/talks/mbw-cwpTutorial.pdf
+	Essentially seems to suggest attempting to interpolate sampled analog data by adding sine waves (or equivalents), rather than &#39;smooth interpolation&#39;.
+
+http://paulbourke.net/miscellaneous/interpolation/
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5702607/
+	&#34A very large-scale microelectrode array for cellular-resolution electrophysiology&#34
+	&#39;By removing the contribution of Pi in the per-channel data, we avoid aliasing.&#39;
+		MAJOR MAJOR MAJOR - Basically sparsely samples at the ADC (varying sample rate), making evenly distributed undersampled high-frequency noise slightly concentrate at frequencies which can then be filtered out, at least in some iterative way.
+	Apparently scans an ADC across multiple front-end amplifiers. This is *very* dubious, as the ADC is expected to be far less demanding of chip space than the amplifiers, except in unusual situations. Then again, this device was intended for deep electrophisiology on a scale beyond what can be manipulated analog in-vitro (precisely because of the ADC bandwidth required not having sufficiently low patterning cost or compactness given the sub-membrane size &#39;nanowire&#39; required), and beyond what is necessary in real time in vivo (in that case justifying multiplexed external analog connectivity), making this a very specialized science tool - FUNDAMENTAL - irrelevant.
+
+
+https://www.cns.nyu.edu/csh/csh06/PDFs/nrn1888.pdf
+	&#34Neural correlations, population coding and computation&#34
+	&#39;Both ∆Ishuffled and ∆Idiag have usually been found to be <10% for pairs of neurons. Therefore, it would seem that correlations are not important, and, in par-ticular, that correlations caused by synchronous spikes — the type of correlations implicated in the binding by synchrony hypothesis — do not carry much extra information.&#39;
+		MAJOR MAJOR MAJOR - Is synchronous activity - a common phenomenon - going to be difficult to filter out, generating lots of useless RPT events by mere oscillation phase lock?
+			Doubtful. Such phase locking would have to be through local field potentials, or through the (useful) temporal latencies under study. Local field potentials could generate useless RPT events, however, these could be ignored by the resulting local synchronicity unless useful phase differences were observable.
+				MAJOR MAJOR MAJOR MAJOR - FUNDAMENTAL - Worst case, &#39;ambient action potential rate&#39; must be considered to be much higher during local synchronicity events.
+
+
+
+https://en.wikipedia.org/wiki/Neural_decoding#Spike_train_number
+
+https://en.wikipedia.org/wiki/Neural_coding#Spike-count_rate
+
+
+
+https://www.annualreviews.org/doi/pdf/10.1146/annurev.neuro.31.060407.125639#article-denial
+	&#39;dependence on dendritic location&#39;
+		MAJOR MAJOR MAJOR - Continues indications of membrane voltage gradient relevance. Also implies long-term learning may be influenced by such image gradients - suggesting image recognition may occur close to the receiving neuron cell membrane. Of course that should be expected to begin with, since telodendria are apparently short.
+	&#39;nonlinear integration of synaptic modification induced by complex spike trains&#39;
+		MAJOR - Does not negate the iterative algorithm appropriate to impose &#39;RTP events&#39; from one network to exist similarly in another, nor does this negate the basic &#39;bridging&#39; algorithm.
+
+
+https://en.wikipedia.org/wiki/Neocortex#/media/File:Gray754.png
+	Suggests telodendria are long enough to span multiple neurons. In fact, a cube root of 10000 connections to other neurons at ~20 would allow 2um spacing between neurons at 40um telodendria length.
+		MAJOR MAJOR MAJOR - Most synapses to a neuron may not be dedicated to another single neuron. Actual number of neuron-to-neuron connections may be an order of magnitude lower at 1000/neuron, or more.
+
+
+https://www.frontiersin.org/articles/10.3389/fncir.2016.00023/full
+	&#34Why Neurons Have Thousands of Synapses, a Theory of Sequence Memory in Neocortex&#34
+	&#39;previously proposed that non-linear properties of dendrites enable cortical neurons to recognize multiple independent pattern&#39;
+	&#39;Experimental results show that the coincident activation of 8–20 synapses in close spatial proximity on a dendrite will combine in a non-linear fashion and cause an NMDA dendritic spike&#39;
+	&#39;We show the input to the cell divided into three zones. The proximal zone receives feedforward input. The basal zone receives contextual input, mostly from nearby cells in the same cortical region (Yoshimura et al., 2000; Petreanu et al., 2009; Rah et al., 2013). The apical zone receives feedback input (Spruston, 2008). (The second most common excitatory neuron in the neocortex is the spiny stellate cell; we suggest they be considered similar to pyramidal cells minus the apical dendrites.)&#39;
+
+
+https://en.wikipedia.org/wiki/Apical_dendrite
+
+https://www.nature.com/articles/nature03366
+	&#39;Although postsynaptic processing of each input is known to depend on its dendritic location1,2,3,4,5,6,7,8, it is unclear whether activity-dependent synaptic modification is also location-dependent. Here we report that both the magnitude and the temporal specificity of spike-timing-dependent synaptic modification9,10,11,12,13,14,15,16,17 vary along the apical dendrite of rat cortical layer 2/3 pyramidal neurons.&#39;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://en.wikipedia.org/wiki/Neural_backpropagation
+	Dendrite second &#39;echo&#39; due to whole neuron firing. Dubious relevance to connectome/weight mapping between neural units.
+
+https://en.wikipedia.org/wiki/Grandmother_cell
+
+https://www.mathworks.com/matlabcentral/answers/13687-do-you-think-that-matlab-is-expensive
+	SciLab, Octave and SciPy
+
+https://www.researchgate.net/publication/264432332_DynamicBC_A_MATLAB_toolbox_for_dynamic_brain_connectome_analysis
+	&#39;DynamicBC: A MATLAB toolbox for dynamic brain connectome analysis&#39;
+	&#39;sliding-window analysis&#39;
+	&#39;time-varying parameter regression&#39;
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7443704/
+	&#39;CATMAID&#39;
+	&#39;natverse&#39;
+	&#39;NBLAST&#39;
+	&#39;FAFBseg&#39;
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4961245/
+	&#39;NBLAST&#39;
+	&#39;We present NBLAST, a sensitive and rapid algorithm, for measuring pairwise neuronal similarity. NBLAST considers both position and local geometry, decomposing neurons into short segments; matched segments are scored using a probabilistic scoring matrix defined by statistics of matches and non-matches. We validated NBLAST on a published dataset of 16,129 single Drosophila neurons.&#39;
+		&#39;pairwise&#39; &#39;correlation&#39; &#39;distribution for matching pairs&#39;
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7242028/
+	&#39;The natverse, a versatile toolbox for combining and analysing neuroanatomical data&#39;
+	&#39;natverse&#39;
+	&#39;match neurons and boutons to layers&#39;
+	&#39;Sholl analyses&#39;
+	&#39;trees toolbox (Cuntz et al., 2010), has particularly strong support for morphological analysis of neurons but focuses on individual neurons in isolation rather than neurons within the volume of the brain as a whole&#39;
+	
+	&#39;align&#39;
+	&#39;hierarchical clustering&#39;
+	
+	&#39;NBLAST scores can be hierarchically clustered in R, plotted as a dendrogram, and used to visualize morphological groups at a defined group number or cut height (Figure 4a). Often, this forms a good starting point for cell typing, but might not be in exact agreement with manually defined cell types (Figure 4b). This can be due to neuron reconstructions being differently severed by the field of view or size of the tissue sample collected (Helmstaedter et al., 2013), or due to registration offsets between registered neuronal skeletons (Chiang et al., 2011; Kunst et al., 2019).&#39;
+	
+	&#39;NBLAST scores&#39;
+	
+	&#39;morphologically determined similarity scores&#39;
+		Very much a dubious and not relevant technique for analyzing dead tissue slices.
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3191349/
+	&#39;address-event-representation (AER)&#39;
+	&#39;speed-up factor of 104 compared to biological real-time, which increases simulation speed and integration density of the analog neuron and synapse circuits at the same time&#39;
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4205553/
+
+
+https://en.wikipedia.org/wiki/Connectome
+	&#39;Finally, statistical graph theory is an emerging discipline which is developing sophisticated pattern recognition and inference tools to parse these brain-graphs (Goldenberg et al., 2009). &#39;
+	&#39;Alternatively, local difference which are statistically significantly different among groups have attracted more attention as they highlight specific connections and therefore shed more light on specific brain traits or pathology.  Hence, algorithms to find local difference between graph populations have also been introduced (e.g. to compare case versus control groups).[65] Those can be found by using either an adjusted t-test,[66] or a sparsity model,[65] with the aim of finding statistically significant connections which are different among those groups.&#39;
+		Comparing groups of neurons by comparing some of their prominent features to normal distribution statistics. Dubious and not relevant.
+	&#39;connectograms have been used to visualize full-brain data by placing cortical areas around a circle, organized by lobe&#39;
+		https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3594415
+			&#39;extract cortical and non-cortical anatomical structures&#39;
+				Of course. MRI/fMRI/PET/etc would rely on neuroanatomical overlay, since these techniques excel greatly in that regard, and may have neither the temporal nor spatial resolution to achieve any other means of neuroanatomically accurate mapping.
+		https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3275792
+	&#39;Statistical graph theory is an emerging discipline which is developing sophisticated pattern recognition and inference tools to parse these brain graphs (Goldenberg et al., 2009). &#39;
+		&#39;parse these brain graphs&#39; - create them maybe not so much
+
+
+https://en.wikipedia.org/wiki/Connectogram
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7443704/
+	&#39;Neuron skeletons were traced in a full adult female Drosophila brain ssTEM (serial section transmission electron microscope) volume&#39;
+	&#39;Analysis and Representation of Traced Skeletons&#39;
+	&#39;nat.nblast&#39; ... &#39;compare neuron skeletons by morphology and position and generate a hierarchical clustering&#39; ... &#39;identifying neuron types&#39;
+		Definitely not relevant.
+	&#39;relay thermo- and hygrosensory information to higher brain centers, including the mushroom body and lateral horn, seats of learned and innate behavior&#39;
+
+
+
+
+https://www.sciencedirect.com/science/article/pii/S0361923015000684
+ 'Past, present and future of spike sorting techniques'
+
+
+"

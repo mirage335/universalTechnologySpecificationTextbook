@@ -1,0 +1,268 @@
+"_ Terms _
+
+'DC Brushed motor'
+'geared'
+'RC Car'
+'1/10 scale'
+'6000RPM'
+
+'bowden cable housing'
+'close wound'
+'longer helix'
+
+'hydrostatic transmission pump' (eBay)
+'hydrostatic transmission'
+'air compressor'
+'diesel engine'
+'hydraulic amplifier'
+'pilot operated solenoid valve'
+
+
+_ Rough _
+
+*) CNC machinery may use eddy current brake, bowden cable, etc, both as extreme Y-axis drive mechanisms, or as precision multi-axis tools.
+
+
+*) Pain simulation from tactile precepts - while pain may seem undesirable, when in small quantities and prompt, some necessary and essential conditioned response (de)entraining may occur. Particularly, loss of fear of heights is a common potentially dangerous side effect from VR visual input without any other sensations, while Post-Traumatic-Stress-Disorder may be treatable by VR visual input alone. Visual cliff research may be relevant.
+
+
+*) Precise hand force feedback will require two sets of cables, some of which are never driven with substantial force. This is exactly equivalent to the use of both precise and strong muscle fiber types.
+
+*) Eddy current drum motor may be right shoulder mount, being far more compact and better located for isolated use of precision hand controls.
+
+
+*) Shear bolt, rupture discs, and similar 'mechanical fuses', may improve safety.
+
+*) Power transistors driving exoskeleton must always fail to no output, with no power applied to cable puller, and appropriate flyback protection.
+
+*) Spring and leadscrew cable pullers may substantially reduce energy consumption while holding roughly static force/position.
+
+*) Merit figures for a successful VR exoskeleton are at least 3-day continious use, sleeping in machine every night, no interruptions, without causing substantial fatigue, pressure wounds, etc.
+ *) Dexterity of finger force feedback and position must be sufficient to 'twirl a pen' simulated in VR space through the fingers (as a particularly extreme example).
+
+*) Position feedback for VR exoskeleton should normally be exclusively from external trackers of user position in 3D space, maximizing redundancy at minimum cost. Tracking based on joints (as usual for CNC machines) for exoskeletons is fraught with severe issues - rigitidty, weight, cost, lack of redundancy, etc.
+
+*) Eddy current brake drum uniquely shares a single mechanical power source (which may be hydraulic or turbine driven), adds a convenient flywheel, amounting to an extremely effective mechanical 'power take off' PTO . Air compressors may share the same mechanical power for cryogenic refrigerated computer cooling. Such features are particularly important to (ie. flight) simulator software constrained by single-thread CPU throughput.
+
+*) Linear Induction Motors may use commodity ESC modules able to generate large quantities of 3-phase power.
+   *) Burst current - 900A
+   *) Multiple ESCs could be power balanced automatically by a simple MCU to ensure each ESC/motor/LIM contributes equally.
+    *) Linear Induction Motors can be separate modules - power sharing is not necessary.
+
+
+
+*) Liquid immersion (if used as mechanical supplement to exoskeleton) continiously, may degrade human skin. Bubblewrap padding, cloth, tubing to distribute dry gas, regular exhaust vents, may keep human skin in contact with a continious flow of dry gas.
+ *) MAJOR - Tactile Precepts hardware may share the same air pockets and air flow hardware.
+  *) Such an integrated arrangement may drastically improve exoskeleton power efficiency, improve exoskeleton comfort, add significant dynamic range from fluid resistance, and especially reduce cost.
+  *) Layers (ie. tactile precepts bubblewrap) may be 'sewn' as patches into typical clothing (eg. shirts, denim jeans, etc) even if liquid must be kept out, due to the continious flow of air available. Existence of such commodity components already in 'standard sizes' may significantly improve adaptability to the complex organic geometry of users, as well as improving cost effectiveness as usual.
+ *) Loose ball bearing - mix of grease and steel balls used to reduce friction between PTFE liners of flexible materials used for organic interfacing.
+
+
+*) CAVE Automatic Virtual Environment (aka. CAVE) using large displays, hand tracking, face/head tracking, etc, in addition to any VR headset, tactile precepts hardware, VR exoskeleton, etc, may be simultaneously connected to the same VR environment. Eating, grooming, relaxing (ie. sharing a meal), etc, can be exactly as otherwise normal while still immersed in the same shared VR multiplayer space, while temporarily not wearing obstructive (but otherwise much better resolution) VR headset or other hardware.
+ *) Particularly this is helpful so long as VR headsets remain heavy or tightly strapped enough to cause any neck strain, face pressure, etc, which an exoskeleton with autotightening straps may not completely nullify. Also helpful between intervals of particularly high mental stress (ie. hardware design, VR CAD modeling, flight simulation training, etc).
+ *) Fold down resources for phisiological inconveniences - keyboard/mouse/table, stowage containers for food, etc.
+  *) Players might be able to order from restaurants in VR, and have delivery services bring the physical food directly to them, without leaving VR.
+
+
+*) Exoskeleton users may have VR avatars illustrating the limitations of their interface. Places where force feedback and tactile precepts (eg. shirt) are available may be visualized as thick plates of semi-transparent armor (which of course do not necessarily confer in-app or game armor benefits). Analogously, avatars in some VR apps may already show users wearing 3D glasses or VR headsets when appropriate.
+
+
+*) Training resistance multipliers. Exoskeleton software must include a modifier layer to increase resistance when more precision is desired or when some reflex training is desired (ie. similar to adding inertia training weights to a computer 'mouse').
+
+
+*) Hybrid mechanical/neural interfaces may in some cases effect similar results with less intricate technology than more complete neural interfaces. Olfactory nerve stimulation in particular is already presumably accessible, and taste nerve stimulation has sufficiently limited requirements for extremely great success with very primitive minimally invasive microelectrode array (MEA) interfaces having few channels. Highly nutritional food could be presented as low-resolution assemblies of cubes, with apparent taste as users physically ate the food being virtually simulated by electrical input through the direct neural interface. Tactile input in this case is provided by physical shape of nutrition cubes, which range from hard to spongy, and assemble together into such shapes as sandwiches by velcro like linkages.
+ *) Bypasses the usually prohibitively expensive issues of rigid precision, slow extrusion, multiple materials, and adhesion, from higher fidelity 3D printing of food.
+ *) MAJOR - May be especially helpful to medical patients who, due to nauseating treatments, may find many otherwise necessary, tasty, and nutritious foods unpalatable. Significantly, public policy may also benefit from ability to present more nutritious foods as more palatable.
+ *) In practice, it will be up to the players to creatively overcome the limitations of this approach, both making these things satisfying, and learning to eat them in a satisfying manner - possibly knowing to swallow promptly and quickly enough to match the (configurable) taste stimulation duration.
+ *) A double tap gesture may associate the camera tracked food object with a user configurable taste and aroma (or simply activate the taste and aroma for a 4 second interval afer 2 seconds). Such reconfiguration may be especially helpful for 'energy bar' snacks - nutrition as less of a meal and more as something taken while busy doing something else.
+
+
+
+*) Exaggerated apparent visual motion in VR may allow a much less expensive 'static' exoskeleton. Tables, chairs, etc, may be usable as-is. Such an exoskeleton would effectively work as a more intuitive, more comprehensive 'game controller', with only minimal range of motion and force feedback relative to a static posture.
+
+
+
+
+*) Permanent magnets behind eddy current brakes can cheaply increase (possibly approximately double) total force when electromagnet is not opposing. Electromagnet on, same magnetic polarity as permanent magnet. Electromagnet off, opposite polarity. Suitable rare earth magnets may be quite thin to integrate with cable pull plates.
+
+
+
+--------------------------------------------------
+REVIEW - May be duplicative from (another) part of (another) document.
+
+*) Although somewhat invasive, spinning wires (eg. of tungsten carbide) with suitable tips may be used as drill bit microneedles penetrating most of skull. A large array of these (ie. ~1mm spatial resolution) could be competitive with more completely invasive interfaces for VR purposes. Especially if reaching intra-dural.
+ *) Diamond abrasive tips may avoid any requirement for drill bit shaping, minimizing cost.
+ *) Collateral damage to pass-through tissue (ie. scalp) would be a non-issue if diameter was a relatively small fraction of minimal spatial resolution (ie. ~0.1mm/~1mm).
+ *) MAJOR - Motorization of wires is potentially a minor expense. A single motor may spin and push multiple wires simultaneously (using some kind of gearing arrangement), resulting in 'microneedle array' like behavior.
+  *) Very high resolution 3D printing would may benefit this considerably.
+  *) Belts may spin microneedles by friction. Pusher plates may press large groups of microneedles inwards.
+ *) Similar in principle to ECoG. May also be used to push threads of a 'neuralBits' interface after minimally invasive implantation of that.
+
+*) Wet abrasion, dry absorption.
+
+
+--------------------------------------------------
+Elaboration regarding otherwise already noted concepts.
+
+
+*) Cylinder drum eddy current brake may allow useful stowage (or possibly pass-through of limbs) inside the metal drum if either supported from only one side or if bearings are at solely at drum surface instead of center. Usually not justified, but possible.
+
+
+*) Flat disc flywheel, instead of cylinder drum flywheel, has been considered for eddy current brake cable puller mechanisms. Cable pull plates and restraining mechanisms would not all be exactly the same - different diameters would be needed for each cable. Complex 3D printed brackets in such case may be unavoidable. Usually, form factor is not enough to justify such more complex, slower, much more expensive manufacturing.
+ *) Theoretically, flat disc eddy brakes toward mid-outside of flywheel, while cables are pulled around a narrow shaft, would have significant mechanical advantage. Practically, such is far more complex, expensive, and less compatible, than connecting bowden cables to small intermediate levers.
+
+*) Expansion of cable pull plates into restraining plastic pipe is not the only means to prevent contact with rotating drum. Extrusions may already be sufficient without the plastic pipe, though the smaller aluminum surfaces may wear more quickly. May also use a pipe between rotating drum and cable pull plates, or possibly hydrodynamic bearing/gliding between cable pull plates and drum with oil or liquid metal lubricant.
+
+*) Cable pull plates may of course rotate multiple times (cable spanning across the snap fit gap). Cutouts in plastic pipe may or may not be necessary (eg. for snap fit plates from both sides).
+
+*) Due to simplicity of calibration (at least unidirectional force sensing already present), scrap motors are usable, although still usually too expensive. Torque curves must be reasonably smooth and and electronics cost must be minimal.
+ *) Motor cable puller may require rotation as high as 6000RPM if 1cm/R and 100cm/s desired.
+
+*) Pancake motors theoretically may be second to eddy current brakes in compactness, torque, and smoothness, but much more complex to manufacture.
+
+*) Calculations suggest accelerating a 10kg object to 1m/s in 1s is 5J/s kinetic energy, or 5W continious. Approximately 500W dynamic load may be expected during intense activity.
+
+
+*) Rigid aluminum cylinders over PTFE liner (in bowden cables) may offer better performance.
+
+*) Bowden cables may be used both to extend and shorten along linear bearings. Particularly inexpensive, a hybrid roller bearing and bushing housing may be placed as a square cylinder around a 10-series extrusion as a piston. With a bowden cable run from the base of the piston to near the opening of the cylinder, and another wire from the base of the piston to the base of the cylinder, a highly rigid and inexpensive bowden push-pull mechanism may be created.
+
+*) Barrel adjusters are apparently common with bowden cables. Any mechanism of forcing bowden tube segments apart may be used for such pre-tensioning.
+
+
+*) Hydraulic amplifiers may use two valves in the same manner as a Class B linear electronic flow amplifier - a 'push-pull' between pressure supply 'rails'. The class A pressure gain stage (ie. common emitter amplifier) typical of OpAmps may exist inherently within the Class B flow amplifier as a mechanism which uses hydraulic flow to increase the valve opening pressure (ie. a pilot operated solenoid valve).
+
+
+
+
+
+*) Exoskeleton mechanically relative to dorsum (aka. back) drastically reduces motor power and bearings complexity (rather than supporting full body weight at each limb).
+ *) Limited motion of shoulders relative to hips should be adequate for all postures (including sleeping) if following existing good practices (eg. adjustable straps, pillow lumbar support). Complex mechanisms NOT necessary.
+ *) Weights of individual limbs are <20kg each instead of full body weight.
+ *) Force feedback is a cue, and does not necessarily need to respond with forces equivalent to full body weight. Some loss of dynamic range from maximum force is acceptable.
+  *) Usually ~1kgF joystick force offers enough dynamic range for adequately precise flying. Exoskeleton force feedback of <35kgF at hand/wrist should be very much adequate.
+
+*) Exoskeleton limbs supported by 20 series extrusions driven by 10 series pistons. Fingers and toes supported by 10 series driven directly by delta push/pull cables.
+
+*) Exoskeleton fingers are constrained at tips only, observed by camera tracking at nuckles, and hit with mechanical ping to confirm button presses
+
+
+
+
+*) Especially for flight sim, stowing some liquids and snack bars within easy reach, may substantially improve mental fatigue during long sessions.
+
+
+*) Inner texture of all force feedback and tactile surfaces should be grip tape rough. This will give a sense of ''bite back' when grabbing objects harshly, as well as improve responsiveness of the system.
+
+
+*) Very small resistors (eg. 0202) may be overloaded with minimal total energy, perhaps allowing a decent margin of safety (due to minimal difference between power dissipation when in contact with user or not) in simulating the feel of small burns, particularly if rapidly cooled after. Similar principles may apply using large peltier elements for most heating/cooling, while using very small peltier elements for especially hot/cold tactile precepts.
+ *) Pain simulation by millimeter wave transmitter heating may have a decent margin of safety due to not requiring physical contact to ensure a predictable temperature rise with power dissipation. Mechanical relays, waveguides, and stripline, may control millimeter wave distribution from a central transmitter.
+
+*) Silicone dipped flexible zig-zag shaped PCB may be usable for tactile precepts, possibly including electrotactile display. Similarly, adhered temporary tattoo layers, paints, adhesives, etc.
+
+
+*) Dynamic maximum resistance - exoskeleton force feedback resistance may increase when maximum dynamic range is needed for best precision or decrease when desired for comfortable movement. Gravity and zero-gravity simulation by force feedback is also possible.
+
+*) Negative resistance may be applied by exoskeleton, accelerating movement. User would then control their own limb motions more as changes in rates of acceleration rather than changes in rates of speed.
+ *) Running speed may be accelerated to maximum plausible for a reasonably balanced individual plus 10percent.
+  *) Humans seem able to do ~28mph, from derby records, horses and similar may have maximum muscle responses equivalent to 40mph humanoid form.
+   *) 13MPH marathon, 15MPH mile, 30MPH sprint, 50inch jump
+  *) Such augmentation of human motions by exoskeleton may balance the interests of such players with those of otherwise faster neural interface users.
+   *) Games could impose mandatory physical stepping (even if not particularly comfortable or intuitive) to move at full speed for users *not* having exoskeleton mechanical or neural VR interface, as a way to balance the mental effort required to complete activities for all players.
+
+*) Force Feedback from an exoskeleton may intuitively indicate limitations from injuries to a player's character.
+
+
+
+
+*) Contra rotating flat disk flywheels and cylinder eddy current brakes may allow indefinite bidirectional cable pulling. These flywheels need not be exactly on-center, and may use a gearing arrangement to be driven by a single motor, or two, doubling flywheel energy capacity in all cases.
+ *) MAJOR - Much more robust, less expensive, and compatible with the also much more robust and less expensive drum eddy current brake - two separate opposing cable pull plates with minimal tension kept on the side of undesired rotation.
+
+ 
+*) Hall Effect Magnetometer within an OpAmp feedback loop may be able to sense the zero-magnetic-field condition needed to neutralize a ferroelectromagnet.
+
+*) Inductance and resistance measured by high-frequency pulses, added noise, or reverse current spiking, may calibrate the eddy current brake force. Eddy current induction will resemble a transformer load lowering apparent impedance. Electromagnet saturation will also lower inductance to brief ~100kHz pulses. Hall Effect Magnetometer and OpAmp control of electromagnet may be much less expensive and much higher performance than the required measurement circuitry.
+
+
+*) Pulleys may be used to decrease elasticity towards end effectors.
+
+
+*) Paw actuators not only have independent eddy current drums/motors, but use these to augment wrist motions with control cables coming from both drums/motors. This is to shorten distance to the nearest eddy current brake to improve response time and/or apparent rigidity.
+
+
+
+*) Portability - Collapsible wheels for frame, optional tie down straps for anchors, gyrotorquers for rapid rotational thrust.
+ *) Better, collapsible wheel or cross for the bottom of the frame, with the user supported at a single point that supports pitch, roll, and yaw.
+ *) Two supports going to the crossbar... allows complete pitch, and migrates yaw to the base.
+
+
+
+*) Hard electromechanical parts in contact with user may be DLC coated. Soft underlying teflon coated fabric between those and user may be expendable.
+
+
+
+*) Headset will have contact pads around it, which allow force transfer directly to head, with insignificant effect on headset alignment.
+ *) Contact pads around the rear headset grip, around the sides of the head, and through holes in the foam at the front and top of the head. Each separately actuated, so rotation and translation cannot occur relative to head.
+
+
+
+
+*) Linear cylinder motors - 'voice coil actuators' may be adequate across small travel ranges.
+ *) Could use a large surrounding iron pile of ferromagnetic pipe.
+  *) Saturation... 1A, 100 turns, 1inch ...
+
+
+*) Tactile precepts may use simple transistor circuits to drive tristate/quadstate electomagnet from a single GPIO pin.
+ *) Temperature sensing may be at very low sampling rate (once tens of seconds or more) to recalibrate thermal resistance.
+ *) Timer circuit with temperature sensing limit may limit brief/safe 'burn' stimulation.
+ *) Frequency filter circuits may infer a specific command (eg. translation of a 10kHz GPIO signal to power on a 100kHz RF oscillator heater).
+
+*) Zip tie may be used in place of solder, hose clamps, etc, as versatile mounting hardware for tactile precepts.
+
+*) Tiny steel nails may have the stiffness and ferromagnetism to create bidirectional pneumatic valves, possibly with small spring load, bias current, permanent magnet, etc, to predisposition default position.
+
+
+
+*) High-kV BLDC motor power/speed may be improved as much as 10x by hydrogen/water/refrigerated cooling.
+
+*) Drum may be converted by 10x gearbox to approximately 2kRPM PTO shaft - pto shaft flange.
+
+
+
+*) Drum balance might be adjusted by adding small traces of epoxy to inside of drum.
+
+
+
+*) All large diameter pipes may use 3d printed or wood parts as drilling and cutting jigs. Also, 3d printed shims may be used. CNC mill, lathe, etc, not necessary.
+
+
+
+*) Thermistor multiplexing - temperature to frequency conversion. Slightly separate or random frequency FDMA, or basic CDMA chipping. Ordered addressing not required - activation of heaters will identify the associated thermistor channel. Center frequency tolerance may be loose if only thermal resistance or relative change in temperature is needed (as expected for tactile precepts).
+
+
+
+*) Drive motor for metal drum of eddy current brake must have high torque - low mechanical impedance - if efficiency with high continuous load is important.
+ *) MAJOR - Faster metal drum rotational rates per kgF from cable pull plate may reduce motor torque requirements, an impedance matching effect.
+
+
+
+*) Bowden cables may connect to gearboxes which may pull other bowden cables, when rate of forced motion is less critical than maximum force.
+
+
+
+_Reference_
+
+https://en.wikipedia.org/wiki/Bowden_cable
+
+https://forums.somethingawful.com/showthread.php?threadid=3900246
+
+https://www.kjmagnetics.com/calculator.asp
+
+https://www.calculatorsoup.com/calculators/physics/kinetic.php
+
+
+https://ams.com/miniature-camera-modules
+	'NanEye'
+
+https://www.researchgate.net/publication/338575390_A_scalable_pipeline_for_designing_reconfigurable_organisms
+ 'A scalable pipeline for designing reconfigurable organisms'"

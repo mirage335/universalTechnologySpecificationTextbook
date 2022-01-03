@@ -1,0 +1,194 @@
+[0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+_ sleeveDive _
+Thoroughly interfacing, rearranging, and rewiring, the organic components. Wetware equivalent of FPGA for harnessing any last neural correlate of consciousness.
+
+Wetware/hardware design to sustain (ie. &#39;mindUploading&#39;) and/or supplement (ie. &#39;exocortex&#39;) any possible neural correlates of consciousness (ie. replacement wetware instead of hardware) and computational capability recorded by &#39;neuralBits&#39; and correlated to connectome and synaptic weights from &#39;cognitionSplicer&#39;. Emphasis on minimizing risk of losing neural correlates of consciousness (ie. NOT using brain simulation software on silicon hardware for now), and &#39;full-dive&#39; Virtual Reality (VR) or preferably Simulated Reality (SR) , while keeping both capital and ongoing costs (ie. Total Cost of Ownership) close to high-end GPUs (~$2k capital, ~$10/hr).
+
+Feasible, as a combination of &#39;neuralBits&#39; (or similar) electrical interfaces bridging fragments of brain tissue, kept alive by artificial or natural sources of suitable fluids, all after some electrical stimulation to impose connectome and synaptic weights similar to that of previously recorded brain activity. A recreation of (eg. human) brain across a combination of hardware and separable wetware components.
+
+For early venturing early users of &#39;neuralBits&#39;, having &#39;sleeveDive&#39; already available as emergency replacement wetware could be a life saving fallback if anything goes awry within the first few hours. Thus, &#39;sleeveDive&#39; also mitigates the most substantial risks of invasive neural interfaces.
+__ Introduction __
+*) Extracting and keeping alive for several hours, brain tissue, to the point of entire rat or guinea pig brains, by perfusion of elemental mineral solutions (ie. aCSF), under anaesthetic, is already routine.
+
+*) Electrical neural interfaces beyond thousands of neurons are already available for in-vitro, and are becoming more available for in-vivo.
+
+*) Extending existing brain tissue survival time and yield is feasible, if not by better control of the extraction and aCSF (artificial Cerebral Spinal Fluid) then at least by leaving the brain tissue in-vivo with natural dCSF (derived Cerebral Spinal Fluid) as normal.
+
+*) Extending electrode quantities to suffice for brain-to-brain interfaces between brain tissue &#39;wetware components&#39; with &#39;neuralBits&#39; hardware is feasible - specialized hardware for immovable or in-vitro brain tissue is substantially cheaper.
+___ Presented ___
+
+As may be plausible.
+____ Sketch Illustrations ____
+
+*) Automated, fast extraction, slicing, and dicing, of brain tissue (if necessary - survival time and yield presumed to improve with less time and trauma).
+*) Accessible grid of <<1mm containers to anchor, nourish, and interface neural cells, with small openings for axons between neurons. Manufacturing these is expected to require sub-mm resin 3D printing, or photolithography prototyping by etching.
+
+*) Bulk tissue framing, nourishment, and interfacing.
+*) Whole organism natural dCSF, homeostasis management and sensation, harnessing (life support).
+
+*) &#39;Bioprinting&#39; needle designs to pick and place small quantities of biological tissue with minimal time, trauma, collateral damage, or other degradation.
+____ Calculations ____
+
+*) Neurons per cubic volume of brain tissue to total neurons within cubical container of specified edge dimension.
+__ Conclusions __
+Photolithography resolution compatibility of hardware designs must be >>300nm to minimize unnecessary cost or prototyping difficulty. Arbitrary rearrangement of wetware obviates concern over collateral damage or electrode density, with only the total quantity of electrodes significant.
+
+MAJOR - FUNDAMENTAL - Electroplating at 25um/h suggests a growth rate highly similar to axons. While acceptable, improvement would be desired if possible by physics.
+
+Container grid can be fabricated by etching based photolithography (not electroplating). Plastic substrates from sub-mm resin printing will most likely be more durable under the chemical erosion of nearby wetware than any metal or protective coating on metal.
+
+
+
+
+Isolated brain tissue may be regarded similarly to an electronic component, suitably connected to an appropriately manufactured socket.
+
+
+
+
+*Apparent time acceleration*, usefully, must accelerate single-threaded cognition abilities to the point of catching a faster falling Newton&#39s proverbial apple. A small acceleration factor (ie. >3x) may sufficiently separate WORLD (ie. both VR WORLDs and that other &#39;IRL&#39; WORLD) economies to eliminate any perceived need for interference from inhabitants of one WORLD with any other (ie. insisting players in virtual WORLDs leave too often for an immersive experience). 
+
+Such time acceleration by single-threaded performance improvement may not be possible by adding more neurons or by increasing power density (ie. metabolism). Rather, reducing resistance/capacitance time constant of neuron membranes, or increasing decision making efficiency for groups of neurons, may be necessary. Reducing resistance/capacitance time constant may require active components on the membrane (ie. nanowire semiconductors from added genetic material, voltage gated ion channel improvements, more voltage gated ions channels). Increasing decision making efficiency may require using only one fraction of neural tissue at a time, another fraction taking update connectome and synaptic weight changes, and all remaining neural tissue kept comatose to recover.
+
+Silicon hardware exocortex may not have correlates of consciousness, while any memories created by such may seem equally genuine in retrospect. While a silicon hardware exocortex may have better single-threaded performance for more time acceleration, risks of not having neural correlates of consciousness to actually experience anything, *must not be disregarded*. Any use of a silicon hardware exocortex should be only supplementary until proven to at least have very appropriate analogues of any remaining candidates for any last neural correlates of consciousness. Such may include neural membrane shape, ion channels, transient voltage gradient shapes, as well as the merely hopeful possibility that any similar software algorithm could have some &#39;consciousness&#39; - extreme skepticism is appropriate absent absolute logical proof. Regardless, any entity capable of ethically claiming self-awareness and a desire to exist must be treated accordingly.
+
+
+Parallel neural cognition performance improvement, if cost effective, may include - up metabolism, up ATP/ADP concentration, up mitochondria, up sodium/potassium pump, up blood/dCSF/aCSF flow, down inflammatory enzymes, down blood immune system.
+
+
+Cubical containers are ideal for any experiments to increase neuron performance or latency, due to high flow and containment of occasional failures (eg. excessive multipliction, abrupt circulatory changes, etc) to a small area.
+
+
+
+
+Open circulatory systems are well precedented in nature. Significant survival of brain tissue for multiple hours strongly implies open circulatory system is at least adequate, if not beneficial, obviating recreation of parts original circulatory of brain tissue.
+
+Multiple extracoporeal circulatory systems seem feasible, and have the substantial benefits of redundancy and reduced replacement difficulty .
+
+CSF may ultimately be the only fluid all CNS neurons are directly in contact with - if true only oxygen, carbon dioxide, and glucose would need to be added to a typical &#39;aCSF&#39; &#39;buffer solution&#39;. Due to the peripheral nerves mostly carrying neural axons (at least at some distance), CSF would likely be adequate for the PNS as well. CNS and PNS both may naturally rely entirely on outward flow of CSF fluid.
+
+
+
+Cubes are suggested mostly to minimize collateral damage from occasional inappropriately multiplying cells (ie. cancer, bacteria).
+
+Rather than cubes, simply pressing an entire slice of tissue into suitably perforated and textured machined plate may be more useful, technically more efficient, and simpler.
+
+Continuously flowing water with gates may allow slices to be collected by automatic means, to be dispensed towards an appropriate plate.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ REFERENCE __
+
+
+https://www.sciencedirect.com/science/article/pii/S2451929418301724
+ &#39; Recent Advances in Nanowire-Biosystem Interfaces: From Chemical Conversion, Energy Production to Electrophysiology &#39;
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4924811/
+ &#39; Cortical Specializations Underlying Fast Computations &#39;
+
+https://www.nature.com/articles/s41467-020-15759-y.pdf
+ &#39; Bioinspired bio-voltage memristors &#39;
+
+
+
+https://www.brainbitsllc.com/e18-rat-whole-brain
+https://www.brainbitsllc.com/e18-rat-cortex
+	&#39;Guaranteed to Yield 2.0 Million Viable Cells&#39;
+		Perhaps a rather high yield, actually.
+
+https://brainxell.com/mixed-cortical-neurons
+https://www.allencell.org/
+https://catalog.coriell.org/
+
+
+
+https://www.brainbitsllc.com/faq/
+	&#39;Brains will be dissected after anesthesia with halothane or pentobarbital.&#39;
+	&#39;The cortical BrainBits probably has about 10% astrocytes. If you culture in serum, you will get many more. We recommend culture in B27/Neurobasal (Invitrogen/GIBCO). This inhibits glial growth without AraC.&#39;
+		&#39;astrocytes&#39; &#39;you will get many more&#39;
+			Presumably avoidable and possibly undesirable.
+	&#39;Usually, our experience is that yours is the only sample contaminated out of all our shipments for the week, so please understand that we require the above tests.&#39;
+
+
+
+https://en.wikipedia.org/wiki/Isolated_brain
+
+https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid
+	Seems cerebrospinal fluid has far fewer constituents than blood, presumably due to the brain-blood barrier. Should be much more straightforward to sustain neural tissue from mineral solutions costing a few hours per hour in raw materials outright, if not somewhat less to recycle.
+
+https://en.wikipedia.org/wiki/Dialysis
+	&#39;dialysis solution has levels of minerals like potassium and calcium that are similar to their natural concentration in healthy blood&#39;
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157386/
+ &#39;Cerebrospinal fluid outflow along lumbar nerves and possible relevance for pain research: case report and review&#39;
+	&#39;It has been traditionally accepted that cerebrospinal fluid (CSF) flows from the subarachnoid spaces (SAS) through the cribriform plate into the cervical lymphatics, and similarly, along all brain nerves and all peripheral nerves into the respective tissues. This CSF outflow can transport antigens from CSF spaces to the extracellular fluid of peripheral tissues&#39;
+		Strongly implies (1) CSF nourishes peripherial nerves and (2) antigens are present in CSF, further strongly implicating (3) only adaptive immune response is present outflowing from CNS or PNS, and no immune response in CNS.
+
+
+https://en.wikipedia.org/wiki/Brain_abscess#Treatment
+	Demonstrates some degree of tolerability for bacterial infection above zero. Suggests even non-multiplying cells (ie. neurons) are capable of outcompeting multiplying cells (ie. bacteria), strongly implying efficiency in a particular environment is a major constraint, with a strong genetic basis.
+
+
+https://www.youtube.com/watch?v=V2YDApNRK3g
+
+
+
+https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-019-0578-x
+https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-019-0578-x/tables/2
+ &#39;Human iPSC banking: barriers and opportunities&#39;
+	&#39;Table 2 Brief overview of iPSC banks worldwide&#39;
+
+
+
+https://www.youtube.com/watch?v=YWQnzylhgHc
+	&#39;This is not a program telling the robot to stop and reverse when an obstacle appears, it is the Connectome&#39;
+
+
+
+https://www.pnas.org/content/109/Supplement_1/10661
+ &#39;The remarkable, yet not extraordinary, human brain as a scaled up primate brain and its associated cost&#39;
+	&#39;75.5%&#39; &#39;75.7%&#39; &#39;84.0%&#39; &#39;entire brain mass&#39;
+
+https://hypertextbook.com/facts/2001/ViktoriyaShchupak.shtml
+	&#39;1200&#39; &#39;cm^3&#39;
+
+https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons
+	&#39;human&#39; &#39;16 billion neurons in the cerebral cortex&#39;
+__ ACKNOWLEDGMENT __
+
+*) For &#39;shorter duration action potentials&#39;, plausible example mechanisms were more confidently identified by articles found by &#39;Andonis&#39; at the &#39;Futurist Network&#39; &#39;Discord&#39; server . Before that, accelerating apparent time by electrical interfaces bypassing action potential duration seemed substantially less feasible.
+ *) &#39; Cortical Specializations Underlying Fast Computations &#39;
+ *) &#39; Recent Advances in Nanowire-Biosystem Interfaces: From Chemical Conversion, Energy Production to Electrophysiology &#39;
+  *) &#39; SEMICONDUCTOR NANOWIRES WITH LIVING CELLS FOR ELECTROPHYSIOLOGY &#39;
+ *) &#39; Bioinspired bio-voltage memristors &#39;
+
+
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Estimate - Neurons in Containers __
+[0;34m  'neocortex_neurons=$(_clc "16 * 10^9")' [0m
+[0;34m  'neocortex_mm3=$(_clc "1 * 10^6")' [0m
+[0;37;100mneurons_mm3= 16000[0m
+[0;37;100mneurons_um3= 0.000016[0m
+ 
+[0;34m  'container_50um_neurons=$(_clc " ((50 * ((1 micrometer) / (1 millimeter)))^3) * $neurons_mm3 " )' [0m
+[0;37;100mcontainer_50um_neurons= 2[0m
+[0;34m  'container_75um_neurons=$(_clc " ((75 * ((1 micrometer) / (1 millimeter)))^3) * $neurons_mm3 " )' [0m
+[0;37;100mcontainer_75um_neurons= 6.75[0m
+[0;34m  'container_100um_neurons=$(_clc " ((100 * ((1 micrometer) / (1 millimeter)))^3) * $neurons_mm3 " )' [0m
+[0;37;100mcontainer_100um_neurons= 16[0m
+[0;34m  'container_150um_neurons=$(_clc " ((150 * ((1 micrometer) / (1 millimeter)))^3) * $neurons_mm3 " )' [0m
+[0;37;100mcontainer_150um_neurons= 54[0m
+[0;34m  'container_250um_neurons=$(_clc " ((250 * ((1 micrometer) / (1 millimeter)))^3) * $neurons_mm3 " )' [0m
+[0;37;100mcontainer_250um_neurons= 250[0m
+[0;34m  'container_1000um_neurons=$(_clc " ((1000 * ((1 micrometer) / (1 millimeter)))^3) * $neurons_mm3 " )' [0m
+[0;37;100mcontainer_1000um_neurons= 16000[0m
+ 
+[0;34m  'container_um=125' [0m
+[0;37;100mcontainer_mm3= 0.001953125[0m
+[0;34m  'container_neurons=$(_clc " $container_mm3 * $neurons_mm3 " )' [0m
+[0;37;100mcontainer_neurons= 31.25[0m
+
+
+

@@ -1,0 +1,38 @@
+"_ Terms _
+
+Isolation
+Exocortex
+
+Refresh
+Spatial/Temporal Object Neural Decoder
+
+Partial Reset
+Increased Forgetting Rate
+
+Continuity
+
+
+_ Rough _
+
+*) Sense of correctness - absurdity - may be necessary for memory refresh. A neural interafce may present candidate objects and candidate associations, and reject if another neural decoder detects these are considered absurd. Sleep may use such mechanisms.
+
+*) Scrambling to randomized RPT correlations, rather than to specifically expected topographic mappings, may be another means of 'blanking' to default.
+
+
+-
+REVIEW - May be duplicative from (another) part of (another) document.
+
+
+-
+Elaboration regarding otherwise already noted concepts.
+
+*) MAJOR - Memory distillation. Explaining information symbolically (eg. by language) is in terms of discrete objects. Cognition can do this, and decode the symbology. Automation can categorize the new objects in the new cognition without memory intereference.
+ *) Unfortunately, this has the same drawbacks as any PdA - the resulting memories will be dryly lacking novel details.
+ *) Recreating these experiences is essentially what a single-player video game 'story' is, and exactly what is done as treatment for PTSD.
+  *) MAJOR - May be prohibitive. At best, this will be an order of magnitude more expensive (to reconstruct) than the original experience.
+  *) MAJOR - Equivalent to experiencing memories for the first time, allowing capture of pure memory objects.
+
+
+_Reference_
+
+"

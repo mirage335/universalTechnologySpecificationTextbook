@@ -1,0 +1,280 @@
+[0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+_ cognitionSplicer _
+Connectome and synaptic weights &#39;RPT correlation&#39;, overlay, from observed neural activity.
+
+&#39;Brain upload&#39; and &#39;hive mind&#39; made possible by observing some activity from a living neural network rather than &#39;scanning&#39; &#39;dead&#39; or dormant &#39;neural tissue&#39;.
+__ Introduction __
+Feasibility and usefulness are well founded conclusions.
+
+Existing hardware and wetware may be entirely adequate. Minimally complex scaling of hardware designs to higher spatial resolution may be beneficial.
+___ Presented ___
+
+*) Software algorithm flow diagrams.
+*) Computation times.
+*) Sampling times.
+*) Sampling/input bandwidths (eg. 10MHz, 500kHz, 50kHz, etc).
+As may be plausible.
+__ Conclusions __
+Reasonable reading, writing, and communication of human memory (objects, associations, priorities), may be feasible even from non-invasive (ie. MEG, TMS) brain interfaces, especially with minimal retraining in a VR environment. Perfect enough (ie. no retraining) memory transfers may be feasible from non-chronic invasive (ie. crude MEA) brain interfaces. Memories may have a spatial resolution parameter, much as any other object data (eg. as with visual image object pixels).
+
+Recording small areas of brain activitiy sequentially is sufficient. Non-invasive interface in particular may benefit from sequentially &#39;scanning&#39; an expensive high resolution sensor array with a small observed area across the neocortex. Optogenetic sensors may benefit similarly. Microelectrode arrays may minimize bandwidth, ADC, and amplifier circuitry by multiplexing ES when intended only for connectome and synaptic weight recording (not sensory precepts).
+
+Small timing and voltage offsets within the membrane of a single neuron may exist. Such may account for computational performance of biological networks orders of magnitude greater than the total number of synapses at ~300Hz analog bandwidth. Visualization of differences in these offsets between events may be feasible to infer from other observed activity. Such analysis is mostly anticipated as a diagnostic tool not obviously useful or necessary for any memory or information transfer.
+
+Side channels (ie. by &#39;cross-examination&#39; under &#39;polygraph&#39;) have already long been sufficient to drastically reduce search space (eg. &#39;password&#39; digits) for any kind of authentication - what a person knows, what a person knows they have, or what a person knows they are. Nothing about &#39;brain computer interface&#39; changes the already urgent need for better secure storage, memory backups, self-wiping of mobile memory, or possibly of trusted authentication authorities.
+
+Poor spatial resolution could plausibly obscure any connections which are within, or do not substantially activate, a large enough group of neurons. Poor temporal resolutions could obscure any connections which cause near equal changes in activity at near equal times. At least some useful results (eg. &#39;human connectome project&#39;) seem to have been obtained through fMRI - which relies on indirect indications having possibly the worst resolution simultaneously spatially and temporally .
+
+More &#39;observedNeurons&#39; than 10k &#39;logical neurons&#39; or 10M &#39;physical neurons&#39; spread across the entire neocortex are significant performance benchmarks for a brain-computer interface. Fewer might suffice within a smaller region of the neocortex for some limited use cases.
+
+Some basis for object memory recognition from recorded neural activity exists in the form of rough but recognizable images observed from neural recordings from the visual systems of animal models (ie. cats).
+ '_page'
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ REFERENCE __
+
+https://www.proteinatlas.org/humanproteome/brain/human+brain
+	&#39;16227 genes detected above cut of in the brain&#39;
+	&#39;2587 genes have an elevated expression&#39;
+	&#39;488 brain enriched genes&#39;
+	&#39;Most of the enriched genes encode proteins involved in transport and signaling&#39;
+	&#39;2587 genes defined as elevated in the brain&#39;
+	&#39;33 genes are only detected in the brain&#39;
+	&#39;Regional expression within the brain&#39;
+		&#39;1059 genes classified as regionally elevated&#39;
+		&#39;Cerebellum has the most regionally enriched genes (n=214)&#39;
+		&#39; interactive network plot of the regionally enriched and group enriched genes connected to their respective enriched region&#39;
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.902400410
+	CITATION - &#39;Photoreceptor telodendria which emanate from the basal surface of the synaptic terminal and ramify laterally for up to 40 μm&#39;
+
+https://raw.githubusercontent.com/mirage335/Mirage335BiosignalAmp/master/amplifierSchematic.png
+	CITATION - Minimalist and exemplifying best principles.
+
+https://arxiv.org/pdf/1906.01703.pdf
+	CITATION - &#39;A typical neuron fires 5 - 50 times every second.&#39;
+ '_page'
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Example: Pessimistic Estimate - Recording Time - All Memories (Perfect Enough), Whole-Neocortex Interface, Physical Neurons from Million Electrode Site Micro-Electrode Array (MEA) __
+$dormantTime == Presume >1s .
+
+$activeTime == Presume 0.0005s .
+
+$observedNeurons == Presume spike sorting unusable, 10^6 electrode sites.
+
+$desiredNeurons == 10^10
+
+$synapsesPerNeuron == 10^4
+
+$weakestSynapse == Negligible.
+
+[0;34m  'dormantTime=1' [0m
+[0;34m  'activeTime=0.0005' [0m
+[0;34m  'observedNeurons=10^6' [0m
+[0;34m  'desiredNeurons=10^10' [0m
+[0;34m  'synapsesPerNeuron=10^4' [0m
+[0;34m  'weakestSynapse=1' [0m
+[0;34m  '_solve' '"( \"signalsPerConversion\" == ( "$dormantTime" * ( "$dormantTime" / "$activeTime" ) ) , \"signalsPerConversion\" )"' [0m
+[0;37;100m# 2000[0m
+[0;34m  '_solve' '"( \"synapsesBetweenNeurons\" == ( "$observedNeurons" / ( "$desiredNeurons" / "$synapsesPerNeuron" ) ) , \"synapsesBetweenNeurons\" )"' [0m
+[0;37;100m# 1[0m
+[0;34m  '_solve' '"( \"recordingTime\" == ( ( ( "$dormantTime" * ( "$dormantTime" / "$activeTime" ) )  *  ( "$observedNeurons" / ( "$desiredNeurons" / "$synapsesPerNeuron" ) ) )  *  "$weakestSynapse" ) , \"recordingTime\" )"' [0m
+[0;37;100m# 2000[0m
+[0;37;100mseconds.[0m
+
+Strong inhibition and irregular synaptic weight geometric distribution may delay observations negligibly. A few hours or a few days is a resonably pessimistic expectation.
+__ Example: Pessimistic Estimate - Computation Time - All Memories (Perfect Enough), Whole-Neocortex Interface, Physical Neurons from Million Electrode Site Micro-Electrode Array (MEA) __
+$listSeconds == Assume a pessimistic three hours ~10k .
+
+$eventsPerSecond == Assume pessimistic 100 .
+
+$findMilliseconds == Assume a pessimistic 5000ms .
+
+$observedNeurons == Assume 4M as near plausible limits for electrode density.
+
+$arithmeticPerSecond == Assume 10 * 200TFLOPS GPUs, typical of a commonly available GPU, at reasonable total expense.
+
+[0;34m  'listSeconds=10000' [0m
+[0;34m  'eventsPerSecond=100' [0m
+[0;34m  'findMilliseconds=5000' [0m
+[0;34m  'observedNeurons=4000000' [0m
+[0;34m  'arithmeticPerSecond=$(_clc "(200*10^12) * 10")' [0m
+[0;37;100marithmeticPerSecond= 2E15[0m
+[0;34m  '_solve' '"( \"computationTime\" = ( ( "$listSeconds" * "$eventsPerSecond" * "$observedNeurons" ) * ( "$findMilliseconds" * ( "$eventsPerSecond" * 0.001 ) * "$observedNeurons" ) ) / "$arithmeticPerSecond" , \"computationTime\" )"' [0m
+[0;37;100m# 4000000[0m
+[0;37;100mseconds. Three months (90days) is approximately 7million seconds. One year is approximately 30million seconds.[0m
+ '_page'
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Example: Pessimistic Estimate - Spatial Resolution - Visual Memories, Whole-Neocortex Interface, Logical Neurons from MagnetoEncephaloGraphy (MEG) or Transcranial Magnetic Stimulation (TMS) __
+$desiredNeurons == Assuming only shallow 2D cerebral neocortex surface (100cm^2) is available to MEG or TMS at relatively high resolution (between ~5mm^2 or ~0.1mm^2). A ~0.1mm resolution may be much nearer theoretical limits than existing hardware, possibly necessitating temporal patterning of TMS impedance measurement and TMS stimulation pulses.
+
+$relevantNeuronsPerDesiredNeuron == Assume extremely pessimistically only ~0.05 of neurons in whole cerebral neocortex are in the occipital lobe or otherwise substantially store visual memories, greatly degrading possible spatial resolution.
+
+$perceptualCompression == Seems compression of 10 from bitmap to frequency bin amplitudes and edges should be pessimistic enough.
+
+$pixelsOrVoxels == Smaller than 100x100 texture is rather common. Maybe a person might recognize a composite object with 1000 features, or maybe a composite &#39;scenes&#39; of 10000 features. Other fundamental mathematical limits to random matching, and human short-term memory limits, may impose substantially smaller object feature counts. Seems pessimistic enough at ~10k.
+
+[0;34m  'desiredNeurons=$(_clc "( (100 * centimeter) / (5 * millimeter) )^2" )' [0m
+[0;37;100mdesiredNeurons= 40000[0m
+[0;34m  'relevantNeuronsPerDesiredNeuron=0.05' [0m
+[0;34m  'perceptualCompression=10' [0m
+[0;34m  'pixelsOrVoxels=10000' [0m
+[0;34m  '_solve' '"( \"spatialResolution\" = "$desiredNeurons" * "$relevantNeuronsPerDesiredNeuron" * "$perceptualCompression", \"spatialResolution\" )"' [0m
+[0;37;100m# 20000[0m
+[0;34m  '_solve' '"( \"requiredSpatialResolution\" = ( "$pixelsOrVoxels" ) , \"requiredSpatialResolution\" )"' [0m
+[0;37;100m# 10000[0m
+__ Example: Pessimistic Estimate - Recording Time - Visual Memories, Whole-Neocortex Interface, Logical Neurons from MagnetoEncephaloGraphy (MEG) or Transcranial Magnetic Stimulation (TMS) __
+$dormantTime == Presume >1s .
+
+$activeTime == Presume >0.010s (MEG bandwidth).
+
+$observedNeurons == Assuming only shallow 2D cerebral neocortex surface (100cm^2) is available to MEG or TMS at relatively high resolution (between ~5mm^2 or ~0.1mm^2). A ~0.1mm resolution may be much nearer theoretical limits than existing hardware, possibly necessitating temporal patterning of TMS impedance measurement and TMS stimulation pulses.
+
+$desiredNeurons == Equal to $observedNeurons. Assuming too little data will be available from the low spatial resolution.
+
+$synapsesPerNeuron == Presume large groups of neurons may not meaningfully correlate to multiple other large groups.
+
+$weakestSynapse == Negligible.
+
+[0;34m  'dormantTime=1' [0m
+[0;34m  'activeTime=0.010' [0m
+[0;34m  'observedNeurons=$(_clc "( (100 * centimeter) / (5 * millimeter) )^2" )' [0m
+[0;37;100mobservedNeurons= 40000[0m
+[0;34m  'desiredNeurons=40000' [0m
+[0;34m  'synapsesPerNeuron=1' [0m
+[0;34m  'weakestSynapse=1' [0m
+[0;34m  '_solve' '"( \"signalsPerConversion\" == ( "$dormantTime" * ( "$dormantTime" / "$activeTime" ) ) , \"signalsPerConversion\" )"' [0m
+[0;37;100m# 100[0m
+[0;34m  '_solve' '"( \"synapsesBetweenNeurons\" == ( "$observedNeurons" / ( "$desiredNeurons" / "$synapsesPerNeuron" ) ) , \"synapsesBetweenNeurons\" )"' [0m
+[0;37;100m# 1[0m
+[0;34m  '_solve' '"( \"recordingTime\" == ( ( ( "$dormantTime" * ( "$dormantTime" / "$activeTime" ) )  *  ( "$observedNeurons" / ( "$desiredNeurons" / "$synapsesPerNeuron" ) ) )  *  "$weakestSynapse" ) , \"recordingTime\" )"' [0m
+[0;37;100m# 100[0m
+[0;37;100mseconds.[0m
+
+Strong inhibition of such large &#39;logical neurons&#39; may delay observations by a few hours.
+ '_page'
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Spatial Resolution __
+Capturing a person&#39;s sense of objects, associations, priorities, may require at least sufficient resolution for these objects to remain recognizable. Whether a neural interface has sufficient spatial resolution (observing sufficiently many and sufficiently small groups of neurons) may be crudely estimated by whether a hypothetical &#39;picture&#39; of a 2D *texture* in &#39;pixels&#39; or a &#39;model&#39; in &#39;voxels&#39; after proportional losses would remain recognizable.
+
+Objects (eg. recognizable visual objects from visual memory in the visual cortex) represented within the correlated connectome and synaptic weights may have a *spatial resolution* in total perceptive fields as much as equal to &#39;desiredNeurons&#39;.
+
+[0;37;100m[0;34m$desiredNeurons == Total neurons (in the composite neuron sense of an artificial neural network) from connectome and synaptic weights correlated by observed neural activity.[0m
+
+[0;37;100m$relevantNeuronsPerDesiredNeuron == Proportion of $desiredNeurons mostly contributing the desired memories. Presumably usually better than ~0.05 .[0m
+
+[0;37;100m$perceptualCompression == From bitmap pixelsOrVoxels, to frequency bin amplitudes and edges. Presumably usually better than 10x.[0m
+
+
+[0;37;100m"( \"spatialResolution\" = \"desiredNeurons\" * \"relevantNeuronsPerDesiredNeuron\" * \"perceptualCompression\" )" [0m[0m
+__ Recording Time __
+
+Duration of observed neural activity before each neuron will have repeatedly reacted (or not) to every other neuron at least indirectly, which may approximately be sufficient to correlate connectome and synaptic weights. Strong inhibition, irregular synaptic weight geometric distribution, and long axons may additionally impose a minimum recordingTime of a few seconds or a few months. Applicable to fMRI, EEG, ECOG, MEG, and MEA.
+
+[0;37;100m[0;34m$dormantTime == Time between TX events. Usually 20ms (50Hz) or at worst plausibly 1000ms (1Hz).[0m
+
+[0;37;100m$activeTime == Temporal resolution of TX event information. Usually 0.5ms (action potential bandwdith, 1mm axon at 2m/s, etc). Some diagnostic, scientific, or simulation use cases may be short as <0.002ms (<4um dendrite at 2m/s).[0m
+
+[0;37;100m$observedNeurons == Total (logical) neurons observed (eg. number of electrode sites in MEA, number of discernable areas in MEG, etc).[0m
+
+[0;37;100m$desiredNeurons == Total neurons (in the composite logical neuron sense of an artificial neural network) from connectome and synaptic weights correlated by observed neural activity. Usually 10^10 cerebral neocortex neurons, or equal to $observedNeurons.[0m
+
+[0;37;100m$synapsesPerNeuron == Usually 10^4 if physical neurons (eg. MEA electrode sites) or 1.0 if observedNeurons is a small number of logical neurons (eg. MEG).[0m
+
+[0;37;100m$weakestSynapse == Usually 1, negligible. At worst, roughly equal to $signalsPerConversion. After all, a synapse causing activity much less often than ambient "noise" will tend to "fire out of sync" more often and "lose their link". Otherwise, presumably >0.001 RPT events per synapse TX event.[0m
+
+[0;37;100m"( \"signalsPerConversion\" == ( \"dormantTime\" * ( \"dormantTime\" / \"activeTime\" ) ) )"[0m
+[0;37;100m"( \"synapsesBetweenNeurons\" == ( \"observedNeurons\" / ( \"desiredNeurons\" / \"synapsesPerNeuron\" ) ) )"[0m
+[0;37;100m"( \"recordingTime\" == ( ( ( \"dormantTime\" * ( \"dormantTime\" / \"activeTime\" ) )  *  ( \"observedNeurons\" / ( \"desiredNeurons\" / \"synapsesPerNeuron\" ) ) )  *  \"weakestSynapse\" ) )" [0m[0m
+ '_page'
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Computation Time __
+Correlation of neural activity to connectome and synaptic weights follows a summation algorithm followed by a normative statistic. TX events are converted to correlated RPT events. A similar algorithm is expected to correlate this smaller number of RPT events to other RPT events, establishing the order in which neurons are activated.
+
+Inference of indirect neurons may require algorithmic iterative modeling of small artificial neural networks where activity is not completely accounted for by activity of other observedNeurons. Such modeling may benefit from structural assumptions (ie. a strong 90deg orthogonality between horizontal axons across 2D layers and vertical axons between 2D layers).
+
+[0;37;100m[0;34mChoose RX ES (Electrode Site).[0m
+[0;37;100mAll other ES given own bins of delay windows.[0m
+[0;37;100mTX event from LI (LIst).[0m
+[0;37;100mCount some preceding TX events from LI at other ES.[0m
+[0;37;100mTotal events and total time added to bins of all other ES.[0m
+[0;37;100mTX event from LI... (loop)[0m
+[0;37;100mBin counts significantly higher or lower than ambient normal indicate RPT correlation between chosen RX ES, corresponding other ES of that bin, with corresponding delay of that bin. [0m[0m
+
+Each event found for a chosen RX ES will require iterating over at least recent history from LI.
+
+[0;37;100m[0;34m$listSeconds == Linear multiplier. Usually approximately 3600*3hours (~10k) .[0m
+
+[0;37;100m$eventsPerSecond == Usually 50Hz .[0m
+
+[0;37;100m$findMilliseconds == Number of milliseconds previous to a TX event to find a TX event from a different neuron to count as an RPT correlation.[0m
+
+[0;37;100m$observedNeurons == Total (logical) neurons observed (eg. number of electrode sites in MEA, number of discernible areas in MEG, etc). Maximum plausible for neocortex using MEA is likely ~4M .[0m
+
+[0;37;100m$arithmeticPerSecond == Usually 200TFLOPS . Memory bandwidth may not be a problem if list is divided optimally.[0m
+
+
+[0;37;100m"( \"computationTime\" = ( ( \"listSeconds\" * \"eventsPerSecond\" * \"observedNeurons\" ) * ( \"findMilliseconds\" * ( \"eventsPerSecond\" * 0.001 ) * \"observedNeurons\" ) ) / \"arithmeticPerSecond\" )" [0m[0m
+
+Other optimizations may be possible. An &#39;LI&#39; list may be divided into smaller &#39;LU&#39; lump of <<14bit numeric integers. Most RPT correlations will be short axons to only geometrically nearby neurons. Found RPT correlations can be ignored as soon as confidently identified once. Strong inhibition may be countered by using data taken at regular intervals rather than a longer continious recording.
+ '_page'
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ RPT Correlation Computation - pseudocode __
+
+[0;37;100mobject event[0m
+[0;37;100mVariables:[0m
+[0;37;100mES_int; //eg. &#34;000000000000000001&#34;[0m
+[0;37;100mES_str; //eg. &#34;ES_000_000_000_000_000_001&#34;[0m
+[0;37;100mCK_int; //eg. &#34;000000000000000001&#34;[0m
+[0;37;100mCK_str; //eg. &#34;CK_000_000_000_000_000_001&#34;[0m
+
+[0;37;100m// Observing ~10^12 events/hour from ~10^6 ES is a reasonable expectation.[0m
+[0;37;100m// (10^6) * 50Hz * 3600 = 1.8E11[0m
+[0;37;100mobject LI[0,000100000000000000][0m
+[0;37;100mVariables:[0m
+[0;37;100mevent[0m
+[0;37;100mFunctions:[0m
+[0;37;100mnumberOfES() //eg. &#34;000000000003000000&#34;[0m
+[0;37;100mnumberOfCK() //eg. &#34;000000000100000000&#34;[0m
+[0;37;100mnumberOfCK_ms() //eg. &#34;000000000000100000&#34;[0m
+
+[0;37;100mobject ES[0,LI.numberOfES][0m
+[0;37;100mVariables[0m
+[0;37;100mbin_delay[0,LI.numberOfCK_ms()/2][0m
+[0;37;100mbin_totalTime[0m
+[0;37;100mFunctions[0m
+[0;37;100mbin_eventsPerSecond(delayBinNumber)[0m
+
+[0;37;100m// DISCLAIMER: May be inconsistent and incorrect, not tested in any way.[0m
+[0;37;100mRX_ES_int=&#34;ES_000_000_000_000_000_001&#34;;[0m
+[0;37;100mfor ( currentEvent=0; currentEvent <= length(LI); currentEvent++ ) {[0m
+[0;37;100m// no event at chosen RX ES[0m
+[0;37;100mif ( LI[currentEvent].event.ES_int != RX_ES_int );[0m
+
+[0;37;100m// chosen RX ES emitted a TX event[0m
+[0;37;100mif ( LI[currentEvent].event.ES_int == RX_ES_int ) {[0m
+[0;37;100m// find preceeding events at all other ES[0m
+[0;37;100m// OPTIMIZATION - Instead, a small number of events from &#34;currentEvent&#34; , not 0. Direct synapses in neocortex may be milliseconds apart, indirect synapses may be a multiple of that.[0m
+[0;37;100mfor ( currentPreceedingEvent=0; currentPreceedingEvent <= currentEvent; currentPreceedingEvent++ ) {[0m
+[0;37;100m// some other ES emitted a TX event, count in the corresponding bin[0m
+[0;37;100mif ( LI[currentPreceedingEvent].event.ES_int != RX_ES_int ) && ( LI[currentPreceedingEvent].event.ES_int != &#34;&#34; ) {[0m
+[0;37;100m//bin window, usually 2ms for action potentials, possibly longer (eg. fMRI)[0m
+[0;37;100mcurrentBinDelay=abs(LI[currentEvent].CK_int/1000/2 - LI[currentPreceedingEvent].CK_int/1000/2)[0m
+[0;37;100mES.bin_delay[currentBinDelay][0m
+[0;37;100mES.totalTime+=2[0m
+[0;37;100m}[0m
+[0;37;100m}[0m
+[0;37;100m}[0m
+[0;37;100m}[0m
+
+[0;37;100m// if not within ambient normal, then third ES has an RPT correlation to RX_ES_int at 2ms delay[0m
+[0;37;100mES[3].bin_EventsPerSecond(1)[0m
+
+
+
+

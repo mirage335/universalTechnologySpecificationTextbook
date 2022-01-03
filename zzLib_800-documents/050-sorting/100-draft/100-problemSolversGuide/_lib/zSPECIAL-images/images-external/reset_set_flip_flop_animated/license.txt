@@ -1,0 +1,89 @@
+
+
+_REJECTED_
+https://itectec.com/software/how-and-when-had-the-cc-by-license-become-gnu-gpl-compatible/
+	'incompatible with GNU GPL because of multiple minor issues'
+
+
+--------------------------------------------------
+
+
+
+https://upload.wikimedia.org/wikipedia/commons/c/c6/R-S_mk2.gif
+	R-S_mk2.gif
+
+
+https://opensource.stackexchange.com/questions/1618/is-cc-by-license-gpl-compatible-cc-by-vs-cc0
+http://www.gnu.org/licenses/license-list.en.html#GPLCompatibleLicenses
+https://itectec.com/software/how-and-when-had-the-cc-by-license-become-gnu-gpl-compatible/
+	'incompatible with GNU GPL because of multiple minor issues'
+
+
+...
+Original third-party files in this directory were obtained from the above sources.
+
+...
+File and directory names labeled with 'orig' in their names, listed above, or under the 'orig' subdirectory, retain their original licenses, as stated below, unless public domain or fair use.
+
+...
+File and directory names labeled with 'mod' in their names, listed above, or under the 'mod' subdirectory, are modified versions of the original files, and also retain the original license, as stated below, unless public domain or fair use.
+
+...
+In the absense of any license explictly stated here or any prior license, files under this directory are then intended to be copyrighted by mirage335 under AGPLv3 license.
+
+
+-
+Copyright (C) 2021- mirage335
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+
+All files in this folder and subfolders, unless explicitly stated otherwise in this file or copyrighted by other authors, are copyrighted by mirage335 as described above.
+-
+
+
+
+_Creative Commons Attribution 2.0 Generic License_
+Relevant files as declared above, obtained under 'Creative Commons Attribution 2.0 Generic' license. This work is licensed under the Creative Commons Attribution 2.0 Generic. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/deed.en or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+https://commons.wikimedia.org/wiki/File:R-S_mk2.gif
+https://creativecommons.org/licenses/by/2.0/deed.en
+
+'This file is licensed under the Creative Commons Attribution 2.0 Generic license. 	
+
+    You are free:
+
+        to share – to copy, distribute and transmit the work
+        to remix – to adapt the work
+
+    Under the following conditions:
+
+        attribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+You may select the license of your choice.'
+
+
+'Date 	23 September 2008
+Source 	Modification of Wikimedia Commons file R-S.gif (shown below)
+Author 	Napalm Llama'
+
+Title if supplied
+File:R-S mk2.gif
+
+
+
+
+
+
+

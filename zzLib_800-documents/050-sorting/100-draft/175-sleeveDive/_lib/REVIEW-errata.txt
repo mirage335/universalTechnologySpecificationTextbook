@@ -1,0 +1,53 @@
+"_ Terms _
+
+_ Rough _
+
+-
+REVIEW - May be duplicative from (another) part of (another) document.
+
+*) Wet abrasion, dry absorption.
+
+-
+Elaboration regarding otherwise already noted concepts.
+
+*) Suitable highly-selective fluid barrier may be created by alternating layers of cell types, limiting fluid transfer between layers.
+
+*) Additional >3um perforations may be added to top/bottom of boxes to allow greater fluid transfer.
+
+
+*) MAJOR - Hardware and wetware failure rates are similar, and should be rare. Combined system must keep a backup, and if either hardware or wetware failure are detected, backup should be copied to new hardware/wetware, at which point entire broken combination of hardware/wetware may be repaired/discarded/recycled.
+
+*) Personal backups must only be deleted or otherwise acted upon at the request of their own person, on detection of incapacitation to make such a request - not by accident or failure to recognize mere paralysis. Partial paralysis may be especially troublesome when some parts of a cognition divided across sevaral neural tissue slices may remain functional after the failure of others.
+
+
+*) For action potential reduction/truncation/acceleration, if desired, genetic replacement of voltage gated ion channels and long strands of nanowires may be necessary.
+
+
+
+*) Tiny device capable of being configured to interact with multiple points along single neurons by nanowires, patch clamp, or similar, with ability to speed up neural processes, might be useful. May itself be a solid-state needle array capable of using DC bias to power/interrogate the nanowires, if some means of attracting their endpoints may be achieved. May not yet be illustrated by sketch.
+
+
+
+*) Multistage push-pull hydraulic amplifier stages may allow complex flow control, minimizing stress, and allowing access to multistage buffer/analysis tanks. Large buffer tanks will allow less frequent analysis. Small analysis tanks may be more easily purged by gas or small liquid quantities, allowing more consumable or more diverse techniques. Multiple buffer tanks allow iterative control of composition - perhaps using the biological cell health as the only metric.
+
+*) Although CSF composition may be trivial, economic replenishment after byproduct accumulation is not. Elemental potassium/sodium commercial production methods and costs, as well as typical dialysis solution, strongly imply biological systems remain far more efficient in this regard, especially in much lower mineral consumption. At minimum, highly purified water/mineral solution tanks will be required (possibly most cheaply replenished from pure raw materials much as with any salt product), at worst, additional types of biological tissue. Sports drinks (ie. 'with electrolytes') are of presumably similar composition, and presumably similar expense, commonly used without any recycling.
+
+
+*) Tissue organization may be more than necessary. Lysate solution capable of producing custom chains of proteins may obviate the complexity of neurons as complete cells. Such may require protein design capability which may require faster computers.
+
+
+--------------------------------------------------
+References (Inaccessible)
+
+'The isolated and perfused brain of the guinea-pig in vitro'
+
+'Restoration of brain circulation and cellular functions hours post-mortem'
+	'active cerebral metabolism in the absence of global electrocorticographic activity'
+
+--------------------------------------------------
+References (Unknown)
+
+_Reference_
+
+https://www.researchgate.net/publication/338575390_A_scalable_pipeline_for_designing_reconfigurable_organisms
+ 'A scalable pipeline for designing reconfigurable organisms'"

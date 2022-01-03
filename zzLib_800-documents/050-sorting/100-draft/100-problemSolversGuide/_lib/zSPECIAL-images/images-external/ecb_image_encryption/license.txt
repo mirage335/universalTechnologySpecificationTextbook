@@ -1,0 +1,74 @@
+
+
+https://upload.wikimedia.org/wikipedia/commons/f/f0/Tux_ecb.jpg
+	Tux_ecb.jpg
+
+
+
+https://blog.filippo.io/the-ecb-penguin/
+https://en.wikipedia.org/w/index.php?title=Block_cipher_mode_of_operation&diff=prev&oldid=2191923
+https://en.wikipedia.org/wiki/File:Tux_ecb.jpg
+https://commons.wikimedia.org/wiki/File:Tux.jpg
+https://isc.tamu.edu/~lewing/linux/
+
+...
+Original third-party files in this directory were obtained from the above sources.
+
+...
+File and directory names labeled with 'orig' in their names, listed above, or under the 'orig' subdirectory, retain their original licenses, as stated below, unless public domain or fair use.
+
+...
+File and directory names labeled with 'mod' in their names, listed above, or under the 'mod' subdirectory, are modified versions of the original files, and also retain the original license, as stated below, unless public domain or fair use.
+
+...
+In the absense of any license explictly stated here or any prior license, files under this directory are then intended to be copyrighted by mirage335 under AGPLv3 license.
+
+
+-
+Copyright (C) 2021- mirage335
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA
+
+All files in this folder and subfolders, unless explicitly stated otherwise in this file or copyrighted by other authors, are copyrighted by mirage335 as described above.
+-
+
+
+_Copyright License for Encrypted Tux Penguin Image_
+
+https://en.wikipedia.org/wiki/File:Tux_ecb.jpg
+
+'Description 	Imagen de Tux cifrada por método ECB
+Date 	20 May 2006
+Source 	http://en.wikipedia.org/wiki/Image:Tux_ecb.jpg
+Author 	en:User:Lunkwill
+Permission
+(Reusing this file) 	This image is derived from File:Tux.jpg, and therefore requires attribution. All uses are permitted provided that Larry Ewing, the owner of the original image, who requires that you mention him, his email address, lewing@isc.tamu.edu, and The GIMP, according to http://www.isc.tamu.edu/~lewing/linux/.'
+
+
+
+
+_Copyright License for Unencrypted Tux Penguin Image_
+
+https://commons.wikimedia.org/wiki/File:Tux.jpg
+
+'The copyright holder of this file allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted. '
+
+'Tux the Penguin, the Linux mascot. Created in 1996 by Larry Ewing with The GIMP.
+
+"Permission to use and/or modify this image is granted provided you acknowledge me lewing@isc.tamu.edu and The GIMP if someone asks." [1]'
+
+
+
+

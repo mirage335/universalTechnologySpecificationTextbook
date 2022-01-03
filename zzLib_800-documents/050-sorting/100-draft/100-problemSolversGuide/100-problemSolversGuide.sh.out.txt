@@ -1,0 +1,1304 @@
+[0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+_ problemSolversGuide _
+Universal charting a course (symbolic manipulation) to maneuvers through space of predominantly electrons and photons which give rise to the electromagnetic interactions of resistance, inductance, capacitance, and amplification, of which all complex systems may be modeled and then navigated. Emphasis on enabling non-technical persons in leadership positions to evaluate proposals both for adequate modeling of consequential effects, and proposals to design experiments (ie. build prototypes).
+
+Demystifying seemingly technical problem solving.
+__ Introduction __
+Possibly quite close to as &#39;executive summary&#39; short as the universe gets.
+
+*) Few common origins of all problems in the universe.
+*) Reduction to other problems.
+*) How far problems must be reduced to constituents.
+ *) Limits to iterative problem solving (entropy, evolutionary genetic algorithm, etc).
+*) Why to reduce problems as far as possible (ie. identify FUNDAMENTAL) when opportunity is available.
+ 
+*) For decision making leaders (ie. executives).
+
+*) Fundamental, if obvious, reasoning.
+___ Presented ___
+
+*) Economics - defining project success, value of experimentation as entertainment, scarcity of capital, commoditization, enjoyable problem solving as a desirable experience to maximize, etc.
+*) Planning - solvable problem complexity limits (guess entropy), learning curve of symbolic manipulation, reduction of problems, problem solving algorithm by internal modeling/simulation, qualifying help and proposals by plausibility, etc.
+
+*) Mathematics - importance of mathematics, colloquialism of mathematics, avoiding overuse of mathematics, equivalence of all mathematics to single instruction (turing completeness), etc.
+
+
+*) Cognition vs Automation
+
+
+*) Statistics - Noise, Signals, Statistics, Digital Communications over Analog, Cryptography
+
+*) Modulation Equivalence - Amplitude or Frequency changes imply both amplitude and frequency shifting.
+
+
+
+*) Circuitry - describing any machinery in a universe predominantly of electromagnetic photons.
+
+*) Feedback - Motivation and Control of anything in the universe by operational amplifiers (and software, neural, people, organizational equivalents) from the concept of multiplying differences in quantity.
+
+
+
+*) Optics, Physics, Quantum Physics, Signal Processing Algorithms, Control Algorithms.
+
+
+
+*) Some common technologies (eg. collimated displays, envelope amplitude detecting).
+
+As may be plausible, skipping some less useful details for faster comprehension of essential concepts.
+__ Conclusions __
+Readers of this guide, or students, are expected to ask questions of a knowledgeable professional with industry experience. Self-learning may be possible, but this guide may not have been tested or otherwise proven for that use. Career academics with purely abstract (ie. symbolic), rather than pragmatic, experience, 
+
+
+A competent instructor should, within a day, be able to bring a small group (<5) motivated students, to a reasonably useful understanding, within *less than one single day*, even if completely unfamiliar with science or engineering and having at least a somewhat less than high-school &#39;education&#39; understanding of relevant logic .
+
+Due to concepts stemming from a two particle universe inevitably being *highly interrelated*, breaking into multiple sessions not recommended, and may be orders of magnitude less efficient. At best, previous instruction must be completely reviewed for complete understanding at the beginning of each session. *Being prepared for a long day is strongly recommended*.
+
+Complete understanding of each concept is a prerequisite for understanding others. Do NOT skip a topic if any student is having difficulty. Students having *much more difficulty demonstrating understanding* of concepts *are usually highly valuable* for both understanding and retention by other participating students of otherwise similar background. Do NOT underestimate this effect - students being from the same professional team or office is much more predictive of their ability to learn these concepts cooperatively than similar education, socioeconomic status, etc.
+
+
+Circuits, Feedback, Signal Processing Algorithms, Control Algorithms, are the most universal and least commonly already deeply understood concepts to emphasize.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ REFERENCE __
+
+https://web.archive.org/web/20150116020204/http://gozips.uakron.edu/~veillet/Faraday7.html
+	&#39;square root is important, because if you can achieve *negative* production, then you can have *imaginary* success&#39;
+		A clever point.
+
+https://en.wikipedia.org/wiki/Thought_experiment
+
+
+
+https://tvtropes.org/pmwiki/pmwiki.php/Administrivia/TropesAreTools
+	&#39;Human beings are natural pattern-seekers and storytellers. We make use of stories to convey truths, examine and exchange ideas, speculate on the future and discuss consequences. To do this, we must have a basis for our discussion, a new language to show us what we are looking at today. So our storytellers use tropes to let us know what things about reality we should put aside and what parts of fiction we should take up.&#39;
+
+https://tvtropes.org/pmwiki/pmwiki.php/TropesAreNotBad/TropesAreTools
+
+
+https://en.wikipedia.org/wiki/Automated_planning_and_scheduling
+https://en.wikipedia.org/wiki/Backward_chaining
+https://en.wikipedia.org/wiki/Forward_chaining
+https://en.wikipedia.org/wiki/State_space_search
+https://en.wikipedia.org/wiki/Sussman_Anomaly
+
+
+https://en.wikipedia.org/wiki/One-instruction_set_computer
+
+https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion
+https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations
+
+https://en.wikipedia.org/wiki/Shannon%E2%80%93Hartley_theorem
+
+
+https://en.wikipedia.org/wiki/Electric_current
+https://en.wikipedia.org/wiki/Voltage_divider
+https://en.wikipedia.org/wiki/Operational_amplifier
+https://en.wikipedia.org/wiki/Operational_amplifier_applications
+
+
+https://en.wikipedia.org/wiki/Future_Circular_Collider#Criticism
+https://www.vox.com/future-perfect/2019/1/22/18192281/cern-large-hadron-collider-future-circular-collider-physics
+
+
+https://en.wikipedia.org/wiki/Higgs_boson
+	&#39;standard model, which reduces all of reality to a dozen or so particles and four forces&#39;
+
+http://gnuradio.4.n7.nabble.com/IIR-filter-td40994.html
+http://www.earlevel.com/main/2013/10/13/biquad-calculator-v2/
+
+
+
+
+
+
+https://theory.labster.com/oxidation-state-periodic/
+
+
+
+
+https://en.wikipedia.org/wiki/Surplus_killing
+	&#39;zooplankton&#39;
+
+https://en.wikipedia.org/wiki/Learning_curve
+
+https://en.wikipedia.org/wiki/2021_Suez_Canal_obstruction
+
+https://en.wikipedia.org/wiki/SIGSALY
+
+https://en.wikipedia.org/wiki/Phase-shift_keying
+	&#39;Although the root concepts of QPSK and 4-QAM are different, the resulting modulated radio waves are exactly the same.&#39;
+
+https://en.wikipedia.org/wiki/Jellium
+
+https://www.youtube.com/watch?v=nQcT3GqxH44
+__ REFERENCE (unknown) __
+
+A documentary once cited attempts by personnel aware of an impending tsunami to warn appropriate authorities by reaching out to organizations which might have the necessary contact information. In the words of one of those persons, &#39; flipping through the [proverbial] phone book is dangerous &#39; . Example from memory is intended only to illustrate the real dangers of &#39; tunnel vision &#39; whether nearing an impending disaster or only in a competitive economy. Illustrates the need for &#39;agile&#39; frequent reevaluation of whether current research directions have a possibility or statistical likelihood of bringing timely results.
+__ ATTRIBUTION __
+Much more extensive documentation of such attribution may be available in document source code.
+
+
+Splatter Q9.jpg
+CC BY-SA 4.0
+https://en.wikipedia.org/wiki/File:Splatter_Q9.jpg
+https://creativecommons.org/licenses/by-sa/4.0/
+Hp.Baumeler
+File:Splatter Q9.jpg
+	Modified by downscaling and re-encoding to reduce file size.
+
+
+Tux_ecb.jpg
+Date 	20 May 2006
+Source 	http://en.wikipedia.org/wiki/Image:Tux_ecb.jpg
+Author 	en:User:Lunkwill
+Permission
+(Reusing this file) 	This image is derived from File:Tux.jpg, and therefore requires attribution. All uses are permitted provided that Larry Ewing, the owner of the original image, who requires that you mention him, his email address, lewing@isc.tamu.edu, and The GIMP, according to http://www.isc.tamu.edu/~lewing/linux/.
+
+
+Public_key_encryption.svg
+https://en.wikipedia.org/wiki/File:Public_key_encryption.svg
+&#39;Original illustration by David Göthberg, Sweden.
+Released by David as public domain.
+Date 	7 August 2006
+Source 	Own work
+Author 	Davidgothberg&#39;
+&#39;I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+
+
+ComplexSinInATimeAxe.gif
+https://commons.wikimedia.org/wiki/File:ComplexSinInATimeAxe.gif
+&#39;Date 	9 November 2007 (upload date)
+Source 	flash file
+Author 	user:Nashev&#39;
+&#39;I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+	Modified by converting animated gif to single frame.
+
+
+Double-conversion_superheterodyne_receiver_block_diagram.svg
+https://commons.wikimedia.org/wiki/File:Double-conversion_superheterodyne_receiver_block_diagram.svg
+&#39;Date 	6 January 2016
+Source 	Own work
+Author 	Chetvorno&#39;
+&#39;I, the copyright holder of this work, hereby publish it under the following license:
+Creative Commons CC-Zero 	This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.&#39;
+
+
+SR_Flip-flop_Diagram.svg
+https://en.wikipedia.org/wiki/File:SR_Flip-flop_Diagram.svg
+&#39;Date 	17 June 2006
+Source 	Own Drawing in Inkscape 0.43
+Author 	jjbeard
+Permission
+(Reusing this file) 	PD&#39;
+&#39;I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+
+
+Amplifier_Circuit_Small.svg
+https://commons.wikimedia.org/wiki/File:Amplifier_Circuit_Small.svg
+https://commons.wikimedia.org/wiki/User:Twisp
+&#39;Date 	24 February 2008
+Source 	Own work
+Author 	Twisp&#39;
+&#39;I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+
+
+Basic.sch.png
+https://raw.githubusercontent.com/HacDC/AudioToResistance/master/Basic.sch.png
+https://github.com/HacDC/AudioToResistance
+https://github.com/HacDC/AudioToResistance/blob/master/license.txt
+Relevant files as declared above, obtained under a &#39;GPLv3 license&#39;. They, and all modifications to them, retain that license, which is provided with them, unless a different license is noted in their file.
+Author of the image file is &#39;mirage335&#39;, so if included in a project by &#39;mirage335&#39; with an &#39;incompatible&#39; license, the file is then also available under the license of that project.
+
+
+amplifierSchematic.png
+https://raw.githubusercontent.com/mirage335/Mirage335BiosignalAmp/master/amplifierSchematic.png
+https://github.com/mirage335/Mirage335BiosignalAmp
+https://github.com/mirage335/Mirage335BiosignalAmp/blob/master/license.txt
+Relevant files as declared above, obtained under a &#39;GPLv3 license&#39;. They, and all modifications to them, retain that license, which is provided with them, unless a different license is noted in their file.
+Author of the image file is &#39;mirage335&#39;, so if included in a project by &#39;mirage335&#39; with an &#39;incompatible&#39; license, the file is then also available under the license of that project.
+
+
+Tacoma-narrows-bridge-collapse.jpg
+https://en.wikipedia.org/wiki/File:Tacoma-narrows-bridge-collapse.jpg
+&#39;This work is in the public domain in the United States because it is a work prepared by an officer or employee of the United States Government as part of that person’s official duties under the terms of Title 17, Chapter 1, Section 105 of the US Code. Note: This only applies to original works of the Federal Government and not to the work of any individual U.S. state, territory, commonwealth, county, municipality, or any other subdivision. This template also does not apply to postage stamp designs published by the United States Postal Service since 1978. (See § 313.6(C)(1) of Compendium of U.S. Copyright Office Practices). It also does not apply to certain US coins; see The US Mint Terms of Use.
+This file has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.&#39;
+&#39;File history&#39;
+&#39;Date/Time&#39; &#39;23:33, 16 January 2010&#39;
+&#39;User&#39; &#39;Botaurus-stellaris&#39;
+
+
+Finite_element_triangulation.svg
+https://en.wikipedia.org/wiki/File:Finite_element_triangulation.svg
+https://commons.wikimedia.org/wiki/User:Oleg_Alexandrov
+&#39;Date 	15 June 2007, 02:18 (UTC)
+Source 	self-made, with en:Matlab
+Author 	Oleg Alexandrov&#39;
+&#39;I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+
+
+Tensile_testing_on_a_coir_composite.jpg
+https://commons.wikimedia.org/wiki/File:Tensile_testing_on_a_coir_composite.jpg
+https://commons.wikimedia.org/wiki/User:Kerina_yin
+&#39;Date 	25 April 2011
+Source 	Own work
+Author 	Kerina yin&#39;
+&#39;I, the copyright holder of this work, hereby publish it under the following license:
+Creative Commons CC-Zero 	This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.&#39;
+
+
+Lorentz_factor_inverse.svg
+https://en.wikipedia.org/wiki/File:Lorentz_factor_inverse.svg
+https://commons.wikimedia.org/w/index.php?title=User:Vanzandtj
+&#39;Date 	27 March 2016
+Source 	/tmp/Lorentz_factor_inverse.svg
+Author 	Vanzandtj&#39;
+&#39;I, the copyright holder of this work, hereby publish it under the following license:
+Creative Commons CC-Zero 	This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.&#39;
+
+
+Electron-Positron_nuclear_Pair_production_Feynman_Diagram.gif
+https://en.wikipedia.org/wiki/File:Electron-Positron_nuclear_Pair_production_Feynman_Diagram.gif
+&#39;Date 	11 May 2004
+Source 	http://www.jick.net/~jess/hr/skept/EMC2/node9.html
+Author 	Jess H. Brewer&#39;
+&#39;This logo image consists only of simple geometric shapes or text. It does not meet the threshold of originality needed for copyright protection, and is therefore in the public domain. Although it is free of copyright restrictions, this image may still be subject to other restrictions. See WP:PD#Fonts and typefaces or Template talk:PD-textlogo for more information.&#39;
+
+
+EM-Wave.gif
+CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:EM-Wave.gif
+https://creativecommons.org/licenses/by-sa/4.0/
+And1mu
+File:EM-Wave.gif
+	Modified by converting animated gif to single frame.
+
+
+Simple_Periodic_Table_Chart-en.svg
+https://commons.wikimedia.org/wiki/File:Simple_Periodic_Table_Chart-en.svg
+https://commons.wikimedia.org/wiki/User:Offnfopt
+&#39;This work has been released into the public domain by its author, Offnfopt. This applies worldwide.
+In some countries this may not be legally possible; if so:
+Offnfopt grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+&#39;This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.&#39;
+&#39;Date 	9 September 2017
+Source 	Own work
+Author 	Offnfopt&#39;
+
+
+standard-model.png
+https://raw.githubusercontent.com/mlubej/standard-model/master/figs/standard-model.png
+https://github.com/mlubej/standard-model
+https://github.com/mlubej/standard-model/blob/master/README.md
+https://github.com/mlubej/standard-model/blob/master/LICENSE
+Relevant files as declared above, obtained under a &#39;GPLv3 license&#39;. They, and all modifications to them, retain that license, which is provided with them, unless a different license is noted in their file.
+
+
+Electron-scattering.svg
+CC BY-SA 4.0
+https://en.wikipedia.org/wiki/File:Electron-scattering.svg
+https://creativecommons.org/licenses/by-sa/4.0/
+https://commons.wikimedia.org/wiki/User:KCVelaga
+KCVelaga
+File:Electron-scattering.svg
+
+
+Series_RC_capacitor_voltage.svg
+https://en.wikipedia.org/wiki/File:Series_RC_capacitor_voltage.svg
+&#39;Date 	31 March 2006 (original upload date)
+Source 	No machine-readable source provided. Own work assumed (based on copyright claims).
+Author 	No machine-readable author provided. Ktims assumed (based on copyright claims).&#39;
+&#39;User:Ktims&#39;
+&#39;I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+
+
+Butterworth_Filter_Orders.svg
+https://en.wikipedia.org/wiki/File:Butterworth_Filter_Orders.svg
+https://commons.wikimedia.org/wiki/User:Inductiveload
+&#39;I, the copyright holder of this work, release this work into the public domain. This applies worldwide.
+In some countries this may not be legally possible; if so:
+I grant anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law.&#39;
+&#39;Date 	18 October 2007
+Source 	Own work
+Author 	Inductiveload&#39;
+
+
+Lichtenberg_figure_in_block_of_Plexiglas.jpg
+https://commons.wikimedia.org/wiki/File:Lichtenberg_figure_in_block_of_Plexiglas.jpg
+&#39;The copyright holder of this file allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted.&#39;
+&#39;Source 	http://www.capturedlightning.com
+Author 	Bert Hickman&#39;
+
+
+
+
+__ ACKNOWLEDGEMENT __
+
+Sword Art Online, at the beginning of the GGO arc, explicitly mentions that the elementary particles (ie. electrons and photons) of both the &#39;real&#39; and &#39;virtual&#39; worlds are the same (because the computer processors are still using these same particles). As a reader, "mirage335" greatly appreciated that moment of brilliance from the author Reki Kawahara, although "mirage335" wishes to note having long arrived at similar conclusions, having exhaustively ruled out every other possibility of using other particles (especially, any compact way such as microscopic black holes, of detecting neutrinos as a replacement for inertial position tracking).
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Economics - Definition of Project Success __
+
+Economic concepts here are at leastly narrowly focused on defining non-profit project success. Many more sophisticated economic models exist beyond that narrow scope.
+___ Equation of Project Success ___
+[0;37;100mSuccess == sqrt(Production/Effort)[0m
+
+
+As with so many equations, a simple and important, yet imprecise and inaccurate, relationship is illustrated symbolically, maybe without sufficient clarity to independently replicate the researcher&#39;s conclusions, while nevertheless implying any competent reader would fully comprehend.
+
+Do not take such things at face value, you will see many.
+
+&#39;Keep calm&#39; and such might be appropriate if not for trademarks.
+____ Success, Production, Effort, Square Root ____
+Project success is happiness (ie. diversity and quality of life). Production is resources multiplied by their expiration (ie. resources * time). Effort is work people do not want to do (ie. person hours).
+
+A well managed project is genuinely successful. Where many project managers conceptualize prioritizing two of quality, cost, or speed, other stakeholders (ie. shareholders) are only well served by the uncompromising maximum possible quotient of commoditizing all three.
+____ Entertainment ____
+Entertainment (ie. playing a &#39;game&#39; such as analyzing of a story) creates an opportunity for the experience of success, when no success is actually possible. When effort is needed, keeping entertainment as short as possible by taking away a person&#39;s own success and by effectiveness (eg. analyzing of a amazingly detailed story), may maximize effort. When partially exhausted, and effort is not useful, entertainment may as such be a productive use of such &#39;recovery time&#39;. After effort is not needed, entertainment is an opportunity to experience success in another context (ie. playing a challenging game).
+
+Thus, the small joke, an equation of success which begins this &#39;problemSolversGuide&#39;, defining the possibility of *imaginary success* from the *square root* of *negative production*. 
+
+Motivated readers should take this understanding of imaginary success both as illustrative information and as a tiny bit of fun entertainment, to put into their effort towards understanding the remaining information here, towards later success.
+____ Experience of Success Maximized - Virtual Reality and Self-Driving AI ____
+Success can be maximized unconditionally everywhere by self-driving AI, after which there is no opportunity for success. Virtual Reality can offer players choices of challenging multiplayer scenarios to enjoy the experience of success, regardless of whether the opportunity for success still exists.
+
+
+Virtual Reality (aka. VR) is entertainment offering challenges to solve the social, visual, probabilistic, and maneuvering problems which may be more enjoyable to conscious beings employing *cognition* than mere &#39;pocket calculator&#39; symbolic arithmetic suitable to *automation*. As such, Virtual Reality is not only efficient and effective entertainment, but also supplies patterns of contexts where some variable effort can create the experience of success, unlike pleasurable sensation alone. Virtual Reality can *offer the experience of success*.
+
+
+To the problem of &#39;experiencing success&#39;, an AI providing &#39;happiness drugs&#39;, or office deskwork suitable for &#39;pocket calculator&#39;, may be a failure.
+
+
+Any serious attempt at success today must consider Self-Driving AI and Virtual Reality, combined, as examples of technologies which may maximize any player&#39;s ability to experience their own derivation of success.
+____ Capital is Scarce ____
+
+Effort being work humans do not want to do, production will remain barely adequate to meet human needs, until success is available without effort. Capital being the accumulation of this effort, will be more scarce than any other resource. Capital implies a logistical concentration of low-entropy resources (stockpiling or heavy industrial equipment), which is very severely sensitive to disruption.
+
+Success at the cost of making capital even more scarce - a businessperson earning a small bonus from a very large scale project - is not sustainable.
+____ Capital is Irreplaceable ____
+Capital in the form of machinery built by other machinery cannot be produced faster than all the underlying machinery can be built, regardless of essential. An economy or ecosystem dependent on such complex capital is unavoidably imperiled by any disruption.
+
+Energy generation and computer production are the two essential functions of any economy.
+
+
+Human concentration of capital today is already stretched at least as far as optimistic expectations allow. Today, human energy generation and computer production would plausibly decrease by orders of magnitude for several years without the continuous resources (eg. large high precision optics, internally cooled turbine blades, etc) from fewer than ten small facilities and the skills of only a few thousands of personnel, all *irreplaceable for several years*, at *many single points of failure*.
+
+
+Success at the cost of making capital even more interdependent - a businessperson earning a small bonus from adding more single points of failure - is not sustainable.
+____ Wealth and Tools ____
+Tools, are an extension of the body. Wealth, is the accumulation of tools. When tools are produced less readily than people, or can be taken from people, wealth may concentrate (whether for better or worse is well beyond scope here). When tools are produced more readily than, or as a part of, self-replicating people, there is no longer a useful distinction - a person&#39;s wealth at that point is what they are &#39;born&#39; with.
+
+Such is the transition from biological (self-replication) to technological (self-driving AI) competence. Both these have the constraints of the behaviors of the same electrons and photons (computer processors using the same particles as any other physical objects).
+
+Living in Virtual Reality, lifestyles may seem rather similar between biological and technological competence. People perform various activities, and enjoy the experience of success.
+____ Activities ____
+May be categorized.
+
+Exploration
+ Venture out to new territory. Careless navigation is sent back for a loop without reward of novelty, or results in encountering danger. Diligent navigation is rewarded by discovering new scenery (and opportunities for resources which make further discoveries possible later).  Determination to remain diligent is learned. Exploration may be calibrate learning of determination versus random carelessness, especially during &#39;infancy&#39;.
+
+Combat
+ Player versus Environment
+  Usually supports Player versus Player both as speed/precision practice and indirectly as a means of obtaining food/resources.
+ Player versus Player
+  Relative test of ability. Sometimes friendly for more social species, as practice for later combat between groups.
+ Player develops Automation
+  Symbolic manipulation motivated by absence of resources for direct experimentation. Extreme cases of this (extensive software projects) so far have been either unique to human beings, or delegated to inherent evolutionary/genetic algorithm (DNA code development). Such activities result in more automation (eg. software, DNA, hardware design).
+
+Regeneration
+ Speculative. Learning neural networks may not be &#39;indefinitely&#39; stable, some partial periodic reset may be required. For complex biological neural networks today, so far, this seems to happen by complete individual death, but at least at the cost of some side effects, there definitely must be healthier workarounds.
+
+
+Generalization of these behavioral activity categories beyond human or complex biological neural networks is illustrated by &#39;zooplankton&#39; using &#39;surplus killing&#39; - a Player versus Environment activity.
+
+____ Rationality, both Individually Selfish and Collectively Altruistic ____
+In science, what is observed, is as true as anything can be proven true. If our memories were copied into another brain, we would observe being the same person as before that copy. Likewise, if our brains were connected to other brains in a manner similar to the separable hemispheres or other parts of human brains, we would share the conscious experience. We have no scientific observations to confirm that our own success is not the happiness of everyone on the whole.
+
+Such a simple thought experiment suggests we cannot discount the possibility that inflicting failure to achieve success on others is not inflicting the same ourselves.
+
+
+Selfishness, taking advantage of opportunities, can be rational, bringing the experience of success, when carefully justified.
+
+Altruism, avoiding the destruction of opportunities for everyone, can be rational. Collectively, we should consider the risk that drastically reducing the happiness of most others, may inflict that on ourselves, indirectly, without our direct awareness.
+
+
+Unambiguous necessary and inevitability are very high, but possibly reasonable, standards for justification.
+____ Examples of Success (commiditization) ____
+
+SpaceX, Starship, Starlink... reducing an expensive high capital intensity problem to both less expensive and lower capital intensity (commoditizing formerly capital intensive production). Starlink in particular, standardizing on more adequate software (satellite constellation position and inter-laser link management) and more adequate hardware (high-bandwidth modems), for smaller and more capable satellites, as well as using the low-cost launch services, clearly reflects great pains to reduce the capital intensity on all fronts, while terrestrial ISPs continue to navigate the complications of disparate, expensive, technologies, for harsh environments expensive to tunnel through, among other issues.
+____ Examples of Failure (de-commiditization) ____
+Increasing capital intensity of commodity logistics and finance - whether fuel or wholesale electrical power - by concentrating into a monopoly which creates artificial scarcity, inflating price above marginal rates (de-commoditizing - making commodity production more capital intense by requiring transfer of capital to accumulate with the monopolist). Production is entirely negative, and for the few persons who perceive some &#39;success&#39;, that is success is imaginary.
+
+Marginal improvements in commodity (most notoriously fossil fuel) supply have been attempted by unjustified risk of capital for expediency. Uninspected equipment failures, insufficient precautions, insufficient modeling, etc. Sometimes this results in a bonus for some person. Sometimes very expensive capital assets become permanently unusable and irreplaceable. Since the person has taken an unnecessarily reckless path which most often results in negative production for the resources under their own control, any such success is imaginary.
+
+Marginal marketing benefit, marginal additional cargo, causing ship hull loss or possibility of severe global traffic disruption, due to running aground (eg. in a canal). Unnecessary recklessness has mostly endangered company (and others) livelihoods (or at least insurance companies and premiums) much more than any successful incidents, so production is negative, and any such success is imaginary.
+
+
+Microsoft. Set back of five years at least for the whole industry, when UNIX already existed, and continues to predominate today. Complex software projects are very difficult to develop directly for Microsoft legacy software, increasingly necessitating support of both UNIX/Linux and MSW, especially for non-commercial projects not financed by artificial scarcity also made possible by requiring compatibility with copyrighted legacy software. A tangled mess continuing to cause more negative production, a &#39;debt to society&#39; never completely paid, well beyond Microsoft&#39;s own total revenue, all imaginary success.
+
+NVIDIA. Arguable. Complete redevelopment of essentially similar processors seems to have been necessary for AMD, Google, Tesla, Amazon, EU, and others. Open-source GPU designs seem well underway, destined to overcome any legacy software compatibility barriers. More severely, NVIDIA&#39;s closed source drivers continue to obstruct distributable LiveCD compatibility, and now are exploited to dictate terms of use for purchasers paying manufacturing price for capital hardware, all causing much negative production. Mostly NVIDIA&#39;s revenue may be due to legacy game software compatibility issues, and a very slight performance advantage necessary in some very specific short-term use cases (ie. current flight sim software). Not sustainable, all imaginary success.
+
+
+IPv4/IPv6 cellular tower routing. Seems probable that ISPs must route all traffic from cellular towers to central locations, to create the useful illusion of an IP address that does not change repeatedly as users switch between towers while moving. Some delays and investment in better technology to accommodate IP address changes could have shifted the burden away from complex networks to the existing datacenters/servers/routers, reducing the capital exposed to the harsh environments of terrestrial networks. Such inefficiencies combined with the expense of disparate terrestrial networks may explain the reluctance to allow reasonable bandwidth use (ie. >100GB necessary for use as home internet connection), more than supposed &#39;5G&#39; spectrum allocation. If such redirecting of packets to a central location does occur, that may have been much less successful than rational, so success from that shortsightedness may have been imaginary. Starlink may now mitigate these backhaul issues, many years after the deployment of &#39;3G&#39; when this may have become a problem, illustrating possible scenarios of imaginary success that may not be reversible for many years.
+
+Starlink spectrum competitors and tax detractors. Years behind in deployment, for a necessary technology very long overdue. Delaying such technology for any reason can only be imaginary success.
+__ Examples of Enjoyable Problems __
+Symbolic manipulation is dry, more suitable for &#39;pocket calculator&#39; automation than the cognition of sentient persons. Stories and games are full of more PvE (Player versus Environment) and PvP (Player versus Player) than PdA (Player develops Automation), for the inherent social, visual, probabilistic, and maneuvering problems to solve (or at least solve by analyzing).
+
+&#39;TVTropes.org&#39; deserves more credit, for cross-referencing tropes to trope naming, trope codifying, literary and &#39;real-life&#39; examples, including much classic literature. TVTropes successfully identifies some common as well as rare but important behavioral patterns, many of which form enjoyable aspects of life, no doubt relevant to &#39;Virtual Reality&#39; after deployment of &#39;self-driving AI&#39;.
+
+&#39;tropes are tools&#39;
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Planning __
+
+* ATTENTION: Immediate comprehension of the algorithmic, more similar to automation rather than cognition, planning process, is not necessary. Undertaking a few necessarily capital intense capital reducing complex projects (eg. commoditization by technological development) and referring back to this section will be more productive.
+___ Solvable Problem Complexity Limits - Entropy as a Limit, (Minimizing) Learning Curve ___
+Cognition solves problems by iteratively guessing at how a few interactions cause complex assemblies of objects to change observations of those objects. Evolutionary genetic algorithms impart a mutation, evaluated whether more or less optimal, on the ability to sustain more offspring over many generations. Neural networks (which may be optimized by evolutionary genetic algorithms) may attempt to model the relationship between interactions and changes in observations, evaluating such guesses internally, allowing useful &#39;intelligent&#39; behaviors with the low latency timeliness to catch &#39;Newton&#39;s proverbial falling apple&#39;.
+
+
+Sufficient resources to contemplate every guess only exist when the number of objects (including assemblies of objects) in a guess is a very small number.
+
+
+Humans evolved very quickly from a situation not as demanding of intelligence, and certainly not demanding of the symbolic manipulation of Player develops Automation which is devoid of problems more detailed than &#39;pocket calculator&#39; automation. Humans do not appreciate when their own happiness is clearly disregarded unnecessarily, even if otherwise comfortable.
+
+
+Thus, any leader attempting success through humans performing Player develops Automation (ie. symbolic manipulation), must at every opportunity, minimize that, in favor of the entertainment of experimentation.
+
+
+Learning curves result from multiplying impatience from symbolic manipulation effort with the perceived risk of uncertainty that such symbolic manipulation will be wrong and more effort will be demanded. Such risk increases exponentially with the number of guesses required, and combinations of solutions from previous symbolic manipulation without experimentation most risky of all. Few missed solutions without obvious benefit is discouraging enough, decades of learning is much to ask for, the many more years of self-invested &#39;higher education&#39; quite a lot of self-proving, especially if inefficient.
+
+Some of the longest learning curves (ie. &#39;higher education&#39;) are imposed artificially, often with less pragmatic learning, as a measurement of Player develops Automation initiative - willingness to voluntarily take what is already conveniently experimented with as far as possible by adding as much symbolic manipulation as possible. When wealthy students have the luxury of expending more of their entire lives on unproductive effort, or when the bottom of Maslow&#39;s hierarchy of needs is imposed as motivation, such students involuntarily complete increasingly artificially long learning curves, without any particular voluntary interest in any technical success. Distinction of voluntary initiative then requires much longer learning curves. Other issues may be related, such as the small number of people (ie. cognition) able to usefully collaborate on a single project, combined with imaginary successes of much de-commoditization preventing these problems from being broken into separate problems, reducing the number of job opportunities for essential technology development, and slowing technological progress.
+
+Independent developers expending their discretionary time into public effort for public benefit - free/libre open-source software &#39;FLOSS&#39; - are able to minimize such inflated learning curves. Voluntary initiative is visible in public repository histories, attributable on resumes due to absence of trade secrets, and corroborated by public discussion. Usefulness of such developers own voluntary inclinations can be inspected, which is not possible for those whose contributions are both involuntary and not publicly known.
+
+
+Uncooperative attitudes and misinformation result when imaginary success by damaging mutual success is within the learning curve of the participants, but the understanding of solutions which result in real success requires too much Player develops Automation symbolic manipulation, not within the learning curve of the participants. Beyond that, when participants do not have sufficient margin in their daily lives - misinformation can be permanently accepted, and tolerance for diversity is eroded for no other reason.
+
+Such are inherent &#39;soft limits&#39; of cognition, which must not be underestimated, always the first obstacle to progress in a development transition, from no wealth to any, much less equally unlimited, wealth, from biological to technological. Derision of a less inflated learning curve is highly inappropriate, minimizing the learning curve, highly appropriate.
+___ Search for Solutions ___
+Player develops Automation problems of any complexity are combinations of machines which each implement specific consequential effects (ie, resistors, capacitors, inductors, amplifiers), or rarely (usually due to very high performance requirements) mechanisms which simultaneously implement specific consequential effects (eg. springs, quartz crystal oscillators). Due to this combinational nature, such problems are solvable by an algorithm more akin to Chess, than than other games, evaluating as many strategies as possible, and evaluating strategies from every scenario following the use of each of those strategies. Such algorithms are close to if not in fact &#39;automated planning&#39;, best-effort &#39;state space search&#39;, etc.
+
+Such planning may contemplate all possible consequential effects of an implementation, identify all possible modules combining these implementations, and either perform experiments to model the usability of those combinations, or use existing models to internally evaluate possible guesses.
+
+When planning is bringing better solutions, planning should continue until the point of diminishing returns. If planning is not bringing conclusions of either better solutions or absence of solutions, reduction of problem to smaller search spaces, to allow fewer guesses, is appropriate.
+___ Reduction of Problem to Smaller Search Spaces ___
+When usable solutions are not obvious, more implementations of specific consequential effects (ie, arrangements of resistors, capacitors, inductors, amplifiers) must be designed. When design is not practical, experiments must improve modeling (eg. educating one&#s own intuition, or developing simulation software), or design software (eg. CAD modeling software) must be improved.
+
+More simply put, when technological knowledge is not sufficient to identify an obvious solution, the problem may not be solvable without more technology development. Such is the extent of modern science that this is rarely if ever a problem today (usually only in very high performance air-breathing engine technology and some other energy production technology).
+
+When the problem is reduced to problems which require a small number of guesses, after which further reduction is a point of diminishing returns, that is the time to solve the problem.
+___ Internal Modeling by Internal Simulation from Recent Observation ___
+One approach to self-driving AI is to observe the environment, model this as a virtual WORLD in a game engine, simulate several solutions from cognition (ie. artificial neural network), evaluate predicted scenarios for desirability after multiple rounds of possible interactions, and select the best path. Vaguely similar to solving chess.
+
+Such may be illustrative of the problem solving process, and could in principle, however slowly and with however much complexity in the conversion from observation to virtual WORLD, solve all mining, manufacturing, maintenance, computing, energy generation, etc, problems, without actually taking unnecessary actions (eg. due to &#39;Sussman Anomaly&#39;). As an oversimplification, such misses many substantial optimizations. Neural networks may be better able to identify and predicatively evaluate scenarios by object pattern recognition without resorting to completely accurate modeling of the environment. Evaluation of predicted scenarios over multiple rounds as with chess may not be a very efficient if some directions can be excluded for not having significant gain (ie. moving away from a cluster of obstacles and towards a workpiece avoids obviously unhelpful collisions with all of them).
+___ Qualifying Help and Proposals by Plausibility of Relevant Consequential Effects ___
+At least a partial understanding of planning techniques improves a person&#39;s own ability, especially if irrationally impatient, to quickly find enough information to seek good help.
+
+
+As an example, perhaps we want to make sounds louder. Supposing information on tools to do this is not readily available, we could consider a more generic search, a more solvable problem. Looking for related events, flipping a light switch results in much more light energy is emitted. After some searches through bodies of scientific knowledge - notably internet and wikipedia search engines - we would discover the words &#39;amplification&#39;, &#39;multiplication&#39;, and &#39;gain&#39; are associated with this. Cross-referencing detailed encyclopedia articles regarding &#39;amplification&#39; would allow us to understand the scientific model of this phenomenon - mathematical multiplication of one signal by another. Engineering applications of the scientific model are referenced on a relevant encyclopedia page - circuits built around relays, vacuum tubes, and transistors, among others. We could conclude that gains of several hundred to one per low-cost transistor are usually available. Further investigation shows these are all electronic devices. From there, it can be inferred that someone skilled in electronics design may be prepared to pursue such a project on our behalf. We could then seek persons who have experience building amplifiers, or who are associated with such persons, to hire.
+
+Even further investigation would quickly lead to discovery of related resistance, gain, voltage, and current characteristics of transistors, allowing us to construct a working amplifier from off-the-shelf parts ourselves.
+
+
+Unfortunately, even a well meaning knowledgeable individual, can still be tempted to imaginary success in some way, especially at the expense of the exhaustive due diligence sometimes necessary. If technical personnel are theirselves not obviously satisfied that a point of diminishing returns has been reached finding more portable solutions to better minimize capital intensity, customer acceptance is unlikely.
+
+
+Tool development, parts of which are sometimes referred to as &#39;science&#39; and &#39;engineering&#39; involve doing things completely dissimilar to what has been done before. Remaining difficulty and expected benefits is not a sunk cost argument, and must be contemplated. Some victories will be Pyrrhic.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Mathematics __
+___ Importance of Mathematics ___
+
+Arithemetic, algebra, calculus, and geometry concisely summarize relationships of practical use.
+Arithemetic as addition, subtraction, multiplication, and division, is the consequence of finite &#39;quantity&#39; in the universe. Arithmetic is familiar for tallying suppies, however, it is addition and subtraction that make feedback possible, which allows the motivation of any machine whether cognition (often using neural networks) or automation (often using op-amps or logic gates). Arithmetic multiplication over time shifts the frequency at which things happen, meaning any shift in amplitude (any addition or subtraction of a signal) is also a multiplication of frequency, which has the essential application of frequency mixing (eg. shifting a narrow range of frequencies at >>100MHz to <<1kHz audio for radio reception or reverse for radio transmission).
+
+Algebra allows calculation of specific elements in systems of equations to be calculated, by recognizing that operation on a variable is equal to the inverse operation on a variable which the original variable is dependent on. Modern TI-68k series (TI-89/TI-92[+]/V200/Voyage 200 [PLT]) calculators including the Derive CAS software have unmatched capability to handle especially complex systems of equations, correctly accepting and outputting boolean and/or operators. Wolfram Alpha, Qualculate, and other CAS software have similar, though less robust, capability. Convenient access to algebric (and arithmetic) functions is available through UNIX/Linux/Cygwin interactive command prompts and scripts using Qalculate, GNU Octave, backends contained by &#39;ubiquitous bash&#39; .
+
+Calculus relates functions to formulas for the rate of change with another variable. Differentation and integration are the primary operators. Again, modern TI-68k series calculators offer excellent support for these options, though other software is also available.
+
+Geometry constructs complex shapes from simple relations of symmetry, parallelism, angles, and distances. Modern CAD software (especially FreeCAD with A2Plus) enables efficient exploration of these relationships.
+
+Set theory and so-called relational &#39;algebra&#39; or &#39;calculus&#39; addresses collections of objects Operators include union, intersection, difference, and cartesion product. Such are common to &#39;database&#39; automation.
+
+Persistent storage can be defined by just four operators - Create, Read, Update, and Delete (CRUD). Also known as Modify, Add, Delete, Show (MADS), When these operations are &#39;atomic&#39; - finishing before any other storage operation takes place - storage may be shared by multiple programs without risk of partial overwrites. Filesystems usually perform &#39;move&#39;, or equivalent &#39;rename&#39; so a temporary file (eg. unsaved text editor buffer) may overwrite a permanent file (eg. text file being edited) with less risk of damage (eg. due to power loss). Lock files (causing a program to wait until another program is no longer using a resources) commonly exploit the usual &#39;move&#39; filesystem feature.
+___ Mathematic Expression is usually a Poorly Used Language ___
+All of the observable universe can be described as a single computer instruction (ie. turing completeness), and is predominantly within the even narrower limits of the behavior of photons, electrons, and the (real or virtual) photons or phonons of photons transferring momentum between those particles.
+
+Obviously, the vast majority of so-called &#39;mathematics&#39; is merely a convenient expression of relationships, often as an interesting discussion about how something works, without nearly sufficient information for any practical use.
+
+For example, the Navier-Stokes equations describe fluid motion as a derivative of Newton&#39;s laws of motion. Certainly it is very interesting to contemplate that a fluid may be described as a bunch of individual particles which exert pressue on neighboring particles due to inertia. Actually simulating fluid motion requires convolving the interaction of every particle with every other particle in the fluid (expotentially more computational expense per particle), as well as having very precise units and constants which may not even be known precisely enough *for such well known fluid as water*. Practically simulating requires limiting such convolution to a limited number of neighboring particles, and/or limiting such convolution to speed-of-light mechanics (as seemingly common with Conway&#39;s game-of-life but beyond the scope of an equation written for a discussion narrowly focused on purely Newtonian classical mechanics). Software infrastructure to experiment (ie. &#39;play&#39;) with such particle grids in Virtual Reality may not really exist. Semingly obvious and simple software to perform such experiements may not exist to this day, hundreds of years after Newton&#39;s life, discoveries, and death. To the extent such software does exist, it may not be easily interoperable (eg. with game engines), may have some complexity, may be focused on useses narrower than real-time interaction (eg. &#39;Blender&#39;), and may be prohibitively expensive to license software made for any useful purpose that either professionals or amateurs would need (eg. &#39;Comsol&#39;).
+
+Thus, it is entirely possible for a simple mathematical eqution to express something very interesting and useful, but with any useful implementation of it still a long way off, only due to all the useful details being left out, to the point that a single mathematical statement (ie. a One-Instruction Computer) is a more accurate description of the entire universe, than a single equation known for hundreds of years has been made useful today.
+____ Examples - When Mathematics are NOT Worthwhile ____
+_____ SpaceX Starship _____
+SpaceX has been &#39;launching&#39; a number of &#39;Starships&#39;, and declaring these successful in their goals, despite spectacularly ending by &#39;crash-and-burn&#39;. Three things account for this &#39;success&#39;. First, the Starships theirselves are built for $millions, instead of the hundreds of $millions more usual of such large rockets, due to unprecedentedly inexpensive welded plate construction. Second, the apparent value of avoiding such spectacular melting of expensive rockets is offset by the cost of preparing simulations and/or licensing software to simulate, interactions between combusting fluits at complex temperature/density gradients and thin complex welded metals. Third, there may be no way at present for welding crews to practice such assembly in Virtual Reality, much less in any way capture the complex shapes they will form with their welds.
+
+A &#39;crashed&#39; &#39;Starship&#39; may slag a couple million dollars in recyclable steel, while the seemingly expensive manufacturing processes of welding, etc, are actually what is under test, and if the software even exists to model of simulate what the welded joints of a &#39;Starship&#39; actually look like, it may cost more than a few million dollars to license for a suitable number of developers. Every &#39;Starship&#39; launch may more cheaply evaluate some particularly important aspect of the entire manufacturing process, cheaper and better, than any mathematical model and simulation.
+
+Of cousrse, there are a lot more issues to &#39;Starship&#39; as well, such as pogo oscillation and continuing inertial navigation &#39;up&#39; instead of &#39;down&#39; while accelerometers are shaking, so this example is an oversimplification. Nevertheless, purely &#39;Newtonian&#39; physics known for hundreds of years remain easier to experiment with to the point of spending $millions rather than licensing expensive software.
+_____ Flight Simulation _____
+Flight simulation costs a few tens of dollars per flight hour, or less. Accuracy has improved to the point of allowing players to repeatedly practice startup, avionics, and other procedures. Commercial aviation safety has no doubt improved much due to flight simulation.
+
+Why then do exercises continue to be flown with real aircraft?
+
+At least one reason is the need for practicing *everything else*. Readiness is about every job, not just the pilot&#39;s job. Much of the cost is in maintenance, and maintaining older aircraft is unpredictable, since simulation software to predict exactly where and how most aircraft will degrade over their useful lifetimes may not exist. Replacement of older aircraft with newer, better aircraft, is also necessary to practice as part of readiness for future activity. Especially, such things are true of aircraft designed for competitive use - where known science is already pushed to its limits, timely modeling to predict details of future degradation is not possible. Fuel costs may be a minority of such expenses, and all jobs must be practiced, all the way back to factory production of replacement aircraft.
+
+Thus, flying real aircraft, albeit expensive, will continue, even as practice, even when software to accurately simulate part of the job, becomes widely available.
+___ Mathematics and Entire Universe All Always Equivalent to Just One Single Instruction
+(Turing Completeness) ___
+
+One single instruction is sufficient to implement a computer which can emulate all operations of all functions (ie. is &#39;turing complete&#39;). Some such computers use &#39;move&#39;, some are based on addition, some use subtraction. One single instruction is sufficient to compute anything that could possibly happen in the universe.
+____ Quantum Computing is NOT Special ____
+Such simple computers can also emulate quantum computers. Quantum computing also does nothing that cannot be done by another computer, only performing some very specialized operations faster, because quantum bits can be both 0 and 1 simulatenously, until all bits are collapsed to the definite state of an answer. One problem in particular is solved faster by quantum computing - halving the search space for a guess. If an algorithm produces meaningful information only from a number with 2^128 possible combinations, then a quantum computer find that number with on the order of 2^64 operations instead of 2^128.
+
+Quantum computer hardware is comparably complex and expensive to classical computer hardware, so aside from urgently necessitating replacement of some equipment using some older ciphers, as well as possibly simulating some replacement wetware (ie. misfolding proteins), quantum computing has an thoroughly unremarkable usefulness in solving problems.
+
+
+
+
+
+
+__ Cognition vs Automation __
+Humans inevitably understand the mechanics of their world in the same way as any animal with a complex learning biological neural network (ie. *cognition*) - ~300bits per second shoving things around, ~10Mbits per second observing effects, >>1Tbits iteratively computing valid models of how these outputs cause these inputs. Very few decisions (shove) cause large changes in the surrounding world (avalanche) which may be computationally expensive to adequately model (thinking about vibrations and sensitivity through of a chain of many objects between shove and avalanche).
+
+Interactive experimentation is thus a fundamental necessity, as with cats learning depth perception in a critical period only by interaction, and symbolic manipulation on paper/computer is only important for lack of resources, always inferior to and less enjoyable than intuitive experimentation. Arithmetic as an example, tallying quantity, is simply four *automation* functions better suited to a pocket calculator and also not well enough integrated with human *cognition*.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Noise, Signals, Normality, Abnormality, Signaling Rate, Spread Spectrum, Channels, Coded Signals as Noise, Cryptography __
+___ Noise is random. Signals are not random. ___
+_r '
+<figure style="width:350px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/waterfall_noise/mod/Splatter_Q9.jpg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;CC BY-SA 4.0&#39; &#39;Splatter_Q9.jpg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Random noise does occur. Atmospheric turbulence (eg. from an air vent or fan) produces an essentially random acoustic noise. A clear whistle, on at some times, and off at others, at the same amplitude, is equally recognizable. 
+
+Complex signals can be correlated if in any way different from noise. Over a long time, a pattern of on/off from a whistle can be added and substracted to a &#39;score&#39; for whether a code is present as amplitude shifts in a frequency bin. Searching that frequency bin for that matching code at many possible beginning times, is the cross-correlation technique that is the basis for reliably communicating, slowly, over noisy channels (eg. &#39;WSPR&#39; over amateur radio), seemingly at amplitudes below the &#39;noise floor&#39; (because On/Off-Keying code score is a much higher amplitude than the background noise).
+___ Noise distributions, patterns from random events. ___
+Random noise distributions exist - in which random events distribute things into a non-random pattern. One common such pattern is a &#39;normal distribution&#39;. 
+
+Random events can distribute objects into a non-random pattern, randomly forming a random distribution. What has a number within the usual range for that distribution may be noise. What has a number very rarely occurring in that distribution (eg. only 1% likely) may be regarded as signal. Whether two random noise distributions are from events that distribute things significantly differently can also be compared on the basis of likelihood of events in one distribution occurring in another
+
+A particularly common random noise distribution is known as a &#39;normal&#39; distribution (aka. &#39;bell curve&#39;). Numbers outside the usual range for a &#39;normal distribution&#39; are likely non-random, possibly describable as &#39;atypical&#39; or &#39;abnormal&#39;. Atypical is not always abnormal or otherwise undesirable in any way, especially where there is any possibility diversity may be valuable. Usually, likely non-random is at least regarded as a possible signal.
+ '_image' './_lib/zSPECIAL-images/images-illustrated/normalDistribution.png'
+___ Signaling Rate as Signal to Noise Ratio ___
+[0;37;100mbitsPerSecond == hertz * log2(1 + (signal_decibels / noise_decibels) )[0m
+
+
+Shannon-Hartley theorem is a simple equation specifying that communications bandwidth, in bits per second, is proportional to bandwidth used, in hertz, signal power, and noise power. Statistically, more samples are needed to distinguish barely significant signals from a noisy background, than more substantial signals from a quiet background.
+
+For this reason, it is common for people to speak louder (ie. at greater amplitude) in a noisy, rather than quiet, room, especially if convinced they have important information which may not have been heard.
+___ Spread Spectrum ___
+Spread spectrum modulates a small amount of information (ie. a single symbol) (eg. one On/Off-Keying event) is modulated with a complex code, creating a complex signal. Receivers may correlate such complex signals as different from noise. Usually, spread spectrum devices will transmit information rather quickly. As an inevitable side effect, the bandwidth of any transmission of such information - such as a radio transmission - is increased to approximately the rate of the spreading code - in radio communications the difference tends to be from a few Hz or kHz to >>1MHz .
+
+Spread spectrum codes are often close enough to random noise to convert an obviously non-random signal (eg. morse code beeps) into something matching background noise (eg. static noise statistically similar to atmospheric and receiver thermal noise), however, any symbol codes used for communication may be chosen to resemble random noise without such &#39;spreading&#39;.
+
+As an example, modulating morse code switching the transmit key at a much faster rate, using a unique code of on/off timings, which a receiver could correlate, would be spread spectrum.
+___ Channels ___
+A shared communications channel may be partitioned in four ways. Frequency Division Multiple Access (FDMA), Time Division Multiple Access (TDMA), Code Division Multiple Access (CDMA), and Space Division Multiple Access (SDMA).
+
+Frequency Division Multiple Access (FDMA) usually takes advantage of the ability to separate frequencies with resistors/capacitors/inductors. Such frequency filters can be robust and made from common wire and foil (radio), tuning forks or wooden cavities (audio), etc. Frequency division is less favored for modern digital computer communications software modulation/demodulation obviates several issues. Notably, hardware many frequency filters must be stacked repeatedly to sharply attenuate adjacent frequencies, and adding the ability to change the bandwidth and frequency of many filters adds to that expense.
+
+Time Division Multiple Access (TDMA) divides channel into time slots. Protocols must retransmit after collisions occur, possibly even from highly attenuated distant transmitters that could have been ignored by some code division. Very common in digital radio communications.
+
+Code Division Multiple Access (CDMA) divides channel by different spreading codes. As a spread spectrum technique, a receiver listening for one code will receive all other codes as seemingly random noise. CMDA at low bit rates in software implementations may correlate very weak coded signals (ie. symbols) from the severe noise of many transmitters. Apparent noise from irrelevant transmitters may be reduced, and signal capacity correspondingly increased, if all CDMA transmitters cooperatively minimize transmit power upon demand by receiver. CDMA at high bit rates and/or in hardware implementations, with a synchronized clock, frequency mixer, low-pass filter, and comparator, may exceed reasonable received power limits (ie. many watts of power at receiver amplifiers causing distortion), may exceed hardware signal/noise limits (ie. low-pass filter thermal noise), etc, from noise of many ( >>1000 ) transmitters. CDMA has been used in digital radio communications (eg. apparently &#39;EVDO&#39;).
+
+Space Division Multiple Access (SDMA) deliberately points transmissions (ie. by physically moving an antenna or switching parts of the antenna) in the direction of &#39;less busy&#39; receivers.
+
+
+Combining FDMA, TDMA, CDMA, SDMA, has been done. Radio systems usually have some frequency filtering (FDMA) either incidentally due to antenna, or purposefully to protect their receivers from distortion due to strong out-of-band signals. CDMA may be combined with TDMA, using codes, but not all users transmitting simultaneously. SDMA is increasingly common as many low-Earth internet satellite services have many separate satellites, but each individual satellite&#39;s radio bandwidth is shared by multiple users through FDMA, TDMA, and/or CDMA.
+___ Coded Signals as Apparent Noise ___
+Correlating long or complex coded has the interesting property that to any receiver not aware of the code, if the code was chosen to resemble ambient random noise, it may be impossible to detect, especially if transmitted at the minimum power demanded by receiver.
+
+For unintended receivers to be unable to guess the code, all of the code must be thoroughly unpredictable. For such communication, it is necessary that the symbols chosen cover 100% of the bit space (eg. if using 8-bit codes, all 256 symbols must be used equally), and that the symbols transmitted be *pure* ciphertext.
+
+Receiving pure ciphertext requires attempting to decrypt incoming symbols at many possible beginning times, similar to the cross-correlation technique that is the basis for reliably communicating, slowly, over noisy channels.
+
+Such is very rare in digital radio communications, seemingly because software developers are more immediately concerned with quickly developing technology for communicating quickly (high-bit rate).
+
+Satellite navigation systems seem to have some such features.
+___ Cryptography ___
+_r '
+<figure style="width:150px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/ecb_image_encryption/orig/Tux_ecb.jpg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Larry Ewing&#39; &#39;lewing@isc.tamu.edu&#39; &#39;The GIMP&#39; &#39;Tux_ecb.jpg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+_r '
+<figure style="width:250px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/asymmetric_crypto/orig/Public_key_encryption.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Public_key_encryption.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+
+Cryptography combines a signal of &#39;plaintext&#39; (non-random symbols) with a code of random symbols known only to intended recipients, to create &#39;ciphertext&#39; indistinguishable from random noise in any way by anyone who does not possess the code. Cryptography can be *impossible* to &#39;break&#39;, because ciphertext can be impossible to recognize as anything other than random numbers (eg. from tossing dice).
+____ A Perfect Cipher for Dummies and the Basis of All Ciphers - One-Time-Pad ____
+Message on one paper. Random letters (or whatever symbols) on another paper (the &#39;One-Time-Pad&#39;). Number the symbols from 1 to the maximum number (ie. 26 for A-Z). Add the random letters to the message letters, carrying any number above the maximum to a lower number (ie. modular arithmetic). Encryption complete. Without the random letters paper, the &#39;ciphertext&#39; is *impossible* to distinguish from random noise.
+
+Because the one-time-pad has as many symbols as the plaintext/ciphertext, the key is as &#39;large&#39; as any encrypted message, the one-time-pad is rather inconvenient. A &#39;one-time-pad&#39; cannot be memorized as a password to decrypt megabytes of files, a shared one-time-pad must be physically transported to all recipients, and any new one-time pad sent using a one-time-pad can only be as large as the original one-time-pad. Nevertheless, this has historically been used for historic communications, notably SIGSALY (which included many substantial and significant non-cryptography technical achievements), and may be used for some communications today.
+
+Two ciphertexts from the same &#39;one-time-pad&#39; can be easily decrypted by widely available statistical methods, so a one-time pad must not be used twice. Similarly, the pad itself must use strictly random numbers, any predictability can be found by widely available statistical methods, allowing the pad to be inferred, and the message made readable.
+
+Ciphertext always uses all used symbols equally often, as to do otherwise would not exactly resemble randomness. Notably, it is not possible to create or meaningfully change encrypted messages without the &#39;secret&#39;, due to the exact resemblance of randomness. Authentication uses encryption in any of many schemes, due to the unforgeability of meaningful encrypted messages.
+____ Symmetric Ciphers ____
+Symmetric ciphers use a small key (eg. 256bits) of random numbers to create a large (usually unlimited) quantity of equally unpredictable random numbers. Such symbols recreate the effect of a one-time-pad, as any intended persons with the small key can generate the same string of random numbers for both encryption and decryption.
+
+Stream ciphers directly combine the large quantity of random symbols with plaintext, producing ciphertext. Block ciphers can take a fixed quantity of plaintext symbols, and convert to ciphertext by several operations of addition, shifting, lookup substitution, mixing, etc. Block ciphers, when given a long string of &#39;0&#39; or other predictably meaningless numbers, still produces unpredictable random ciphertext, and so may be used as a stream cipher.
+
+Symmetric ciphers are infeasible to &#39;break&#39; if the stream of ciphertext cannot be statistically proven. Expert consensus is that many of the commonly used symmetric ciphers (ie. AES finalists) will not be broken by any computer or statistical analysis until long after any protected plaintext is no longer of any consequence to the originating parties (ie. long after their biological lifespans have expired), or until well after the universe itself ceases to have any non-randomness in it.
+
+
+Symmetric ciphers are still sometimes chosen for convenience rather than security, resulting in some unmet expectations (eg. Wired Equivalent Protection). Block ciphers specifically can be misused in that input plaintext must always be unique, becoming a more of an alphabet substitution table than a cipher (ie. ECB mode) when this is not properly guaranteed (eg. by mixing plaintext blocks with an incrementing number for each block).
+____ Asymmetric Ciphers ____
+Asymmetric ciphers create a string of random numbers from an encryption key which can only be recreated for that specific message or with a separate decryption key.
+
+Two (or more) parties can issue public encryption keys, allowing anyone to encrypt a message, which only they can decrypt with their private keys. Thus, both parties can create a private encrypted communications channel in public, and authenticate theirselves by completing the challenge of decrypting a message intended for theirselves, using the private encrypted communications channel.
+
+In principle, pure ciphertext messages, in a noisy (eg. radio) channel, could establish a brief conversation, unlocatable and undetectable to a third party, with no &#39;pairing&#39; of shared keys in advance.
+
+
+Quantum computing is a risk to some asymmetric ciphers, for ciphers which use the specific mathematical operations quantum superposition can much more quickly predict (eg. elliptic curves, prime numbers). Replacing those algorithms is becoming an urgent issue, especially presenting some risk to bank accounts, bank solvency, and popular cryptocurrencies.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Amplitude, Time, Frequency __
+_r '
+<figure style="width:500px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/circle_tracing_sine_wave/mod/ComplexSinInATimeAxe.gif" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;ComplexSinInATimeAxe.gif&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Amplitude is a measure of &#39;how much&#39;. Amplitude could be pressure, voltage, current, or even the water level in a container. Often amplitude is measured on the vertical axis of a (eg. oscilloscope) graph.
+
+Time is simply how long it takes one event to proceed to the next, usually measured in the SI unit, seconds.
+
+Frequency is the inverse of time, measured in cycles per second, or hertz. An alternating current of 60Hz reverses direction 60 times per second. At this frequency, one cycle lasts 1/60th of a second.
+
+Any change in amplitude over time gives rise to a signal with a frequency. A pure sine wave changes amplitude at a constant rate, tracing a circle. By contrast, a square wave sharply changes amplitude, giving rise to one large fundamental frequency, and many smaller amplitude harmonics. A pulse of energy is in fact a square wave, and the sudden transition from no amplitude, to amplitude, then back to no amplitude, gives rise to a wide range of frequencies.
+
+In practical terms, this is why switching power supplies, which deliver power one pulse at a time, generate substantial electrical noise, which results in external electrical or magnetic fields that give rise to radio wave photons, and thus, random noise on radios. Arcing electrical circuits, where energy is switched on and off repeatedly as the arc is ignited and extinguished, are also a major source of electrical/radio interference. Since a major mathematical approach to analyzing signals is by measuring frequency, this is can be very substantially undesirable in communications and diagnostic equipment.
+
+Old analog TV and AM or single-side-band radios tend to show interference noticeably when large motors (eg. vacuum cleaners) or switching power supplies are near their sensitive receiver circuits (eg. in the same house), due to square wave &#39;harmonics&#39; and frequency mixing with other rapidly switched frequencies (eg. computers with rapidly switching loads powered by rapidly switching power supplies converting power one switched packet at a time).
+
+
+
+Modulating the amplitude of an oscillating sine wave with the amplitude of another sine wave of a different frequency - such a frequency mixer being as simple as a single light dependent resistor and an LED light - or a JFET transistor - tends to produce two more frequencies - the sum and difference of the multiplying frequency. Thus, one frequency (eg. 1kHz) may be shifted to two others (eg. 1GHz+1kHz, 1GHz-1kHz). Removing one of these frequencies (eg. with a pair of frequency mixing devices) is the basis for &#39;single-sideband&#39; - the direct shifting of one frequency (eg. 0-20kHz audio) to another (eg. 1GHz). Thus, a computer sound card with a maximum frequency of 20kHz can directly and exactly process phase, frequency, and amplitude shifts at radio frequency of (arbitrarily) 1GHz, as a &#39;software radio&#39; (though today digital communications often use sound card equivalent hardware with >>10MHz of &#39;baseband&#39; bandwidth to send >>10Mbits/s).
+
+
+Thus, frequency modulation, phase modulation, amplitude modulation, single-side-band modulation, are all equivalent. Such terms are more descriptive of the hardware or software specifically used, with &#39;On/Off Keying&#39; being rather typical. Frequency modulation sometimes is used because such analog phase-locked loop hardware can do some &#39;spreading&#39; to reduce noticeable received interference. Some multiple phase shift keying or multiple amplitude shift keying are actually equivalent in effect (eg. QPSK, QAM) and transmitted very simply by putting one of a few specified amplitudes into a frequency mixer depending on the current intended symbol. Digital communication modulation schemes are often described by terminology having much more to do with how they *are* implemented than how they *can* be implemented.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Circuits __
+
+Circuits are relevant to more than electronics. All machinery (eg. heatsinks, insulation, hydraulics, automotive shocks) can be and often is modeled as electronic circuits. Spring and material elasticity is espeically notable for having a simple, highly useful, exact electronic circuit equivalent model as a resistor, capacitor, inductor &#39;frequency filter&#39; circuit. Photons (whether far field &#39;real&#39; or near field &#39;virtual&#39;) through their electromagnetic fields are the predominant carrier for momentum between particles, and all interactions (&#39;all forces&#39;) in the universe are transfers of momentum. Fundamentally, electronic components using electrical and magnetic fields, are a convenient, graphical way to describe paths for all such interactions.
+___ Voltage, Current, Watts ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-conventionalCurrentFlow.png' '200px'
+Voltage, Current, Watts
+
+In conductors, electrons form a liquid. They can, and do, move between atoms in a wire like fluid in a pipe.
+
+Voltage is electrical pressure, measured in volts.
+
+Current is the quantity of electrons moving, measured in amps.
+
+Watts is power, pressure (volts units) multiplied by current (amps unit).
+___ Resistance ___
+If water is pumped through a thin pipe, higher pressure will exist on one side of the pipe than the other. A quantity of fluid will flow through the pipe proportional to this pressure drop across the pipe. The pipe itself will heat up (eg. noticeably in tractor hydraulics), as power is dissipated.
+
+Resistors operate on exactly the same principle. Voltage is pressure. Current is flow. Power is watts.
+
+How much current flows depends on the voltage pressure. A simple formula, Ohm&#39;s law, precisely relates this as I=V/R . One amp will flow through a one ohm resistor under one volt of pressure.
+
+Power dissipation is the number of volts across a resistance, multiplied by the current flowing through it. One volt times one amp is one watt. Typical space heaters use ~1kW to heat small rooms.
+___ Voltage Dividers ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-voltageDivider.png' '125px'
+If holes are drilled along a long hose, most water will leak closer to the faucet, than to the drain. Along a resistance, pressure is greatest at the source. This simple principle is the most important in all circuit modeling.
+
+
+Rather than a long, continious hose, consider two resistors in series across a power supply. At the positive terminal, the supply is at 10V. At the negative terminal, 0V.
+
+Suppose both resistors are equal, perhaps 1kOhms (1000 Ohms). The terminal between these two resistors will be at 5V, exactly half the supply voltage.
+
+Now suppose the bottom resistor is 90% of the resistance, perhaps 900Ohms, while the top resistor represents the remaining 10%, perhaps 100Ohms. Now, current flows out more readily than in. Middle terminal will now be at 1V, ten times less than input voltage.
+
+In this way, high voltages can be safely measured, up to, and far beyond, lightning strikes, by sensitive equipment which would be damaged by few volts.
+___ Impedance ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-voltageDivider-resistor_capacitor.png' '125px'
+_r '
+<figure style="width:200px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/rc_capacitor/orig/Series_RC_capacitor_voltage.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Series_RC_capacitor_voltage.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Resistors instantaneously allow current to flow in proportion to voltage. Like a hose, when pressure is applied, current flows immediately, and does not stop.
+
+Capacitors store current, like a sealed bucket. Pour water in, and after a while, no more water can flow in. Open a tap, and water flows out, until the bucket is empty. In electronics, these buckets are pairs of plates next to each other, storing charge in an insulator.
+
+Inductors store momentum, like flywheels connected to turbines. Force water through the turbine, and the flywheel slowly starts to spin. Release pressure, and the flywheel will continue to pull water through the turbine. In electronics, these flywheels are actually coils of wire, storing energy in magnetic fields. 
+
+Consider what happens when a resistor and capacitor are connected together, then the circuit is connected to a power supply. At first, the capacitor will be empty - all current flowing out of the resistor  immediately goes to the capacitor. Middle terminal voltage is zero. Slowly, less current will flow into the capacitor as it literally fills up. As this happens, it will offer an imaginary &#39;resistance&#39; to the flow of more current.
+
+An inductor shows exactly the opposite behavior. At first, the full power supply voltage will be dropped across an inductor. As the magnetic field gets going, just like a flywheel, current will flow, and pressure across the inductor, like a turbine spinning freely, will fall to zero. 
+
+This simple principle allows a combination of just three components - resistors, capacitors, and inductors, to filter signals by frequency. The combination of real and imaginary resistance, as a two dimensional &#39;complex number&#39; is known as &#39;impedance&#39;.
+___ Resonance ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-resonant-inductorCapacitor.png' '125px'
+When inductors and capacitors are combined in the same circuit, current flows between them endlessly. In a hydraulic analogy, the bucket fills up, then the flywheel starts spinning. Once the flywheel is spinning, it starts emptying back into the bucket.
+
+In practice, real inductors and capacitors made of ordinary metals have some resistance, so the oscillation stops.* This combination of inductance, capacitance, and resistance, results in selectivity to a narrow band of frequencies.
+
+Additionally, the voltage across each component is proportional to their values, one of many ways to increase or decrease (ie. &#39;transform&#39;) voltage.
+
+*Inductor/capcacitor circuits made of superconducting materials below their cryogenic critical temperature have zero internal resistance, and can sustain oscilations almost indefinitely.
+___ Flyback ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-flyback.png' '300px'
+What happens when a valve to a spinning turbine is instantly sealed off? Pressure rises precipitiously. In physics, no work is done unless motion occurrs. If a spinning turbine cannot push fluid, then energy is unable to perform work. In theory, if the turbine is stopped instantly, pressure rises instantly, infinitely.
+
+Inductors produce a similar effect, known as flyback. In theory, infinite voltage may be generated, unless a load is applied at all times. When a load is applied continiously in parallel with the inductor, the output voltage will correspond to duty cycle - percentage of time on/off.  In this way, a &#39;buck-boost converter&#39; may efficiently generate voltages higher or lower than the input. Most small power supplies today operate on this flyback principle.
+
+On the other hand, flyback can be destructive. In the turbine analogy, water hammer would rapidly destroy the shut valve. Similarly, high voltage can overcome the breakdown voltage of insulators. In air, this results in a large spark. In solid devices, like transistors, the high-energy pulse may permanently destory their tiny structures.
+___ Coupling ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-transformer.png' '225px'
+Capacitors store charge as an electric field on a dielectric material, while inductors store inertia in magnetic fields. Because these fields are external, these components can interact.
+
+Two inductors close together, or wound around the same iron core, can transfer energy in a changing magentic field. Because the magnetic field produced by an inductor per volt is proportional to the number of turns in the wire coil, transformers may be used to convert voltages. Transformers can also break common ground loops (ie. isolation), which can be an important safety feature. Motors operate similarly, with the secondary inductor replaced by a spinning magnet (and vice versa for electromechanical generators).
+
+Together, a capacitor an inductor may induce oscillating electrical or magnetic fields in the same free space, as with any inductor/capacitor circuit. However, when the transition between a strong electrical, and a strong electrical field, takes place openly, the particle associated with these fields is created - a photon. Just as a resistor emits heat, a radiation resistance arises in the circuit, emitting these photons, known as radio waves. Thus, an antenna is merely a combination of a capacitor and an inductor operating in open space, forming a circuit tuned to a specific frequency.
+
+Coupling is not always desirable however. In particular, adjacent wires in telephone wires may generate electrical or magnetic fields, causing a signal in one wire to be picked up by another. Shielding and twisting of the wires are strategies used to short out, or randomize to an average of zero, these unwanted stray fields.
+___ Source Impedance ___
+Ideal power supplies, as voltage sources would have zero resistance. Real power supplies have a built-in resistance.
+
+Recalling the principle of a voltage divider, low-resistance loads, like a high wattage light bulb, will cause power supply voltage to sag.
+
+Signals typically have the same built-in resistance. A microphone may produce a high voltage, but little current. In effect, any load attached to a microphone, such as a loudspeaker, will cause the voltage to sag nearly to zero. Sound powered telephones do exist, but must be well designed for efficiency.
+___ Amplification ___
+Incoming signals often have high source impedance. Their voltages need to be matched with an increase in current, to remove the source impedance, before driving a load.
+
+Recall that power in watts equals voltage multipled by amps. Increasing either voltage/pressure, or amps/current, increases power. To increase the current in a signal requires increasing power.
+
+Likewise, a weak signal may have too little voltage to drive current into a load, as well as lacking current. Again, increasing the voltage of a signal requires increasing power.
+
+Increasing power is amplification.
+
+Amplifying devices are generally divided in two categories. Voltage amplifiers, and current amplifiers.
+
+Voltage amplifiers are usually used for internal purposes, since the &#39;pressure&#39; may carry information with little expenditure of current. Current amplifiers usually drive heavy loads, such as loudspeakers, into which large currents must flow. Before reaching a final current amplifier, a signal will usually be increased to the power supply voltage. A portable megaphone may amplify the microphone signal to match a 9V battery voltage, then use a current amplifier to drive the loudspeaker like a power supply at that voltage.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+___ Current Amplifier ___
+ '_picture' './_lib/zSPECIAL-images/images-illustrated/amplifier-commonCollector.png' '250px'
+Current amplification is done with just one transistor circuit - the &#39;common collector&#39; amplifier. Other amplifiers of this type (ie. vacuum tube) use almost identical circuits.
+
+Transistors are voltage controlled switches. Collector and emitter are shorted together when turned on, disconnected when turned off. Voltage between base and emitter turns the transistor on, lack of voltage turns it off.
+
+Consider the circuit diagram. A voltage divider should be obvious - the collector-to-emitter side of the transistor is one resistor, resistor Re is the other resistor. At the top, collector is connected to supply voltage, perhaps 10V, while Re is connected to ground, 0V. Vout will be somewhere between 10V and 0V depending on the &#39;resistance&#39; of the transistor.
+
+Suppose this transistor turns on when voltage between base and emitter is 1V. Further, a 5V signal is input to the base. The transistor will turn on, and voltage at Vout will rise. Since transistor emitter voltage also rises, the voltage between base and emitter drops. When the output/emitter voltage reaches 4V, base-to-emitter voltage will be just 1V. At this point, the transistor will have no further &#39;incentive&#39; to continue turning on. This equilibrium is called linear amplification.
+
+
+Voltage gain is unity (no amplification), current gain is (ideally) infinite. Hence, this is a current amplifier.
+
+Many signal sources, like microphones, do not have sufficient current to drive a low resistance. In effect, these signal sources are power supplies that have passed through a high-resistance, and do not have much current flowing out.
+
+An amplifier like this one can sample the voltage, much like a pressure gauge, and control the flow of a much larger power supply, accordingly, to drive a heavy load, like a loudspeaker.
+___ Voltage Amplifier ___
+ '_picture' './_lib/zSPECIAL-images/images-illustrated/amplifier-commonEmitter.png' '275px'
+Voltage amplification is also done with just one transistor circuit - the &#39;common emitter&#39; amplifier. Again other amplifiers of this type (ie. vacuum tube) use almost identical circuits.
+
+From the circuit diagram, it can be seen the common emitter amplifier is a derivative of the common collector amplifier. Once again, the emitter voltage will be driven to just a little less than the base voltage, depending on the transistor&#39;s switch on voltage.
+
+However, another resistor Rc has been added, and typically much higher resistance than Re. Typical values are around 200ohms Re and 1000ohms Rc.
+
+Ignoring the transistor, another voltage divider can be seen. Just passing the power supply voltage across them, which would happen with the transistor fully switched on, the voltage across Rc and Re would be proportional to their resistances.
+
+Thus, it can be seen that the common emitter amplifier can induce a much greater voltage across Rc than it induces across Re. Since Re is approximately equal to input voltage, this shows the voltage across Rc can be much greater than the input voltage.
+
+However, because the resistance of Rc must be high to achieve high gain, little output current is available. Common practice is to follow a voltage amplifier with a current amplifier.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+___ Split Power Supplies, Midpoint Ground ___
+Amplifiers can only switch their outputs to Vcc (input voltage), 0V (ground), or something in between. To output a voltage below 0V (ground) is not possible.
+
+An arbitrary voltage, usually exactly half the power supply voltage, can be used as 0V (ground) instead. This way, an amplifier can output an AC signal, relative to this middle voltage.
+
+In this case, positive voltage is usually termed Vcc, negative Vee, and midpoint ground GND.
+
+Here, an amplifier is first shown taking an input signal either +/-1V relative to Vee and Vcc. In both cases, the amplifier cannot output a voltage outside the power supply &#39;rails&#39; to match the input. Then, it is shown that anytime a signal exceeds the power supply rails, the amplifier outputs the closest possible voltage, but not higher or lower voltage. Finally, an AC sine wave is shown going both above and below the chosen midpoint ground voltage, but never outside the power supply rails. This would be a good signal to work with inside an electronic device.
+ '_image' './_lib/zSPECIAL-images/images-illustrated/modpointGround.png'
+___ Operational Amplifier ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-amplifier-differentialPair.png' '325px'
+A differential amplifier is formed by combining two common emitter amplifiers. Inputting 5V to both amplifiers will result in 0V, while sending 5V to just one amplifier will result in a 5V difference between the two output terminals.
+
+Following this with an ordinary &#39;single-ended&#39; amplifier - a voltage amplifier followed by a current amplifier, results in an operational amplifier. 
+
+Operational amplifiers are the basis of modern analog electronics as well as control systems because they can be driven by *feedback*.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Feedback - How Operational Amplifier Circuits Do Everything in the Universe
+(and you yourself are an Operational Amplifier on feedback) __
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-feedback.png' '200px'
+Feedback is ubiquitous. Send negative feedback, things stop happening. Send positive feedback, things start happening.
+
+Operational amplifiers are the ultimate feedback operators. Any device, including more amplifiers, can be put in their feedback loops. This can be used to control transmitter power, drive extremely powerful broadcast amplifiers, or even steer antennas/photovoltaics toward the direction of a transmission source.
+
+
+Operational amplifiers, opamps for short, have three terminals - positive, negative, and output. When the positive input is higher voltage than the negative input, output voltage
+increases. When negative input voltage is higher than positive input voltage, output voltage drops.
+
+When the negative input of an opamp is tied to the output, and the output is greater than the positive input, voltage will lower. When output falls below the positive input, the cycle
+flips, and output voltage rises again.
+
+Thus, an operational amplifier with a direct wire from output to negative input, will exactly copy the input voltage.
+
+What makes this magical is the ability of the feedback loop to actively &#39;correct&#39; any disturbance. If a heavy load causes the output voltage to sag, the opamp will immediately correct
+the error. Similarly, this basic principle can be used in control loops. Signal strength can be used as an opamp input, and antennas can be steered based on the opamp output, until
+the feedback loop is satisfied. Feedback can even be used to control switching circuits to convert analog signals into pulse width modulation, as done with both switching power supplies (amplifying a stable voltage reference) and very efficient, very powerful, (eg. audio) Class D amplifiers.
+
+Software equivalents of opamp positive and negative inputs can be realized as simple multiplication by >>1 (eg. 1000) of the difference between inputs. Motivations of individual people, and collective groups of people, can be modeled as opamps. Entire economies have been modeled as collections of opamps.
+
+Feedback is motivation, emerging from the fundamental universal concept of quantity - desire for more, instead of less.
+__ Oscillation __
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-oscillator.png' '275px'
+ '_picture' './_lib/zSPECIAL-images/images-illustrated/positiveFeedback.png' '275px'
+Feeding an amplifier&#39;s output back into its *positive* input tends to result in infinite gain. When more positive feedback than negative feedback is present in a system, it tends to result in the largest signal possible.
+
+For an opamp, the largest possible signal is usually either 0V, or the power supply voltage, perhaps 10V. At this point, the amplifier is either &#39;on&#39; or &#39;off&#39;, driven by an infinitesimal input, maybe a stray electron.
+
+However, when positive feedback runs through a frequency filter, thermal noise is amplified, sent through the filter, and the filtered frequency is amplified - the result is oscillation. At one frequency - the frequency least attenuated by the filter -the amplifier can continuously switch on and off.
+__ Mixing __
+_r '
+<figure style="width:650px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/superheterodyne_double_conversion_diagram/orig/Double-conversion_superheterodyne_receiver_block_diagram.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Double-conversion_superheterodyne_receiver_block_diagram.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Frequency mixing involves putting one signal through an amplifier&#39;s power supply, and the other at its input. Usually this is done by switches. Consider what happens turning a flashlight on and off once a minute, while rapidly shuttering it once a second. Both the once/minute and once/second frequencies will be transmitted, but another frequency, once per 61 seconds, will also be transmitted.
+
+This shifting of frequencies is the basis for both older and modern radio transmission/reception. Amplitude modulation actually results in frequency shifting - as a high-frequency radio signal is modulated by a low-frequency audio signal, the audio frequency is actually shifted as-is all the way up to radio frequency. &#39;Single-sideband&#39; is likewise just frequency shifting.
+__ Diodes __
+_r '
+<figure style="width:200px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/breakdown_voltage/orig/Lichtenberg_figure_in_block_of_Plexiglas.jpg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Bert Hickman&#39; &#39;http://www.capturedlightning.com&#39; &#39;Lichtenberg_figure_in_block_of_ Plexiglas.jpg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+One special device is a diode. These allow electricity to flow in just one direction.
+
+Most diodes are destroyed by excessive reverse voltages. Some, however, are designed to &#39;breakdown&#39;, just as air breaks down under sufficiently high voltage to jump a spark. These Zener and Avalanche diodes are used in voltage dividers, where their precise breakdown voltage is used as a reference (amplified to form a power supply). This overvoltage clamping ability is also used in surge-suppression, as are spark gaps.
+__ Digital Logic __
+_r '
+<figure style="width:225px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/reset_set_flip_flop/orig/SR_Flip-flop_Diagram.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;SR_Flip-flop_Diagram.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Amplifiers perform binary switching operations. These binary switches can be chained to produce logic gates performing five logical operations - OR, AND, XOR, NOR, NAND.
+
+To store and move the result of an operation, a flip flop is commonly used. These are formed by combinations of logic gates, and &#39;latch up&#39; to the state input on a &#39;data pin&#39;, until a clock signal changes.
+
+Reading information is done by clocking in a stream of bits into a &#39;register&#39; of flip flops. Then, logic gates will settle on a decision.  The output of these logic gates is connected to another register. When enough time has passed for a decision to be reached, the new data will be clocked out of the &#39;processor&#39;, again as a stream of new bits.
+__ Inverter Amplifier __
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-cmos-inverter.png' '175px'
+Interestingly, CMOS logical inverter &#39;gates&#39; can be used as *linear* amplifiers. With two complimentary transistors, they are formed as pairs of &#39;common emitter&#39; type amplifiers known as a push-pull configuration. Because these are inverting amplifiers, connecting their outputs back to their source forms a negative feedback loop.
+
+Unusually, the CMOS manufacturing process results in these transistors being so well matched, they effectively form a built-in voltage divider. Even without a positive input terminal, they will balance themselves at half the power supply voltage.
+
+Consequently, CMOS inverter gates can be repurposed as rudimentary feedback amplifiers, following a schematic similar to an opamp configured as an inverting amplifier. A common use case is as the amplifying device in a quartz crystal oscillator.
+ '_image' './_lib/zSPECIAL-images/images-schematics/schematic-amplifier-inverter.png' '675px'
+__ Schematic Literacy __
+_r '
+<figure style="width:475px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/schematic_amplifier/orig/Amplifier_Circuit_Small.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Amplifier_Circuit_Small.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+_r '
+<figure style="width:725px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/schematic_audioToResistance/orig/Basic.sch.png" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Basic.sch.png&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+
+From here, it is possible to recognize key features in schematics, and research the remaining components. Rather than expecting individual components to be meaningful, they should be understood as substystems. Look for common emitter amplifiers, common collector amplifiers, opamps, feedback loops, and frequency filters, instead of transistors, resistors, and capacitors.
+_r '
+<figure style="width:98%;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/schematic_biosignalAmplifier_amplifier/orig/amplifierSchematic.png" alt="" style="width:100%;" ><figcaption style="font-size: 0.70em;">&#39;amplifierSchematic.png&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Optics __
+
+Collimated light from a single point source forms a perfect beam. By contrast, multiple points form multiple beams. Consequently
+any light from more than an infinitely small point will spread when collimated into a beam.
+
+A pinhole filter and color filter can convert an incoherent light source, to a laser-like source. Early holograms were
+actually made by illumination with pinhole filtered mercury vapor lights, not lasers.
+ '_picture' './_lib/zSPECIAL-images/images-illustrated/temporalCoherence.png' '325px'
+ '_image' './_lib/zSPECIAL-images/images-illustrated/spatialCoherence.png' '550px'
+Spatial filtering an uncollimated light source has the disadvantage of discarding most of the light. Lasers are among few light sources offering both intensity and high power. Synchrotrons (big particle accelerator rings with magnetic undulators) are the other.
+
+
+
+Even laser and synchrotron light is not perfectly collimated however. Due to the geometry of focusing a point of light into a beam with a lens,
+wider beams are actually better collimated. This imposes a limit on the diameter of a projected spot at a distance.
+
+When projecting a single spot from a large laser beam, projection resolution is actually a function of the numerical aperture. The &#39;faster&#39; the lens, the more &#39;quickly&#39; rays of light converge, the larger the lens relative to focal length, the smaller the spot.
+
+Real lenses are limited to an f-number of approximately 0.5 - a convergence of 45degrees.
+
+Thus, for laser cutters, the workpiece should be approximately as close as the lens is wide.
+ '_image' './_lib/zSPECIAL-images/images-illustrated/numericalAperture.png' '250px'
+___ Collimated Displays ___
+
+Heads up displays, and red dot sights, focused at infinity, project collimated light back to the user. As an example, light from a far away star 
+is effectively a beam of light from a particular direction. Collimated sights create beams of light aimed back at the user from the direction they are pointed, creating the illusion of a far away star, exactly where they are pointed (ie. a red dot).
+___ Telescopes ___
+Telescopes are just beam expanders used in reverse. Objects far away are seen as beams of light from different directions. By shrinking the diameter of the beam, geometrically, the angles of incoming beams of light are exaggerated.
+
+Telescope magnification is given as the ratio of focal lengths of the objective and eyepiece. Telescope objective and eyepiece are spaced at exactly their combined focal lengths.
+
+Telescope (and also camera) angular resolution is equal to wavelength divided by objective diameter.
+
+In reverse, as beam expanders, telescopes can reduce the angles of outgoing beams. Thus, starting with a larger beam of light usually results in lower divergence overall. This is one reason optical communications links involve telescopes at both ends, including proposed interstellar communication systems.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Physics __
+_r '
+<figure style="width:475px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+'
+ '_cells_begin'
+ '_cells_row_begin'
+ '_cells_speck_begin'
+
+Classical Mechanics
+(slow and big)
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Relativistic Mechanics
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin'
+
+Quantum Mechanics
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Quantum Field Theory
+(fast and small)
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_end'
+
+All just a collection of approximate trends. Classical Mechanics adequately predicts the vast majority of useful phenomena (ie. machinery) sufficiently for accurate simulation. Other physical models become relevant for a very few specific noticeable effects, mostly precise optical resolution and small transistor design).
+_r '
+</figure>
+'
+ '_picture' './_lib/zSPECIAL-images/images-illustrated/model_of_scatter.png' '175px'
+Modern particle physics is an extraordinarily high confidence statistical testament, putting below insignificant probability, any possibilities of anything less ordinary than photon/electron computers and energy generators, drawing down on a finite supply of mass and energy, most of which is by definition uselessly noninteracting (ie. &#39;dark&#39;). Telescopes have confirmed such physics for astronomically large and distant objects, while particle accelerators and cosmic ray detectors have confirmed such physics for the smallest and most energetic particles far beyond anything commonly available or useful. Most recently, confirming the Higgs boson has very firmly established a &#39;standard model&#39; of few elementary particles, their uselessness, and the uselessness of anything those could possibly be composed of. For the most part, physics seems basically solved, to the point that carbon fiber and carbon nanotube composites are close to any possible end point of materials science. Seemingly, modern physics research effort is continuing beyond the point of diminishing returns now, albeit much effort was expended to the discovery and confirmation of such simplicity. At the very least, there is more opportunity for real success of all kinds from physics lab software for Virtual Reality, and the semiconductor industry behind that, than from finer estimation of the Higgs boson mass.
+
+Warp drive, alternate dimensions, time travel, perpetual motion, unlimited space, unlimited time, instant computers, rapid travel to unexplored stars, more than marginally more useful superheavy stable elements, or subatomic machines, are all now very unlikely. Technology of the future will continue to work much like the biology of the past, in some cases necessarily so even within efficient Virtual Reality simulation. From doubling times to manufacturing rates, some slight improvements here and there. Suggestions otherwise are &#39;handwavium&#39; (not possible by exceptionally strong scientific consensus on physical &#39;laws&#39; applicable to anything in universe) and/or &#39;unobtainum&#39; (requiring materials substantially beyond well established scientific consensus on limits of possible particles). Only successful communication with a neutron star or magnetar surface, or availablility of tons of antimatter from black hole sources, will substantaially change even the commonly available materials or computation rates, and then only long after humans less enjoyable labors have already been obviated by self-driving AI.
+
+From the smallest quantum limits on computers to the most distant edges of energy from the observable universe, from beginning in chaos, to ending in chaos: you&#39;re stuck so have fun while you even get that choice. At ~10^26W/star, ~10^36W/galaxy, ~10^40-~10^60W/reachableGalaxies, and maybe ~10W/cognition, maybe ~10W/VirtualReality, *you really should be able to find some things to do and some people you can work with, without wasting so much of other people&#39;s exasperation*.
+
+
+So maybe just *skim this part briefly* just to feel around the simple walls of your confinement, anchored to which your projects may build something a little more interesting within.
+___ Subdivision ___
+_r '
+<figure style="width:200px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/bridge_collapse/orig/Tacoma-narrows-bridge-collapse.jpg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Tacoma-narrows-bridge-collapse.jpg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+_r '
+<figure style="width:200px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/finite_element/orig/Finite_element_triangulation.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Finite_element_triangulation.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Solids, liquids, gasses, and plasmas, can be subdivided into cells, or finite elements. Failure of solids can be predicted by finding excessive stress at a given point of an object under external loads (including gravity).
+
+Transmission of pressure and motion through fluids can be determined by arithmetic operations on volumes divided into finite elements.
+
+Modeling failure of solids, or flow of liquids/gasses/plasmas, may require division into discrete time integrals. The combination of many finite elements and short time intervals may be computationally expensive, so accurate simulation of real-time events may be difficult (requiring much software optimization, approximation, and fast computers), but not impossible.
+
+Compressibility, and the influence of past states, can complicate the behavior of materials, especially fluids. Accurately characterizing the disassembly of solids, transition between phases of matter, and flow of liquids/gasses/plasma, remains an area of intense computational study (or software improvement). Even for common materials under room temperature conditions, such as water, achieving sufficiently accurate measurements of simple physical properties, is still an area of intense scientific research.
+
+The combined difficulty inherent to accurately modeling systems consisting of many materials, which may not be well measured, as the sum of many tiny parts, changing rapidly from one time interval to the next, is a key justification for the continued use of physical models, specifically wind tunnels and wave tanks.
+
+Although the forces involved are always subject to simple arithmetic, complex interactions can become difficult to model. Failure of the Tacoma Narrows Bridge included interactions between at least turbulent air flow, elastic materials, and resonant mechanical circuits. Whether the ultimate cause of failure could be more accurately characterized as a match between wind gusts and a resonant filter, or areoelastic flutter, remains debatable.
+
+Lottery machines exploit these complex interactions to generate a random stream of numbers, of cryptographically strong unpredictability.
+___ Classical Mechanics ___
+Newton&#39;s three laws of motion, qualified by a more modern understanding of relativity.
+
+1) In an inertial reference frame, an object either remains at rest or continues to move at a constant velocity, unless acted upon by a force.
+2) In an inertial reference frame, the vector sum of the forces &#39;F&#39; on an object is equal to the mass &#39;m&#39; of that object multiplied by the acceleration a of the object: &#39;F = m * a&#39; .
+3) When one body exerts a force on a second body, the second body simultaneously exerts a force equal in magnitude and opposite in direction on the first body.
+
+For example, Earth&#39;s gravity being a force of 10m/s^2 acceleration multiplied by interacting on the mass of an entire object, a 10kg mass on Earth, will experience a 10kgF force, and through (virtual) photon interactions, impart that 10kgF force onto the surface of the Earth it is steadily in physical contact with.
+___ Material Strength, Deformation, Rigidity ___
+_r '
+<figure style="width:300px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/tensile_test_machine/orig/Tensile_testing_on_a_coir_composite.jpg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Tensile_testing_on_a_coir_composite.jpg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Solid materials can be classified by their compressive, tensile, and shear strength, rated in tolerance for a given force across a given area.
+
+Solid objects under pressure deform. Quantity of deformation per unit of pressure is determined by the material&#39;s elastic modulus.
+
+Compressive, tensile, and shear, strength, and elasticity, are straightforward to measure with low cost equipment, and these measurements are entirely sufficient to simulate structures (tower maximum wind load, aircraft maximum load, submarine hull maximum depth, shelving maximum load, etc).
+
+
+Excessive pressure results in permanent deformation, often considered permanent damage. Pressures below the material yield strength, will result in no permanent change. This property allows precision objects, like optical flats, to safely retain their shape to subatomic tolerances during handling.
+
+Pressures significantly beyond yield strength, measured as ultimate tensile strength, result in breakage (separation).
+
+Geometry of solid objects may be arranged to take advantage of these properties, or multiple materials may be combined in a composite structure, but the relationships remain unchanged. A thicker steel cable may sustain greater total load, but only because the pressure to separate is spread over a wider cross-section.
+
+Material properties are scientific studied by destructive testing using a simple machine. Typical failure points may be used by engineers to estimate necessary materials for safe operation of structures (eg. bridges) under loads.
+___ Relativistic Mechanics ___
+_r '
+<figure style="width:305px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/pair_production/orig/Electron-Positron_nuclear_Pair_production_Feynman_Diagram.gif" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Electron-Positron_nuclear_Pair_production_Feynman_Diagram.gif&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+	<img src="./_lib/zSPECIAL-images/images-external/time_dilation_graph/orig/Lorentz_factor_inverse.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Lorentz_factor_inverse.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Space and time are equivalent, as are mass and energy.
+
+An object at rest is traveling completely through time. An object moving at the speed of light is moving completely through space. Objects, energy fields, or other entities cannot move faster than light, as they would actually be moving backwards in time.
+
+Energy has mass. Energy, in joules, equals mass in kilograms, times meters per second squared, or E=mc^2. An object in motion or within an energy (ie. gravitational) field that would cause motion, has more mass than an object strictly at rest. Matter itself is essentially a storage medium for energy, and can be converted to forms more commonly recognized as energy. Matter/antimatter and black hole interactions in particular result in the direct conversion of matter to energetic photons. Electron/Positron (mass) interactions can produce pairs of photons (energy), and vice-versa, with some probability, when a high-energy collision seemingly causes blending of details that would give these particles distinct identities. That is to say, particles may vaguely be thought of as slightly different arrangements of the same field fluctuations. 
+
+All of these equivalencies are relative, and usually considered only within specific frames of reference, rather than the entire universe. If a photon traveling at the speed of light were to somehow emit another photon, an external observer would see two photons traveling at the same speed, while the photon itself would &#39;live out its life&#39; in the literal instant of time before the second photon could have appeared to move away, since photons travel only through space, never experiencing time. Similarly, a participant traveling at half the speed of light, launching another object at half the speed of light, would see the second object moving away at that speed, while an external observer would see the second object moving at somewhat less than twice the speed of the first. Likewise, mass and energy are measured relatively, as one spacecraft might be moving faster than the other.
+
+Universal constants do exist, despite relativity. An electron would have 2000 times less mass than a proton in exactly the same place under exactly the same conditions, anywhere in the universe. Notably, photons of differing wavelengths, frequencies, energies, and mass, emitted by distant supernovae, have arrived on telescope imaging systems, exactly simultaneously.
+
+While relativistic speeds or quantities of energy are not common in everyday life, practical applications do exist, as well as exceptional demonstrations of scale. Global electrical energy production at 16TWh is equivalent to 0.64 grams of mass. Significant quantities of mass actually transit over electrical power lines. Relativism also allows some particles to last longer than they otherwise would. Muon tomography, using cosmic rays to probe inaccessible locations, is a notable application (although not essential for machinery). Doppler effects, shifting the frequency/wavelength of photons, are a practical consequence of the inability to exceed the speed of light.
+
+Accelerating significant quantities of mass to significant fractions of the speed of light is expensive, but not impossible. Well understood laws of physics do allow large energies, high velocities, to be imparted to small particles, or with the conversion of significant mass to energy, acceleration of entire spacecraft to significant fractions of lightspeed. Resources available at stellar scale allow efficient interstellar travel, resources (ie. tons of antimatter) available at galactic scale allow travel at >0.5c, and interstellar medium allows some possibility of magnetic/fusion &#39;braking&#39; for arrival.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Quantum Physics __
+Classical physics describe effects which predominate energy generation, and useful computer circuits.
+
+Quantum physics explain some limitations of measurements and projections in everyday life, with the diameter of the near perfectly shaped lens of the eye accounting for angular resolution, and similar limits applying to manufacturing by photolithography. Quantum physics also has some effects constraining the design of small transistors.
+___ Quantum Mechanics ___
+All moving objects also vibrate. Vibration may be linear or circular, as light may be polarized. Mass and velocity determine the frequency. Frequency, across distance, determines wavelength, the geometric distance between one bounce and the next. Large masses (ie. Newton&#39;s entire falling apple) moving slowly have both low frequencies, and short wavelengths.
+
+Photons exemplify quantum mechanical behavior. Small, and moving fast, their wavelengths are generally larger than their own apparent diameters. Detectable photons can be created under artificial conditions from below the range of human hearing, 10Hz, to 10^19Hz, orders of magnitude beyond trillions of times per second. Wavelengths for these photons range from planetary dimensions, to smaller than an atom. Even more energetic photons are commonly available from cosmic sources.
+
+By contrast, a train car moving at reasonable speeds has immeasurably slow frequencies, across immeasurably short wavelengths. Classical mechanics remains an accurate model for predicting the behavior of large groups of objects that would be better described by quantum mechanics, such as atoms.
+___ Quantum Field Theory ___
+_r '
+<figure style="width:300px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/photon_oscillation/mod/EM-Wave.gif" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;CC BY-SA 4.0&#39; &#39;EM-Wave.gif&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+Particles are seen to arise from excited states of physical fields.
+
+For example, photons arise from the swapping of electrical and magnetic fields. Capacitor plates, appropriately distanced, in free space, repeatedly charged and discharged, by an alternating current, will lose some of the energy passing through them, as photons, commonly referred to as radio waves. Antennas thus work by generating oscillating electrical or magnetic fields, which give rise to photons. After leaving the near field around the antenna, proportional to wavelength, the electrical field will swap position with a corresponding magnetic field. After another wavelength, this swap will repeat. In reverse, an antenna can convert an incoming photon to an electrical current.
+___ Rest Mass ___
+Not all particles have rest mass, though all particles have mass when in motion (due to mass/energy equivalence).
+
+Particles with rest mass, like atoms, do not move unless pushed by a force (an interaction transferring momentum), such as electrical charge. Particles without rest mass, may be thought of as one particular form of energy, immediately jumping away at the speed of light.
+
+Energy mass equivalence allows massless particles, without rest mass, to cause impacts. Solar sails and metal plates developing a small positive charge when exposed to light are notable applications. Light radiation can cause pressure, pushing a spacecraft away from a light source, like the sun. Photons can knock electrons out of their orbits, generating electric current, without direct conversion by a suitably small antenna.
+
+Massless particles, at least photons, do not collide with each other however, unless the underlying fields are saturated. Energies required to achieve this are extraordinarily far beyond current technology, including the capability to construct artificial black holes.
+
+At least some particles, the bosons, gain rest mass by interacting with the recently discovered Higgs field. Many composite particles, such as protons, are massive, and do not jump away at the speed of light, because of their interaction with the Higgs field. Other particles, namely photons, do not, and immediately jump away at the speed of light. Discovery of the Higgs boson, an excitation of the Higgs field, has resolved fundamental questions regarding the accuracy of the modern physics Standard Model.
+___ Uncertainty Principle, Quantum Tunneling ___
+All interactions in the universe happen by transfer of momentum. Where these interactions happen is always somewhat probabilistic.
+
+A photon passing through an aperture may change direction slightly, randomly with some probability, because all particles are also modelable as fluctuations in fields, which integrate interaction with neighboring particles at the speed of light. Thus quantum mechanics related to the &#39;uncertainty principle&#39;, limits the angular resolution of telescopes, cameras, etc, proportionally to the wavelength of light. Larger lenses or mirrors, or shorter wavelengths, linearly improve resolution, to the point that the human eye and common telescopes are limited as such.
+
+An electron next to a thin barrier can occasionally, randomly with some probability, tunnel through that barrier, jumping to the other side. Also related to the &#39;uncertainty principle&#39; - neither the electron nor the barrier have a definite location - and the transfer of momentum may occasionally not prevent an otherwise impossible crossing of a barrier.
+
+
+Such quantum effects do not noticeably affect machinery composed only of large objects (ie. distinct from machines dominated by classical physics). Mostly, these quantum effects impose design criteria on optics (directly interacting with small photons) and small transistors (directly interacting with small electrons).
+___ Particles, Forces, and Interactions ___
+Modern physics, the "standard model, which reduces all of reality to a dozen or so particles and four forces" - Lederman.
+
+Practical applications of physics seek particles and forces with desirable interactions, then assemble solutions, using components such as bulk materials, transmitters, and receivers.
+
+Fundamental particles (eg. photon, electron, quark, muon, neutrino, Higgs boson), fundamental force fields (eg. gravity, weak, electromagnetic, strong nuclear), the periodic table, the range of commonly available photon wavelengths, and phonons (ie. acoustic sound), may seem worth contemplating whenever it seems some new physics would be desirable if at all possible. High confidence in all research constraining these physics fundamentals does not suggest more such basic research will bring much success in any project.
+_r '
+<figure style="width:350px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/standard_model/orig/standard-model.png" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;standard-model.png&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+_r '
+<figure style="width:550px;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/periodic_table/orig/Simple_Periodic_Table_Chart-en.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Simple_Periodic_Table_Chart-en.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+_r '
+<figure style="width:325px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/virtual_photon_interaction/orig/Electron-scattering.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;CC BY-SA 4.0&#39; &#39;Electron-scattering.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption><figcaption>
+'
+
+Feynman diagram of *virtual* photon, exchange of which can account for electrical and/or magnetic repulsion and/or attraction.
+_r '
+</figcaption>
+</figure>
+'
+_r '
+<figure style="width:550px;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/wavelength/orig/EM_Spectrum3-new.jpg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;EM_Spectrum3-new.jpg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+_r '
+<figure style="width:98%;margin: 0 0 0 15px;border: 5px solid transparent;">
+'
+ '_cells_begin'
+ '_cells_row_begin'
+ '_cells_speck_begin'
+
+Electromagnetic
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Gravity
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Weak, Strong
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin'
+
+Short range as attraction/repulsion (virtual photons).
+Long range as fluctuations of attraction/repulsion (real photons).
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Long range, very weak, limited attraction.
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Short range, limited configurations.
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_row_begin'
+ '_cells_speck_begin'
+
+Machinery (virtual photons physical contact repulsion), communications and remote sensing (real photons), molecules (virtual photons interatomic).
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Limited coalesence and orbits (ie. planets, galaxies, etc, NOT machinery).
+ '_cells_speck_end'
+ '_cells_speck_begin'
+
+Limited atomic nuclei only.
+ '_cells_speck_end'
+ '_cells_row_end'
+ '_cells_end'
+_r '
+</figure>
+'
+_r '
+ 
+'
+___ Photons ___
+Photons deserve special mention because of their uniquely valuable properties for communications and probing. Photons (whether far field &#39;real&#39; or near field &#39;virtual&#39;) through their electromagnetic fields are the predominant carrier for momentum between particles, and all interactions (&#39;all forces&#39;) in the universe are transfers of momentum. Phonons are notable as vibrations between groups of electrons, another means of commonly available interaction, commonly transferring acoustic sound, also still predominantly made possible by photons.
+
+
+A wide range of wavelengths/frequencies/energies are easily generated by a variety of means, including black body radiation (random motion of charged electrons), amplification/duplication (masers/lasers), changing electrical/magnetic fields generated by alternating voltage/current (antennas), relativistic velocity changes of charged particles (synchrotron, bremsstrahlung), and energetic decay from other particles/fields (gamma ray emission).
+
+As massless particles, photons jump away at maximum speed, ideal for quickly transferring information. Interactions with matter are common, allowing easy detection, as well as investigation of remote objects they encounter (ie. RADAR, LIDAR, low-coherence spatial tomography, X-Ray tomography, X-Ray crystallography). Photons emitted from other particles also have similar but unique applicaitons, as with the pairs of gamma ray photons obtained by positron-emission-tomography (PET).
+
+By contrast, neutrinos, while typically moving at the speed of light, do not commonly interact with matter. This allows them to penetrate entire planets with a small wavelength and without inflicting damage. However, their lack of interaction limits their utility in tomography, and renders detection so challenging, even communications usage is prohibitively expensive.
+ '_page' ' '
+PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+		
+__ Signal Processing and Control Algorithms __
+___ Proportional Integral Derivative (PID) Control ___
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-pid-passiveFilter.png' '525px'
+A single feedback amplifier issues proportional corrections to its outputs in response to disturbances. More disturbance, much more output to correct.
+
+Real systems often do not respond instantly to control inputs. Power into a heater is limited, as would be any electrical input to a resistor. Temperature does not rise immediately, just as voltage applied to a resistor/capacitor voltage divider does not instantly cause the voltage across the capacitor to rise. Practical heating applications often involve multiple rapidly changing inputs to thermal circuits, as products like 3D printer filament are moved through devices like extruders at changing rates.
+
+Precise control often requires consideration of how a new input, more heat or product, will impact future states.
+
+Modern control systems implement multiple amplifiers, with low-pass and high-pass filters in the feedback loop, to compensate for past states and future trends.
+
+Maximum control is achievable by repeated re-tuning of the P I D gain/filter parameters. Evolutionary algorthims and neural networks excel in such optimization, though more rigiorous tuning methods can be developed for specific purposes. Real-time parameter changes, with simulated disturbances, may allow better manual tuning.
+___ Digital Equivalents of Analog Circuits ___
+_r '
+<figure style="width:350px;float:right;margin: 0 0 0 15px;border: 5px solid transparent;">
+	<img src="./_lib/zSPECIAL-images/images-external/filterOrders/orig/Butterworth_Filter_Orders.svg" alt="" style="width:100%" ><figcaption style="font-size: 0.70em;">&#39;Butterworth_Filter_Orders.svg&#39; see &#39;ATTRIBUTION&#39;</figcaption>
+</figure>
+'
+ '_picture' './_lib/zSPECIAL-images/images-schematics/schematic-voltageDivider-resistor_capacitor.png' '125px'
+Digital signal processing is often used to reduce bulky circuits to trivial mathematical operations. Digital systems also have the ability to make mathematically perfect copies of information - &#39;101010&#39; can always be copied to exactly &#39;101010&#39;.
+
+However, these signal processing and control algorithms are generally most efficient when closely related to the simplest equivalent electrical circuit.
+
+A disadvantage to digital signal processing is speed. Circuitry used to capture analog signals (analog-digital-converters) inherently includes parasitic low-pass filters. Digital processors themselves can only perform a limited number of operations per second, while analog components &#39;compute&#39; using the entire degenerate gas of electrons pushed through them. For these reasons, high-speed microwave or optical communication links are often reduced in frequency before submission to computer processing.
+
+As an example, this C preprocessor macro implements a low pass filter by adding the most recent output, to the change in amplitude, multiplied by a constant, which sets the cutoff frequency to a percentage of sample rate.
+
+#define lowPass(newValue, filteredValue, inertiaFloat)                            \
+filteredValue = filteredValue + (inertiaFloat * (newValue - filteredValue));
+
+A more universal frequency filter can be implemented by a "biquad" topology, using multiple amplifiers and filters in the same feedback loop. Capable of implementing low/high pass as well as band pass/stop, equivalent to various RC/RL/RLC circuits, cutoff/center/bandwidth frequency characteristics can be set by adjusting component values, or constants in an equivalent digital algorithm.
+
+#define IIRbiquad(newValue, filteredValue, unique_d1_name, unique_d2_name, b0, b1, b2, a1, a2)			\
+														\
+	filteredValue = b0 * newValue + unique_d1_name;								\
+	unique_d1_name = (double)b1 * (double)newValue + (double)a1 * filteredValue + unique_d2_name; 	\
+	unique_d2_name = (double)b2 * (double)newValue + (double)a2 * filteredValue;
+
+Like all low-pass filters, all of these algorithms and circuits only provide -20dB (100x) power attenuation for every ten times frequency increase beyond the cutoff. Multiple &#39;orders&#39; must be connected together to achieve sharper low-pass filtering. In electronic circuits, this is done by adding more components - usually resistors, capacitors, and amplifiers. In digital circuits, this can be done with a simple for loop.
+
+//High Order IIR Biquad Filter.
+//Parameters b0, b1, b2, a1, a2 are filter coefficients. See http://gnuradio.4.n7.nabble.com/IIR-filter-td40994.html and http://www.earlevel.com/main/2013/10/13/biquad-calculator-v2/ .
+//Data is returned in the double named [filteredValue] .
+#define highOrderIIRbiquad(newValue, filteredValue, stateOneArrayName, stateTwoArrayName, b0, b1, b2, a1, a2, filterOrder)	\
+	static double stateOneArrayName[(filterOrder+1)];									\
+	static double stateTwoArrayName[(filterOrder+1)];									\
+																\
+	static int filterLoop;													\
+																\
+	static double lowerOrderFilteredValue;											\
+	lowerOrderFilteredValue = newValue;											\
+																\
+	for (filterLoop=0; filterLoop < filterOrder; filterLoop++) {								\
+		IIRbiquad(lowerOrderFilteredValue, filteredValue, stateOneArrayName[filterLoop], stateTwoArrayName[filterLoop], b0, b1, b2, a1, a2) \
+		lowerOrderFilteredValue = filteredValue;									\
+}
+
+And now the advantages of digital filters are abundantly clear. At the cost of a trivial number of arithemetic operations, potentially thousands of low-noise electronic components can be substituted for a microcontroller costing few dollars. Hundreds of orders have been implemented within audio frequency range by an ATMega32U4 to clean electroencephalography data before sending along to a computer for further analysis. Filter parameters themselves can be automatically tuned by evolutionary algorithms, neural networks, or rigorous methods developed for specific purposes.
+___ Spectrum Analysis and Fast Foruier Transform ___
+Signal amplitude can be measured after being put through a band pass filter. Higher amplitudes indicate a closer match between filter frequency, and actual frequency. A large filter bank, or a sweeping filter, can thus be used to show the amplitudes of various frequencies in a signal.
+
+Spectrum analysis simply implements such a filter bank, sweeping filter, or combination of these. Fast Fourier Transform (FFT) is simply a mathematical alogithm for performing this operation efficiently on digital processors. FFT is may be useful as a function more efficient than IIR filters, but knowing how to reimplement FFT is rarely called for.
+
+Various plots are generated by this technique, including amplitude/frequency graphs and amplitude/frequency/time "waterfall" plots. The latter shows the appearance and disappearance of signals across a range of frequencies, and so can identify radio channels going on/off air, or information transmitted by shifts in frequency, as with human voice.
+ '_image' './_lib/zSPECIAL-images/images-mirage335/08-AlphaWavesLowRes.jpg' '85%'
+
+
+
