@@ -407,7 +407,7 @@ true
 
 _varDeclare_locations_here() {
 	cat << 'CZXWXcRMTo8EmM8i4d'
-export zzLib_895_reference="$zzLib_800_documents"../zzLib_895-reference
+export zzLib_895_reference="$zzLib_800_documents"/../zzLib_895-reference
 
 
 export zzLib_800_documents_____boilerplate="$zzLib_800_documents"/890-boilerplate
