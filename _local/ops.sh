@@ -30,6 +30,7 @@ _consolidate_documents() {
 	do
 		_documents_callScriptedIllustrator "$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/200-preface/200-preface.sh
 		_documents_callScriptedIllustrator "$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/200-preface/200-preface-errata.sh
+		_documents_callScriptedIllustrator "$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/201-copyright/201-copyright.sh
 	done
 	
 	rm -f "$scriptAbsoluteFolder"/document.pdf > /dev/null 2>&1
@@ -66,7 +67,8 @@ _consolidate_documents() {
 	"$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/100-draft/181-motivation/181-motivation.pdf "1" \
 	"$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/100-draft/181-motivation/181-motivation-errata.sh.pdf "2" \
 	"$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/100-draft/185-memoryRegeneration/185-memoryRegeneration.sh.pdf "1" \
-	"$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/100-draft/185-memoryRegeneration/185-memoryRegeneration-errata.sh.pdf "2"
+	"$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/100-draft/185-memoryRegeneration/185-memoryRegeneration-errata.sh.pdf "2" \
+	"$scriptAbsoluteFolder"/zzLib_800-documents/050-sorting/201-copyright/201-copyright.sh.pdf "1"
 	
 	
 	mv "$scriptAbsoluteFolder"/document_tmp.pdf "$scriptAbsoluteFolder"/document.pdf > /dev/null 2>&1

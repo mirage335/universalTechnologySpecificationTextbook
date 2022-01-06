@@ -24,6 +24,7 @@ _ Table of Contents _
 182					181-motivation-errata
 183				185-memoryRegeneration
 186					185-memoryRegeneration-errata
+187				201-copyright
 
 
 
