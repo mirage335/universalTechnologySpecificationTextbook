@@ -616,5 +616,8 @@ _
 *) Theoretically, iccasional stimulation-only electrode sites only used to add/remove RPT correlations (ie. to write synapses) may be much smaller than otherwise acceptable. Due to very infrequent use, electrode material damage, minor collateral damage, high voltage, and active-matrix only (no other multiplexing), may be acceptable, if there is actually any plausible use for such a high density of electrode sites.
 
 
+*) Carbon nanotube fusing or electromigration current density may be (10^3 MA/cm^2)/(10^5 A/cm^2)==10^4 that of copper... may be useful to reduce power dissipation, increase stimulation current, or increase amplifier power. 
+
+
 
 '
