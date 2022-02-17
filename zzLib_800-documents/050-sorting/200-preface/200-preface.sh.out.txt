@@ -3,6 +3,7 @@
 Copyright (C) 2021- mirage335
 See additional copyright notice in the file for license conditions.
 See license.txt for universalTechnologySpecificationTextbook license conditions
+
 _ universalTechnologySpecificationTextbook _
 from existing information.
 
@@ -43,9 +44,10 @@ Personally, author &#39;mirage335&#39; is more interested in life as a typical &
 
 
 Facebook, supposedly now Meta, cannot succeed in attracting diverse talents if their intent is to de-commoditize the &#39;internet&#39; into a rebranded proprietary &#39;Internet Explorer&#39; as a feeble exploit of this last transition in human history. Much benefit was had from FLOSS competition as such before, and author &#39;mirage335&#39; hopes, will be had again if necessary.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Disclaimer __
 Author &#39;mirage335&#39; supports any reasonable path, valuing that many other persons have reasonable ideas, often adding new abilities and imagination.
 
@@ -66,9 +68,10 @@ DISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonab
 DISCLAIMER: Reasonable risk of missing attributions may be taken if free web links are not obviously offered - acknowledgment may be limited to no &#39;originality&#39;, no &#39;links&#39; - essential &#39;facts&#39; from obvious sources only.
 
 WARNING: Extensive research notes may be less recent, less accurate, less complete, internally inconsistent, and misinterpreted.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ *Dedication* __
 To whom diligently magnify the light for life, especially the engineers and electricians most recently heard from at the Titanic.
 
@@ -91,15 +94,17 @@ To diversity and quality of life.
 
 
 To any persons or peoples I perhaps may not yet have thought to mention here.
+
 __ Appreciation __
 PCBWay is particularly appreciated for prototype PCB manufacture and complete electronics assembly from design files, timely and affordable.
 
 Pimax has done much for the world, continuing their long trend of leading the world with availability of professionally useful high-FOV and high-resolution Virtual Reality.
 
 Starlink/SpaceX has started the process of replacing unmaintainably labor intensive terrestrial networks with cheaply commoditized standardized satellites.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Pondering __
 A quick release to FLOSS, rather than for-profit proprietary designs and textbooks, obviates issues of mass production. Far short of manufacturing runs and bringing products to market, individuals can simply give FLOSS design assembly standardized files to manufacturers, receiving small numbers of finished products at near marginal costs, with no marketing cost built-in.
 
@@ -140,9 +145,10 @@ Widely distribute anything of one&#39;s own, surrounding what may become favorab
 -Elon Musk, https://www.brainyquote.com/authors/elon-musk-quotes
 
 Seems to recognize many aspects of a very strong case for commoditization of the experience of playing a video game across an interstellar habitat constructed by self-driving AI.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Reading the Extensively Non-Linear Documentation __
 Executives contemplating technology development proposals may find concepts alone sufficient, reading only a relevant part of the document.
 
@@ -150,12 +156,14 @@ Developers of complete hardware/software designs may require a more realisticall
 
 
 As one example, spatial filtering as explained in &#39;problemSolversGuide&#39; is illustrated as a pinhole filter from multiple point sources of light. In practice, spatial filtering usually begins with focusing most of the light, as illustrated by &#39;lithoDive&#39;.
+
 __ Suggesting Reading for the Extensively Non-Linear Documentation __
 
 Something for everyone here, so please direct people towards what interests them, be that the hive mind and mind uploading of cognitionSplicer, the summary of modern design principles from problemSolversGuide, VR metaverse shared 3D space software from CARDinal, VR without CNS neural interfaces as described by mechDive, etc
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Presented __
 *) problemSolversGuide - An &#39;executive summary&#39; of how to develop technology in this universe.
 
@@ -169,6 +177,7 @@ __ Presented __
 *) Software design for self-driving AI.
 
 As may be plausible. &#39;MetaEngine&#39; from &#39;ubiquitous_bash&#39;, among other existing resources, may be relevant to quickly implementing designs as described and illustrated herein (ie. better than UNIX pipes).
+
 __ Conclusions __
 *) Neural correlates of consciousness other than mere computing (eg. voltage gradients, molecules, etc, to which specific inputs account for conscious perceptions of sight/sound/touch/taste/smell/etc) may not be ruled out presently. Hardware may claim to have these conscious experiences, while in fact only emulating the behavior to make such a claim (ethically would need to be treated as sentient in either case). Consequently, interfacing wetware to hardware by neural interface and bioreactor (or similar more efficient technology) may be preferable (ie. lower risk) rather than replacing wetware with hardware. 
 
@@ -220,9 +229,10 @@ __ Conclusions __
  *) All of the algorithms specified for CARDinal are straightforward without any plausible major gaps. Ability to load terrain files, import 3D objects into game engines without interruption, import real-time framebuffer video streams, and control 3D object positions, is well documented for major game engines (especially Unity). All necessary inter-process-communication and networking
 is available from both MSW and Linux OS kernels. Both MSW and Linux/Cygwin OS can integrate other programs through simultaneously batch/bash interpretable anchor shell scripts from &#39:ubiquitous bash&#39:. Compiled code (ie. C/C++/similar) may be relied upon entirely by standalone clients (eg. Oculus Quest, Android), or use cloud services may be used (eg. if avionics VM is desired by
 such users).
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Roadmap and Timeline __
 Insofar as in terms of what is possible, rather than what could cause delays, optimistic. Insofar as in terms of reasonable development time expectations, pessimistic. Efficient parallel workflow, simultaneously solving multiple interrelated issues as usual, assumed (eg. lithoDive must be pursued before sleeveDive). Units is weeks, at approximately between ~60hour/week (10hr*6day) to ~112hour/week (16hr*7day).
 
@@ -340,13 +350,15 @@ From track record for comparable scale projects, instead of total of worst case 
 24) CoreFusion(s)
 
 <62 person weeks (<1.15 person years)
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Redistribution and Preservation __
 Due to AGPLv3 copyright, availability of an electronic copy with printed copies is *required*. Shipping USB flash storage (better usability) or optical disc storage (better archival), is recommended.
 
 Printed books should be provided as two copies so at least one may be marked extensively by annotation and tabbing.
+
 __ Contributing __
 Please be considerate of the author&#39;s purpose in creating this document and the necessary complexity of including third-party content.
 
@@ -361,10 +373,12 @@ Suggestions for any improvements will be strongly filtered for expediency and ne
 
 
 Contributors to the repository of this book, may at sole entirely arbitrary discretion of author &#39;mirage335&#39;, be eligable to claim an equal or greater share of something like 20% or 80% of profits so long as these have been set aside, awarded on a case-by-case and first-come-first-serve basis, possibly with some priority for claimants with significant potential for improving related open-source technology, with the rationale for each claim and award a matter of public record. Such awards are donations and may not be given if there is any reasonable perception of &#39;quid-quo-pro&#39;, or if international/tax issues are substantial. Remaining profits after that may be distributed to author &#39;mirage335&#39;.
+
 __ Third Party Copyright, Attribution, etc __
 Few third-party copyrighted works are included, all with AGPLv3 compatible license, and most if not all having been hosted by Wikipedia. If it wasn&#39;t at least safe enough for Wikipedia, it&#39;s not safe for the repository history.
 
 Reasonable efforts have been made to attribute sources.
+
 __ Copyright __
 
 universalTechnologySpecificationTextbook

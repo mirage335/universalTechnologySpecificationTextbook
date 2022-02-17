@@ -1,4 +1,5 @@
 [0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+
 _ sleeveDive _
 Thoroughly interfacing, rearranging, and rewiring, the organic components. Wetware equivalent of FPGA for harnessing any last neural correlate of consciousness.
 
@@ -7,6 +8,7 @@ Wetware/hardware design to sustain (ie. &#39;mindUploading&#39;) and/or suppleme
 Feasible, as a combination of &#39;neuralBits&#39; (or similar) electrical interfaces bridging fragments of brain tissue, kept alive by artificial or natural sources of suitable fluids, all after some electrical stimulation to impose connectome and synaptic weights similar to that of previously recorded brain activity. A recreation of (eg. human) brain across a combination of hardware and separable wetware components.
 
 For early venturing early users of &#39;neuralBits&#39;, having &#39;sleeveDive&#39; already available as emergency replacement wetware could be a life saving fallback if anything goes awry within the first few hours. Thus, &#39;sleeveDive&#39; also mitigates the most substantial risks of invasive neural interfaces.
+
 __ Introduction __
 *) Extracting and keeping alive for several hours, brain tissue, to the point of entire rat or guinea pig brains, by perfusion of elemental mineral solutions (ie. aCSF), under anaesthetic, is already routine.
 
@@ -15,9 +17,11 @@ __ Introduction __
 *) Extending existing brain tissue survival time and yield is feasible, if not by better control of the extraction and aCSF (artificial Cerebral Spinal Fluid) then at least by leaving the brain tissue in-vivo with natural dCSF (derived Cerebral Spinal Fluid) as normal.
 
 *) Extending electrode quantities to suffice for brain-to-brain interfaces between brain tissue &#39;wetware components&#39; with &#39;neuralBits&#39; hardware is feasible - specialized hardware for immovable or in-vitro brain tissue is substantially cheaper.
+
 ___ Presented ___
 
 As may be plausible.
+
 ____ Sketch Illustrations ____
 
 *) Automated, fast extraction, slicing, and dicing, of brain tissue (if necessary - survival time and yield presumed to improve with less time and trauma).
@@ -27,9 +31,11 @@ ____ Sketch Illustrations ____
 *) Whole organism natural dCSF, homeostasis management and sensation, harnessing (life support).
 
 *) &#39;Bioprinting&#39; needle designs to pick and place small quantities of biological tissue with minimal time, trauma, collateral damage, or other degradation.
+
 ____ Calculations ____
 
 *) Neurons per cubic volume of brain tissue to total neurons within cubical container of specified edge dimension.
+
 __ Conclusions __
 Photolithography resolution compatibility of hardware designs must be >>300nm to minimize unnecessary cost or prototyping difficulty. Arbitrary rearrangement of wetware obviates concern over collateral damage or electrode density, with only the total quantity of electrodes significant.
 
@@ -73,9 +79,10 @@ Cubes are suggested mostly to minimize collateral damage from occasional inappro
 Rather than cubes, simply pressing an entire slice of tissue into suitably perforated and textured machined plate may be more useful, technically more efficient, and simpler.
 
 Continuously flowing water with gates may allow slices to be collected by automatic means, to be dispensed towards an appropriate plate.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ REFERENCE __
 
 
@@ -154,6 +161,7 @@ https://hypertextbook.com/facts/2001/ViktoriyaShchupak.shtml
 
 https://en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons
 	&#39;human&#39; &#39;16 billion neurons in the cerebral cortex&#39;
+
 __ ACKNOWLEDGMENT __
 
 *) For &#39;shorter duration action potentials&#39;, plausible example mechanisms were more confidently identified by articles found by &#39;Andonis&#39; at the &#39;Futurist Network&#39; &#39;Discord&#39; server . Before that, accelerating apparent time by electrical interfaces bypassing action potential duration seemed substantially less feasible.
@@ -163,9 +171,10 @@ __ ACKNOWLEDGMENT __
  *) &#39; Bioinspired bio-voltage memristors &#39;
 
 
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Estimate - Neurons in Containers __
 [0;34m  'neocortex_neurons=$(_clc "16 * 10^9")' [0m
 [0;34m  'neocortex_mm3=$(_clc "1 * 10^6")' [0m

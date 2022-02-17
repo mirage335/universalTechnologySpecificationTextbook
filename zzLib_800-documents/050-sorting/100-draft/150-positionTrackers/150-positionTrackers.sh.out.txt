@@ -1,8 +1,10 @@
 [0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+
 _ positionTrackers _
 Combined camera, &#39;lighthouse&#39;, ultrasonic, interferometric, speckle (highly precise structured light), magnetic, and/or ultrasonic, position tracking, for best possible accuracy and precision, at lowest cost.
 
 Low-cost surface-mount commodities (ie. microcontroller, LEDs, laser diodes, MEMS inertial chips, inductors, frequency mixers, envelope detector schottky/germanium diodes) are sufficient to track objects with best possible accuracy and precision beyond-line-of-sight for all plausible uses (eg. &#39;VR roomscale&#39;, &#39;VR HOTAS emulated controllers&#39;, mechDive exoskeleton, mechDive tunneling, CNC low-latency position feedback correction).
+
 __ Introduction __
 Single (possibly flexible) PCB can integrate all the negligible cost widely available hardware for each plausible use case. Microcontrollers of the lowest cost and highest availability have sufficient analog and digital hardware.
 
@@ -21,20 +23,23 @@ Short distance limitation of speckle sense is due to eye damage risk of >>30mW p
 Ultrasonic tracking is only useful for mechDive tunneling, using inexpensive piezoelectric materials and inexpensive hydrophones (which may be fiber optic). Such rare usage would nevertheless justify any plausible expense or inconvenience.
 
 Interferometric tracking of linear distance - by resonant optical cavity or (more speculatively) synthetic aperture observations of a point source - feasible at low cost - is expected either unnecessary (due to through-lens overlay) or limited to the very specialized mechanism to track the edges of workpiece slabs .
+
 ___ Presented ___
 
 *) Sketches of plausible use cases and component layouts.
 *) Angular resolution calculations.
 As may be plausible.
+
 __ Conclusions __
 Magnetic tracking is usually superior to ultrasonic tracking, though less compact. Magnetic tracking is most useful for beyond-line-of-sight tracking after occasional (a few times per hour) calibration. Ultrasonic tracking may lose accuracy immediately after any calibration due to refractions and reflections, so is most useful where compactness, precision, and beyond-line-of-sight are imperative (ie. mechDive tunneling).
 
 Oculus constellation has rare low-cost ~1000FPS cameras. Alternative is USB3 FPGA3 adapters to adequate camera sensor chips.
 
 Due to dependency on high-frequency capture of small amplitude changes at any reasonable rate of motion, amplitude modulated identification of individual speckle sense transmitters is probably not feasible.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ REFERENCE __
 
 https://specklesense.media.mit.edu/text/zizka_specklesense_uist_2011.pdf
@@ -46,32 +51,38 @@ https://en.wikipedia.org/wiki/Angular_resolution
 
 https://www.google.com/search?q=arc+seconds+per+radian
 	&#39;206265&#39; arc seconds per radian by &#39;google&#39; conversion
+
 __ Estimate - Angular Diameter and Resolution - VR HOTAS positioning. __
 Notably, if the ratios of observation diameter/distance and aperture wavelength/diameter are equal, then the observation angular diameter and aperture angular resolution will also be equal.
 
 Observation diameters larger than ~50um (much larger than wavelength) may use non-coherent LED ultraviolet light sources (ie. 365nm).
 
 [0;34m  'radian_arcSeconds=206265' [0m
+
 ___ Observation ___
 [0;34m  'observation_distance_m=5' [0m
 [0;34m  'observation_diameter_mm=0.5' [0m
 [0;34m  '_clc "($observation_diameter_mm * millimeter) / ($observation_distance_m * meter) * $radian_arcSeconds"' [0m
 [0;37;100m# 20.6265[0m
 [0;37;100marc seconds.[0m
+
 ___ Aperture ___
 [0;34m  'aperture_diameter_mm=10' [0m
 [0;34m  'aperture_wavelength_nm=1000' [0m
 [0;34m  '_clc "(( $aperture_wavelength_nm nanometer) / ( $aperture_diameter_mm millimeter)) * $radian_arcSeconds"' [0m
 [0;37;100m# 20.6265[0m
 [0;37;100marc seconds.[0m
+
 __ Estimate - Angular Diameter and Resolution - Overlay ~10um . __
 [0;34m  'radian_arcSeconds=206265' [0m
+
 ___ Observation ___
 [0;34m  'observation_distance_m=2.5' [0m
 [0;34m  'observation_diameter_mm=0.009125' [0m
 [0;34m  '_clc "($observation_diameter_mm * millimeter) / ($observation_distance_m * meter) * $radian_arcSeconds"' [0m
 [0;37;100m# 0.75286725[0m
 [0;37;100marc seconds.[0m
+
 ___ Aperture ___
 [0;34m  'aperture_diameter_mm=100' [0m
 [0;34m  'aperture_wavelength_nm=365' [0m

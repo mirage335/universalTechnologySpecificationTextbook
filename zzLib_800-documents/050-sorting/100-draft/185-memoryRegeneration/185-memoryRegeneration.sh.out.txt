@@ -1,4 +1,5 @@
 [0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+
 _ memoryRegeneration _
 Learning long-term neural network stabilization, if necessary, by *isolation* (exocortex), by *refresh* (spatial/temporal object neural decoder), and/or by *partial reset* (increased forgetting rate while doing important things).
 
@@ -7,6 +8,7 @@ Highly speculative. Memory capacity of a neural network must be finite (unless s
 Absence of novel information may actually cause a neural network to degrade faster than a steady rate of novel information to learn. From a hypothetical neurological or mathematical perspective, all learning neural networks may be long-term stability limited due to useful memory object cross-association with noise at least every time the memory is recalled - less detailed sub-objects being more noisy to begin with. From a hypothetical psychological perspective, vividly motivating experiences become much less memorable after the first experience. A &#39;Player develops Automation&#39; (PdA) emphasizing lifestyle drastically worsens such degradation, the symbolic manipulation beginning with less novel &#39;signal&#39; and accumulating more chaotic &#39;noise&#39;. Both these (regeneration) problems are solved biologically along with any physical degradation by abrupt complete replacement of all wetware and loss of all associated memory - *death*. Much &#39;science fiction&#39; has already widely recognized this as such possible issues as the &#39;fever dream&#39; of novelty, having &#39;seen it all&#39; (or imagined), severe boredom from immortality, etc.
 
 Mortality is a rather expensive solution for either artificial neural networks (ie. self-driving AI) or biological neural networks (ie. people preferring to better or longer enjoy the problem solving game of life). Gamers are well acquainted with &#39;amortality&#39; as &#39;respawning&#39; already as a means of experiencing problem solving taken to the point of victory or defeat. Adding memory storage/retrieval as an &#39;amortality&#39; &#39;respawning&#39; feature extends such workarounds to the lifelong processes of learning and forgetting.
+
 __ Introduction __
 Cognition memory retrieval requires comparably expensive computation. All possible solutions to neural network memory capacity limits are either both computationally and storage intensive, or erase memories.
 
@@ -31,6 +33,7 @@ Partial reset of memories is by far the most straightforward, and expected to al
 Iterative copy/rewrite/reset for isolation, refresh, and/or partial reset, uses repeated measurement of RPT correlations, calculation of desired connectome and synaptic weights, and stimulation in the patterns that would be expected of the desired presence/absence of RPT correlations, until desired presence/absence of RPT correlations has been achieved. Such exploits the &#39;neurons fire together wire together&#39; and &#39;out of sync lose their link&#39; learning.
 
 Complete copying of a connectome and synaptic weights (ie. a backup) is of course possible and may be combined with memory isolation, refresh, partial reset. Risk being that &#39;spinning up&#39; older memories may regress now satiated desires to unsatiated (incurring a desire to repeat the memory isolation, refresh, and partial reset as well as any experiences since all over again), which may be a significant expense against moving on to actually new experiences.
+
 __ Conclusions __
 If less sharp memories are formed in a neural network that is not at neutral defaults, possibly due to retreading of already existing but worsening signal-to-noise ratio pathways, then such degradation cannot be reversed by interactively reliving similar experiences, making the degradation permanent without some isolation/refresh/reset. A lifestyle of symbolic problem solving (ie. &#39;Player develops Automation&#39;, instead of experimentation), will cause such degradation substantially faster.
 
@@ -61,14 +64,16 @@ Memory interference and memory signal-to-noise ratios could be *measurable objec
 Disrupting current brain activity might be useful as a user activated retroactive recent memory removal or blocking tool, taking memorable objects out of the phonological loop before much undesired cross-association occurs.
 
 Partial memory loss is enforceable by CARDinal as a multiplayer game beginning condition from statistical evaluation of movement patterns that would show both whether a player was relearning most basic skills and whether a player was subject to degradation otherwise expected. This may be important to other players (as with any similar &#39;anti-cheat&#39;) who wish to begin a game of life with maximum potential for motivation (ie. &#39;sharp memories&#39; and &#39;fever dream&#39;).
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ REFERENCE __
 
 https://tvtropes.org/pmwiki/pmwiki.php/Main/GhostAmnesia
 	&#39;Common in Greek Mythology and in Asian mythology. In fact, one of the main rivers of the underworld was the Lethe, whose water would explicitly cause amnesia. Drinking fresh blood (animal would do) would break the spell at least temporarily, as seen when Odysseus visited the underworld looking for advice from the by-then dead seer Teiresias in the Odyssey.&#39;
 		Also equivalent to events of &#39;Fall, or Dodge in Hell&#39; by Neal Stephenson, presumably mythologically inspired.
+
 __ ACKNOWLEDGEMENT __
 
 Sword Art Online, by Reki Kawahara, within few pages of the beginning, recognizes the &#39;fever dream&#39; of highly motivated players experiencing VR challenges for the first time.

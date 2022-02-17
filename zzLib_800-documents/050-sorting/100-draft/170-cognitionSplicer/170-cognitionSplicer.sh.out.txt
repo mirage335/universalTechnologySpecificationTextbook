@@ -1,12 +1,15 @@
 [0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+
 _ cognitionSplicer _
 Connectome and synaptic weights &#39;RPT correlation&#39;, overlay, from observed neural activity.
 
 &#39;Brain upload&#39; and &#39;hive mind&#39; made possible by observing some activity from a living neural network rather than &#39;scanning&#39; &#39;dead&#39; or dormant &#39;neural tissue&#39;.
+
 __ Introduction __
 Feasibility and usefulness are well founded conclusions.
 
 Existing hardware and wetware may be entirely adequate. Minimally complex scaling of hardware designs to higher spatial resolution may be beneficial.
+
 ___ Presented ___
 
 *) Software algorithm flow diagrams.
@@ -14,6 +17,7 @@ ___ Presented ___
 *) Sampling times.
 *) Sampling/input bandwidths (eg. 10MHz, 500kHz, 50kHz, etc).
 As may be plausible.
+
 __ Conclusions __
 Reasonable reading, writing, and communication of human memory (objects, associations, priorities), may be feasible even from non-invasive (ie. MEG, TMS) brain interfaces, especially with minimal retraining in a VR environment. Perfect enough (ie. no retraining) memory transfers may be feasible from non-chronic invasive (ie. crude MEA) brain interfaces. Memories may have a spatial resolution parameter, much as any other object data (eg. as with visual image object pixels).
 
@@ -28,9 +32,10 @@ Poor spatial resolution could plausibly obscure any connections which are within
 More &#39;observedNeurons&#39; than 10k &#39;logical neurons&#39; or 10M &#39;physical neurons&#39; spread across the entire neocortex are significant performance benchmarks for a brain-computer interface. Fewer might suffice within a smaller region of the neocortex for some limited use cases.
 
 Some basis for object memory recognition from recorded neural activity exists in the form of rough but recognizable images observed from neural recordings from the visual systems of animal models (ie. cats).
- '_page'
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ REFERENCE __
 
 https://www.proteinatlas.org/humanproteome/brain/human+brain
@@ -53,9 +58,10 @@ https://raw.githubusercontent.com/mirage335/Mirage335BiosignalAmp/master/amplifi
 
 https://arxiv.org/pdf/1906.01703.pdf
 	CITATION - &#39;A typical neuron fires 5 - 50 times every second.&#39;
- '_page'
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Example: Pessimistic Estimate - Recording Time - All Memories (Perfect Enough), Whole-Neocortex Interface, Physical Neurons from Million Electrode Site Micro-Electrode Array (MEA) __
 $dormantTime == Presume >1s .
 
@@ -84,6 +90,7 @@ $weakestSynapse == Negligible.
 [0;37;100mseconds.[0m
 
 Strong inhibition and irregular synaptic weight geometric distribution may delay observations negligibly. A few hours or a few days is a resonably pessimistic expectation.
+
 __ Example: Pessimistic Estimate - Computation Time - All Memories (Perfect Enough), Whole-Neocortex Interface, Physical Neurons from Million Electrode Site Micro-Electrode Array (MEA) __
 $listSeconds == Assume a pessimistic three hours ~10k .
 
@@ -104,9 +111,10 @@ $arithmeticPerSecond == Assume 10 * 200TFLOPS GPUs, typical of a commonly availa
 [0;34m  '_solve' '"( \"computationTime\" = ( ( "$listSeconds" * "$eventsPerSecond" * "$observedNeurons" ) * ( "$findMilliseconds" * ( "$eventsPerSecond" * 0.001 ) * "$observedNeurons" ) ) / "$arithmeticPerSecond" , \"computationTime\" )"' [0m
 [0;37;100m# 4000000[0m
 [0;37;100mseconds. Three months (90days) is approximately 7million seconds. One year is approximately 30million seconds.[0m
- '_page'
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Example: Pessimistic Estimate - Spatial Resolution - Visual Memories, Whole-Neocortex Interface, Logical Neurons from MagnetoEncephaloGraphy (MEG) or Transcranial Magnetic Stimulation (TMS) __
 $desiredNeurons == Assuming only shallow 2D cerebral neocortex surface (100cm^2) is available to MEG or TMS at relatively high resolution (between ~5mm^2 or ~0.1mm^2). A ~0.1mm resolution may be much nearer theoretical limits than existing hardware, possibly necessitating temporal patterning of TMS impedance measurement and TMS stimulation pulses.
 
@@ -125,6 +133,7 @@ $pixelsOrVoxels == Smaller than 100x100 texture is rather common. Maybe a person
 [0;37;100m# 20000[0m
 [0;34m  '_solve' '"( \"requiredSpatialResolution\" = ( "$pixelsOrVoxels" ) , \"requiredSpatialResolution\" )"' [0m
 [0;37;100m# 10000[0m
+
 __ Example: Pessimistic Estimate - Recording Time - Visual Memories, Whole-Neocortex Interface, Logical Neurons from MagnetoEncephaloGraphy (MEG) or Transcranial Magnetic Stimulation (TMS) __
 $dormantTime == Presume >1s .
 
@@ -154,9 +163,10 @@ $weakestSynapse == Negligible.
 [0;37;100mseconds.[0m
 
 Strong inhibition of such large &#39;logical neurons&#39; may delay observations by a few hours.
- '_page'
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Spatial Resolution __
 Capturing a person&#39;s sense of objects, associations, priorities, may require at least sufficient resolution for these objects to remain recognizable. Whether a neural interface has sufficient spatial resolution (observing sufficiently many and sufficiently small groups of neurons) may be crudely estimated by whether a hypothetical &#39;picture&#39; of a 2D *texture* in &#39;pixels&#39; or a &#39;model&#39; in &#39;voxels&#39; after proportional losses would remain recognizable.
 
@@ -170,6 +180,7 @@ Objects (eg. recognizable visual objects from visual memory in the visual cortex
 
 
 [0;37;100m"( \"spatialResolution\" = \"desiredNeurons\" * \"relevantNeuronsPerDesiredNeuron\" * \"perceptualCompression\" )" [0m[0m
+
 __ Recording Time __
 
 Duration of observed neural activity before each neuron will have repeatedly reacted (or not) to every other neuron at least indirectly, which may approximately be sufficient to correlate connectome and synaptic weights. Strong inhibition, irregular synaptic weight geometric distribution, and long axons may additionally impose a minimum recordingTime of a few seconds or a few months. Applicable to fMRI, EEG, ECOG, MEG, and MEA.
@@ -189,9 +200,10 @@ Duration of observed neural activity before each neuron will have repeatedly rea
 [0;37;100m"( \"signalsPerConversion\" == ( \"dormantTime\" * ( \"dormantTime\" / \"activeTime\" ) ) )"[0m
 [0;37;100m"( \"synapsesBetweenNeurons\" == ( \"observedNeurons\" / ( \"desiredNeurons\" / \"synapsesPerNeuron\" ) ) )"[0m
 [0;37;100m"( \"recordingTime\" == ( ( ( \"dormantTime\" * ( \"dormantTime\" / \"activeTime\" ) )  *  ( \"observedNeurons\" / ( \"desiredNeurons\" / \"synapsesPerNeuron\" ) ) )  *  \"weakestSynapse\" ) )" [0m[0m
- '_page'
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Computation Time __
 Correlation of neural activity to connectome and synaptic weights follows a summation algorithm followed by a normative statistic. TX events are converted to correlated RPT events. A similar algorithm is expected to correlate this smaller number of RPT events to other RPT events, establishing the order in which neurons are activated.
 
@@ -221,9 +233,10 @@ Each event found for a chosen RX ES will require iterating over at least recent 
 [0;37;100m"( \"computationTime\" = ( ( \"listSeconds\" * \"eventsPerSecond\" * \"observedNeurons\" ) * ( \"findMilliseconds\" * ( \"eventsPerSecond\" * 0.001 ) * \"observedNeurons\" ) ) / \"arithmeticPerSecond\" )" [0m[0m
 
 Other optimizations may be possible. An &#39;LI&#39; list may be divided into smaller &#39;LU&#39; lump of <<14bit numeric integers. Most RPT correlations will be short axons to only geometrically nearby neurons. Found RPT correlations can be ignored as soon as confidently identified once. Strong inhibition may be countered by using data taken at regular intervals rather than a longer continious recording.
- '_page'
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ RPT Correlation Computation - pseudocode __
 
 [0;37;100mobject event[0m

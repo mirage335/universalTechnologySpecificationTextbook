@@ -1,3 +1,4 @@
+
 __ Tension - Estimate - Eddy Current Brake - Peak kgF __
 $drum_RPM == Presume <30k to minimize requirements for drum strength and balance tolerance.
 

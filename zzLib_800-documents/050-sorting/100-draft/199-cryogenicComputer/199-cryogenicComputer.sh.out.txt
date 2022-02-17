@@ -1,10 +1,12 @@
 [0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+
 _ cryogenicComputer _
 Compact liquid cooled gas-tight sealed metal box for CPU and GPU.
 
 Entire computers have the sole purpose of converting power and data in to data out. Users usually need either the highest single-threaded performance (eg. VR &#39;flight sim&#39;), a point of diminishing returns for responsive cost effectiveness (eg. &#39;web browsing&#39;), or very low performance (eg. &#39;smartphones&#39;, &#39;standalone VR&#39;, &#39;thin client&#39; terminals, etc).
 
 Long has the time passed for compacting essential high-performance single computer hardware into a roughly standard size portable metal brick.
+
 __ Introduction __
 Heatsinks will not need replacement if corrosion inhibiting fluid is replaced annually and carefully kept clean of contaminants. Soldering, not welding, is nonetheless preferred, to allow disassembly for replacement of heatsinks.
 
@@ -28,6 +30,7 @@ Reportedly, a turboexpander can reduce compressor motor load (for LN2 generation
 High-lead &#39;bar solder&#39; is apparently currently exempted from RoHS, and may be absolutely necessary if whole metal box is cooled to cryogenic temperature, due to outside of box possibly not being under dry nitrogen gas, and resultant tin pest.
 
 Lead soldered external surfaces should be if possible thoroughly cleaned (in case of splatter) covered by high visibility colored tape, as hazardous, not to touch directly.
+
 ___ Performance Improvements at Lower Temperature ___
 Per LN2 published experiments... ~0.5 / (~195 + ~20) = 0.25581395/degC.
 
@@ -35,6 +38,7 @@ Per LN2 published experiments... ~0.5 / (~195 + ~20) = 0.25581395/degC.
 *) 25% at -90degC (Methanol Freezing Point)
 *) 50% at -190degC (LN2 Boiling Point)
 *) 55% at -220degC (Liquid Helium Boiling Point)
+
 ___ Incompatible Materials ___
 
 *) Tin.
@@ -42,6 +46,7 @@ ___ Incompatible Materials ___
  *) possibly >30degC, possibly >14degC, may become non-conductive (tin pest)
 *) Steel - -73degC (embrittlement)
 *) Buna-N Rubber - -143degC
+
 ___ Tin Pest Mitigation ___
 If tin pest, or tin embrittlement, is a severe risk, that cannot be entirely mitigated, several techniques may be used to minimize its impact.
 
@@ -54,14 +59,17 @@ If tin pest, or tin embrittlement, is a severe risk, that cannot be entirely mit
 Some research shows that allowing tin to return to room temperature (or perhaps higher) in the absence of oxygen/water, prevents the formation of ice crystals which accelerate tin pest upon return to low-temperatures, in effect, reversing tin pest. Under a dry nitrogen/helium atmosphere, periodically cycled to above room temperature, tin pest may not be a concern.
 
 External cold surfaces will still need to use lead solder.
+
 ___ Suppliers ___
 Dewar size may be ~30L. Cost of LN2 fill may be ~$3/L to ~$5/L . Roberts Oxygen (eg. Winchester, West Virginia) may be able to supply LN2. Airgas may be more difficult to work with.
 
 Comparatively, the cost of producing LN2 on site, has been estimated at ~8.5kWh/L, or $0.765/L at $0.09/kWh .
+
 ___ Presented ___
 *) Suitable computer enclosure and techniques to improve portability illustrated by sketches.
 
 *) Cryogenic issues and compatible resources.
+
 __ Conclusions __
 Laptops may combine the metal box with a radiator heatsink underneath, a keyboard/mouse on top, and a clamshell or sliding display above that. Switching from internal radiator to external cold fluid can bring maximum performance at any time.
 
@@ -83,9 +91,10 @@ Efficient terrestrial refrigeration may rely on gravity, at least with oil-free 
 
 
 RoHS ban of leaded solder is of negligible benefit and substantial harm, to the point that additional leaded solder may be worth adding manually to a few specific components (ie. at capacitor leads) near CPU/GPU chips. RoHS exemption &#39;custom made for a specific client or a small number of clients involved in scientific research or prototype product development&#39; may de-facto necessitate inefficient and unreliable small business involvement.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ REFERENCE __
 https://www.instructables.com/Homemade-liquid-nitrogen-generator/
 
@@ -148,6 +157,7 @@ https://www.quora.com/How-long-can-liquid-nitrogen-maintain-its-liquid-temperatu
 
 
 https://en.wikipedia.org/wiki/R-410A
+
 __ REFERENCE (unknown) __
 
 *) Somewhere, a study of stable voltages and clocks across temperatures from ~100degC to ~LN2, for an NVIDIA RTX series GPU, found a clear progression, and is the probable basis for the estimated performance increase at lower temperatures.
@@ -157,6 +167,7 @@ __ REFERENCE (unknown) __
 	*) 55% at -220degC (Liquid Helium Boiling Point)
 
 *) Many estimates of material usability at low temperature, or material behavior with usual techniques at low temperature (eg. time before cryogenic fluid coolant reservoir tank boils off, electrical cost per liter of LN2) may have been found from references now unknown. Such are, or are very close derivatives of, commonly available facts, often widely known for more than a century.
+
 __ REFERENCE (inaccessible) __
 &#39;5 W at 77 K without Breaking the Bank&#39;
 

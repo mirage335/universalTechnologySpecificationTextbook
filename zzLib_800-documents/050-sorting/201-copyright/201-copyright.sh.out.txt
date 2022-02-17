@@ -1,6 +1,8 @@
+
 _ Copyright _
 
 AGPLv3
+
 __ License Notice __
 [0;37;100muniversalTechnologySpecificationTextbook[0m
 [0;37;100mCopyright (C) 2021,2022-  mirage335[0m
@@ -20,14 +22,13 @@ __ License Notice __
 [0;37;100mInc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301  USA[0m
 
 [0;37;100mAll files in this folder and subfolders, unless explicitly stated otherwise or copyrighted by other authors, are copyrighted by mirage335 as described above.[0m
+
 __ License Text __
- '_heading2' 'cat' '/media/user/79bb3e49-6ff0-4ff6-b1fd-696cbde468f4/fs/universalTechnologySpecificationTextbook/zzLib_800-documents/050-sorting/201-copyright/_lib/agpl-3.0.txt'
-if false; then true; # -->
 <pre style="-webkit-print-color-adjust: exact;margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;font-size: 0.70em;">
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Copyright (C) 2007 Free Software Foundation, Inc. &lt;https://fsf.org/&gt;
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
@@ -655,8 +656,8 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
+    &lt;one line to give the program's name and a brief idea of what it does.&gt;
+    Copyright (C) &lt;year&gt;  &lt;name of author&gt;
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published by
@@ -669,7 +670,7 @@ the "copyright" line and a pointer to where the full notice is found.
     GNU Affero General Public License for more details.
 
     You should have received a copy of the GNU Affero General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.
 
 Also add information on how to contact you by electronic and paper mail.
 
@@ -684,10 +685,7 @@ specific requirements.
   You should also get your employer (if you work as a programmer) or school,
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
-<https://www.gnu.org/licenses/>.
-</pre>
-<!--
-fi
+&lt;https://www.gnu.org/licenses/&gt;.
 
 
 

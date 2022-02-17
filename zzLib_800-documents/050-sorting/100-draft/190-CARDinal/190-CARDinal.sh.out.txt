@@ -1,4 +1,5 @@
 [0;37;100mDISCLAIMER: Plausible concepts, attributed sources, oversimplifications, resonably. Rigorous mere academia NOT primary.[0m
+
 _ CARDinal _
 CARDinal Computer Automated Rendering Diffusion (CARD) with Cardinal Numbered WORLD Balance (Cardinal)
 
@@ -57,15 +58,17 @@ Specifications - protocols, algorithm flow, bandwidth estimates - for standalone
 
 *) Amateur radio by HF ALE or 24hr duration HF transmission can connect players or transfer essential backups globally without any other infrastructure. Client and WORLD server software, for amateur radio use, must be able to disable encryption (including any authentication) entirely. Player impersonation can be identified and corrected from presence of a player in an instance server without matching authentic WORLD server login or agreement of other players - real-time authentication/encryption is NOT necessary. Rate limits inherently prevent severe damage due to impersonation.
 
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Introduction __
 Since we rather easily can, as a matter of our own self-interest in living, we must create a habitat all plausible species would be rather happy to share.
 
 All of the algorithms specified for CARDinal are straightforward without any plausible major gaps. Ability to load terrain files, import 3D objects into game engines without interruption, import real-time framebuffer video streams, and control 3D object positions, is well documented for major game engines (especially Unity). All necessary inter-process-communication and networking is available from both MSW and Linux OS kernels. Both MSW and Linux/Cygwin OS can integrate other programs through simultaneously batch/bash interpretable anchor shell scripts from &#39;ubiquitous bash&#39;. Compiled code (ie. C/C++/similar) may be relied upon entirely by standalone clients (eg. Oculus Quest, Android), or use cloud services may be used (eg. if avionics VM is desired by such users).
 
 Some useful code for inter-process-communication and 3D space object storage already exists as reference implementations within &#39;ubiquitous bash&#39;, &#39;MetaEngine&#39; included with &#39;ubiquitous bash&#39;, and &#39;metaBus&#39 demonstration of &#39;MetaEngine&#39; (all of which predates and is unrelated to any other substantial &#39;metaverse&#39; marketing promotion).
+
 ___ Presented ___
 
 *) Algorithms for Instancing Roaming, Coordinates Referencing, Latency Compensation, Trade between WORLDs.
@@ -74,6 +77,7 @@ ___ Presented ___
 *) Bandwidth and users per bandwidth calculations.
 
 As may be plausible.
+
 __ Conclusions __
 CARDinal is the object-sharing netcode and inter-process communication part of a larger system. Tools to create those objects (including existing CAD modeling programs), and the founding WORLDs (which may provide the most populous shared spaces and most extensive proof-of-cognition), are also essential.
 
@@ -110,14 +114,16 @@ Either CARDinal software or SpaceX Starlink/Starship (adding much bandwidth as a
 
 
 Virtual &#39;real-estate&#39; economic values (and appropriate cooperation/conflict) at galactic scale will be at constrained locations for resource extraction and logistics, while at planetary scale player walking distance convenience is expected to provide the constraints for land/foundation pricing.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ REFERENCE __
 
 https://www.researchgate.net/publication/325816971_IPSME-_Idempotent_PublishSubscribe_Messaging_Environment/fulltext/5b272585aca272277fb70011/IPSME-Idempotent-Publish-Subscribe-Messaging-Environment.pdf
  &#39;IPSME- Idempotent Publish/Subscribe Messaging Environment&#39;
 	Some of the netcode concepts may or may not have some similarlities.
+
 __ ACKNOWLEDGEMENT __
 *) Sword Art Online by Reki Kawahara . Significant world building offered a hopeful approach to common game mechanics and added relevant terminology (notably CARDinal itself).
 
@@ -133,13 +139,15 @@ __ ACKNOWLEDGEMENT __
 *) &#39;Lyuma&#39; - quarternions mention
 
 *) &#39;SAO&#39; may have inspired &#39;Original Sword Skill&#39; mechanic. Maximum neuromuscular coordination rates were likely considered much earlier in some other contexts.
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Coordinate Resolution, KeyFrame Format, Astronomical Objects __
 Separation of 5ly between stars is usual as with a habitable area of Milky Way galaxy. Density may be increased to ~0.05ly between stars without causing issues of reducing deltaV or possible collisions between geocentric star orbits at ~100kls .
 
 Thickness of 0.25ly and diameter of 2ly is reasonably sufficient for all ecosystems and economics, total stars 8000 (0.25ly/0.05ly==5stars thick, 2ly/0.05ly==40stars diameter). Such guarantees nearly an entire star for any future trade, travel, cooperation, conflict, etc, per million persons from Earth, which per planet is at least one order of magnitude less than expected or historic reasonably diverse population density. Approximately 1600 paths will exist from one &#39;side&#39; of galaxy to another, which may be desirable to constrain to a reasonably expected number (ie. dozens) of large player corporation alliances.
+
 ___ 27byte &#39;Complete&#39; 2.00ly Diameter 25um Resolution Address ___
 [0;34m  'diameter_lightYears=2.00' [0m
 [0;34m  'resolution_meters=0.000025' [0m
@@ -147,6 +155,7 @@ ___ 27byte &#39;Complete&#39; 2.00ly Diameter 25um Resolution Address ___
 [0;34m  '_clc "ceil(0.18033688 * log(((9.454255*10^15) * "$diameter_lightYears") / "$resolution_meters")) * $dimensions"' [0m
 [0;37;100m# 27[0m
 [0;37;100mbytes.[0m
+
 ___ 20byte &#39;Galactic&#39; 2.00ly Diameter 10m Resolution Address ___
 [0;34m  'diameter_lightYears=2.00' [0m
 [0;34m  'diameter_dimensions=2' [0m
@@ -156,6 +165,7 @@ ___ 20byte &#39;Galactic&#39; 2.00ly Diameter 10m Resolution Address ___
 [0;34m  '_clc "( ceil(0.18033688 * log(((9.454255*10^15) * "$diameter_lightYears") / "$resolution_meters")) * $diameter_dimensions ) + ( ceil(0.18033688 * log(((9.454255*10^15) * "$thickness_lightYears") / "$resolution_meters")) * $thickness_dimensions )"' [0m
 [0;37;100m# 20[0m
 [0;37;100mbytes.[0m
+
 ___ 12byte &#39;Instance&#39; 100km Diameter 25um Resolution Address ___
 [0;34m  'diameter_meters=100000' [0m
 [0;34m  'resolution_meters=0.000025' [0m
@@ -163,6 +173,7 @@ ___ 12byte &#39;Instance&#39; 100km Diameter 25um Resolution Address ___
 [0;34m  '_clc "( ceil(0.18033688 * log( ("$diameter_meters") / "$resolution_meters")) * $dimensions )"' [0m
 [0;37;100m# 12[0m
 [0;37;100mbytes.[0m
+
 __ Rotation Angular Resolution (6Byte), KeyFrame Format, Disagreements __
 Rotation angular resolution reasonably limited to ~0.25m@3500m (~0.006deg) . Interactions (or imminent interactions) between objects require rotations communicated accurately (both for visualization and confirmation before the fact by other players). Longest such interactions are ballistic and optical, which for roughly human sized machinery and optics, is limited by chaotic and quantum physics.
 
@@ -174,10 +185,12 @@ Players are authoritative for the position and rotation of their own playerItem 
 [0;34m  '_clc "360 / 2^($rotationBytes/$dimensions*$currentByte))"' [0m
 [0;37;100m# 0.0054931641[0m
 [0;37;100mdegrees.[0m
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Bandwidth - Object Positions and Rotations __
+
 ___ Galactic Astronomical KeyFrame bits/Second ___
 [0;34m  'stars=8000' [0m
 [0;34m  'planetsPerStar=10' [0m
@@ -186,7 +199,9 @@ ___ Galactic Astronomical KeyFrame bits/Second ___
 [0;34m  'galactic_baud=$(_clc "( $stars * $planetsPerStar * $instantFramesPerSecond ) / $currentByte ")' [0m
 [0;37;100mgalactic_baud= 11.111111[0m
 [0;37;100mAverage , baud , bitsPerSecond , NOT Bytes .[0m
+
 ___ Instance KeyFrame bits/Second ___
+
 ____ Degraded - <4800bits/Second Minimal Bandwidth ____
 [0;34m  'instantFrameBytesPerPosition=12' [0m
 [0;34m  'instantFrameBytesPerRotation=6' [0m
@@ -201,6 +216,7 @@ ____ Degraded - <4800bits/Second Minimal Bandwidth ____
 [0;34m  'playerDegraded_baud=$(_clc "( ($instantFrameBytesPerBone * $instantFramesPerSecond) + ($incrementFrameBytesPerBone * $incrementFramesPerSecond) ) * $bonesPerPlayer * $currentByte")' [0m
 [0;37;100mplayerDegraded_baud= 2112[0m
 [0;37;100mAverage , baud , bitsPerSecond , NOT Bytes .[0m
+
 ____ Player Bandwidth - Nominal ____
 [0;34m  'instantFrameBytesPerPosition=12' [0m
 [0;34m  'instantFrameBytesPerRotation=6' [0m
@@ -215,9 +231,10 @@ ____ Player Bandwidth - Nominal ____
 [0;34m  'playerNominal_baud=$(_clc "( ($instantFrameBytesPerBone * $instantFramesPerSecond) + ($incrementFrameBytesPerBone * $incrementFramesPerSecond) ) * $bonesPerPlayer * $currentByte + ceil($galactic_baud)")' [0m
 [0;37;100mplayerNominal_baud= 192012[0m
 [0;37;100mAverage , baud , bitsPerSecond , NOT Bytes .[0m
- '_page' ' '
-PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-		
+
+ '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+
+
 __ Bandwidth - Internet Total, Starlink Total, Starlink Added __
 [0;34m  'totalInternet_terabits=500' [0m
  
@@ -229,31 +246,39 @@ __ Bandwidth - Internet Total, Starlink Total, Starlink Added __
  
 [0;34m  'starlinkTotalShare_expected=$(_clc "( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_expected ) / $totalInternet_terabits")' [0m
 [0;37;100mstarlinkTotalShare_expected= 1.68[0m
+
 __ Bandwidth - Players __
+
 ___ per Internet ___
 [0;34m  '_clc "(( $totalInternet_terabits ) * 10^12) / $playerDegraded_baud"' [0m
 [0;37;100m# 2.3674242E11[0m
  
 [0;34m  '_clc "(( $totalInternet_terabits ) * 10^12) / $playerNominal_baud"' [0m
 [0;37;100m# 2604003916[0m
+
 ___ per Starlink ___
 [0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_immediate ) * 10^12) / $playerDegraded_baud"' [0m
 [0;37;100m# 24621212121[0m
  
 [0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_immediate ) * 10^12) / $playerNominal_baud"' [0m
 [0;37;100m# 270816407[0m
+
 ___ per Starlink (expected) ___
 [0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_expected ) * 10^12) / $playerNominal_baud"' [0m
 [0;37;100m# 4374726580[0m
+
 ___ per 20Gbit/Second (eg. Starlink satellite) ___
 [0;34m  '_clc "floor( (20 * 10^9) / $playerDegraded_baud )"' [0m
 [0;37;100m# 9469696[0m
+
 ___ per 100Mbit/Second (eg. dedicated amateur cubesat) ___
 [0;34m  '_clc "floor( (100 * 10^6) / $playerDegraded_baud )"' [0m
 [0;37;100m# 47348[0m
+
 ___ per 115200bit/Second (eg. USB UART for HOTAS and similar peripherial controllers) ___
 [0;34m  '_clc "floor( (115200) / $playerDegraded_baud )"' [0m
 [0;37;100m# 54[0m
+
 ___ per 9600bit/Second (eg. POTS phone modem) ___
 [0;34m  '_clc "floor( (9600) / $playerDegraded_baud )"' [0m
 [0;37;100m# 4[0m
