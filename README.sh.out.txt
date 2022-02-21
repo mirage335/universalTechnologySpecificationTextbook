@@ -65,16 +65,13 @@ _r '
 <a href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf</a>
 '
 
- '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
+ '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
 
 
 _ Usage _
 [0;37;100m[0;34m ./_consolidate_documents.bat [0m[0m
 
 Resulting &#39;document.pdf&#39; and other PDF files are rather large binary object output (>15MB) excluded from git repository history. Rename &#39;document.pdf&#39; to &#39;universalTechnologySpecificationTextbook.pdf&#39; when appropriate.
-
- '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-
 
 _ Design _
 Mostly uses &#39;scriptedIllustrator&#39; . Some files may use resources from other files, using path variables defined by &#39;zzLib_800-documents/consolidateVariables.sh&#39; .
@@ -87,9 +84,6 @@ Unusually...
 *) Output of many separate documents is combined into a single PDF with Table of Contents.
 
 Consequently, shell output and PDF are the intended output formats. Other markup (eg. HTML) is disabled by default, may not have been tested, would NOT completely include some content (eg. Xournal files), and would NOT be self-modifying as is.
-
- '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-
 
 _ Safety _
 Please use this information responsibly, especially in due diligence. Documents here show what is technically feasible, not what anyone can do, much less safely or economically. Expect software to freeze, machines to degrade, wetware to clog, and worse. Account for the plausibility of every component and assembly, design contingencies, and most of all, plan completely for every failure mode with redundancy.
@@ -105,16 +99,10 @@ If you think the author is reckless or not personally all too aware of medicine 
 
 Really, if you needed reminding that accidents costing life or limb are undeniably tragic, much less that outright direct brain damage is most tragic of all, then you should re-read this safety warning multiple times, and maybe not read other stuff here at all. Seriously, you have been warned, your accident is your accident.
 
- '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-
-
 _ Reference _
 
 https://github.com/mirage335/universalTechnologySpecificationTextbook
  Git Repository for universalTechnologySpecificationTextbook
-
- '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
-
 
 _ Copyright _
 

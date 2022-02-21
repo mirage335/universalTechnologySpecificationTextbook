@@ -148,7 +148,7 @@ Some basis for object memory recognition from recorded neural activity exists in
 _page
 _heading2 'REFERENCE'
 _t 'https://www.proteinatlas.org/humanproteome/brain/human+brain
-	&#39;16227 genes detected above cut of in the brain&#39;
+	&#39;16227 genes detected above cut off in the brain&#39;
 	&#39;2587 genes have an elevated expression&#39;
 	&#39;488 brain enriched genes&#39;
 	&#39;Most of the enriched genes encode proteins involved in transport and signaling&#39;

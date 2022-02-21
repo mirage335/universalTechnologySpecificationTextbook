@@ -214,7 +214,7 @@ scriptedIllustrator_markup_uk4uPhB663kVcygT0q -->
 <a href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf</a>
 <!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
- '_page' ' '
+ '_page'
 if false; then true; # -->
 <!-- # --><div style="page-break-before: always;margin: 0;padding: 0; border-width: 0px;"> </div>
 <!--
@@ -239,11 +239,7 @@ binary object output (>15MB) excluded from git repository history. Rename
 &#39;universalTechnologySpecificationTextbook.pdf&#39; when appropriate.
 <!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
- '_page'
-if false; then true; # -->
-<!-- # --><div style="page-break-before: always;margin: 0;padding: 0; border-width: 0px;"> </div>
-<!--
-fi
+ '_' '_page'
  '_heading1' 'Design'
 if false; then true; # -->
 <!-- # --><h1>Design</h1>
@@ -270,11 +266,7 @@ NOT completely include some content (eg. Xournal files), and would NOT be
 self-modifying as is.
 <!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
- '_page'
-if false; then true; # -->
-<!-- # --><div style="page-break-before: always;margin: 0;padding: 0; border-width: 0px;"> </div>
-<!--
-fi
+ '_' '_page'
  '_heading1' 'Safety'
 if false; then true; # -->
 <!-- # --><h1>Safety</h1>
@@ -318,11 +310,7 @@ and maybe not read other stuff here at all. Seriously, you have been
 warned, your accident is your accident.
 <!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
- '_page'
-if false; then true; # -->
-<!-- # --><div style="page-break-before: always;margin: 0;padding: 0; border-width: 0px;"> </div>
-<!--
-fi
+ '_' '_page'
  '_heading1' 'Reference'
 if false; then true; # -->
 <!-- # --><h1>Reference</h1>
@@ -334,11 +322,7 @@ https://github.com/mirage335/universalTechnologySpecificationTextbook
  Git Repository for universalTechnologySpecificationTextbook
 <!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
- '_page'
-if false; then true; # -->
-<!-- # --><div style="page-break-before: always;margin: 0;padding: 0; border-width: 0px;"> </div>
-<!--
-fi
+ '_' '_page'
  '_heading1' 'Copyright'
 if false; then true; # -->
 <!-- # --><h1>Copyright</h1>
