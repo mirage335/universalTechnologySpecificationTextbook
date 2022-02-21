@@ -61,8 +61,9 @@ Self-Driving AI algorithm architecture. Self-Driving AI is &#39;Artificial Gener
  '_image' 'https://github.com/mirage335/mirage335_author/raw/main/zzLib_895-reference/from_uTST/cognitionSplicer-topographicMapping.png' '80%'
 
 _ PDF Download _
-
+_r '
 <a href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf</a>
+'
 
  '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
 
@@ -95,7 +96,7 @@ Please use this information responsibly, especially in due diligence. Documents 
 
 To anyone contemplating implementing the technology described here as-is, BEWARE, documenting the obvious or useless was out of scope. Best practices, modern techniques, subtle pitfalls, and possible misconceptions, may not have been mentioned in every case. A very well educated intuition of the subject matter and unrelenting due diligence will be strictly required.
 
-To anyone contemplating using invasive medical technology of any kind - DON&#39;T - unless you can actually quantify the risks statistically from directly comparable experiments. Modern technology and science can quantify all of the relevant risks, but the sources of risk are very numerous and not all widely understood. Modern medicine is already arguably much too aggressive in understaing the risks of introducing subtle yet severe lifelong deficiencies.
+To anyone contemplating using invasive medical technology of any kind - DON&#39;T - unless you can actually quantify the risks statistically from directly comparable experiments. Modern technology and science can quantify all of the relevant risks, but the sources of risk are very numerous and not all widely understood. Modern medicine is already arguably much too aggressive in understating the risks of introducing subtle yet severe lifelong deficiencies.
 
 If you proceed with surgery of any kind with less than very strong abundance of caution and skepticism, you WILL cause serious collateral damage.
 

@@ -209,14 +209,10 @@ if false; then true; # -->
 <!-- # --><h1>PDF Download</h1>
 <!--
 fi
-_t '
-scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
-<a 
-href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecifi
-cationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://ra
-w.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/m
-ain/universalTechnologySpecificationTextbook.pdf</a>
-<!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
+_r '
+scriptedIllustrator_markup_uk4uPhB663kVcygT0q -->
+<a href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf</a>
+<!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
  '_page' ' '
 if false; then true; # -->
@@ -304,7 +300,7 @@ DON&#39;T - unless you can actually quantify the risks statistically from
 directly comparable experiments. Modern technology and science can quantify 
 all of the relevant risks, but the sources of risk are very numerous and 
 not all widely understood. Modern medicine is already arguably much too 
-aggressive in understaing the risks of introducing subtle yet severe 
+aggressive in understating the risks of introducing subtle yet severe 
 lifelong deficiencies.
 
 If you proceed with surgery of any kind with less than very strong 
