@@ -204,6 +204,20 @@ if false; then true; # -->
 <!-- # --><img width="80%" src="https://github.com/mirage335/mirage335_author/raw/main/zzLib_895-reference/from_uTST/cognitionSplicer-topographicMapping.png" style="margin: 0 0 0 15px;border: 5px solid transparent;">
 <!--
 fi
+ '_heading1' 'PDF Download'
+if false; then true; # -->
+<!-- # --><h1>PDF Download</h1>
+<!--
+fi
+_t '
+scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
+<a 
+href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecifi
+cationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://ra
+w.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/m
+ain/universalTechnologySpecificationTextbook.pdf</a>
+<!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
+'
  '_page' ' '
 if false; then true; # -->
 <!-- # --><div style="page-break-before: always;margin: 0;padding: 0; border-width: 0px;"> </div>
@@ -319,7 +333,9 @@ if false; then true; # -->
 <!--
 fi
 _t '
-scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;"> 
+scriptedIllustrator_markup_uk4uPhB663kVcygT0q --><!-- # --><pre style="margin-top: 0px;margin-bottom: 0px;white-space: pre-wrap;">
+https://github.com/mirage335/universalTechnologySpecificationTextbook
+ Git Repository for universalTechnologySpecificationTextbook
 <!-- # --></pre><!-- scriptedIllustrator_markup_uk4uPhB663kVcygT0q
 '
  '_page'

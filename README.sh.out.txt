@@ -60,6 +60,10 @@ Self-Driving AI algorithm architecture. Self-Driving AI is &#39;Artificial Gener
  '_image' 'https://github.com/mirage335/mirage335_author/raw/main/zzLib_895-reference/from_uTST/lithoDive-flatTool.png' '80%'
  '_image' 'https://github.com/mirage335/mirage335_author/raw/main/zzLib_895-reference/from_uTST/cognitionSplicer-topographicMapping.png' '80%'
 
+_ PDF Download _
+
+<a href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf</a>
+
  '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
 
 
@@ -104,7 +108,9 @@ Really, if you needed reminding that accidents costing life or limb are undeniab
 
 
 _ Reference _
- 
+
+https://github.com/mirage335/universalTechnologySpecificationTextbook
+ Git Repository for universalTechnologySpecificationTextbook
 
  '_page'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
 

@@ -117,6 +117,10 @@ _picture 'https://github.com/mirage335/mirage335_author/raw/main/zzLib_895-refer
 _image 'https://github.com/mirage335/mirage335_author/raw/main/zzLib_895-reference/from_uTST/lithoDive-flatTool.png' '80%'
 _image 'https://github.com/mirage335/mirage335_author/raw/main/zzLib_895-reference/from_uTST/cognitionSplicer-topographicMapping.png' '80%'
 
+
+_heading1 'PDF Download'
+_t '<a href="https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf">https://raw.githubusercontent.com/mirage335/universalTechnologySpecificationTextbook/main/universalTechnologySpecificationTextbook.pdf</a>'
+
 _page ' ' ###
 _heading1 'Usage'
 _o _messagePlain_probe './_consolidate_documents.bat'
@@ -149,7 +153,8 @@ If you think the author is reckless or not personally all too aware of medicine 
 Really, if you needed reminding that accidents costing life or limb are undeniably tragic, much less that outright direct brain damage is most tragic of all, then you should re-read this safety warning multiple times, and maybe not read other stuff here at all. Seriously, you have been warned, your accident is your accident.'
 _page
 _heading1 'Reference'
-_t ' '
+_t 'https://github.com/mirage335/universalTechnologySpecificationTextbook
+ Git Repository for universalTechnologySpecificationTextbook'
 _page
 _heading1 'Copyright'
 _t '
