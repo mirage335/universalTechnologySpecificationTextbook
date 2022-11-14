@@ -228,9 +228,9 @@ __ Estimate - Scanning Probe Mechanically (mm/s) Constrained __
 [0;34m  'probe_diameter_mm=$(_clc "300 * ((1 nanometer) / (1 millimeter))" )' [0m
 [0;34m  'probe_speed_mmPerSecond=1' [0m
 [0;34m  'probe_parallelism=1' [0m
-[0;37;100mprobe_area_cm2= 9E-10[0m
+[0;37;100mprobe_area_cm2= 9E10[0m
 [0;34m  'probe_seconds_cm2=$( _clc " 1 / ( $probe_area_cm2 * $probe_speed_cmPerSecond ) " )' [0m
-[0;37;100mprobe_seconds_cm2= 11111111111[0m
+[0;37;100mprobe_seconds_cm2= 1.111111111E10[0m
 [0;37;100mseconds per cm^2.[0m
 
 
