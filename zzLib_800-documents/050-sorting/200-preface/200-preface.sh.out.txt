@@ -183,6 +183,8 @@ __ Conclusions __
 
 *) Replacement of entire genome in all cells, possibly by successive replace/erase/write CRISPR, is now recognized as a possible alternative to some of the functionality of a neural interface, or at least a possible means of reducing the geometric constraints on a neural interface. Replacing or repairing neurons/synapses would still require sufficient remaining original neurons/synapses for longevity use (ie. similar spatial resolution and memory stability expectations would apply both to neuron repair/replacement as would apply to neural interface electrode sites).
 
+*) Scratch genome design may become possible within the next few years or less, possibly before and/or as a means to achieve, effective neural interfaces. Multiple exaflops of computing is becoming available somewhat sooner than might have been anticipated, due to the appparently lengthy delay transitioning the highest performance GPUs and similar devices (eg. Tesla &#39;Tile&#39;) to EUVL until, as a milestone, the release of the &#39;RTX 4090&#39; .
+
 
 *) At ~100billion stars in Milky Way galaxy, and many galaxies beyond that, and ~10^24 persons/star, there is no need to compete for control over interstellar habitats. Every person alive on Earth (~10billion) for the next several decades at least, can have their own personal star. At ~10^24 inhabitants, if as few as 1/10^12 players have interests favorable to someone else&#39;s, that someone alive today will have plenty of volunteers creating solutions relevant to their needs. There is truly nothing to gain by fighting for any kind of dominance or control over the rules of any interstellar VR habitat.
 

@@ -106,7 +106,10 @@ Computer in a thin metal box. More compact, more reliably completely cooled to v
 Flight &#39;simpit&#39; chair, convenient and nearly typical avionics controls layout, flight sim computer (ie. &#39;gaming PC&#39; peripherial wiring, mechDive full-dive VR exoskeleton mounting to pitch/roll/yaw axis.
 
 	modularAI
-Self-Driving AI algorithm architecture. Self-Driving AI is &#39;Artificial General Intelligence&#39; - where to go and where not to go is the problem all &#39;intelligence&#39; always solves in a universe predominated by electrons photons. Algorithm illustrated passes messages to a shared bus, sending conclusions in a few categories into a feedback loop that causes behavior and modifies future behavior. Realtively low-priority, as the unsolved technical issue for the AI industry today is insufficient computer vision performance, with the industry already apparently making excellent progress.'
+Self-Driving AI algorithm architecture. Self-Driving AI is &#39;Artificial General Intelligence&#39; - where to go and where not to go is the problem all &#39;intelligence&#39; always solves in a universe predominated by electrons photons. Algorithm illustrated passes messages to a shared bus, sending conclusions in a few categories into a feedback loop that causes behavior and modifies future behavior. Realtively low-priority, as the unsolved technical issue for the AI industry today is insufficient computer vision performance, with the industry already apparently making excellent progress.
+
+	mirage335GizmoScience
+More detailed, rapidly changing, or speculative, design information may be at the &#39;mirage335GizmoScience&#39; repository - https://github.com/mirage335/mirage335GizmoScience .'
 _t '
 
 
