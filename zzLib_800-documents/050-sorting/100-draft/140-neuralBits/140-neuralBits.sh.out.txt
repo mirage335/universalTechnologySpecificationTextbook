@@ -324,10 +324,10 @@ Geometry
  
  '_cells_speck_end'
  '_cells_speck_begin'
-[0;37;100mdensityES_cm= 153.8457[0m
+[0;37;100mdensityES_cm= 153.845701[0m
  '_cells_speck_end'
  '_cells_speck_begin'
-[0;37;100mdensityES_mm= 15.38457[0m
+[0;37;100mdensityES_mm= 15.3845701[0m
  '_cells_speck_end'
  '_cells_speck_begin'
 [0;37;100mdensityES_um= 0.01538457[0m

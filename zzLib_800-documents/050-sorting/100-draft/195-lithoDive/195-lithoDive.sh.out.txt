@@ -213,11 +213,11 @@ __ Estimate - Scanning FOV Mechanically (mm/s) Constrained __
 [0;37;100mfov_area_cm2= 0.000001[0m
 
 [0;34m  'fov_seconds_cm2=$( _clc " 1 / ( $fov_area_cm2 * $fov_speed_cmPerSecond ) " )' [0m
-[0;37;100mfov_seconds_cm2= 33333.333[0m
+[0;37;100mfov_seconds_cm2= 33333.33333[0m
 [0;37;100mseconds per cm^2.[0m
 
 [0;34m  'fov_seconds_cm3=$( _clc " ( $fov_seconds_cm2 * (1 / ( $fov_diameter_mm * ((1 centimeter) / (1 millimeter)) ) ) " )' [0m
-[0;37;100mfov_seconds_cm3= 333333.33[0m
+[0;37;100mfov_seconds_cm3= 333333.3333[0m
 [0;37;100mseconds per cm^3.[0m
 [0;37;100mKeep in mind this is still at ~300nm expected resolution (10micrometer is the FOV not resolution) - trading resolution for FOV (and much faster scanning) is entirely possible.[0m
 
@@ -243,13 +243,13 @@ __ Estimate - Wafers Per Hour (marketing specification) Constrained __
 ___ Parallel E-Beam (prototyping) ___
 [0;34m  'marketing_prototyping_wafersPerHour=1' [0m
 [0;34m  'marketing_prototyping_seconds_cm2=$( _clc " ( 1 / $marketing_prototyping_wafersPerSecond ) / $wafer_300mm_cm2 " )' [0m
-[0;37;100mmarketing_prototyping_seconds_cm2= 6[0m
+[0;37;100mmarketing_prototyping_seconds_cm2= 6.000000000[0m
 [0;37;100mseconds per cm^2.[0m
 
 ___ Photolithography EUVL (factory) ___
 [0;34m  'marketing_factory_wafersPerHour=170' [0m
 [0;34m  'marketing_factory_seconds_cm2=$( _clc " ( 1 / $marketing_factory_wafersPerSecond ) / $wafer_300mm_cm2 " )' [0m
-[0;37;100mmarketing_factory_seconds_cm2= 0.035294118[0m
+[0;37;100mmarketing_factory_seconds_cm2= 0.03529411765[0m
 [0;37;100mseconds per cm^2.[0m
 
  '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
@@ -294,12 +294,12 @@ ___ GPU ___
 [0;37;100mgpu_mips= 1.0496E13[0m
 
 
-[0;37;100mgpu_diameter_mm= 7.5701721[0m
+[0;37;100mgpu_diameter_mm= 7.570172088[0m
 
 
 [0;34m  'gpu_layers=35' [0m
 [0;34m  'gpu_cm2=$(_clc "$gpu_transistors * (45 * (1 nanometer / 1 centimeter))^2 * $gpu_layers" )' [0m
-[0;37;100mgpu_cm2= 20.057627[0m
+[0;37;100mgpu_cm2= 20.05762691[0m
 
  '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
 
@@ -308,17 +308,17 @@ __ Estimate - Cost, Production (factory - imager maximum throughput only) __
 
 ___ neuralBits ___
 [0;34m  'world_neuralBits_seconds=$(_clc "$neuralBits_cm2 * $world_seconds_cm2" )' [0m
-[0;37;100mworld_neuralBits_seconds= 0.034588236[0m
+[0;37;100mworld_neuralBits_seconds= 0.03458823530[0m
 [0;34m  'world_neuralBits_perQuarter=$(_clc "( 3600 / $world_neuralBits_seconds ) * 24 * 90" )' [0m
-[0;37;100mworld_neuralBits_perQuarter= 224816322[0m
+[0;37;100mworld_neuralBits_perQuarter= 224816326.5[0m
 [0;34m  'world_neuralBits_dollars=$(_clc "$gpu_dollars *  ( $neuralBits_cm2 / $gpu_cm2 ) " )' [0m
-[0;37;100mworld_neuralBits_dollars= 9771.8439[0m
+[0;37;100mworld_neuralBits_dollars= 9771.843941[0m
 
 ___ GPU ___
 [0;34m  'world_gpu_seconds=$(_clc "$gpu_cm2 * $world_seconds_cm2" )' [0m
-[0;37;100mworld_gpu_seconds= 0.0070791625[0m
+[0;37;100mworld_gpu_seconds= 0.007079162439[0m
 [0;34m  'world_gpu_perQuarter=$(_clc "( 3600 / $world_gpu_seconds ) * 24 * 90" )' [0m
-[0;37;100mworld_gpu_perQuarter= 1098435020[0m
+[0;37;100mworld_gpu_perQuarter= 1098435029[0m
 
 __ Estimate - Cost, Production (prototyping) __
 
@@ -326,23 +326,23 @@ ___ neuralBits ___
 [0;34m  'photolithography_neuralBits_seconds=$(_clc "$neuralBits_cm2 * $photolithography_seconds_cm2" )' [0m
 [0;37;100mphotolithography_neuralBits_seconds= 9800000[0m
 [0;34m  'photolithography_neuralBits_perQuarter=$(_clc "( 3600 / $photolithography_neuralBits_seconds ) * 24 * 90" )' [0m
-[0;37;100mphotolithography_neuralBits_perQuarter= 0.79346939[0m
+[0;37;100mphotolithography_neuralBits_perQuarter= 0.7934693878[0m
  
 [0;34m  'fov_neuralBits_seconds=$(_clc "$neuralBits_cm2 * $fov_seconds_cm2" )' [0m
-[0;37;100mfov_neuralBits_seconds= 3266666.6[0m
+[0;37;100mfov_neuralBits_seconds= 3266666.666[0m
 [0;34m  'fov_neuralBits_perQuarter=$(_clc "( 3600 / $fov_neuralBits_seconds ) * 24 * 90" )' [0m
-[0;37;100mfov_neuralBits_perQuarter= 2.3804082[0m
+[0;37;100mfov_neuralBits_perQuarter= 2.380408164[0m
 
 ___ GPU ___
 [0;34m  'photolithography_gpu_seconds=$(_clc "$gpu_cm2 * $photolithography_seconds_cm2" )' [0m
-[0;37;100mphotolithography_gpu_seconds= 2005762.7[0m
+[0;37;100mphotolithography_gpu_seconds= 2005762.691[0m
 [0;34m  'photolithography_gpu_perQuarter=$(_clc "( 3600 / $photolithography_gpu_seconds ) * 24 * 90" )' [0m
-[0;37;100mphotolithography_gpu_perQuarter= 3.8768295[0m
+[0;37;100mphotolithography_gpu_perQuarter= 3.876829515[0m
  
 [0;34m  'fov_gpu_seconds=$(_clc "$gpu_cm2 * $fov_seconds_cm2" )' [0m
-[0;37;100mfov_gpu_seconds= 668587.56[0m
+[0;37;100mfov_gpu_seconds= 668587.5636[0m
 [0;34m  'fov_gpu_perQuarter=$(_clc "( 3600 / $fov_gpu_seconds ) * 24 * 90" )' [0m
-[0;37;100mfov_gpu_perQuarter= 11.630489[0m
+[0;37;100mfov_gpu_perQuarter= 11.63048855[0m
 
 
 

@@ -183,7 +183,7 @@ Players are authoritative for the position and rotation of their own playerItem 
 [0;34m  'rotationBytes=6' [0m
 [0;34m  'dimensions=3' [0m
 [0;34m  '_clc "360 / 2^($rotationBytes/$dimensions*$currentByte))"' [0m
-[0;37;100m# 0.0054931641[0m
+[0;37;100m# 0.005493164063[0m
 [0;37;100mdegrees.[0m
 
  '_page' ' 'PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak -H-H-H-H- PageBreak
@@ -197,7 +197,7 @@ ___ Galactic Astronomical KeyFrame bits/Second ___
 [0;34m  'bytesPerObject=20' [0m
 [0;34m  'instantFramesPerDay=96' [0m
 [0;34m  'galactic_baud=$(_clc "( $stars * $planetsPerStar * $instantFramesPerSecond ) / $currentByte ")' [0m
-[0;37;100mgalactic_baud= 11.111111[0m
+[0;37;100mgalactic_baud= 11.11111111[0m
 [0;37;100mAverage , baud , bitsPerSecond , NOT Bytes .[0m
 
 ___ Instance KeyFrame bits/Second ___
@@ -251,7 +251,7 @@ __ Bandwidth - Players __
 
 ___ per Internet ___
 [0;34m  '_clc "(( $totalInternet_terabits ) * 10^12) / $playerDegraded_baud"' [0m
-[0;37;100m# 2.3674242E11[0m
+[0;37;100m# 236742424242[0m
  
 [0;34m  '_clc "(( $totalInternet_terabits ) * 10^12) / $playerNominal_baud"' [0m
 [0;37;100m# 2604003916[0m
@@ -261,7 +261,7 @@ ___ per Starlink ___
 [0;37;100m# 24621212121[0m
  
 [0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_immediate ) * 10^12) / $playerNominal_baud"' [0m
-[0;37;100m# 270816407[0m
+[0;37;100m# 270816407.3[0m
 
 ___ per Starlink (expected) ___
 [0;34m  '_clc "(( $starlinkPerSatellite_terabits * $starlinkTotalSatellites_expected ) * 10^12) / $playerNominal_baud"' [0m
