@@ -365,7 +365,7 @@ _e_ fov_seconds_cm2='$( _clc " 1 / ( $fov_area_cm2 * $fov_speed_cmPerSecond ) " 
 _o_ _safeEcho_newline 'fov_seconds_cm2= "$fov_seconds_cm2"'
 _o _safeEcho_newline 'seconds per cm^2.'
 _o _safeEcho_newline 
-_e_ fov_seconds_cm3='$( _clc " ( $fov_seconds_cm2 * (1 / ( $fov_diameter_mm * ((1 centimeter) / (1 millimeter)) ) ) " )'
+_e_ fov_seconds_cm3='$( _clc " ( $fov_seconds_cm2 * (1 / ( $fov_diameter_mm * ((1 millimeter) / (1 centimeter)) ) ) " )'
 _o_ _safeEcho_newline 'fov_seconds_cm3= "$fov_seconds_cm3"'
 _o _safeEcho_newline 'seconds per cm^3.
 Keep in mind this is still at ~300nm expected resolution (10micrometer is the FOV not resolution) - trading resolution for FOV (and much faster scanning) is entirely possible.'
